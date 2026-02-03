@@ -1,6 +1,6 @@
 ---
-title: "Adobe Standard Material | General knowledge"
-description: "General Knowledge > Adobe Standard Material"
+title: "Adobe Standard Material"
+helpx_description: "General Knowledge > Adobe Standard Material"
 ---
 
 # Adobe Standard Material

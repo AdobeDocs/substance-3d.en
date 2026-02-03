@@ -1,0 +1,66 @@
+<header><meta name="title" content="Unity 2.4.0 | Ecosystem and Plug-ins"><meta name="description" content=""><meta name="helpx_description" content="Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes > Unity 2.4.0"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Unity 2.4.0</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<p>Unity changed the default build architecture to x86 instead of x86_64. <br/>Scripts will not run if they reference Substances. You will need to change back to x86_64 and the build will work.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Unity2.4.0-NewFeatures:">New Features:</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul><li>HDRP project support added (preview)</li><li>Added Preferences in the Substance menu</li><li>Added ability to set default Substance resolution import setting</li><li>Added ability to set default Normal compression</li><li>Added ability to generate all outputs on an import of a Substance</li><li>Support for custom outputs + outputs with the same usage</li><li>Added Platform Resolution settings</li><li>Added IL2CPP support Bug Fixes</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Unity2.4.0-BugFixes:">Bug Fixes:</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul><li>Fixed a bug where opening Substance Source on Mac OS would give a Linux error</li><li>Reduced time that it takes when switching platforms. Texture conversion for mobile platforms is now done on build rather than when switching target platform.</li><li>Assertion failed error when importing sbsar</li><li><p>Upgrading projects using .NET 3.5 causes substance materials to break</p></li><li><p>Substance source not supported in linux dialog appearing on OS X</p></li><li><p>Graph name change destroys prefabs &amp; scene file in ForceText serialization mode</p></li><li><p>Substance materials with multiple outputs using the same usage will break Plugin doesn't support custom outputs in sbsar</p></li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Unity2.4.0-KnownIssues:">Known Issues:</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul><li>When upgrading a project from 2017-2018/2019, after the user imports the Substance plugin, Unity must be restarted for the project to be updated.<br/>Workaround: Create a package of the assets/project and import that package into a newer project with the 2.4.0 plugin. The Substance files should be converted correctly.</li><li>Unity has changed the default build architechture to x86. Currently, the Substance plugin only supports x86_64.</li></ul><p><strong>No Longer Fully Supported:</strong></p><ul><li>Substance Live Link has been removed from the Asset Store package. (The package can still be downloaded from Substance Share)</li></ul>
+</div>
+</div>
+</div>
+</div></body>

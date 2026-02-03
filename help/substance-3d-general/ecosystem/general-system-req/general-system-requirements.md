@@ -1,6 +1,6 @@
 ---
-title: "General system requirements | General knowledge"
-description: "General Knowledge > Ecosystem > General system requirements"
+title: "General system requirements"
+helpx_description: "General Knowledge > Ecosystem > General system requirements"
 ---
 
 # General system requirements
@@ -55,23 +55,23 @@ For more details, take a look at the requirements of each application:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Substance 3D Sampler icon](sa-appicon-noshadow-256.png){width="64px"}](../../../substance-3d-sampler/getting-started/system-requirements/system-requirements.md)
+[![Substance 3D Sampler icon](sa-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html)
 
-[Substance 3D Sampler](../../../substance-3d-sampler/getting-started/system-requirements/system-requirements.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Substance 3D Designer icon](ds-appicon-noshadow-256.png){width="64px"}](../../../substance-3d-designer/getting-started/system-requirements/system-requirements.md)
-
-[Substance 3D](../../../substance-3d-designer/getting-started/system-requirements/system-requirements.md) [Designer](../../../substance-3d-designer/getting-started/system-requirements/system-requirements.md)
+[Substance 3D Sampler](https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Substance 3D Painter icon](pt-appicon-noshadow-256.png){width="64px"}](../../../substance-3d-painter/getting-started/system-requirements/system-requirements.md)
+[![Substance 3D Designer icon](ds-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html)
 
-[Substance 3D Painter](../../../substance-3d-painter/getting-started/system-requirements/system-requirements.md)
+[Substance 3D](https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html) [Designer](https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Substance 3D Painter icon](pt-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html)
+
+[Substance 3D Painter](https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html)
 
 </td>
 </tr>

@@ -1,0 +1,179 @@
+<header><meta name="title" content="Maya Scripting | Ecosystem and Plug-ins"><meta name="description" content=""><meta name="helpx_description" content="Ecosystems and Plugins > 3D Applications > Maya > Maya Scripting"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Maya Scripting</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Substance in Maya plugin can be scripted. An exposed API allows Substance commands to be used in scripts for creating and managing Substance materials. You can access the available commands by going to the plugin information.</p><p><em><strong>Windows&gt;Settings/Preferences/Plugin Manager and search for the substancemaya.mll file.</strong> </em></p><p>Click the "i" button to see the available commands</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/script-7?$png$&amp;jpegSize=200&amp;wid=1059"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/script-7?$png$&amp;jpegSize=200&amp;wid=1059"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/script-7?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="script-7.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="MayaScripting-ExampleScript:">Example Script:</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This script will load an sbsar file and apply the Arnold render workflow to the selected mesh. To use the script, please follow the example listed here. </p><ol> <li>copy and paste the code into a Python tab of the script editor.</li> <li>Select and mesh in the viewport</li> <li>Select the text in the Python tab and hit "ctrl + enter" </li> <li>In the window, browse for an sbsar file. <br/><br/></li> </ol>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="python" data-gutter="true" data-line-wrap="true">import maya.cmds as cmds 
+ 
+def _connect_place2d(substance_node): 
+    """ Connects the place2d texture node to the Substance node """ 
+    place_node = cmds.shadingNode('place2dTexture', asUtility=True) 
+ 
+    connect_attrs = [('outUV', 'uvCoord'), ('outUvFilterSize', 'uvFilterSize')] 
+ 
+    for out_attr, in_attr in connect_attrs: 
+        cmds.connectAttr('{}.{}'.format(place_node, out_attr), 
+                         '{}.{}'.format(substance_node, in_attr)) 
+ 
+def _find_shading_group(node): 
+    """ Walks the shader graph to find the shading group """ 
+    result = None 
+ 
+    connections = cmds.listConnections(node, source=False) 
+ 
+    if connections: 
+        for connection in connections: 
+            if cmds.nodeType(connection) == 'shadingEngine': 
+                result = connection 
+            else: 
+                result = _find_shading_group(connection) 
+                if result is not None: 
+                    break 
+ 
+    return result 
+ 
+def _apply_substance_workflow_to_selected(substance_file, workflow): 
+    """ Imports a mesh into Maya and applies the shader from a 
+        Substance workflow to it """ 
+    geometry = cmds.ls(geometry=True) 
+ 
+    # Create the substance node and connect the place2d texture node 
+    substance_node = cmds.shadingNode('substanceNode', asTexture=True) 
+    _connect_place2d(substance_node) 
+ 
+    # Load the Substance file 
+    cmds.substanceNodeLoadSubstance(substance_node, substance_file) 
+ 
+    # Apply the workflow 
+    cmds.substanceNodeApplyWorkflow(substance_node, workflow=workflow) 
+ 
+    # Acquire the shading group and apply it to the mesh 
+    shading_group = _find_shading_group(substance_node) 
+ 
+    cmds.select(geometry) 
+    cmds.hyperShade(assign=shading_group) 
+ 
+def demo_load_sbsar_workflow(): 
+    """ Acquires an sbsar from a file dialog, loading and applying it to 
+        any selected mesh """ 
+    file_filter = 'Substance (*.sbsar);;' 
+ 
+    files = cmds.fileDialog2(cap='Select a Substance file', fm=1, dialogStyle=2, 
+                             okc='Open', fileFilter=file_filter) 
+ 
+    if files: 
+        substance_file = files[0] 
+        _apply_substance_workflow_to_selected(substance_file, 
+                                              cmds.substanceGetWorkflow()) 
+ 
+if __name__ == '__main__': 
+    demo_load_sbsar_workflow()</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>An exposed API allows Substance commands to be used in scripts</p>
+</div>
+</div>
+</div>
+</div></body>

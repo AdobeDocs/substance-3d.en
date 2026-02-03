@@ -1,0 +1,49 @@
+<header><meta name="title" content="Unity 2.2.0 | Ecosystem and Plug-ins"><meta name="description" content=""><meta name="helpx_description" content="Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes > Unity 2.2.0"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Unity 2.2.0</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Unity2.2.0-2.2.0Releasenotes">2.2.0 Release notes</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>release date: 1/10/2019</strong></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Unity2.2.0-CorePlugin:">Core Plugin:</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul><li style="list-style-type: disc;"><p>Updated Substance Engine</p></li><li style="list-style-type: disc;"><p>Improved code stability</p></li><li style="list-style-type: disc;"><p><strong>Unity 2018.3 support</strong></p></li><li style="list-style-type: disc;"><p><strong>.NET 4.x support</strong></p></li><li style="list-style-type: disc;"><p>Substance Source support in 2018.3</p></li><li style="list-style-type: disc;"><p>Substance Source coloring issue has been fixed</p></li><li style="list-style-type: disc;"><p>The graph, and corresponding material, now have the same object name</p></li><li style="list-style-type: disc;"><p>Added Unity Pro skin GUI readability improvements</p></li><li style="list-style-type: disc;"><p>Added support for material's output assignments</p></li><li style="list-style-type: disc;"><p>Fixed a bug with sRGB handling</p></li><li style="list-style-type: disc;"><p>Fixed a bug where an user could could delete all instances of a graph</p></li><li style="list-style-type: disc;"><p>Fixed a bug where attempting to render Substances while changing parameters at runtime would only cause two to be able to rendered at a time</p></li><li style="list-style-type: disc;"><p>When importing a package that contains old Substance files, the plugin will now let the user know that it contains old Substance data and delete the package files when Unity is attempting to import them (this is so the user does not have to delete everything manually if it came in broken)</p></li><li style="list-style-type: disc;"><p>Added an 'About' button in the Substance menu to show Substance plugin related build information</p></li><li style="list-style-type: disc;"><p>Added mouse-over tooltips in the Substance GUI to show exposed Substance parameter names</p></li><li style="list-style-type: disc;"><p>Added Navigation buttons in the Substance GUI to link to Substance graph and materials</p></li><li style="list-style-type: disc;"><p>Added new icons for the Substance graph/material/textures in the Content Browser</p></li><li style="list-style-type: disc;"><p>Updated the Substance thumbnails in the content browser</p></li><li style="list-style-type: disc;"><p>Removed the .mat from the front of Substance material names</p></li><li style="list-style-type: disc;"><p>Added the ability to rename Substance graphs and materials</p></li><li style="list-style-type: disc;"><p>When changing Substance graph resolution, the apply/revert popup will no longer appear forcing the user to commit the change at that moment</p></li><li style="list-style-type: disc;"><p>Fixed a bug where the Reflection process would only use the default Substance resolution, instead of one defined by the user</p></li><li style="list-style-type: disc;"><p>Added a mouseover warning to the Substance GUI that informs the user if the color space is set to Gamma</p></li><li style="list-style-type: disc;"><p>Changed functionality of Substance graph instances: Users can now create graph instances in a Substance without being prompted for each created instance in the Substance graph GUI</p></li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Unity2.2.0-Scripting:">Scripting:</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul><li style="list-style-type: disc;"><p>We have hidden some functions not meant for script support</p></li><li style="list-style-type: disc;"><p>Added function to duplicate Substance graph instances through script: Duplicate()</p></li><li style="list-style-type: disc;"><p>Added function to query procedural input information via C#, returns an array of 'InputProperties' elements: GetInputProperties()</p></li><li style="list-style-type: disc;"><p>Added function to check if an input exists in a graph, returns true/false: HasInput(string inputName)</p></li><li style="list-style-type: disc;"><p>Added function to check if a visibleif input is visible, returns true/false: IsInputVisible(string inputName)</p></li><li style="list-style-type: disc;"><p>The rendering scheme has been re-designed. As such, RenderSubstancesAsync() has been deprecated, this has been changed to graphName.RenderAsync()</p></li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Unity2.2.0-KnownIssues:">Known Issues:</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="margin-left: 30.0px;"><strong>Core Substance Plugin</strong></p><ul><li style="list-style-type: disc;"><p>User must disable 'Enable Bitcode' in the Build Settings menu in Xcode to build for iOS</p></li><li style="list-style-type: disc;"><p>Substance object previews in the Content Browser show up black when the build target is set to Android/iOS</p></li><li style="list-style-type: disc;"><p>The Alpha button and Mip Map preview slider are missing on the non-Substance texture GUI after importing the Substance plugin</p></li><li style="list-style-type: disc;"><p>The user has to use powers of two to define a Substance graph resolution through script</p></li><li style="list-style-type: disc;"><p>Substance materials are not persistent when exported/imported using a Unity package</p></li><li style="list-style-type: disc;"><p>Substances do not work with Asset Bundles</p></li><li style="list-style-type: disc;"><p>Substance preview icons in the Asset Browser all change to the Substance S icon after a reimport</p></li><li style="list-style-type: disc;"><p>Renaming a Substance graph that has a material in the scene will remove that material from the objects it is placed on</p></li><li style="list-style-type: disc;"><p>(Mac only) Updating the plugin on Mac removes Substance materials from prefabs in the scene|</p></li></ul><p><strong>Scripting</strong></p><ul><li style="list-style-type: disc;"><p>Scripting does not work at runtime if the project is set to x86 in the build settings</p></li><li style="list-style-type: disc;"><p>Issues using il2cpp scripting backend with certain build platforms</p></li></ul><p style="margin-left: 30.0px;"><strong>Substance Painter Live Link</strong></p><ul><li style="list-style-type: disc;"><p>Building a project after painting with Substance Live Link will set the painted mesh back to a default material</p></li><li style="list-style-type: disc;"><p>AO channel not sent with Painter live link</p></li><li style="list-style-type: disc;"><p>Meshes with multiple materials do not work in Unity Live Link</p></li><li style="list-style-type: disc;"><p>The way Unity LiveLink uses SimpleJson clashes with other instances of SimpleJson in a project</p></li></ul>
+</div>
+</div>
+</div>
+</div></body>

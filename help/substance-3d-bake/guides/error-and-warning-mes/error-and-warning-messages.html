@@ -1,0 +1,64 @@
+<header><meta name="title" content="Error and Warning Messages | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Guides > Error and Warning Messages"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Error and Warning Messages</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Below is the list of all the error messages that can appear when baking with Substance software.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ErrorandWarningMessages-AnyBakers">Any Bakers</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 75.0%;"><colgroup> <col style="width: 30.0%;"/> <col style="width: 70.0%;"/> </colgroup><tbody><tr><th><em>Message</em></th><th><em>Description</em></th></tr><tr><td colspan="1">Baker not available.</td><td colspan="1">This error message is generally followed by additional error messages, often related to GPU issues. It can happen if the GPU is too old and doesn't meet the <a class="external-link" href="https://www.allegorithmic.com/products/tech-specs" rel="nofollow">technical requirements</a> of the software.</td></tr><tr><td><p>UV set [X] doesn't exist.</p></td><td><p>The Baker tried to work with a given UV set that is not present in the low-poly mesh.</p></td></tr><tr><td colspan="1">Unable to load scene from URL.</td><td colspan="1"><p>This message means the baker wasn't able to load the mesh file, usually the high poly mesh. A few reasons can be the source of this message:</p><ul><li>The mesh file referenced doesn't exist anymore.</li><li>The mesh file is corrupted or broken and cannot be read.</li><li>The mesh is currently being edited by another application and cannot be read.</li></ul></td></tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ErrorandWarningMessages-UVtoSVGBaker">UV to SVG Baker</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 75.0%;"><colgroup> <col style="width: 30.0%;"/> <col style="width: 70.0%;"/> </colgroup><tbody><tr><th><em>Message</em></th><th><em>Description</em></th></tr><tr><td colspan="1">Couldn't find UVs for mesh [mesh name].</td><td colspan="1">No UVs were found regarding a specific mesh. This can happen if multiple meshes are imported but only a few of them have UVs.</td></tr><tr><td><p>The scene doesn't have UVs. Cancelling bake.</p></td><td><p>If no mesh in the scene have UVs, the bake process is cancelled.</p></td></tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ErrorandWarningMessages-PositionBaker">Position Baker</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 75.0%;"><colgroup> <col style="width: 30.0%;"/> <col style="width: 70.0%;"/> </colgroup><tbody><tr><th><em>Message</em></th><th><em>Description</em></th></tr><tr><td colspan="1">Mesh [mesh name] doesn't have positions.</td><td colspan="1">Low poly mesh doesn't have vertex positions.</td></tr><tr><td><p>Mesh [mesh name] doesn't have UVs for uv set [X].</p></td><td><p>The Baker tried to work with a given UV set that is not present in the low-poly mesh.</p></td></tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Any "From Mesh" Baker</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 75.0%;"><colgroup> <col style="width: 30.0%;"/> <col style="width: 70.0%;"/> </colgroup><tbody><tr><th><em>Message</em></th><th><em>Description</em></th></tr><tr><td colspan="1">Could not find vertex normals in mesh <span>[mesh name].</span></td><td colspan="1">No vertex normals were found in the given mesh. Normally never happen because vertex normals are recomputed if the mesh doesn't have them. It could maybe happen because of a faulty custom tangent space plugin.</td></tr><tr><td><p> <span>Could not find vertex tangents in mesh </span> <span>[mesh name].</span> </p></td><td><p>Same as above.</p></td></tr><tr><td colspan="1"><span>Could not find vertex binormals in mesh </span> <span>[mesh name].</span></td><td colspan="1"><span>Same as above.</span></td></tr><tr><td colspan="1"><span>Could not find vertex colors in mesh </span> <span>[mesh name].</span></td><td colspan="1">No vertex colors were found in the given mesh. This can happen if at least one sub-mesh in the high-poly mesh doesn't have any vertex colors defined.</td></tr><tr><td colspan="1"><span>Not enough data in the high poly to use selected baker. Aborting bake.</span></td><td colspan="1">Preceded by at least one of the above messages. Normally, if only a bit of data is missing in the scene (example : only one mesh in high poly scene doesn't have vertex colors), the baking process fill the missing data with zeros, and keep baking. If too much data is missing this message is outputed and the baking process is stopped.</td></tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ErrorandWarningMessages-TransferredTextureFromMesh">Transferred Texture From Mesh</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 75.0%;"><colgroup> <col style="width: 30.0%;"/> <col style="width: 70.0%;"/> </colgroup><tbody><tr><th><em>Message</em></th><th><em>Description</em></th></tr><tr><td colspan="1">Detail texture loading failed.</td><td colspan="1">The texture defined in the baker settings couldn't be loaded. It could be because the file is actually missing on disk or because it is corrupted and not readable.</td></tr></tbody></table>
+</div>
+</div>
+</div>
+</div></body>

@@ -1,0 +1,50 @@
+<header><meta name="title" content="Texture baked outside of Substance software looks incorrect | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Common Questions > Texture baked outside of Substance software looks incorrect"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Texture baked outside of Substance software looks incorrect</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<h3>Question</h3><p>Why do the texture I baked with an external application and not the Substance Bakers look incorrect in Substance Painter ?</p>
+</div>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 1px solid #DFBF00;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<h3>Solution</h3><p>There is no immediate solution to this problem as many factors can contribute to the problem :</p><ul><li>Verify that the normal format between the Substance software and the external application is the same. OpenGL is [X+, Y+, Z+] and DirectX is [X+, Y-, Z+]<ul><li>In Substance Painter the normal format can be changed in the <a href="/substance-3d-painter/interface/project-configuration.html">project configuration</a>.</li><li>In Substance Designer the normal format can be changed in the <a href="/substance-3d-designer/interface/preferences-window/project-settings.html">project preferences</a>.</li></ul></li><li>Verify that the mesh has been triangulated before baking and importing it in the Substance software. See <a href="/substance-3d-bake/guides/triangulating-before-baking.html">this page</a> for more information.</li></ul>
+</div>
+</div>
+</div>
+</div>
+</div></body>

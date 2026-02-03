@@ -1,0 +1,22 @@
+---
+title: "3ds Max 2.4.0"
+helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > 3ds Max Plugin Release Notes > 3ds Max 2.4.0"
+---
+
+# 3ds Max 2.4.0
+
+Released August 10, 2020
+
+Added:
+
+* New Substance material samples
+
+Fixed:
+
+* Parameter block collision
+
+Known issues:
+
+* Loading an old scene with keyframe son the Substance object and open the curve editor without saving the scene and re-opening it, 3dsMax will crash. Workaround is save the scene to a new version of the file and then re-open
+
+This version is released for 3ds Max 2019, 2020 and 2021

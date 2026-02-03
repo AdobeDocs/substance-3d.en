@@ -1,6 +1,6 @@
 ---
 title: "Substance 3D for Linux (ADA)"
-description: "Substance 3D General"
+helpx_description: "Substance 3D General"
 ---
 
 # Deployment guide
@@ -60,6 +60,6 @@ There are two options for software activation, either local activation or networ
 1. Place the unzipped license key files on a shared mounted network.
 1. On your user's machine, set up an environment variable pointing to the license key file as explained on these pages:
 
-   * Substance 3D Painter - [https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html](../../../substance-3d-painter/pipeline-and-integration/configuration/environment-variables/environment-variables.md)
-   * Substance 3D Designer - [https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/environment-variables.html](../../../substance-3d-designer/pipeline-and-project-con/environment-variables/environment-variables.md)
-   * Substance 3D Sampler - [https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/environment-variables.html](../../../substance-3d-sampler/pipeline-and-integrations/environment-variables/environment-variables.md)
+   * Substance 3D Painter - <https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html>
+   * Substance 3D Designer - <https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/environment-variables.html>
+   * Substance 3D Sampler - <https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/environment-variables.html>

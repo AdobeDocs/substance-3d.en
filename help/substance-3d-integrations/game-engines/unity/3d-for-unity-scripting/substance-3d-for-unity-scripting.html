@@ -1,0 +1,157 @@
+<header><meta name="title" content="Substance 3D for Unity Scripting | Ecosystem and Plug-ins"><meta name="description" content="Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Substance 3D for Unity Scripting</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This section of the documentation contains details on the Substance 3D API that we provide via the Substance 3D plugin for Unity. Using the Substance APIs, you can write scripts to update and change Substance parameters at runtime. </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Substance3DforUnityScripting-APIOverview">API Overview</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The plugin is divided into 3 different assemblies.</p><ul> <li>Adobe.Substance</li> <li>Adobe.Substance.Editor</li> <li>Adobe.Substance.Runtime</li> </ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h4 id="Substance3DforUnityScripting-Adobe.Substance">Adobe.Substance</h4>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Contains shared components for interacting with the Substance SDK and generating matching Unity objects. It also has marshaling data structures for communicating between C# and the Substance SDK C++ API.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h4 id="Substance3DforUnityScripting-Adobe.Substance.Editor">Adobe.Substance.Editor</h4>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Contains editor-specific classes for handling the display of information about the Unity Substance objects as well as handling the import pipeline for when sbsar files are added to the project. The SubstanceEditorEngine class is a singleton that handles the lifetime of the substance engine and all its managed instances.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h4 id="Substance3DforUnityScripting-Adobe.Substance.Runtime">Adobe.Substance.Runtime</h4>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This class has components that will handle the creation and management of Substance objects during runtime execution. The SubstanceRuntime is the equivalent of the SubstanceEditorEngine class for runtime. It will handle the initialization of the substance engine as well as the instantiation of any substance instance that user scripts will interact with.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 1px solid #DFBF00;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Substance3DforUnityScripting-Runtimeusage">Runtime usage</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In order for the Substance Instance inputs to be modified at runtime, it is required to add a SubstanceRuntime←- Material to your scene (idealy to the same GameObject as you substance material). This class acts as a helper to set up the material using Adobe.Substance.Runtime.SubstanceRuntime singleton that manages the instantiation of Substance SDK objects at runtime.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 1px solid #DFBF00;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Substance3DforUnityScripting-Codeexamples">Code examples</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The following example shows how to change input parameters at runtime using the SubstanceRuntimeGraph.</p><h5>Changing Parameters</h5>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="Confluence" data-gutter="false" data-line-wrap="true">using System.Collections; 
+using System.Collections.Generic; 
+using UnityEngine; 
+using Adobe.Substance.Runtime; 
+public class scifiScript: MonoBehaviour { 
+  public Adobe.Substance.Runtime.SubstanceRuntimeGraph mySubstance; 
+  // Use this for initialization 
+  void Start() { 
+    UpdateSubstance(); 
+  } 
+  public void UpdateSubstance() { 
+    // panel color 
+    mySubstance.SetInputColor("paint_color", new Color(0.237 f, 0.834 f, 0.045 f, 1.0 f)); 
+    // panel size 
+    mySubstance.SetInputVector2("square_open", new Vector2(0.101 f, 0.209 f)); 
+    // wear level 
+    mySubstance.SetInputFloat("wear_level", 0.977 f); 
+    // Submit async render. 
+    mySubstance.RenderAsync(); 
+  } 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>You can also use the SubstanceRuntimeGraph to have access to input and output information about your Substance Material.</p><h5>Get Input Information</h5>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="Confluence" data-gutter="false" data-line-wrap="true">using System.Collections; 
+using System.Collections.Generic; 
+using UnityEngine; 
+using Adobe.Substance.Runtime; 
+public class scifiScript: MonoBehaviour { 
+  public Adobe.Substance.Runtime.SubstanceRuntimeGraph mySubstance; 
+  // Use this for initialization 
+  void Start() { 
+    UpdateSubstance(); 
+  } 
+  public void UpdateSubstance() { 
+    SubstanceInputDescription desc = mySubstance.GetInputDescription("paint_color"); 
+    Debug.Log($ "Input: {desc.Identifier}"); 
+    Debug.Log($ "Index: {desc.Index}"); 
+    Debug.Log($ "Type: {desc.Type}"); 
+    Debug.Log($ "Label: {desc.Label}"); 
+  } 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The following example shows how to create a custom preset menu in the editor with the SubstanceEditorTools.<br/>
+</p>
+<h5>Creating preset controls.</h5>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="Confluence" data-gutter="false" data-line-wrap="true">using System.Collections; 
+using System.Collections.Generic; 
+using UnityEngine; 
+using Adobe.Substance.Runtime; 
+public class scifiScript: MonoBehaviour { 
+  public Adobe.Substance.Runtime.SubstanceRuntimeGraph mySubstance; 
+  // Use this for initialization 
+  void Start() { 
+    UpdateSubstance(); 
+  } 
+  public void UpdateSubstance() { 
+    SubstanceInputDescription desc = mySubstance.GetInputDescription("paint_color"); 
+    Debug.Log($ "Input: {desc.Identifier}"); 
+    Debug.Log($ "Index: {desc.Index}"); 
+    Debug.Log($ "Type: {desc.Type}"); 
+    Debug.Log($ "Label: {desc.Label}"); 
+  } 
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+</div>
+</div>
+</div></body>

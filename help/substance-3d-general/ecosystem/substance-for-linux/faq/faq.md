@@ -1,6 +1,6 @@
 ---
-title: "Frequently asked questions | Substance for Linux"
-description: "Substance 3D General"
+title: "Frequently asked questions"
+helpx_description: "Substance 3D General"
 ---
 
 # Frequently asked questions

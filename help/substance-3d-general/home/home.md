@@ -1,6 +1,6 @@
 ---
-title: "General knowledge | General knowledge"
-description: "General Knowledge > Home"
+title: "General knowledge"
+helpx_description: "General Knowledge > Home"
 ---
 
 # General knowledge

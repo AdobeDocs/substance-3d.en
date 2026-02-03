@@ -1,0 +1,315 @@
+<header><meta name="title" content="Common Parameters | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Bakers Settings > Common Parameters"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Common Parameters</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Common parameters apply to all bakers. These parameters usually define how the bakers will behave and work with high-poly meshes but how the final textures will be generated. Some of these parameters can be overridden by specific bakers.</p><p>While most of these parameters are available across all the software (including Substance Automation Toolkit), their behavior may slightly differ; or some may not be available depending on the software workflow and implementation.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="CommonParameters-GeneralParameters">General Parameters</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>These parameters affect the way bakers generate textures.</p>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dx_table">
+<table border="0" cellpadding="0" cellspacing="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c0" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em>Name</em></p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p><em>Description</em></p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Size</strong></p><p>(Default Size or Output Size)</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>Control the baking output texture resolution (in pixels).</p><p>Available values:</p><ul><li><strong>32</strong></li><li><strong>64</strong></li><li><strong>128</strong></li><li><strong>256</strong></li><li><strong>512</strong></li><li><strong>1024</strong></li><li><strong>2048</strong> (default)</li><li><strong>4096</strong></li><li><strong>8192</strong></li></ul><p>Non-square resolutions are also supported, for example: 2048x1024 (2:1 ratio). In Substance Designer this parameter can be overridden by the baker itself.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r2 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Format</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>File format of the baked textures.</p><p><em>Not available in Substance Painter.</em> See: <a href="/substance-3d-bake/common-questions/how-to-export-the-baked-maps.html">How to export the baked maps</a>.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r3 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Anti-Aliasing</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>Controls anti-aliasing which can improve the quality of baked textures and reduce aliasing where different geometries connect.</p><p>To learn more about aliasing see: <a href="/substance-3d-bake/common-issues/aliasing-on-uv-seams.html">Aliasing on UV Seams</a> and <a href="https://en.wikipedia.org/wiki/Aliasing" rel="nofollow">Aliasing on Wikipedia</a>.</p><p>Available values:</p><ul><li><strong>None</strong> (default)</li><li><strong>Subsampling 2x2</strong></li><li><strong>Subsampling 4x4</strong></li><li><strong>Subsampling 8x8</strong></li></ul>
+</div>
+</div>
+<div class="text">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Enabling anti-aliasing can significantly increase baking time, as anti-aliasing works by computing the texture at a higher resolution and then downscaling it back to the originally selected size. This means a 2K texture with a 2x2 subsampling will actually compute a 4K texture.</p><p>It is sometimes preferable to increase the number of rays in the baker rather than increasing the subsampling. It could achieve better results without waiting too long.</p>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r4 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>UV Set</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r4 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>Controls which UVs from the low-poly mesh will be used to compute the baked textures.</p><p><em>Not available in Substance Painter.</em></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r5 column-c0">
+</td>
+<td abbr="" class="row-r5 column-c1">
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r6 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Dilation (px)</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r6 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>Dilate/extend the pixels of the UVs outside or their border by the amount of pixels given. This operation allows to avoid seams at UV borders when these borders are not perfectly aligned to the texture pixels or when the texture resolution is reduced (ex: mipmaps). This is a post-process applied after the baking process. It can sometimes be called  "padding" as well.</p><p>To learn more about dilation see: <a href="/substance-3d-bake/common-issues/aliasing-on-uv-seams.html">Aliasing on UV Seams</a> and <a href="/substance-3d/unlisted/documentation/spdoc/padding-134643719.html">Padding</a>.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r7 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Apply Diffusion</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r7 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>If enabled, the outside of the UVs will be filled with smoothed gradient colors based on the UV borders. This process ensures that when texture size is reduced it will stays stable and not create overly visible seams (ex: mipmaps). This is a post-process applied after the baking process. </p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r8 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Average Normals</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r8 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p>If enabled, computes the average normal of a vertex to know in which direction to send rays during the mesh matching process of baking. If disabled, the rays will follow the original vertex normals of the mesh.</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td {
+        background: #FFFFFF;
+        
+        
+        border: 1px solid #B3B3B3;
+        
+    }
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th:before {
+        border: 1px solid #B3B3B3;
+        left: -1px;
+        top: -1px;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r4,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r4 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r5,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r5 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r6,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r6 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r7,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r7 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r8,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r8 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="CommonParameters-High-PolyParameters">High-Poly Parameters</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The following parameters control high-poly to low-poly mesh baking ("from mesh" bakers).</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 75.0%;"><colgroup> <col style="width: 20.0%;"/> <col style="width: 80.0%;"/> </colgroup><tbody><tr><th><em>Name</em></th><th><em>Description</em></th></tr><tr><td colspan="1"><strong>High Definition Meshes</strong></td><td colspan="1">A list of files (or Substance package resources) that contains high-poly meshes. They are loaded <span>into memory</span> by the bakers when the baking process starts to compute different information and save that mesh information to textures. This list is ignored if "<strong>Use Low as High Definition</strong>" is enabled.</td></tr><tr><td><p><strong>Use Low as High Definition<br/></strong>or<br/><strong style="letter-spacing: 0.0px;">Use Low Poly Mesh as High Poly Mesh</strong></p></td><td><p>If enabled, the high-poly mesh list provided to the bakers will be ignored and the low-poly mesh will be baked on itself instead.</p><p>This parameter is useful when working with a high-poly mesh directly. For example, when baking an ambient occlusion texture for a high-poly car with this setting enabled, the ray distance is ignored and the baker will produce a perfect bake (no ray misses or geometry mismatch).</p></td></tr><tr><th colspan="1"><br/></th><th colspan="1"><br/></th></tr><tr><td colspan="1"><p><strong>Set Distance With Cage<br/></strong>or<br/><strong>Use Cage</strong></p></td><td colspan="1">Indicates whether to use a cage mesh file in the baking process instead of using ray distance values. The cage controls the ray maximum distance and direction.</td></tr><tr><td colspan="1"><strong>Cage File</strong></td><td colspan="1">Path to the mesh file containing the cage.</td></tr><tr><td colspan="1"><p><strong>Frontal Value<br/></strong>or<br/><strong>Max Frontal Distance</strong></p></td><td colspan="1"><p>Controls how far above the low-poly surface the ray should start to find any high-poly geometry along its path.</p><p><em>This setting has no effect when a Cage is used.</em></p></td></tr><tr><td colspan="1"><p><strong>Rear Value<br/></strong>or<br/><strong>Max Rear Distance</strong></p></td><td colspan="1"><p>Controls how far below the low-poly surface the<span> ray should stop to find any high-poly geometry along its path</span>.</p><p><em>This setting has no effect when a Cage is used.</em></p></td></tr><tr><td colspan="1"><strong>Relative to Bounding Box</strong></td><td colspan="1"><p>If enabled, ray distance and other size-based computations are based on the normalized space of the low-poly mesh. If disabled, the ray distance computation is based on units specified in the low-poly mesh when it was exported (meters, centimeters, etc).</p><p>It can sometimes be useful to disable this setting and enter the ray distance manually when an object has precise measurements.</p></td></tr><tr><th colspan="1"><br/></th><th colspan="1"><br/></th></tr><tr><td colspan="1"><strong>Match</strong></td><td colspan="1"><p>Indicates how the bakers should match low and high-poly geometry. It can be used to filter the baking process without the need to manually move apart (explode) meshes.</p><p>Possible values:</p><ul><li><strong>Always</strong> (default): Low-poly mesh is matched with every high-poly meshes.</li><li><strong>By Mesh Name</strong>: Filter the meshes by their name to avoid matching with unwanted geometry.</li></ul><p>To learn more about matching geometry see: <a class="conf-macro output-inline" data-hasbody="false" data-macro-name="sp-nobody-link" href="/substance-3d-bake/features/matching-by-name.html">Matching by Name</a>.</p></td></tr><tr><td colspan="1"><p><strong>Match Suffixes<br/> </strong>or<br/><strong>High Poly Mesh Suffix<br/></strong><strong>Low Poly Mesh Suffix</strong></p></td><td colspan="1"><p>Mesh name suffixes to identify and group together the geometry when using the Matching By Name feature. Available suffixes:</p><ul><li><strong>Low Poly Mesh</strong>: suffix to identify low poly meshes in the scene</li><li><strong>High Poly Mesh</strong>: suffix to identify high poly meshes in the scene</li><li><strong>Ignore Backfaces</strong>: suffix to identify meshes that should be ignored by specific bakers (like the <a class="conf-macro output-inline" data-hasbody="true" data-macro-name="sp-plaintextbody-link" href="/substance-3d-bake/bakers-settings/ambient-occlusion-from-mesh.html">Ambient Occlusion From Mesh</a>)</li></ul><p>To learn more about matching geometry see:  <a class="conf-macro output-inline" data-hasbody="false" data-macro-name="sp-nobody-link" href="/substance-3d-bake/features/matching-by-name.html">Matching by Name</a> .</p></td></tr><tr><th colspan="1"><br/></th><th colspan="1"><br/></th></tr><tr><td colspan="1"><strong>Use Skew Correction</strong></td><td colspan="1"><p>If enabled, ray direction will be computed from <strong>Average Normal</strong> or the original geometry normal depending on the input texture. Black values in the texture use the average normal computed while white values use the original mesh normal.</p><p><em>Not available in Substance Painter.</em></p></td></tr><tr><td colspan="1"><strong>Skew Map</strong></td><td colspan="1">Path to the texture file used to skew ray projection.</td></tr><tr><td colspan="1"><strong>Invert Skew Correction</strong></td><td colspan="1">Invert the reading of the input texture (black becomes white and white becomes black).</td></tr></tbody></table>
+</div>
+</div>
+</div>
+</div></body>

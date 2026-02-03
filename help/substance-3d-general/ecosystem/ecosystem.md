@@ -1,6 +1,6 @@
 ---
-title: "Ecosystem | General knowledge"
-description: "General Knowledge > Ecosystem"
+title: "Ecosystem"
+helpx_description: "General Knowledge > Ecosystem"
 ---
 
 # Ecosystem
