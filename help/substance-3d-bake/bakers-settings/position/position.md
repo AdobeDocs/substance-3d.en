@@ -1,5 +1,6 @@
 ---
 title: "Position"
+description: ""
 helpx_description: "bakers > Bakers Settings > Position"
 ---
 

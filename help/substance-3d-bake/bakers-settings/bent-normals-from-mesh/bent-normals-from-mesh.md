@@ -1,5 +1,6 @@
 ---
 title: "Bent Normals from Mesh"
+description: ""
 helpx_description: "bakers > Bakers Settings > Bent Normals from Mesh"
 ---
 

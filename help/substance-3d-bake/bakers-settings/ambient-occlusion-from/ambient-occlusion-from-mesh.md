@@ -1,5 +1,6 @@
 ---
 title: "Ambient Occlusion from Mesh"
+description: ""
 helpx_description: "bakers > Bakers Settings > Ambient Occlusion from Mesh"
 ---
 

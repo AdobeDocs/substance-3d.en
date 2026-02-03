@@ -1,5 +1,6 @@
 ---
 title: "Vray Next - Substance in Maya"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Vray > Vray Next - Substance in Maya"
 ---
 

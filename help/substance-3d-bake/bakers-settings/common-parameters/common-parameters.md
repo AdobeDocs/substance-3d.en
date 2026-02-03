@@ -1,5 +1,6 @@
 ---
 title: "Common Parameters"
+description: ""
 helpx_description: "bakers > Bakers Settings > Common Parameters"
 ---
 

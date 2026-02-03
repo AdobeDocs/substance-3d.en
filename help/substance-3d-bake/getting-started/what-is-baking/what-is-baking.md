@@ -1,5 +1,6 @@
 ---
 title: "What is Baking "
+description: ""
 helpx_description: "bakers > Getting Started > What is Baking "
 ---
 

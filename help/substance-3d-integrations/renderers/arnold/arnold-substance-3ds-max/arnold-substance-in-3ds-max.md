@@ -1,5 +1,6 @@
 ---
 title: "Arnold - Substance in 3ds Max"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Arnold > Arnold - Substance in 3ds Max"
 ---
 

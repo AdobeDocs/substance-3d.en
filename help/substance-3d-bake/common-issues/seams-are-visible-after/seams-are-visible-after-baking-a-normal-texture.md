@@ -1,5 +1,6 @@
 ---
 title: "Seams are visible after baking a normal texture"
+description: ""
 helpx_description: "bakers > Common Issues > Seams are visible after baking a normal texture"
 ---
 

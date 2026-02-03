@@ -1,5 +1,6 @@
 ---
 title: "3ds Max 2.3.2"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > 3ds Max Plugin Release Notes > 3ds Max 2.3.2"
 ---
 

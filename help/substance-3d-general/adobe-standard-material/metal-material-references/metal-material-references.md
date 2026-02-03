@@ -1,5 +1,6 @@
 ---
 title: "Metal material references"
+description: ""
 helpx_description: "General Knowledge > Adobe Standard Material > Metal material references"
 ---
 

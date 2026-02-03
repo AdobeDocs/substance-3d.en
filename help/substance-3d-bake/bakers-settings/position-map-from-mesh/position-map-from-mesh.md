@@ -1,5 +1,6 @@
 ---
 title: "Position map from Mesh"
+description: ""
 helpx_description: "bakers > Bakers Settings > Position map from Mesh"
 ---
 

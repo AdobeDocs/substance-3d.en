@@ -1,5 +1,6 @@
 ---
 title: "Maya 2.4.0"
+description: ""
 helpx_description: "Substance 3D Integrations"
 ---
 

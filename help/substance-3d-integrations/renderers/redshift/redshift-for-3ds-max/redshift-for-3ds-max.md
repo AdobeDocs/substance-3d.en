@@ -1,5 +1,6 @@
 ---
 title: "Redshift for 3ds Max"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Redshift > Redshift for 3ds Max"
 ---
 

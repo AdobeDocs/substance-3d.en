@@ -1,5 +1,6 @@
 ---
 title: "Substance 3D Plugin Default Templates"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Substance 3D Plugin Default Templates"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Physical size in Blender"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Physical size in Blender"
 ---
 

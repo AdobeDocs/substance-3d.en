@@ -1,5 +1,6 @@
 ---
 title: "Adobe Standard Material"
+description: ""
 helpx_description: "General Knowledge > Adobe Standard Material"
 ---
 

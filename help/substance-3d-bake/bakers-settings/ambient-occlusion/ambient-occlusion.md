@@ -1,5 +1,6 @@
 ---
 title: "Ambient Occlusion"
+description: ""
 helpx_description: "bakers > Bakers Settings > Ambient Occlusion"
 ---
 

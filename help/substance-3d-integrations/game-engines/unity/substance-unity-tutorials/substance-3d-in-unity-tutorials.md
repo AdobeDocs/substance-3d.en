@@ -1,5 +1,6 @@
 ---
 title: "Substance 3D in Unity Tutorials"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Substance 3D in Unity Tutorials"
 ---
 

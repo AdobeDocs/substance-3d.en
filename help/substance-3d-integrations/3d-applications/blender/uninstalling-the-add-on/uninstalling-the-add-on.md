@@ -1,5 +1,6 @@
 ---
 title: "Uninstalling the Add-on"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Uninstalling the Add-on"
 ---
 

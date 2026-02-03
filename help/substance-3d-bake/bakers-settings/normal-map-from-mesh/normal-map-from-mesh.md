@@ -1,5 +1,6 @@
 ---
 title: "Normal Map from Mesh"
+description: ""
 helpx_description: "bakers > Bakers Settings > Normal Map from Mesh"
 ---
 

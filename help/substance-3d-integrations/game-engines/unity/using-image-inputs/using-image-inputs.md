@@ -1,5 +1,6 @@
 ---
 title: "Using Image Inputs"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Using Image Inputs"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Material Instance Definition - UE5"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Material Instance Definition - UE5"
 ---
 

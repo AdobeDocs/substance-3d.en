@@ -1,5 +1,6 @@
 ---
 title: "Unity Release Notes"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes"
 ---
 

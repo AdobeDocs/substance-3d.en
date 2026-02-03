@@ -1,5 +1,6 @@
 ---
 title: "Working with Normals"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Working with Normals"
 ---
 

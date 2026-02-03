@@ -1,5 +1,6 @@
 ---
 title: "Vray Next - Substance Painter"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Vray > Vray Next - Substance Painter"
 ---
 

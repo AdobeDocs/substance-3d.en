@@ -1,5 +1,6 @@
 ---
 title: "Texture baked outside of Substance software looks incorrect"
+description: ""
 helpx_description: "bakers > Common Questions > Texture baked outside of Substance software looks incorrect"
 ---
 

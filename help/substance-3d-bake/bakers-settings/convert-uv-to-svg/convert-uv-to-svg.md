@@ -1,5 +1,6 @@
 ---
 title: "Convert UV to SVG"
+description: ""
 helpx_description: "bakers > Bakers Settings > Convert UV to SVG"
 ---
 

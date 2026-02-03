@@ -1,5 +1,6 @@
 ---
 title: "ASM specifications"
+description: ""
 helpx_description: "General Knowledge > Adobe Standard Material > ASM specifications"
 ---
 

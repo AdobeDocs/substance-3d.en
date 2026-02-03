@@ -1,5 +1,6 @@
 ---
 title: "How to export the baked maps "
+description: ""
 helpx_description: "bakers > Common Questions > How to export the baked maps "
 ---
 

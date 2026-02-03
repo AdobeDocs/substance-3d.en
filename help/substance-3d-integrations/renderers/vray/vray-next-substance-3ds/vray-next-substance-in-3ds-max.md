@@ -1,5 +1,6 @@
 ---
 title: "Vray Next - Substance in 3ds Max"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Vray > Vray Next - Substance in 3ds Max"
 ---
 

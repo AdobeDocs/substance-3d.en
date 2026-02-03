@@ -1,5 +1,6 @@
 ---
 title: "Curvature from Mesh (deprecated)"
+description: ""
 helpx_description: "bakers > Bakers Settings > Curvature from Mesh (deprecated)"
 ---
 

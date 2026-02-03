@@ -1,5 +1,6 @@
 ---
 title: "Compatible 3D software"
+description: ""
 helpx_description: "bakers > Getting Started > Compatible 3D software"
 ---
 

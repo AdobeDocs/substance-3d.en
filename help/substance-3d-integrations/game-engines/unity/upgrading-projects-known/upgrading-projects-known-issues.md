@@ -1,5 +1,6 @@
 ---
 title: "Upgrading ProjectsKnown Issues"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Upgrading ProjectsKnown Issues"
 ---
 

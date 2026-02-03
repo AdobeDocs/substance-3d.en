@@ -1,5 +1,6 @@
 ---
 title: "Working with Outputs"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Working with Outputs"
 ---
 

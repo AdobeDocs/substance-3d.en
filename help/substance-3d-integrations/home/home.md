@@ -1,5 +1,6 @@
 ---
 title: "Ecosystem and Plug-ins"
+description: ""
 helpx_description: "Ecosystems and Plugins > Home"
 ---
 

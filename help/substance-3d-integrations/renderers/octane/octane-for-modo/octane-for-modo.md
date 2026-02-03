@@ -1,5 +1,6 @@
 ---
 title: "Octane for MODO"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Octane > Octane for MODO"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Substance Output Node"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Substance Output Node"
 ---
 

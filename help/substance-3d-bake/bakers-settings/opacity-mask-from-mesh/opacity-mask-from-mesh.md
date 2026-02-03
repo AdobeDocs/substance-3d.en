@@ -1,5 +1,6 @@
 ---
 title: "Opacity Mask from Mesh"
+description: ""
 helpx_description: "bakers > Bakers Settings > Opacity Mask from Mesh"
 ---
 

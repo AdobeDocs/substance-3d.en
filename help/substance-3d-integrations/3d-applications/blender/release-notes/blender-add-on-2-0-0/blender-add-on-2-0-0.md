@@ -1,5 +1,6 @@
 ---
 title: "Add-on 2.0.0"
+description: ""
 helpx_description: "Substance 3D Integrations"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Substance 3D for Unity Scripting"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Working with Bump Offset (Parallax) - UE4"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Working with Bump Offset (Parallax) - UE4"
 ---
 

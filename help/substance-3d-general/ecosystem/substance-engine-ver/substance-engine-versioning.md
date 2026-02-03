@@ -1,5 +1,6 @@
 ---
 title: "Substance engine versioning"
+description: ""
 helpx_description: "General Knowledge > Ecosystem > Substance engine versioning"
 ---
 

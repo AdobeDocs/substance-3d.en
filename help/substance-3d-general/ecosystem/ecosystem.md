@@ -1,5 +1,6 @@
 ---
 title: "Ecosystem"
+description: ""
 helpx_description: "General Knowledge > Ecosystem"
 ---
 

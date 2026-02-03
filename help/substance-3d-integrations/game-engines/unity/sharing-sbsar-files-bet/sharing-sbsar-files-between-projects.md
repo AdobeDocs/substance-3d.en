@@ -1,5 +1,6 @@
 ---
 title: "Sharing sbsar Files Between Projects"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity >Sharing sbsar Files Between Projects"
 ---
 

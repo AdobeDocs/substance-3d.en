@@ -1,5 +1,6 @@
 ---
 title: "Unity 2.2.2"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes > Unity 2.2.2"
 ---
 

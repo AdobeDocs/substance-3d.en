@@ -1,5 +1,6 @@
 ---
 title: "Substance in Maya Overview"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Substance in Maya Overview"
 ---
 

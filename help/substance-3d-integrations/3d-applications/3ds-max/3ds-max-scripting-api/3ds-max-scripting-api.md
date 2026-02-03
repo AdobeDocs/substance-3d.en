@@ -1,5 +1,6 @@
 ---
 title: "3ds MAX Scripting API"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > 3ds MAX Scripting API"
 ---
 

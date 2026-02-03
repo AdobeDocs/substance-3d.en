@@ -1,5 +1,6 @@
 ---
 title: "Maxwell - Substance in Maya"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Maxwell > Maxwell - Substance in Maya"
 ---
 

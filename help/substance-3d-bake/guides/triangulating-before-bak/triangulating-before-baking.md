@@ -1,5 +1,6 @@
 ---
 title: "Triangulating before baking"
+description: ""
 helpx_description: "bakers > Guides > Triangulating before baking"
 ---
 

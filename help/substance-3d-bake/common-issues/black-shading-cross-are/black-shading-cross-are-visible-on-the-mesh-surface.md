@@ -1,5 +1,6 @@
 ---
 title: "Black shading cross are visible on the mesh surface"
+description: ""
 helpx_description: "bakers > Common Issues > Black shading cross are visible on the mesh surface"
 ---
 

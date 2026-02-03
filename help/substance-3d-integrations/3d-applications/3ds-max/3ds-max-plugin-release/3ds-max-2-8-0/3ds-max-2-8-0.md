@@ -1,5 +1,6 @@
 ---
 title: "3ds Max 2.8.0"
+description: ""
 helpx_description: "Substance 3D Integrations"
 ---
 

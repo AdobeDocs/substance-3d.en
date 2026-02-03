@@ -1,5 +1,6 @@
 ---
 title: "Using Workflows in 3ds Max"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Using Workflows in 3ds Max"
 ---
 

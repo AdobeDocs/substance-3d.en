@@ -1,5 +1,6 @@
 ---
 title: "Arnold - Substance in Maya"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Arnold > Arnold - Substance in Maya"
 ---
 

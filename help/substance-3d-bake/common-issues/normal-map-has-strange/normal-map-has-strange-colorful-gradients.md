@@ -1,5 +1,6 @@
 ---
 title: "Normal map has strange colorful gradients"
+description: ""
 helpx_description: "bakers > Common Issues > Normal map has strange colorful gradients"
 ---
 

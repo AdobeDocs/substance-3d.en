@@ -1,5 +1,6 @@
 ---
 title: "Why is my mesh fully black after baking "
+description: ""
 helpx_description: "bakers > Common Questions > Why is my mesh fully black after baking "
 ---
 

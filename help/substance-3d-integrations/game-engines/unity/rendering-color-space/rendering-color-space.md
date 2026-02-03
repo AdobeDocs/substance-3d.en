@@ -1,5 +1,6 @@
 ---
 title: "Rendering Color Space"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Rendering Color Space"
 ---
 

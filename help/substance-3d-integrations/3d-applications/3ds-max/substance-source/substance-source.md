@@ -1,5 +1,6 @@
 ---
 title: "Substance Source"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Substance Source"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Arnold - Substance Painter"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Arnold > Arnold - Substance Painter"
 ---
 

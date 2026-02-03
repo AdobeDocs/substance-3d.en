@@ -1,5 +1,6 @@
 ---
 title: "Performances and optimizations"
+description: ""
 helpx_description: "bakers > Guides > Performances and optimizations"
 ---
 

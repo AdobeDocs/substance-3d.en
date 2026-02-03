@@ -1,5 +1,6 @@
 ---
 title: "What is the difference between the OpenGL and DirectX normal format "
+description: ""
 helpx_description: "bakers > Common Questions > What is the difference between the OpenGL and DirectX normal format "
 ---
 

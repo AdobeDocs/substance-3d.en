@@ -1,5 +1,6 @@
 ---
 title: "Parameters and outputs"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard > Parameters and outputs"
 ---
 

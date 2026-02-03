@@ -1,5 +1,6 @@
 ---
 title: "Managing Substance Graphs"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Managing Substance Graphs"
 ---
 

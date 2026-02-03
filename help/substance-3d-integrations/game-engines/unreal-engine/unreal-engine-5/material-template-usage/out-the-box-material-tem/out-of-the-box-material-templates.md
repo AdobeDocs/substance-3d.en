@@ -1,5 +1,6 @@
 ---
 title: "Out-of-the-Box Material Templates"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Material Template Usage - UE5 > Out-of-the-Box Material Templates"
 ---
 

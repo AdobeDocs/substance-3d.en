@@ -1,5 +1,6 @@
 ---
 title: "Release Notes"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Release Notes"
 ---
 

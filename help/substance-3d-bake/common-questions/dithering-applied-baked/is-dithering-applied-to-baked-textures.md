@@ -1,5 +1,6 @@
 ---
 title: "Is dithering applied to baked textures "
+description: ""
 helpx_description: "bakers > Common Questions > Is dithering applied to baked textures "
 ---
 

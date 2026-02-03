@@ -1,5 +1,6 @@
 ---
 title: "Substance 3D and Maxon One FAQ"
+description: ""
 helpx_description: "Substance 3D Integrations"
 ---
 

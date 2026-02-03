@@ -1,5 +1,6 @@
 ---
 title: "Optimization Guidelines"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Optimization Guidelines"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Availability per software"
+description: ""
 helpx_description: "bakers > Getting Started > Availability per software"
 ---
 

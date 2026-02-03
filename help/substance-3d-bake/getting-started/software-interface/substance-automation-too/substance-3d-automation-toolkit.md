@@ -1,5 +1,6 @@
 ---
 title: "Substance 3D Automation Toolkit"
+description: ""
 helpx_description: "bakers > Getting Started > Software Interface > Substance 3D Automation Toolkit"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Substance 3D icons for artists"
+description: ""
 helpx_description: "General Knowledge > Ecosystem > Substance 3D icons for artists"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "The Substance 3D Panel"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > The Substance 3D Panel"
 ---
 

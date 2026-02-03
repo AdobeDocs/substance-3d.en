@@ -1,5 +1,6 @@
 ---
 title: "Transferred Texture from Mesh"
+description: ""
 helpx_description: "bakers > Bakers Settings > Transferred Texture from Mesh"
 ---
 

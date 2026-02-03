@@ -1,5 +1,6 @@
 ---
 title: "Assigning a Substance"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard > Assigning a Substance"
 ---
 

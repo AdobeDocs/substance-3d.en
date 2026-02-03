@@ -1,5 +1,6 @@
 ---
 title: "General system requirements"
+description: ""
 helpx_description: "General Knowledge > Ecosystem > General system requirements"
 ---
 

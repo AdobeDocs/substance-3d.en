@@ -1,5 +1,6 @@
 ---
 title: "Height Map from Mesh"
+description: ""
 helpx_description: "bakers > Bakers Settings > Height Map from Mesh"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Substance in MODO Overview"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Substance in MODO Overview"
 ---
 

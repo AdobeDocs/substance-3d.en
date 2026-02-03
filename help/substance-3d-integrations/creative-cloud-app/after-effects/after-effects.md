@@ -1,5 +1,6 @@
 ---
 title: "After Effects"
+description: ""
 helpx_description: "Learn about SBSAR file support in Adobe After Effects."
 ---
 

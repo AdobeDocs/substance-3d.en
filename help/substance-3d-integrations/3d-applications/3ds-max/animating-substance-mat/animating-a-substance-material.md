@@ -1,5 +1,6 @@
 ---
 title: "Animating a Substance material"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Animating a Substance material"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Curvature"
+description: ""
 helpx_description: "bakers > Bakers Settings > Curvature"
 ---
 

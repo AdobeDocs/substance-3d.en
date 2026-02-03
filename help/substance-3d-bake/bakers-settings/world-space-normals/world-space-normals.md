@@ -1,5 +1,6 @@
 ---
 title: "World Space Normals"
+description: ""
 helpx_description: "bakers > Bakers Settings > World Space Normals"
 ---
 

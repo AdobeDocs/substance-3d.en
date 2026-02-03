@@ -1,5 +1,6 @@
 ---
 title: "Batch Import"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Batch Import"
 ---
 

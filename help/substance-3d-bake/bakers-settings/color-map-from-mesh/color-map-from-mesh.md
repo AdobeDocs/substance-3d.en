@@ -1,5 +1,6 @@
 ---
 title: "Color Map from Mesh"
+description: ""
 helpx_description: "bakers > Bakers Settings > Color Map from Mesh"
 ---
 

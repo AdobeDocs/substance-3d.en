@@ -1,5 +1,6 @@
 ---
 title: "Substance textures in 3ds Max"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Color Management > Substance textures in 3ds Max"
 ---
 

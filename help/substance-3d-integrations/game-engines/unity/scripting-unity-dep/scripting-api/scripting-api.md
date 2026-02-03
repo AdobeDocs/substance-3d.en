@@ -1,5 +1,6 @@
 ---
 title: "Scripting API"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Scripting in Unity (Deprecated) > Scripting API"
 ---
 

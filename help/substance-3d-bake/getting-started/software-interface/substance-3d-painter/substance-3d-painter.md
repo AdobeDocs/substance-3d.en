@@ -1,5 +1,6 @@
 ---
 title: "Substance 3D Painter"
+description: ""
 helpx_description: "bakers > Getting Started > Software Interface > Substance 3D Painter"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Substance SBSAR Integration"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Maverick > Substance SBSAR Integration"
 ---
 

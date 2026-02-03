@@ -1,5 +1,6 @@
 ---
 title: "3D Applications"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Publishing for Mobile"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Publishing for Mobile"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Baker output is fully black or empty"
+description: ""
 helpx_description: "bakers > Common Issues > Baker output is fully black or empty"
 ---
 

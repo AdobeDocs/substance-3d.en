@@ -1,5 +1,6 @@
 ---
 title: "Corona for 3ds Max"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Corona > Corona for 3ds Max"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Substance textures in Maya"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Color Management > Substance textures in Maya"
 ---
 

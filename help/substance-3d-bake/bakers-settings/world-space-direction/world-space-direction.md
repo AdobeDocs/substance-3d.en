@@ -1,5 +1,6 @@
 ---
 title: "World Space Direction"
+description: ""
 helpx_description: "bakers > Bakers Settings > World Space Direction"
 ---
 

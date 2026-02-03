@@ -1,5 +1,6 @@
 ---
 title: "Substance in 3ds Max Overview"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Substance in 3ds Max Overview"
 ---
 

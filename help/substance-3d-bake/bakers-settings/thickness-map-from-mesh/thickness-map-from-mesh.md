@@ -1,5 +1,6 @@
 ---
 title: "Thickness Map from Mesh"
+description: ""
 helpx_description: "bakers > Bakers Settings > Thickness Map from Mesh"
 ---
 

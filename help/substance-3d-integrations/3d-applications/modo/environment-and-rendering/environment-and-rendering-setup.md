@@ -1,5 +1,6 @@
 ---
 title: "Environment and Rendering Setup"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Environment and Rendering Setup"
 ---
 

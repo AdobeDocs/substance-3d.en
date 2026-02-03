@@ -1,5 +1,6 @@
 ---
 title: "Mesh parts bleed between each other"
+description: ""
 helpx_description: "bakers > Common Issues > Mesh parts bleed between each other"
 ---
 

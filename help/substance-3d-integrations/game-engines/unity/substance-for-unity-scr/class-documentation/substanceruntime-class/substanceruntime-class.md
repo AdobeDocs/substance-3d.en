@@ -1,5 +1,6 @@
 ---
 title: "SubstanceRuntime Class"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting > Class Documentation > SubstanceRuntime Class"
 ---
 

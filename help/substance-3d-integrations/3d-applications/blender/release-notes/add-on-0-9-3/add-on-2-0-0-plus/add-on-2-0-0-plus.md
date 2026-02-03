@@ -1,5 +1,6 @@
 ---
 title: "Add-on 2.0.0"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Release Notes > Add-on 2.0.0"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Why is Matching by Name not working with Ambient OcclusionThickness "
+description: ""
 helpx_description: "bakers > Common Questions > Why is Matching by Name not working with Ambient OcclusionThickness "
 ---
 

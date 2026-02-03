@@ -1,5 +1,6 @@
 ---
 title: "Using the Substance Plugin"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Using the Substance Plugin"
 ---
 

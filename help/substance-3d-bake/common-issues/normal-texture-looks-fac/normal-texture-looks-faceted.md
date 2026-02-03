@@ -1,5 +1,6 @@
 ---
 title: "Normal texture looks faceted"
+description: ""
 helpx_description: "bakers > Common Issues > Normal texture looks faceted"
 ---
 

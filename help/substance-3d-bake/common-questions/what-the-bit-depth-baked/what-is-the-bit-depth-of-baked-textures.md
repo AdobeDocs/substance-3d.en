@@ -1,5 +1,6 @@
 ---
 title: "What is the bit depth of baked textures "
+description: ""
 helpx_description: "bakers > Common Questions > What is the bit depth of baked textures "
 ---
 

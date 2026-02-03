@@ -1,5 +1,6 @@
 ---
 title: "Lumberyard"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard"
 ---
 

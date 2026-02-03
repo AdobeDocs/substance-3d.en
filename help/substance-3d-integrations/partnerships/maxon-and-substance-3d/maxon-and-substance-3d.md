@@ -1,5 +1,6 @@
 ---
 title: "Adobe Substance 3D and Maxon One"
+description: ""
 helpx_description: "Substance 3D Integrations"
 ---
 

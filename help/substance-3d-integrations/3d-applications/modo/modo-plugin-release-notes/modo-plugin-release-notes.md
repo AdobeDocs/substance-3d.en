@@ -1,5 +1,6 @@
 ---
 title: "Modo Plugin Release Notes"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Modo Plugin Release Notes"
 ---
 

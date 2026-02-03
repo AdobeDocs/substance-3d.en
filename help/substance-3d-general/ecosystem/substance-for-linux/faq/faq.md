@@ -1,5 +1,6 @@
 ---
 title: "Frequently asked questions"
+description: ""
 helpx_description: "Substance 3D General"
 ---
 

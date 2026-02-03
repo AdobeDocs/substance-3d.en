@@ -1,5 +1,6 @@
 ---
 title: "Downloading and Installing the Plugin"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Downloading and Installing the Plugin"
 ---
 

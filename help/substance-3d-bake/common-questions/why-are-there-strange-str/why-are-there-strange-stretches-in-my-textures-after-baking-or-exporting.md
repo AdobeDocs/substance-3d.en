@@ -1,5 +1,6 @@
 ---
 title: "Why are there strange stretches in my textures after baking or exporting "
+description: ""
 helpx_description: "bakers > Common Questions > Why are there strange stretches in my textures after baking or exporting "
 ---
 

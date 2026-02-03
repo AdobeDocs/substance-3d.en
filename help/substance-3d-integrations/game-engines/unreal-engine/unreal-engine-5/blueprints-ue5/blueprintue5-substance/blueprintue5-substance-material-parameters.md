@@ -1,5 +1,6 @@
 ---
 title: "Blueprint(UE5) Substance material parameters"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Blueprints - UE5 > Blueprint(UE5) Substance material parameters"
 ---
 

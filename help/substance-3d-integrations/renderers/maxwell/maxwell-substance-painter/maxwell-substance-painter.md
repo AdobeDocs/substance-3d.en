@@ -1,5 +1,6 @@
 ---
 title: "Maxwell - Substance Painter"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Maxwell > Maxwell - Substance Painter"
 ---
 

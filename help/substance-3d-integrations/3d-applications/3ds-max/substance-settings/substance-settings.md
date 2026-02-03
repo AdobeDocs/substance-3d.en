@@ -1,5 +1,6 @@
 ---
 title: "Substance Settings"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Substance Settings"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Octane for 3ds Max"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Octane > Octane for 3ds Max"
 ---
 

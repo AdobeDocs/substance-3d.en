@@ -1,5 +1,6 @@
 ---
 title: "Importing a Substance"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard > Importing a Substance"
 ---
 

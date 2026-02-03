@@ -1,5 +1,6 @@
 ---
 title: "Maverick"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Maverick"
 ---
 

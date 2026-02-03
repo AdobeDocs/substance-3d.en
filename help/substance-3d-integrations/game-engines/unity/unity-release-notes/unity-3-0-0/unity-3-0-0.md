@@ -1,5 +1,6 @@
 ---
 title: "Unity 3.0.0"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes > Unity 3.0.0"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Set-Up"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Set-Up"
 ---
 

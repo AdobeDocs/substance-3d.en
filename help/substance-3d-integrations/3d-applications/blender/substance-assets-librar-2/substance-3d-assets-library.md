@@ -1,5 +1,6 @@
 ---
 title: "Substance 3D Assets Library"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Substance 3D Assets Library"
 ---
 

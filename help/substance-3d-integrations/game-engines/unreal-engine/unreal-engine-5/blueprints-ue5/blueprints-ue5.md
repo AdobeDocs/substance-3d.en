@@ -1,5 +1,6 @@
 ---
 title: "Blueprints - UE5"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Blueprints - UE5"
 ---
 

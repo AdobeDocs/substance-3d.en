@@ -1,5 +1,6 @@
 ---
 title: "Aliasing on UV Seams"
+description: ""
 helpx_description: "bakers > Common Issues > Aliasing on UV Seams"
 ---
 

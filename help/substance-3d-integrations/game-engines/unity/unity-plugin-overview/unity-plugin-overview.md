@@ -1,5 +1,6 @@
 ---
 title: "Unity Plugin Overview"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Plugin Overview"
 ---
 

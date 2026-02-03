@@ -1,5 +1,6 @@
 ---
 title: "Maya 2.3"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Maya Plugin Release Notes > Maya 2.3"
 ---
 

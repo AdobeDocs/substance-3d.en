@@ -1,5 +1,6 @@
 ---
 title: "CopyDuplicate Substance"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > CopyDuplicate Substance"
 ---
 

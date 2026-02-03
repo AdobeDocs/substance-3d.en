@@ -1,5 +1,6 @@
 ---
 title: "Using Presets"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Using Presets"
 ---
 

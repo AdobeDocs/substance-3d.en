@@ -1,5 +1,6 @@
 ---
 title: "Baking failed with Color Map from Mesh"
+description: ""
 helpx_description: "bakers > Common Issues > Baking failed with Color Map from Mesh"
 ---
 

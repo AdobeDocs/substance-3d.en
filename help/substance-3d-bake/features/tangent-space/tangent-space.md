@@ -1,5 +1,6 @@
 ---
 title: "Tangent Space"
+description: ""
 helpx_description: "bakers > Features > Tangent Space"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Substance in Blender Overview"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Substance in Blender Overview"
 ---
 

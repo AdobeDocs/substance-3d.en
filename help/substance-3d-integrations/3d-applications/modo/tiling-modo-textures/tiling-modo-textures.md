@@ -1,5 +1,6 @@
 ---
 title: "Tiling Modo textures"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Tiling Modo textures"
 ---
 

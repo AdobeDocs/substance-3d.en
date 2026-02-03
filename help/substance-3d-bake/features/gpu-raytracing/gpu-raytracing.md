@@ -1,5 +1,6 @@
 ---
 title: "GPU Raytracing"
+description: ""
 helpx_description: "bakers > Features > GPU Raytracing"
 ---
 

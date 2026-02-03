@@ -1,5 +1,6 @@
 ---
 title: "Redshift"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Redshift"
 ---
 

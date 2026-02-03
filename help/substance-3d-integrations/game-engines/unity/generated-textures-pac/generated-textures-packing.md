@@ -1,5 +1,6 @@
 ---
 title: "Generated Textures (Packing)"
+description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Generated Textures (Packing)"
 ---
 

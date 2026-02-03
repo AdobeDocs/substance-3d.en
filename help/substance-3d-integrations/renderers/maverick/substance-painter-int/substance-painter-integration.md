@@ -1,5 +1,6 @@
 ---
 title: "Substance Painter Integration"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Maverick > Substance Painter Integration"
 ---
 

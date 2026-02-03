@@ -1,5 +1,6 @@
 ---
 title: "Photoshop"
+description: ""
 helpx_description: "Ecosystems and Plugins > Creative Cloud Applications > Photoshop"
 ---
 

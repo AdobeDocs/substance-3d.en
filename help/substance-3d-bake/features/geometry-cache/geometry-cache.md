@@ -1,5 +1,6 @@
 ---
 title: "Geometry Cache"
+description: ""
 helpx_description: "bakers > Features > Geometry Cache"
 ---
 

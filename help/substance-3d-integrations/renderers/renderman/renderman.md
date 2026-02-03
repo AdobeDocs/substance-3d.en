@@ -1,5 +1,6 @@
 ---
 title: "Renderman"
+description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Renderman"
 ---
 

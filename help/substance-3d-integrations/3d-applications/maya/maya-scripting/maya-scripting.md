@@ -1,5 +1,6 @@
 ---
 title: "Maya Scripting"
+description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Maya Scripting"
 ---
 
