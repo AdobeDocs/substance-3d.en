@@ -10,7 +10,6 @@ helpx_description: "Ecosystems and Plugins > 3D Applications > Blender"
 
 ## Table of Contents
 
-* [Release Notes](release-notes/release-notes.md)
 * [Substance in Blender Overview](substance-blender-ove/substance-in-blender-overview.md)
 * [Downloading and Installing the Plugin](downloading-and-ins/downloading-and-installing-the-plugin.md)
 * [Preferences](preferences/preferences.md)

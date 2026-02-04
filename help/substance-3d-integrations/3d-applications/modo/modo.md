@@ -14,7 +14,6 @@ helpx_description: "Ecosystems and Plugins > 3D Applications > MODO"
 
 ## Table of Contents
 
-* [Modo Plugin Release Notes](modo-plugin-release-notes/modo-plugin-release-notes.md)
 * [Substance in MODO Overview](substance-modo-overview/substance-in-modo-overview.md)
 * [Modo Installation](modo-installation/modo-installation.md)
 * [Parameters](parameters/parameters.md)

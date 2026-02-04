@@ -12,7 +12,6 @@ The Substance in Unreal plugin can be downloaded from the [Unreal Marketplace](h
 
 ## Table of Contents
 
-* [Unreal Engine 4 plugin release notes](unreal-engine-plugin-rel/unreal-engine-4-plugin-release-notes.md) — What's new in the Substance in Unreal plugin by version
 * [Plugin Overview - UE4](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/plugin-overview-185499723.html) — Overview of how to use the Substance plugin in Unreal
 * [Plugin Settings - UE4](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/plugin-settings-152535699.html) — Details the settings for the Substance plugin in Unreal
 * [Substance Input Image - UE4](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/substance-input-image-152539035.html) — Substance can be created with inputs where you can supply an image for processing in the material.

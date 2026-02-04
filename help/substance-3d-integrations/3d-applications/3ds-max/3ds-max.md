@@ -10,7 +10,6 @@ helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max"
 
 ## Table of Contents
 
-* [3ds Max Plugin Release Notes](3ds-max-plugin-release/3ds-max-plugin-release-notes.md)
 * [Substance in 3ds Max Overview](substance-3ds-max-ove/substance-in-3ds-max-overview.md)
 * [Substance Settings](substance-settings/substance-settings.md)
 * [Using Presets](using-presets/using-presets.md)

@@ -52,7 +52,7 @@ The value in quotes is the parameter Identifier set in Substance Designer.
 
 In the Unity Inspector, you can mouse over a parameter to reveal a tooltip that showcases the name of the Identifier set in Substance Designer.
 
-![](tooltip-6.png)
+![](tooltip.png)
 
 ### Queue the substance for rendering
 

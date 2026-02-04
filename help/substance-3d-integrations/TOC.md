@@ -2,7 +2,7 @@
 user-guide-title: placeholder
 breadcrumb-title: placeholder
 user-guide-description: placeholder
-solution: Substance 3D
+solution: Substance 3D Painter
 ---
 
 # Substance 3D Ecosystem {#ecosystem}
@@ -155,6 +155,7 @@ solution: Substance 3D
       + [Maya Scripting](/help/substance-3d-integrations/3d-applications/maya/maya-scripting/maya-scripting.md)
       + [Physical Size in Maya](/help/substance-3d-integrations/3d-applications/maya/physical-size-in-maya/physical-size-in-maya.md)
     + 3ds Max{#3ds-max}
+      + [3ds Max overview](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max.md)
       + 3ds Max Plugin Release Notes{#3ds-max-plugin-release-notes}
         + [3ds Max 3.0.0+](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release/3ds-max-3-0-0-plus/3ds-max-3-0-0-plus.md)
         + [3ds Max 2.8.0](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release/3ds-max-2-8-0/3ds-max-2-8-0.md)

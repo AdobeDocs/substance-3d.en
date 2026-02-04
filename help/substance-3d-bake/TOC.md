@@ -2,7 +2,7 @@
 user-guide-title: placeholder
 breadcrumb-title: placeholder
 user-guide-description: placeholder
-solution: Substance 3D
+solution: Substance 3D Painter
 ---
 
 # Substance 3D Bakers {#bakers}
