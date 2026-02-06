@@ -1,6 +1,7 @@
 ---
-title: "Import and export formats | General knowledge"
-description: "General Knowledge > Ecosystem > Import and export formats"
+title: "Import and export formats"
+description: ""
+helpx_description: "General Knowledge > Ecosystem > Import and export formats"
 ---
 
 # Import and export formats

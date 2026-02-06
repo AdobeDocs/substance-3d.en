@@ -1,0 +1,61 @@
+<header><meta name="title" content="Baker output is fully black or empty | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Common Issues > Baker output is fully black or empty"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Baker output is fully black or empty</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<h3>Issue</h3><p>The result of a baker is a black or empty texture:</p> <p> <img src="black.png"/></p>
+</div>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 1px solid #DFBF00;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<h3>Explanation</h3><p>A black texture means the baker wasn't able to find the information required to output a result. For example the baking process didn't find the high-poly mesh to match with the low-poly resulting in nothing to compare against.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<h3>Solution</h3><ul><li>Verify if the high-poly mesh necessary for the baker was properly loaded (refer to the log file/window for any errors).</li><li>Verify that the low-poly or high-poly meshes are not too big (more than a kilometer) or too small (less than a centimeter).</li><li>Verify if the baker was able to read/process the mesh (refer to the log file/window for any errors).</li><li>Verify if the <a href="/substance-3d-bake/features/matching-by-name.html">Matching by Name</a> feature was not properly setup (some objects may exclude each other and never overlap).</li><li>Verify that the low-poly UVs are within the 0-1 range.</li></ul>
+</div>
+</div>
+</div>
+</div>
+</div></body>

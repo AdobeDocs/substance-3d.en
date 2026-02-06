@@ -1,6 +1,7 @@
 ---
-title: "Legacy versions | General knowledge"
-description: "General Knowledge > Ecosystem > Legacy versions"
+title: "Legacy versions"
+description: ""
+helpx_description: "General Knowledge > Ecosystem > Legacy versions"
 ---
 
 # Legacy versions

@@ -1,0 +1,24 @@
+<header><meta name="title" content="Thickness Map from Mesh | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Bakers Settings > Thickness Map from Mesh"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Thickness Map from Mesh</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Thickness map from mesh is very similar to the ambient occlusion baker, but it casts rays from the surface of the mesh to the inside. This texture can be used in a Sub Surface Scattering (SSS) shader or for masking textures.</p><p>The texture properties are defined as:</p><ul><li>Black values represent the thin parts of the model.</li><li>White values represent the thick parts of the model.</li></ul><p><strong>Available in:</strong></p><ul><li>Substance Painter</li><li>Substance Designer</li><li>Substance Automation Toolkit</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="ThicknessMapfromMesh-Parameters">Parameters</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 75.0%;"><colgroup> <col style="width: 20.0%;"/> <col style="width: 80.0%;"/> </colgroup><tbody><tr><th><em>Parameter</em></th><th><em>Description</em></th></tr><tr><td><strong>Secondary Rays</strong></td><td>Amount of occlusion rays. A high value will produce less noise but take longer to compute. Default is 64.</td></tr><tr><td colspan="1"><strong>Min Occluder Distance</strong></td><td colspan="1">Minimum distance where the occlusion rays will hit the high poly geometry. Default is 0.00001.</td></tr><tr><td colspan="1"><strong>Max Occluder Distance</strong></td><td colspan="1">Maximum distance where the occlusion rays will hit the high poly geometry. Default is 0.1.</td></tr><tr><td colspan="1"><strong>Relative to Bounding Box</strong></td><td colspan="1"><p>If enabled, units are relative to the bounding box of the object (1.0 being the diagonal length of the bounding box). If disabled, units used for the minimum and maximum occluder distances are the ones defined when exporting your mesh (meters, centimeters or whatever units the exported scene is).</p></td></tr><tr><td colspan="1"><strong>Spread Angle</strong></td><td colspan="1"><span> <span>Maximum spread angle of occlusion rays. Default is 180.</span> <br/> </span></td></tr><tr><td colspan="1"><strong>Distribution</strong></td><td colspan="1"><p>Angular distribution of occlusion rays.</p><p>Possible values:</p><ul><li><strong>Cosine</strong> (default)</li><li><strong>Uniform</strong></li></ul></td></tr><tr><td colspan="1"><strong>Ignore Backface</strong></td><td colspan="1"><span>If enabled, occlusion rays ignore hits on a backface (if the high poly normal faces the opposite direction as the low poly from where the ray is fired). Most of the time this setting should be enabled to avoid artifacts.</span></td></tr><tr><td colspan="1"><strong>Self Occlusion</strong></td><td colspan="1"><p>Matching by name for occlusion rays. Indicates how the bakers should match low and high-poly geometry. It can be used to filter the baking process without the need to manually move apart (explode) meshes.</p><p>Possible values:</p><ul><li><strong>Always</strong> (default): Low-poly mesh is matched with every high-poly meshes.</li><li><strong>By Mesh Name</strong>: Filter the meshes by their name to avoid matching with unwanted geometry.</li></ul><p>To learn more about matching geometry see: <a class="conf-macro output-inline" data-hasbody="false" data-macro-name="sp-nobody-link" href="/substance-3d-bake/features/matching-by-name.html">Matching by Name</a>.</p></td></tr><tr><td colspan="1"><strong>Automatic Normalization</strong></td><td colspan="1">Defines if the output values should be scaled to fit within a 0-1 range (the brightest point is set to pure white and the darkest point is set to pure black).</td></tr></tbody></table>
+</div>
+</div>
+</div>
+</div></body>

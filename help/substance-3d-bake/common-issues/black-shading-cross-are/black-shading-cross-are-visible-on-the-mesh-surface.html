@@ -1,0 +1,37 @@
+<header><meta name="title" content="Black shading cross are visible on the mesh surface | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Common Issues > Black shading cross are visible on the mesh surface"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Black shading cross is visible on the mesh surface</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Black shading artifacts appear on multiple areas of the mesh when under lighting.</p>
+<p><img src="black-shading-cross.jpg"/></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Blackshadingcrossarevisibleonthemeshsurface-15"><div><hr style="width: 15.0%;"/></div></h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Explanation</h2>
+<p>A black shaded cross usually means the normal map doesn't match the mesh, usually because the mesh geometry changed or has been computed in a way that is different from the computation performed by the baker. For example: the triangulation of the mesh is different between the baker and the viewport that renders the mesh and its normal map.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Solution</h2>
+<p>Make sure the application showing the mesh and its normal map are synced with the way the texture has been baked. This implies:</p>
+<ul>
+<li>Verify that the Tangent Space is identical between the viewer and the baker.</li>
+<li>Verify that the Normal format is identical between the view and the baker.</li>
+<li>Verify that the Triangulation is identical between the viewer and the baker. See <a href="/substance-3d-bake/guides/triangulating-before-baking.html">this page</a> for more information.</li>
+</ul>
+</div>
+</div>
+</div>
+</div></body>

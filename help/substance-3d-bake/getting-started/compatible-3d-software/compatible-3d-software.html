@@ -1,0 +1,45 @@
+<header><meta name="title" content="Compatible 3D software | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Getting Started > Compatible 3D software"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Compatible 3D software</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Most 3D software is compatible with the Substance Bakers as long as they export mesh geometry as polygons in file formats supported by the applications.</p>
+<p>However not all software is on par in terms of feature and quality when exporting these meshes. This is why it is important to clean a mesh properly and making it sure it will be compatible with the bakers. For more information on how to prepare a mesh see the various <a disablelinktracking="false" href="/substance-3d-bake/guides/performances-and-optimizations.html">Guides</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Compatible3Dsoftware-SoftwareCompatibility">Software Compatibility</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Below is a list of commonly known 3D software and their compatibility with the bakers:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 75.0%;"><colgroup> <col style="width: 20.0%;"/> <col style="width: 80.0%;"/> </colgroup><tbody><tr><th><em>Name</em></th><th><em>Status</em></th></tr><tr><td><strong>Blender</strong></td><td>Compatible: r<span>equires </span>to flatten modifiers before export.</td></tr><tr><td colspan="1"><strong>Maya</strong></td><td colspan="1"><span>Compatible:<span> requires a freeze transform and delete history before export.</span> </span></td></tr><tr><td colspan="1"><strong>3DS Max</strong></td><td colspan="1">Compatible: r<span>equires </span>a reset xForm before export.</td></tr><tr><td colspan="1"><strong>MODO</strong></td><td colspan="1">Compatible: recommended to use the Game Tab exporter set to "Unreal Static Mesh".</td></tr><tr><td colspan="1"><strong>Cinema 4D</strong></td><td colspan="1">Compatible: r<span>equires </span><span>to flatten modifiers before export.</span></td></tr><tr><td colspan="1"><strong>zBrush</strong></td><td colspan="1"><p>Not Compatible: low-poly meshes need to be processed and cleaned in another 3D application first.<br/>Compatible: high-poly meshes for baking.</p></td></tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Compatible3Dsoftware-Fileformat">File format</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When baking geometry it is important to take into account the file format used as well. The file format will define the quantity of information that will be saved in the mesh.</p><p>Having too much information can sometimes be detrimental and lead to errors. We usually recommend to try different file formats when errors happen as it can be an easy way to troubleshoot issues and determine if the culprit is in the baker itself or coming from the 3D software.</p><p>Bellow is a quick overview of the two most common file format supported by the bakers:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table><colgroup> <col/> <col/> </colgroup><tbody><tr><th>File format</th><th>Information</th></tr><tr><td><strong>FBX</strong></td><td><p>Autodesk FBX (Filmbox) is the main file format used by Autodesk Software, it can be wrote as text or binary. <br/>It supports :</p><ul><li>UVs (multiples sets)</li><li>Vertex, Tangent and Binormals</li><li>Vertex colors</li><li>Triangle face, Quad face and N-Gon face</li><li>Cameras</li><li>Lights</li><li>Mesh subdivisions</li><li>Smoothing groups</li><li>Material information (such as color)</li><li>Bitmap</li></ul></td></tr><tr><td colspan="1"><strong>OBJ</strong></td><td colspan="1"><p>Wavefront OBJ is a very simple text based file format that supports :</p><ul><li>UVs (only one set)</li><li>Vertex Normals</li><li>Vertex Colors (only if exported from Pixologic zBrush)</li><li>Triangle face, Quad face, and N-Gon face</li><li>Material color (if <strong>mtl</strong> file is present)</li></ul></td></tr></tbody></table>
+</div>
+</div>
+</div>
+</div></body>

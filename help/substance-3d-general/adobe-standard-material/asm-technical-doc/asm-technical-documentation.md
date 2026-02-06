@@ -1,6 +1,7 @@
 ---
-title: "ASM technical documentation | General knowledge"
-description: "General Knowledge > Adobe Standard Material > ASM technical documentation"
+title: "ASM technical documentation"
+description: ""
+helpx_description: "General Knowledge > Adobe Standard Material > ASM technical documentation"
 ---
 
 # ASM technical documentation

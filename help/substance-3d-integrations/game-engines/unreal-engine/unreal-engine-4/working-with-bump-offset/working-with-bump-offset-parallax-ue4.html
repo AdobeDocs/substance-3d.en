@@ -1,0 +1,185 @@
+<header><meta name="title" content="Working with Bump Offset (Parallax) - UE4 | Ecosystem and Plug-ins"><meta name="description" content=""><meta name="helpx_description" content="Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Working with Bump Offset (Parallax) - UE4"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Working with Bump Offset (Parallax) - UE4</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Bump Offset</strong> mapping give a surface the illusion of depth by modifying the UV coordinates in a creative way to help further displace the texels from the surface of the object, giving the illusion that the surface has more details than it really does. In this How To example, we will be covering not only how you can find the Bump Offset Material Expression, we will also be covering how you can utilize the Bump Offset node in your Materials.</p><p><a href="https://docs.unrealengine.com/latest/INT/Engine/Rendering/Materials/HowTo/BumpOffset/" rel="nofollow">https://docs.unrealengine.com/latest/INT/Engine/Rendering/Materials/HowTo/BumpOffset/</a></p><p>To use the height output, you need to double click the Output in the Substance Factory Instance to create height. Height is not enabled by default. You can then drag this height output into your material.</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:600px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/height-1?$png$&amp;jpegSize=200&amp;wid=1226"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/height-1?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/height-1?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="height-1.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Create a bump offset node and then plug in the Red channel of the height into the Height. You can then feed in a TexCoord into the Coordinate input of the bump offset. Finally, the output of the bump offset is plugged into the UV input for all of the Substance textures. </p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:800px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/bump?$png$&amp;jpegSize=300&amp;wid=1519"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/bump?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/bump?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image" src="bump.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>

@@ -1,0 +1,131 @@
+<header><meta name="title" content="Normal map has strange colorful gradients | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Common Issues > Normal map has strange colorful gradients"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Normal map has strange colorful gradients</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The output of the baker is a set of very strong colorful gradients.</p>
+<p><img src="color-gradient.png"/></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Normalmaphasstrangecolorfulgradients-15"><div><hr style="width: 15.0%;"/></div></h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Explanation</h2>
+<p>Colorful gradients usually happens when there is a mismatch between the high-poly and low-poly mesh during the baking process. This mismatch can be explained by the following reason :</p>
+<ul>
+<li>The high-poly and low-poly mesh <b>don't overlap</b> properly each other (see image below).</li>
+<li>The high-poly is <b>missing geometry</b> that the low-poly tries to cover.</li>
+<li>The high-poly or low-poly mesh has inverted vertex normals.</li>
+</ul>
+<p>When it happens the baking process try to match geometry that doesn't exist, resulting in something empty. The baker fills this empty area with a color extracted from the neighbor pixels in the textures which creates the colorful gradient (unless <b>Diffusion</b> is disabled).</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Solution</h2>
+<p>Given the few possible reasons which lead to non-overlap between the meshes, a few solutions have to be considered :</p>
+<ul>
+<li>Make sure to freeze/reset the mesh transformation (reset x-form, etc) to be sure all the meshes are consistent</li>
+<li>Import both the low and high-poly mesh in your 3D modeling software to verify they overlap properly</li>
+<li>Make sure your naming convention is valid if you are using the <a href="/substance-3d-bake/features/matching-by-name.html">Matching By Name</a> feature (you can verify it by baking and then looking into the log file which should print the mesh names).</li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Normalmaphasstrangecolorfulgradients-Example">Example</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Below is an example with a high-poly and low-poly sphere. On the left the meshes don't overlap because the high-poly has been shifted away :</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="baking-gradients.jpg"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>

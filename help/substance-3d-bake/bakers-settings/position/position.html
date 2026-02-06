@@ -1,0 +1,24 @@
+<header><meta name="title" content="Position | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Bakers Settings > Position"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Position</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Position baker computes the location of the mesh geometry and save into a texture. The position is useful for computing information in the volume of the object or to create gradient masks.<strong> <br/> </strong></p><p><strong>Available in:</strong></p><ul><li>Substance Painter</li><li>Substance Designer</li><li>Substance Automation Toolkit</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="Position-Parameters">Parameters</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 75.0%;"><colgroup> <col style="width: 20.0%;"/> <col style="width: 80.0%;"/> </colgroup><tbody><tr><th><em>Parameter</em></th><th><em>Description</em></th></tr><tr><td><strong>Mode<br/> </strong></td><td><p>Controls which information will be computed into the position texture.</p><p>Possible values:</p><ul><li><strong>All axes:</strong> Bakes the position of the X, Y, and Z axes into the RGB channels of the output texture.</li><li><strong>One axis:</strong> Bakes a single axis into the output texture as a grayscale image.</li></ul></td></tr><tr><td colspan="1"><strong>Axis</strong></td><td colspan="1"><p>Defines which axis should be computed if the <strong>Mode</strong> parameter is set to <strong>One axis</strong>.</p></td></tr><tr><td colspan="1"><strong>Normalization Type</strong></td><td colspan="1"><p>Defines how to scale the position values per axis.</p><p>Possible values:</p><ul><li><strong>BBox:</strong> normalize each axis according to the mesh volume (bounding box length).</li><li><strong>BSphere:</strong> normalize all axes according to the mesh volume radius (bounding sphere).</li></ul></td></tr><tr><td colspan="1"><strong>Normalization Scale</strong></td><td colspan="1"><p>Defines how to scale the position values based on the mesh.</p><p>Possible values:</p><ul><li><strong>Per Material</strong>: values are scaled to be between 0 and 1 for each material (Texture Set).</li><li><strong>Full Scene</strong> (default): values are scaled to take the whole mesh into account. This allows continuous position values across objects and materials (Texture Sets).</li></ul></td></tr></tbody></table>
+</div>
+</div>
+</div>
+</div></body>

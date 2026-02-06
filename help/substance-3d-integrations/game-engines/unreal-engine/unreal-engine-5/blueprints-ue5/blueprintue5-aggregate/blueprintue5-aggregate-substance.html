@@ -1,0 +1,86 @@
+<header><meta name="title" content="Blueprint(UE5): Aggregate Substance | Ecosystem and Plug-ins"><meta name="description" content=""><meta name="helpx_description" content="Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Blueprints - UE5 > Blueprint(UE5): Aggregate Substance"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Blueprint(UE5): Aggregate Substance</h1>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Use the “Create Aggregate Substance Factory” node and set the Output and Input Factory. The Output factory should have a texture map that would be used as an Input Image in the Input factory parameters. </p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>  Make SubstanceConnection objects for each output texture being used as an input with the names of the corresponding values (the output name from the output graph and the input parameter name from the input graph)</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>  Add a Create Graph Instance node and plug the result of the “Create Aggregate Substance Factory” node into the Factory input along with a parent material to act as a template (this can be one of the default_substance materials included with the plugin).</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>  Create a Substance Graph Instance variable and store the result of the previous node.<br/><br/><br/><br/></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>  Optional: Set any desired substance parameters (this example is setting a new resolution for the graph outputs).</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>  Create an Async or Sync rendering node and connect the Instances to Render to the Substance Graph Instance Variable.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>  Use the “Get Dynamic Material Instance” function from the graph instance to create or get an existing material instance. Leaving Name and In Parent Material empty will use the parameters used when generating the instance in step 3.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>  Add a Set Material Node and set the value of the MID variable as the Material Input. For the target, set it to the object you want to apply the material.<br/><br/></p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+</div>
+</div></body>

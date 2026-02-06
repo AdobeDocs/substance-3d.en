@@ -1,0 +1,61 @@
+<header><meta name="title" content="Normal texture looks faceted | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Common Issues > Normal texture looks faceted"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Normal texture looks faceted</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<h3>Issue</h3><p>The Normal texture looks faceted or every face of the mesh is visible in it after baking it.</p> <p> <img src="normal-faceted.jpg" width="500"/></p>
+</div>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 1px solid #DFBF00;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<h3>Explanation</h3><p>The main reason why baking a normal would produce this result is because the low poly mesh normals are not set properly. Every edge of each faces is an hard edge, making the ray projection during the matching with the high-poly mesh ignore neighboar information and creates seams or unconscious information. While the result may look fine on the mesh, this can lead to shading issues later and should be resolved.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<h3>Solution</h3><p>The main solution is to rework the vertex normal or the low poly mesh, the exact naming of the process depend of the 3D modeling software:</p><ul><li>Use <strong>average normals</strong> in Maya, Houdini.</li><li>Use <strong>one smoothing group</strong> in 3DS Max.</li><li>Use <strong>smooth shade</strong> in Blender.</li><li>Meshes exported from zBrush will be always faceted and should be cleaned up in another software.</li></ul><p>Note that this may not be enough: make sure that the settings also save/generate the vertex normal or shading information when exporting a mesh.</p>
+</div>
+</div>
+</div>
+</div>
+</div></body>

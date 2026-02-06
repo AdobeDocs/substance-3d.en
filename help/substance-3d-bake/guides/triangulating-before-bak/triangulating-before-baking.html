@@ -1,0 +1,200 @@
+<header><meta name="title" content="Triangulating before baking | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Guides > Triangulating before baking"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Triangulating before baking</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>3D Meshes can be defined with polygons with multiple border edges per face. Usually via quads (4 edges), sometimes more (n-gons).<br/>Software however transform those polygons into Triangles later because it's easier to manage and perform computation with (especially on the GPU).</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>How can triangulation affect a mesh ?</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/triangulation?$pjpeg$&amp;jpegSize=200&amp;wid=800"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/triangulation?$pjpeg$&amp;jpegSize=200&amp;wid=800"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/triangulation?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="triangulation.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>There are <strong>no standard solutions</strong> to convert Quad/N-Gons into triangles. As demonstrated on the image above, multiple choices are valid.<br/>The bakers are unlikely to triangule meshes like a game engine would do because we choose a specific algorithm over an other. </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Why triangulating before baking ?</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The baking process will read the geometry and then encode information into textures.<br/>Because those information are based on UVs and sometimes on the mesh topology, other software could decode the information incorrectly if they don't read the geometry the same way as when they apply the texture.</p><p>On the image below, you can see the low-poly mesh at the top left and the high-poly mesh at the top right.<br/>At the bottom is the low-poly with the normal map baked from the high-poly. The mesh on the left use a triangulation identical to the one used by Substance Painter when baking. The mesh on the right doesn't and display black artifacts. This is because there is a mismatch between how the normal map was baked and how the mesh is currently triangulated. This can be fixed by <strong>updating the mesh and/or rebaking</strong>.</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/example-triangulation-artifact?$pjpeg$&amp;jpegSize=200&amp;wid=800"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/example-triangulation-artifact?$pjpeg$&amp;jpegSize=200&amp;wid=800"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/example-triangulation-artifact?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image" src="example-triangulation-artifact.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>

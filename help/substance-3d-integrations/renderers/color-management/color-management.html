@@ -1,0 +1,213 @@
+<header><meta name="title" content="Color Management | Ecosystem and Plug-ins"><meta name="description" content=""><meta name="helpx_description" content="Ecosystems and Plugins > Renderers > Color Management"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Color Management</h1>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We will take a simplistic approach in stating that linear space rendering provides the correct math for lighting calculations. It creates an environment that allows light interactions to be represented in a credible real-world manner. For a discussion on linear space rendering, we must introduce the concept of gamma correction. When encoding images for display and storage purposes, gamma correction is the optimization process of reducing bandwidth and bit allocation. This process leverages the human eye’s perception of brightness, which approximately follows the cube root of luminance. </p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Linear space rendering is a highly complex subject. For more information, please take a look at the free <a href="https://academy.substance3d.com/courses/the-pbr-guide-part-1" rel="nofollow">PBR GUIDE VOLUME ONE</a> on <a href="https://academy.substance3d.com/" rel="nofollow">Substance Academy</a>. </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="ColorManagement-ColorManagement">Color Management</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The purpose of this document is to detail the process of working with textures exported from <strong>Substance Painter </strong>and<strong> Substance Designer </strong>in <a href="https://www.adobe.com/products/substance3d/3d-augmented-reality.html" rel="nofollow">3D software</a> and renderers. </p><p>The correct way to interpret an image used as an input to a material channel depends on how the image is used in the scene. The color space, encoding and whether the color values are proportional to <strong>scene-referred luminance</strong> or <strong>display-referred luminance</strong> also plays an important role.</p><ul><li>Images used to represent<strong style="letter-spacing: 0.0px;"> non-color data</strong> should not be transformed. These are typically, <strong style="letter-spacing: 0.0px;">normal</strong>, <strong style="letter-spacing: 0.0px;">roughness</strong>, <strong style="letter-spacing: 0.0px;">metallic</strong>, <strong style="letter-spacing: 0.0px;">displacement</strong> and <strong style="letter-spacing: 0.0px;">ambient</strong> <strong style="letter-spacing: 0.0px;">occlusion</strong> maps.</li><li>Images that represent color that we see can have multiple scenarios. For example, images that are already <strong style="letter-spacing: 0.0px;">scene-linear</strong> typically do not need to be converted such as <strong style="letter-spacing: 0.0px;">high-dynamic range</strong> images stored in formats like <strong style="letter-spacing: 0.0px;">OpenEXR</strong> and <strong style="letter-spacing: 0.0px;">HDR</strong>.</li><li>Images that were created for display (<strong>display-referred</strong>) will need to have their gamma removed. These include most formats such as <strong style="letter-spacing: 0.0px;">PNG</strong>, <strong style="letter-spacing: 0.0px;">JPEG</strong> and <strong style="letter-spacing: 0.0px;">BMP</strong>. These images are <strong style="letter-spacing: 0.0px;">base</strong> <strong style="letter-spacing: 0.0px;">color</strong>, <strong style="letter-spacing: 0.0px;">diffuse</strong>, <strong style="letter-spacing: 0.0px;">specular</strong> and <strong style="letter-spacing: 0.0px;">emissive</strong>. </li></ul><p>While this is an over simplification, it can be helpful to think of the process as follows:</p><ul><li>"scene-referred (ex. linear)" : Don't apply a conversion</li><li>"display-referred (ex. sRGB)" : Apply the inverse transform to "linearize" the image for proper calculation<br/><br/></li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>The sRGB decoding function (EOTF) converting from gamma space to linear space is used in Substance Painter and Substance Designer, and is defined by the IEC 61966-2-1:1999 Standard</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Substance Designer can be configured to use <a href="https://opencolorio.org/" rel="nofollow">OpenColorIO</a> for Color Management. This allows you to have <em>consistent</em> color transforms and image display across multiple applications. In this mode, Substance Designer will work internally with <strong>linear RGB</strong> colors. Since 8-bit depth is usually not enough to represent linear colors, it is recommended to use <em>at least</em> <strong>16-bit</strong> depth for color textures in the <a href="https://docs.substance3d.com/display/SDDOC/Graph+View" rel="nofollow">graph</a>. </p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/sd-cm?$png$&amp;jpegSize=200&amp;wid=686"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/sd-cm?$png$&amp;jpegSize=200&amp;wid=686"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/sd-cm?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image" src="https://helpx-prod.scene7.com/is/image/HelpxProd/sd-cm?$png$&amp;jpegSize=200&amp;wid=686"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When we introduced <a href="https://www.oscars.org/science-technology/sci-tech-projects/aces" rel="nofollow">ACES</a>, we now have two different color spaces, the linear sRGB (the no gamma version of sRGB) and <a href="https://acescolorspace.com/" rel="nofollow">ACEScg</a>, which is a wide-gamut ("scene-referred" or linear) color space better suited for CG rendering. </p><p></p><p><em>Gamut plot graphic - <a href="https://acescolorspace.com/" rel="nofollow">https://acescolorspace.com/</a></em><br/><br/>Substance Designer also supports <strong>Adobe Color Engine (ACE)</strong>. With <strong>ACE</strong>, you can choose your working color space between <strong>sRGB</strong>, <strong>linear sRGB</strong> and <strong>ACEScg</strong>. When using <strong>sRGB</strong>, <strong>ACE</strong> is pretty much the same as legacy mode. When using a linear color space, <strong>ACE</strong> is more or less like <a href="https://opencolorio.org/index.html" rel="nofollow">OpenColorIO</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ColorManagement-Substanceplugins">Substance plugins</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When using Substance materials via the Substance Integration plugin, outputs are flagged for linear/gamma automatically via the integration and the host application’s color management. However, it’s important to understand the process: when Substance maps are used as exported bitmaps rather than Substance materials, you may need to manually flag the textures as <strong>gamma-encoded</strong> or <strong>raw</strong> depending on the renderer you are using. Usually 8 or 16 bit .png, .jpg, .tga or .tif files are gamma-encoded while <strong>sRGB OETF</strong> and .exr files are linear.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ColorManagement-3DApplications">3D Applications</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Working with Textures</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul><li><a href="/substance-3d-integrations/renderers/color-management/substance-textures-in-maya.html">Substance textures in Maya</a></li><li><a href="/substance-3d-integrations/renderers/color-management/substance-textures-in-3ds-max.html">Substance textures in 3ds Max</a></li></ul>
+</div>
+</div>
+</div>
+</div></body>

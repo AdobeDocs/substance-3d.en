@@ -1,0 +1,195 @@
+<header><meta name="title" content="Blueprint(UE4): Aggregate Substance | Ecosystem and Plug-ins"><meta name="description" content=""><meta name="helpx_description" content="Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Blueprints - UE4 > Blueprint(UE4): Aggregate Substance"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Blueprint(UE4): Aggregate Substance</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The new aggregate substance node allows you to take two substance instance factories and create a new instance factory at runtime which can be used to create a new graph instance. What makes this special is that you can connect output textures from one of the combined graph instances to input images of the other combined graph instance. To create a substance graph instance from this new factory, see our documentation on runtime graph instances. <a href="/substance-3d/unlisted/documentation/integrations/material-instance-definition-157352129.html">Material Instance Definition - UE4</a></p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Import Substances you want to use. </p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Create a variable "AggregateGraphInstance" of type <strong>Substance Graph Instance</strong>. </p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Create a variable of type <strong>Material </strong>and <strong>Material Instance Dynamic</strong></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Create a <strong>Make Substance Connection </strong>and set the output and input identifiers. </p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Create <strong>Aggregate Substance Instance Factory</strong> and set the Output and Input Factory.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Create a <strong>Graph Instance</strong> and set an Instance Name.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Set the <strong>Aggregate Graph Instance</strong> variable.<br/><br/><br/><br/></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Get substance textures from the Aggregate Graph Instance in step 7 using <strong>Get Substance Textures</strong>.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Create a <strong>Dynamic Material Instance</strong> using the material variable from step 3 as the parent. </p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Set the MID variable from step 3. </p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Set the material for the mesh using <strong>Set Material </strong>with the MID variable. <br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step10_step_par_image { width:800px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step10_step_par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step10_step_par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/a2-3?$png$&amp;jpegSize=300&amp;wid=1460"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/a2-3?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/a2-3?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step10_step_par_image" src="a2-3.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Set the channels for the material as shown in the Dynamic Material Instance docs (steps 11-19) <br/><a href="/substance-3d/unlisted/documentation/integrations/blueprint-dynamic-material-instance-152535142.html">Blueprint(UE4): Dynamic Material Instance</a><br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step11_step_par_image { width:800px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step11_step_par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step11_step_par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/a4-3?$png$&amp;jpegSize=300&amp;wid=1551"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/a4-3?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/a4-3?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step11_step_par_image" src="a4-3.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+</div>
+</div></body>

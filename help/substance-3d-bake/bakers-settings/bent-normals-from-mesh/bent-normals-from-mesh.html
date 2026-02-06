@@ -1,0 +1,24 @@
+<header><meta name="title" content="Bent Normals from Mesh | Substance 3D bakers"><meta name="description" content=""><meta name="helpx_description" content="bakers > Bakers Settings > Bent Normals from Mesh"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Bent Normals from Mesh</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Bent Normals from mesh baker computes a texture that describes the average direction of ambient lighting. This baker is derived from the <a href="/substance-3d-bake/bakers-settings/ambient-occlusion-from-mesh.html">Ambient Occlusion from Mesh</a> baker.<strong> </strong></p><p><strong><br/></strong></p><p><strong>Available in:</strong></p><ul><li>Painter</li><li>Designer</li><li>Automation Toolkit</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="BentNormalsfromMesh-Parameters">Parameters</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 75.0%;"><colgroup> <col style="width: 20.0%;"/> <col style="width: 80.0%;"/> </colgroup><tbody><tr><th><em>Parameter</em></th><th><em>Description</em></th></tr><tr><td><strong>Secondary Rays</strong></td><td>Amount of occlusion rays. A high value will produce less noise but will be longer to compute.</td></tr><tr><td colspan="1"><strong>Min Occluder Distance</strong></td><td colspan="1">Minimum distance where the occlusion rays will hit the high poly geometry<strong>.</strong></td></tr><tr><td colspan="1"><strong>Max Occluder Distance</strong></td><td colspan="1">Maximum distance where the occlusion rays will hit the high poly geometry.</td></tr><tr><td colspan="1"><strong>Relative to Bounding Box</strong></td><td colspan="1"><p>If enabled, ray distance computations are based on the normalized space (0 to 1) of the low-poly mesh. If disabled, the ray distance computation is based on units specified in the low-poly mesh when it was exported (meters, centimeters, etc).</p></td></tr><tr><td colspan="1"><strong>Spread Angle</strong></td><td colspan="1"><span>Maximum spread angle of occlusion rays. Default is 180.</span></td></tr><tr><td colspan="1"><strong>Distribution</strong></td><td colspan="1"><p>Angular distribution of occlusion rays.</p><p>Possible values:</p><ul><li><strong>Cosine</strong> (default)</li><li><strong>Uniform</strong></li></ul></td></tr><tr><td colspan="1"><strong>Ignore Backface</strong></td><td colspan="1"><p>If enabled, occlusion rays ignore hits on a backface (if the high poly normal faces the opposite direction as the low poly from where the ray is fired). Most of the time this setting should be enabled to avoid artifacts.</p></td></tr><tr><td colspan="1"><strong>Self Occlusion</strong></td><td colspan="1"><p>Matching by name for occlusion rays. Indicates how the bakers should match low and high-poly geometry. It can be used to filter the baking process without the need to manually move apart (explode) meshes.</p><p>Possible values:</p><ul><li><strong>Always</strong> (default): Low-poly mesh is matched with every high-poly meshes.</li><li><strong>By Mesh Name</strong>: Filter the meshes by their name to avoid matching with unwanted geometry.</li></ul><p>To learn more about matching geometry see: <a class="conf-macro output-inline" data-hasbody="false" data-macro-name="sp-nobody-link" href="/substance-3d-bake/features/matching-by-name.html">Matching by Name</a>.</p></td></tr><tr><td colspan="1"><strong>Map Type</strong></td><td colspan="1"><p>Defines the type of the output texture.</p><p>Possible values:</p><ul><li><strong>World space</strong></li><li><strong>Tangent space</strong> (default)</li></ul></td></tr><tr><td colspan="1"><strong>Normal Orientation</strong></td><td colspan="1"><p>Controls the normal format of the output texture if <strong>Mat Type</strong> is set to Tangent Space.</p><p>Possible values:</p><ul><li><strong>OpenGL</strong> <strong> <br/></strong></li><li><strong>DirectX</strong> (default)<strong> <br/></strong></li></ul></td></tr></tbody></table>
+</div>
+</div>
+</div>
+</div></body>
