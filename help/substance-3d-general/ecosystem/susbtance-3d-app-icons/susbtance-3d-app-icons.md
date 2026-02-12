@@ -2,6 +2,7 @@
 title: "Substance 3D icons for artists"
 description: ""
 helpx_description: "General Knowledge > Ecosystem > Substance 3D icons for artists"
+helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/susbtance-3d-app-icons.html"
 ---
 
 # Substance 3D icons for artists
@@ -46,45 +47,81 @@ Artists who wish to include Substance 3D applications' icons in their published 
 Right-click on an image and select the 'Save as...' action to download an icon.
 
 +++Color
+![Substance 3D logo color](adobe-3d-icon.svg "Substance 3D logo color"){width="128px"}
 
 
 
+![Substance 3D Modeler icon color](adobe-3d-modeler-icon.svg "Substance 3D Modeler icon color"){width="128px"}
 
 
 
+![Substance 3D Sampler icon color](adobe-3d-sampler-icon.svg "Substance 3D Sampler icon color"){width="128px"}
 
 
 
+![Substance 3D Designer icon color](adobe-3d-designer-icon.svg "Substance 3D Designer icon color"){width="128px"}
+
+
+
+![Substance 3D Painter icon color](adobe-3d-painter-icon.svg "Substance 3D Painter icon color"){width="128px"}
+
+
+
+![Substance 3D Stager icon color](adobe-3d-stager-icon.svg "Substance 3D Stager icon color"){width="128px"}
 
 
 
 +++
 
 +++White
+![Substance 3D logo white](adobe-3d-icon-white.svg "Substance 3D logo white"){width="128px"}
 
 
 
+![Substance 3D Modeler icon white](adobe-3d-modeler-icon-white.svg "Substance 3D Modeler icon white"){width="128px"}
 
 
 
+![Substance 3D Sampler icon white](adobe-3d-sampler-icon-white.svg "Substance 3D Sampler icon white"){width="128px"}
 
 
 
+![Substance 3D Designer icon white](adobe-3d-designer-icon-white.svg "Substance 3D Designer icon white"){width="128px"}
+
+
+
+![Substance 3D Painter icon white](adobe-3d-painter-icon-white.svg "Substance 3D Painter icon white"){width="128px"}
+
+
+
+![Substance 3D Stager icon white](adobe-3d-stager-icon-white.svg "Substance 3D Stager icon white"){width="128px"}
 
 
 
 +++
 
 +++Black
+![Substance 3D logo black](adobe-3d-icon-black.svg "Substance 3D logo black"){width="128px"}
 
 
 
+![Substance 3D Modeler icon black](adobe-3d-modeler-icon-black.svg "Substance 3D Modeler icon black"){width="128px"}
 
 
 
+![Substance 3D Sampler icon black](adobe-3d-sampler-icon-black.svg "Substance 3D Sampler icon black"){width="128px"}
 
 
 
+![Substance 3D Designer icon black](adobe-3d-designer-icon-black.svg "Substance 3D Designer icon black"){width="128px"}
+
+
+
+![Substance 3D Painter icon black](adobe-3d-painter-icon-black.svg "Substance 3D Painter icon black"){width="128px"}
+
+
+
+![Substance 3D Stager icon black](adobe-3d-stager-icon-black.svg "Substance 3D Stager icon black"){width="128px"}
 
 
 

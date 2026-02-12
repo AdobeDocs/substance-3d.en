@@ -2,6 +2,7 @@
 title: "General knowledge"
 description: ""
 helpx_description: "General Knowledge > Home"
+helpx_url: "https://helpx.adobe.com/substance-3d-general/home.html"
 ---
 
 # General knowledge
@@ -16,10 +17,10 @@ Learn and discover information relevant to the whole [Substance 3D ecosystem](ht
 
 ## Ecosystem
 
-* [General system requirements](../ecosystem/general-system-req/general-system-requirements.md) — This page regroups the system requirements for the Substance 3D offer https://www.adobe.com/products/substance3d/3d-augmented-reality.html.
+* [General system requirements](../ecosystem/system-requirements/general-system-requirements.md) — This page regroups the system requirements for the Substance 3D offer https://www.adobe.com/products/substance3d/3d-augmented-reality.html.
 * [Import and export formats](../ecosystem/import-and-export-formats/import-and-export-formats.md) — This page gives an overview of the file formats supported by each applications at import and export time.
 * [Legacy versions](../ecosystem/legacy-versions/legacy-versions.md) — Legacy versions are Substance 3D applications compatible with the legacy license key file activation system in place before the transition to Adobe Account activation. These versions are not compatible with licenses purchased via your Adobe Account or Steam account.
-* [Substance engine versioning](../ecosystem/substance-engine-ver/substance-engine-versioning.md) — This page regroups information about which version of the Substance engine is used in each software and tool.
+* [Substance engine versioning](../ecosystem/engine-versioning/substance-engine-versioning.md) — This page regroups information about which version of the Substance engine is used in each software and tool.
 
 </td>
 <td style="border: 0;" valign="top">

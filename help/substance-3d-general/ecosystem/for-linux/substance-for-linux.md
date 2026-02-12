@@ -1,8 +1,12 @@
 ---
-title: "Substance 3D for Linux (ADA)"
-description: ""
-helpx_description: "Substance 3D General"
+title: Substance 3D for Linux (ADA)
+description: 
+helpx_description: Substance 3D General
+helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/substance-for-linux.html"
+helpx_tags:
+  - SG_SUBSTANCE_GENERAL
 ---
+
 
 # Deployment guide
 

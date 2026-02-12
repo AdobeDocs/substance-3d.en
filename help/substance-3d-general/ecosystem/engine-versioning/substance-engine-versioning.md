@@ -2,6 +2,7 @@
 title: "Substance engine versioning"
 description: ""
 helpx_description: "General Knowledge > Ecosystem > Substance engine versioning"
+helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/substance-engine-versioning.html"
 ---
 
 # Substance engine versioning
@@ -105,6 +106,17 @@ The tables in this page help to know if a Substance material or a Substance proc
 | <b>10.1.3</b> June 11, 2020 | 7.2.9 | 2.4.0 |
 
 +++Older versions
+
+| Software version | Substance engine version | Bakers version |
+| --- | --- | --- |
+| <b>9.3.3</b> February 14, 2020 | 7.2.9 | 2.3.1 |
+| <b>9.2.3</b> November 26, 2019 | 7.2.0 | 2.2.4 |
+| <b>9.1.3</b> August 19, 2019 | 7.0.0 |  |
+| <b>8.3.4</b> April 12, 2019 | 6.3.0 |  |
+| <b>8.2.2</b> October 4, 2018 | 6.1.0 |  |
+| <b>8.1.2</b> May 31, 2018 | 6.1.0 |  |
+| <b>7.2.5</b> February 19, 2018 | 6.0.0 |  |
+| <b>7.1.4</b> October 2, 2017 | 6.0.0 |  |
 
 
 +++
