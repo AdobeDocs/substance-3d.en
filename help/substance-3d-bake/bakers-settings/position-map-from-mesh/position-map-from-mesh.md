@@ -2,6 +2,7 @@
 title: "Position map from Mesh"
 description: ""
 helpx_description: "bakers > Bakers Settings > Position map from Mesh"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/position-map-from-mesh.html"
 ---
 
 # Position map from Mesh

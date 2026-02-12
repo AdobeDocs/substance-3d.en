@@ -2,6 +2,7 @@
 title: "Unreal plugin 5.3.2"
 description: ""
 helpx_description: "Substance 3D Integrations"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/unreal-engine-5-release-notes/unreal-plugin-5-3-2.html"
 ---
 
 # Unreal plugin 5.3.2

@@ -2,6 +2,7 @@
 title: "Ambient Occlusion from Mesh"
 description: ""
 helpx_description: "bakers > Bakers Settings > Ambient Occlusion from Mesh"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/ambient-occlusion-from-mesh.html"
 ---
 
 # Ambient Occlusion from Mesh

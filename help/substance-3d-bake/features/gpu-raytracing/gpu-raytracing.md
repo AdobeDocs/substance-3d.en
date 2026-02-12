@@ -2,6 +2,7 @@
 title: "GPU Raytracing"
 description: ""
 helpx_description: "bakers > Features > GPU Raytracing"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/gpu-raytracing.html"
 ---
 
 # GPU Raytracing
@@ -44,14 +45,56 @@ The tables below lists GPU raytracing support for every baker, according to the 
 
 +++Version 3 and higher
 
+| Baker | Supports GPU raytracing |
+| --- | --- |
+| Ambient occlusion | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
+| Bent normal | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
+| Color | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
+| Curvature | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
+| Height | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
+| Normal | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
+| Normal world space | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> |
+
+
+
+| Baker | Supports GPU raytracing |
+| --- | --- |
+| Opacity mask | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
+| Position | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
+| Position low | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> |
+| Thickness | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
+| Transferred texture | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
+| World to tangent | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> |
+
 
 +++
 
 +++Version 2
 
+| Baker | Supports GPU raytracing |
+| --- | --- |
+| Ambient occlusion | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> |
+| Ambient occlusion from mesh | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> \* |
+| Bent normals from mesh | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> \* |
+| Color from mesh | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> \* |
+| Convert UV to SVG | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> |
+| Curvature from mesh | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> \* |
+| Height from mesh | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> \* |
+| Normal from mesh | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> \* |
 
-*: Supports CPU raytracing, which is significantly slower than GPU raytracing.
 
 
+| Baker | Supports GPU raytracing |
+| --- | --- |
+| Opacity mask from mesh | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> \* |
+| Position from mesh | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> \* |
+| Position | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> |
+| Thickness from mesh | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> \* |
+| Transferred texture from mesh | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> \* |
+| World space direction | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> |
+| World space normals | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> |
+
+
+\*: Supports CPU raytracing, which is significantly slower than GPU raytracing.
 
 +++

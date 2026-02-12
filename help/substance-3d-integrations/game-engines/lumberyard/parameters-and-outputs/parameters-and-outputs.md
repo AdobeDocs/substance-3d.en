@@ -2,6 +2,7 @@
 title: "Parameters and outputs"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard > Parameters and outputs"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/lumberyard/parameters-and-outputs.html"
 ---
 
 # Parameters and outputs

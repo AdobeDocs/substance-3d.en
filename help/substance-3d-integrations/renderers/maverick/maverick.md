@@ -2,6 +2,7 @@
 title: "Maverick"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Maverick"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maverick.html"
 ---
 
 # Maverick
@@ -14,5 +15,5 @@ With the integration of SBSAR in **Maverick**, our customers will now have acces
 
 ## Table of Contents
 
-* [Substance Painter Integration](substance-painter-int/substance-painter-integration.md)
-* [Substance SBSAR Integration](substance-sbsar-int/substance-sbsar-integration.md)
+* [Substance Painter Integration](painter-integration/substance-painter-integration.md)
+* [Substance SBSAR Integration](sbsar-integration/substance-sbsar-integration.md)

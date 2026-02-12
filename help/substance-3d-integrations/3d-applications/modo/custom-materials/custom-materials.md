@@ -2,6 +2,7 @@
 title: "Custom Materials"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Custom Materials"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/custom-materials.html"
 ---
 
 # Custom Materials

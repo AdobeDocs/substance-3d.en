@@ -2,6 +2,7 @@
 title: "Performances and optimizations"
 description: ""
 helpx_description: "bakers > Guides > Performances and optimizations"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/guides/performances-and-optimizations.html"
 ---
 
 # Performances and optimizations

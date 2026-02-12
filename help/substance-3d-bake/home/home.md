@@ -2,6 +2,7 @@
 title: "Substance Bakers"
 description: ""
 helpx_description: "bakers > Home"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/home.html"
 ---
 
 # Substance Bakers
@@ -31,9 +32,9 @@ This documentation covers the <b>fundamentals of baking</b> and the <b>common is
 
 * [What is Baking ?](../getting-started/what-is-baking/what-is-baking.md)
 * Bake with:
-  * [Substance 3D Painter](../getting-started/software-interface/substance-3d-painter/substance-3d-painter.md)
-  * [Substance 3D Designer](../getting-started/software-interface/substance-3d-designer/substance-3d-designer.md)
-  * [Substance 3D Automation Toolkit](../getting-started/software-interface/substance-automation-too/substance-3d-automation-toolkit.md)
+  * [Substance 3D Painter](../getting-started/software-interface/3d-painter/substance-3d-painter.md)
+  * [Substance 3D Designer](../getting-started/software-interface/3d-designer/substance-3d-designer.md)
+  * [Substance 3D Automation Toolkit](../getting-started/software-interface/3d-automation-toolkit/substance-3d-automation-toolkit.md)
 * [Availability per software](../getting-started/availability-per-software/availability-per-software.md)
 * [Compatible 3D software](../getting-started/compatible-3d-software/compatible-3d-software.md)
 * [Tutorials](../getting-started/tutorials/tutorials.md)
@@ -94,7 +95,7 @@ This documentation covers the <b>fundamentals of baking</b> and the <b>common is
 * [How to export the baked maps ?](../common-questions/how-export-the-baked-maps/how-to-export-the-baked-maps.md)
 * [Is dithering applied to baked textures ?](../common-questions/dithering-applied-baked/is-dithering-applied-to-baked-textures.md)
 * [Should I enable "Compute tangent space per fragment" ?](../common-questions/should-enable-compute-tan/should-i-enable-compute-tangent-space-per-fragment.md)
-* [Texture baked outside of Substance software looks incorrect](../common-questions/texture-baked-outside-sub/texture-baked-outside-of-substance-software-looks-incorrect.md)
+* [Texture baked outside of Substance software looks incorrect](../common-questions/texture-baked-outside-sof/texture-baked-outside-of-substance-software-looks-incorrect.md)
 * [What are Assbin files ?](../common-questions/what-are-assbin-files/what-are-assbin-files.md)
 * [What is the bit depth of baked textures ?](../common-questions/what-the-bit-depth-baked/what-is-the-bit-depth-of-baked-textures.md)
 * [What is the difference between the OpenGL and DirectX normal format ?](../common-questions/what-the-difference-bet/what-is-the-difference-between-the-opengl-and-directx-normal-format.md)

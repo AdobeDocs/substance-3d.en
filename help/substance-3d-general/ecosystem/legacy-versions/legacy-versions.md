@@ -2,6 +2,7 @@
 title: "Legacy versions"
 description: ""
 helpx_description: "General Knowledge > Ecosystem > Legacy versions"
+helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/legacy-versions.html"
 ---
 
 # Legacy versions

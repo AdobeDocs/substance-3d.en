@@ -2,6 +2,7 @@
 title: "Set-Up"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Set-Up"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/set-up.html"
 ---
 
 # Set-Up

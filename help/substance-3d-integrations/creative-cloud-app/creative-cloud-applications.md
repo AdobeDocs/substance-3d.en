@@ -2,6 +2,7 @@
 title: "Creative Cloud Applications"
 description: ""
 helpx_description: "Ecosystems and Plugins > Creative Cloud Applications"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/creative-cloud-applications.html"
 ---
 
 # Creative Cloud Applications

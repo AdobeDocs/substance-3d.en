@@ -2,6 +2,7 @@
 title: "Octane"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Octane"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/octane.html"
 ---
 
 # Octane

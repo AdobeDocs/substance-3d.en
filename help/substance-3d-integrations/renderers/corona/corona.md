@@ -2,6 +2,7 @@
 title: "Corona"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Corona"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/corona.html"
 ---
 
 # Corona
@@ -22,4 +23,4 @@ The 1/IOR map can only be converted from the metallic/roughness workflow which i
 ## Table of Contents
 
 * [Corona for 3ds Max](corona-for-3ds-max/corona-for-3ds-max.md)
-* [Corona - Substance Painter](corona-substance-painter/corona-substance-painter.md)
+* [Corona - Substance Painter](corona-painter/corona-substance-painter.md)

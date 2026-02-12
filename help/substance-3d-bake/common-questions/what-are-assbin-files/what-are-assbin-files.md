@@ -2,6 +2,7 @@
 title: "What are Assbin files "
 description: ""
 helpx_description: "bakers > Common Questions > What are Assbin files "
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/what-are-assbin-files.html"
 ---
 
 # What are Assbin files ?

@@ -2,6 +2,7 @@
 title: "Working with Displacement - UE4"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Working with Displacement - UE4"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/working-with-displacement-ue4.html"
 ---
 
 # Working with Displacement - UE4

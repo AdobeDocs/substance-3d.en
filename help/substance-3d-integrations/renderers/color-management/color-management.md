@@ -2,6 +2,7 @@
 title: "Color Management"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Color Management"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/color-management.html"
 ---
 
 # Color Management
@@ -49,5 +50,5 @@ When using Substance materials via the Substance Integration plugin, outputs are
 
 ### Working with Textures
 
-* [Substance textures in Maya](substance-textures-maya/substance-textures-in-maya.md)
-* [Substance textures in 3ds Max](substance-textures-3ds/substance-textures-in-3ds-max.md)
+* [Substance textures in Maya](textures-in-maya/substance-textures-in-maya.md)
+* [Substance textures in 3ds Max](textures-in-3ds-max/substance-textures-in-3ds-max.md)

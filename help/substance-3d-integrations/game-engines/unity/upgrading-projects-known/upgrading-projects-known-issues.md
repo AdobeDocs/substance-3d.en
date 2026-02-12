@@ -2,6 +2,7 @@
 title: "Upgrading ProjectsKnown Issues"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Upgrading ProjectsKnown Issues"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/upgrading-projects-known-issues.html"
 ---
 
 # Upgrading Projects/Known Issues

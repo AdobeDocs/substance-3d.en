@@ -2,6 +2,7 @@
 title: "Color Map from Mesh"
 description: ""
 helpx_description: "bakers > Bakers Settings > Color Map from Mesh"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/color-map-from-mesh.html"
 ---
 
 # Color Map from Mesh

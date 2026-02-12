@@ -2,6 +2,7 @@
 title: "Modo v. 2.7.5"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Modo Plugin Release Notes > Modo v. 2.7.5"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/modo-plugin-release-notes/modo-v-2-7-5.html"
 ---
 
 # Modo v. 2.7.5

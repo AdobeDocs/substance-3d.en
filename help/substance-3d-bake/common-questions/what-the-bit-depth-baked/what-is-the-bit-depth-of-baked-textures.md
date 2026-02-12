@@ -2,6 +2,7 @@
 title: "What is the bit depth of baked textures "
 description: ""
 helpx_description: "bakers > Common Questions > What is the bit depth of baked textures "
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/what-is-the-bit-depth-of-baked-textures.html"
 ---
 
 # What is the bit depth of baked textures ?

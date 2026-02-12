@@ -2,6 +2,7 @@
 title: "Import and export formats"
 description: ""
 helpx_description: "General Knowledge > Ecosystem > Import and export formats"
+helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/import-and-export-formats.html"
 ---
 
 # Import and export formats

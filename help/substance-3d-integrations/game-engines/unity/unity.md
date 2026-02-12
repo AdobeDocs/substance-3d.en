@@ -2,6 +2,7 @@
 title: "Unity"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity.html"
 ---
 
 # Unity
@@ -25,7 +26,7 @@ helpx_description: "Ecosystems and Plugins > Game Engines > Unity"
 ## Table of Contents
 
 * [Unity Release Notes](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/beta-release-information-170460277.html) — What's new in the Substance in Unity plugin by version
-* [Downloading Substance 3D Plugin in Unity](downloading-substance-plu/downloading-substance-3d-plugin-in-unity.md) — The Adobe Substance 3D for Unity is available in the Unity Asset Store https://assetstore.unity.com/packages/tools/utilities/substance-in-unity-110555.
+* [Downloading Substance 3D Plugin in Unity](downloading-plugin-unity/downloading-substance-3d-plugin-in-unity.md) — The Adobe Substance 3D for Unity is available in the Unity Asset Store https://assetstore.unity.com/packages/tools/utilities/substance-in-unity-110555.
 * [Unity Plugin Overview](unity-plugin-overview/unity-plugin-overview.md)
 * [Unity Preferences](unity-preferences/unity-preferences.md) — The Substance preference window allows you to set user-defined options for the plugin.
 * [Optimization Guidelines](optimization-guidelines/optimization-guidelines.md) — When creating your own custom Substance materials, be sure to check the following optimization guidelines.
@@ -36,11 +37,11 @@ helpx_description: "Ecosystems and Plugins > Game Engines > Unity"
 * [Rendering Color Space](rendering-color-space/rendering-color-space.md) — For the best results, you should set the color space to linear in the Unity Player Settings.
 * [Using Image Inputs](using-image-inputs/using-image-inputs.md)
 * [Publishing for Mobile](publishing-for-mobile/publishing-for-mobile.md) — Guidelines for publishing on mobile platforms
-* [Substance 3D for Unity Scripting](substance-for-unity-scr/substance-3d-for-unity-scripting.md) — Using the Substance API, you can write scripts to update and change Substance parameters at runtime.
+* [Substance 3D for Unity Scripting](3d-for-unity-scripting/substance-3d-for-unity-scripting.md) — Using the Substance API, you can write scripts to update and change Substance parameters at runtime.
 * [Scripting in Unity (Deprecated)](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/scripting-in-unity-170459644.html) — Using the Substance API, you can write scripts to update and change Substance parameters at runtime.
 * [Substance 3D Assets Library Usage](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/substance-3d-assets-library-225970070.html)
-* [Removing Substance Plugin](removing-substance-plugin/removing-substance-plugin.md)
-* [Substance 3D in Unity Tutorials](substance-unity-tutorials/substance-3d-in-unity-tutorials.md)
+* [Removing Substance Plugin](removing-plugin/removing-substance-plugin.md)
+* [Substance 3D in Unity Tutorials](3d-in-unity-tutorials/substance-3d-in-unity-tutorials.md)
 * [Physical Size in Unity](physical-size-in-unity/physical-size-in-unity.md)
 * [Sharing sbsar Files Between Projects](https://helpx.adobe.com/sharing-sbsar-files-between-projects.html)[](sharing-sbsar-files-bet/sharing-sbsar-files-between-projects.md)
 
@@ -57,7 +58,7 @@ helpx_description: "Ecosystems and Plugins > Game Engines > Unity"
 ### Table of Contents
 
 * [Unity Release Notes](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/beta-release-information-170460277.html) — What's new in the Substance in Unity plugin by version
-* [Downloading Substance 3D Plugin in Unity](downloading-substance-plu/downloading-substance-3d-plugin-in-unity.md) — The Adobe Substance 3D for Unity is available in the Unity Asset Store https://assetstore.unity.com/packages/tools/utilities/substance-in-unity-110555.
+* [Downloading Substance 3D Plugin in Unity](downloading-plugin-unity/downloading-substance-3d-plugin-in-unity.md) — The Adobe Substance 3D for Unity is available in the Unity Asset Store https://assetstore.unity.com/packages/tools/utilities/substance-in-unity-110555.
 * [Unity Plugin Overview](unity-plugin-overview/unity-plugin-overview.md)
 * [Unity Preferences](unity-preferences/unity-preferences.md) — The Substance preference window allows you to set user-defined options for the plugin.
 * [Optimization Guidelines](optimization-guidelines/optimization-guidelines.md) — When creating your own custom Substance materials, be sure to check the following optimization guidelines.
@@ -68,9 +69,9 @@ helpx_description: "Ecosystems and Plugins > Game Engines > Unity"
 * [Rendering Color Space](rendering-color-space/rendering-color-space.md) — For the best results, you should set the color space to linear in the Unity Player Settings.
 * [Using Image Inputs](using-image-inputs/using-image-inputs.md)
 * [Publishing for Mobile](publishing-for-mobile/publishing-for-mobile.md) — Guidelines for publishing on mobile platforms
-* [Substance 3D for Unity Scripting](substance-for-unity-scr/substance-3d-for-unity-scripting.md) — Using the Substance API, you can write scripts to update and change Substance parameters at runtime.
+* [Substance 3D for Unity Scripting](3d-for-unity-scripting/substance-3d-for-unity-scripting.md) — Using the Substance API, you can write scripts to update and change Substance parameters at runtime.
 * [Scripting in Unity (Deprecated)](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/scripting-in-unity-170459644.html) — Using the Substance API, you can write scripts to update and change Substance parameters at runtime.
 * [Substance 3D Assets Library Usage](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/substance-3d-assets-library-225970070.html)
-* [Removing Substance Plugin](removing-substance-plugin/removing-substance-plugin.md)
-* [Substance 3D in Unity Tutorials](substance-unity-tutorials/substance-3d-in-unity-tutorials.md)
+* [Removing Substance Plugin](removing-plugin/removing-substance-plugin.md)
+* [Substance 3D in Unity Tutorials](3d-in-unity-tutorials/substance-3d-in-unity-tutorials.md)
 * [Physical Size in Unity](physical-size-in-unity/physical-size-in-unity.md)

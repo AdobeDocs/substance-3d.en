@@ -2,6 +2,7 @@
 title: "Physical size in Blender"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Physical size in Blender"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/physical-size-in-blender.html"
 ---
 
 # Physical size in Blender

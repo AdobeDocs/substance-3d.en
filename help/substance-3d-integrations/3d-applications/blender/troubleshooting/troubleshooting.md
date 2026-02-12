@@ -2,6 +2,7 @@
 title: "Troubleshooting"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Troubleshooting"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/troubleshooting.html"
 ---
 
 # Troubleshooting

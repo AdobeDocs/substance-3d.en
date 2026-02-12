@@ -2,6 +2,7 @@
 title: "Bent Normals from Mesh"
 description: ""
 helpx_description: "bakers > Bakers Settings > Bent Normals from Mesh"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/bent-normals-from-mesh.html"
 ---
 
 # Bent Normals from Mesh

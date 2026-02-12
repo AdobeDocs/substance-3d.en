@@ -2,6 +2,7 @@
 title: "Unreal Engine 4 Scripting"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Unreal Engine 4 Scripting"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/unreal-engine-4-scripting.html"
 ---
 
 # Unreal Engine 4 Scripting

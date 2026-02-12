@@ -2,6 +2,7 @@
 user-guide-title: placeholder
 breadcrumb-title: placeholder
 user-guide-description: placeholder
+solution: Substance 3D
 ---
 
 # Substance 3D Bakers {#bakers}
@@ -10,9 +11,9 @@ user-guide-description: placeholder
 + Getting Started{#getting-started}
   + [What is Baking?](/help/substance-3d-bake/getting-started/what-is-baking/what-is-baking.md)
   + Software interface{#software-interface}
-    + [Substance 3D Painter](/help/substance-3d-bake/getting-started/software-interface/substance-3d-painter/substance-3d-painter.md)
-    + [Substance 3D Designer](/help/substance-3d-bake/getting-started/software-interface/substance-3d-designer/substance-3d-designer.md)
-    + [Substance 3D Automation Toolkit](/help/substance-3d-bake/getting-started/software-interface/substance-automation-too/substance-3d-automation-toolkit.md)
+    + [Substance 3D Painter](/help/substance-3d-bake/getting-started/software-interface/3d-painter/substance-3d-painter.md)
+    + [Substance 3D Designer](/help/substance-3d-bake/getting-started/software-interface/3d-designer/substance-3d-designer.md)
+    + [Substance 3D Automation Toolkit](/help/substance-3d-bake/getting-started/software-interface/3d-automation-toolkit/substance-3d-automation-toolkit.md)
   + [Availability per software](/help/substance-3d-bake/getting-started/availability-per-software/availability-per-software.md)
   + [Compatible 3D software](/help/substance-3d-bake/getting-started/compatible-3d-software/compatible-3d-software.md)
   + [Tutorials](/help/substance-3d-bake/getting-started/tutorials/tutorials.md)
@@ -65,4 +66,4 @@ user-guide-description: placeholder
   + [Normal texture looks faceted](/help/substance-3d-bake/common-issues/normal-texture-looks-fac/normal-texture-looks-faceted.md)
   + [Seams are visible after baking a normal texture](/help/substance-3d-bake/common-issues/seams-are-visible-after/seams-are-visible-after-baking-a-normal-texture.md)
   + [Seam visible on every face](/help/substance-3d-bake/common-issues/seam-visible-every-face/seam-visible-on-every-face.md)
-  + [Texture baked outside of Substance software looks incorrect](/help/substance-3d-bake/common-questions/texture-baked-outside-sub/texture-baked-outside-of-substance-software-looks-incorrect.md)
+  + [Texture baked outside of Substance software looks incorrect](/help/substance-3d-bake/common-questions/texture-baked-outside-sof/texture-baked-outside-of-substance-software-looks-incorrect.md)

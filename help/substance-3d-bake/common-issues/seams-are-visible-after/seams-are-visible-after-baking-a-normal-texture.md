@@ -2,6 +2,7 @@
 title: "Seams are visible after baking a normal texture"
 description: ""
 helpx_description: "bakers > Common Issues > Seams are visible after baking a normal texture"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/seams-are-visible-after-baking-a-normal-texture.html"
 ---
 
 # Seams are visible after baking a normal texture

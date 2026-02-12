@@ -2,6 +2,7 @@
 title: "Attribute Manager"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Attribute Manager"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/attribute-manager.html"
 ---
 
 # Attribute Manager

@@ -2,6 +2,7 @@
 title: "Ambient Occlusion"
 description: ""
 helpx_description: "bakers > Bakers Settings > Ambient Occlusion"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/ambient-occlusion.html"
 ---
 
 # Ambient Occlusion

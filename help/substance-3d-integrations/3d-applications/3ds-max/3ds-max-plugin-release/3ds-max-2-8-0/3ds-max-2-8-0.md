@@ -2,6 +2,7 @@
 title: "3ds Max 2.8.0"
 description: ""
 helpx_description: "Substance 3D Integrations"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-2-8-0.html"
 ---
 
 # 3ds Max 2.8.0

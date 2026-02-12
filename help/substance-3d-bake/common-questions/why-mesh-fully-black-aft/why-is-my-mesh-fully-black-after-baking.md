@@ -2,6 +2,7 @@
 title: "Why is my mesh fully black after baking "
 description: ""
 helpx_description: "bakers > Common Questions > Why is my mesh fully black after baking "
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/why-is-my-mesh-fully-black-after-baking.html"
 ---
 
 # Why is my mesh fully black after baking ?

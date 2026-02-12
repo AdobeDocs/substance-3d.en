@@ -2,6 +2,7 @@
 title: "Blueprint(UE4) Aggregate Substance"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Blueprints - UE4 > Blueprint(UE4) Aggregate Substance"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/blueprints-ue4/blueprintue4-aggregate-substance.html"
 ---
 
 # Blueprint(UE4): Aggregate Substance

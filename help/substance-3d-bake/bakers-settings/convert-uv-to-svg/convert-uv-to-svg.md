@@ -2,6 +2,7 @@
 title: "Convert UV to SVG"
 description: ""
 helpx_description: "bakers > Bakers Settings > Convert UV to SVG"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/convert-uv-to-svg.html"
 ---
 
 # Convert UV to SVG

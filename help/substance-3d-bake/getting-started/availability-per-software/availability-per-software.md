@@ -2,6 +2,7 @@
 title: "Availability per software"
 description: ""
 helpx_description: "bakers > Getting Started > Availability per software"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/availability-per-software.html"
 ---
 
 # Availability per software

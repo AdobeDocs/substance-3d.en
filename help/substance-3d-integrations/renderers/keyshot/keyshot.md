@@ -2,6 +2,7 @@
 title: "Keyshot"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Keyshot"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/keyshot.html"
 ---
 
 # Keyshot

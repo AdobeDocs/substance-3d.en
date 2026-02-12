@@ -2,6 +2,7 @@
 title: "Cinema 4D"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d.html"
 ---
 
 # Cinema 4D
@@ -18,9 +19,9 @@ The Substance plugin basically consists of two components: **Substance files** a
 ## Table of Contents
 
 * [Set-Up](set-up/set-up.md)
-* [Using the Substance Plugin](using-the-substance-plu/using-the-substance-plugin.md)
-* [Substance Asset Manager](substance-asset-manager/substance-asset-manager.md)
-* [Substance Shader](substance-shader/substance-shader.md)
+* [Using the Substance Plugin](using-the-plugin/using-the-substance-plugin.md)
+* [Substance Asset Manager](asset-manager/substance-asset-manager.md)
+* [Substance Shader](shader/substance-shader.md)
 * [Attribute Manager](attribute-manager/attribute-manager.md)
 * [Visual Feedback of Animated Substances](visual-feedback-animated/visual-feedback-of-animated-substances.md)
 

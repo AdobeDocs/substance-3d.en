@@ -2,6 +2,7 @@
 title: "Modo Plugin Release Notes"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Modo Plugin Release Notes"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/modo-plugin-release-notes.html"
 ---
 
 # Modo Plugin Release Notes

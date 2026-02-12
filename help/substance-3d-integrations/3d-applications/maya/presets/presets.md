@@ -2,6 +2,7 @@
 title: "Presets"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Presets"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/presets.html"
 ---
 
 # Presets

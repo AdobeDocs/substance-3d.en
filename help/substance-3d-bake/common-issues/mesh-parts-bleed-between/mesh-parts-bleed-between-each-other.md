@@ -2,6 +2,7 @@
 title: "Mesh parts bleed between each other"
 description: ""
 helpx_description: "bakers > Common Issues > Mesh parts bleed between each other"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/mesh-parts-bleed-between-each-other.html"
 ---
 
 # Mesh parts bleed between each other

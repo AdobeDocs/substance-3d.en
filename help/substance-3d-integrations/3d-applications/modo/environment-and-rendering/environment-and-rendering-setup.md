@@ -2,6 +2,7 @@
 title: "Environment and Rendering Setup"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Environment and Rendering Setup"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/environment-and-rendering-setup.html"
 ---
 
 # Environment and Rendering Setup

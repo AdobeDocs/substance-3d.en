@@ -2,6 +2,7 @@
 title: "Plugin Overview - UE4"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Plugin Overview - UE4"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/plugin-overview-ue4.html"
 ---
 
 # Plugin Overview - UE4

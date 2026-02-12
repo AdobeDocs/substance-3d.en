@@ -2,6 +2,7 @@
 title: "Compatible 3D software"
 description: ""
 helpx_description: "bakers > Getting Started > Compatible 3D software"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/compatible-3d-software.html"
 ---
 
 # Compatible 3D software

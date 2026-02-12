@@ -2,6 +2,7 @@
 user-guide-title: placeholder
 breadcrumb-title: placeholder
 user-guide-description: placeholder
+solution: Substance 3D
 ---
 
 # Substance 3D General Knowledge {#general-knowledge}
@@ -9,13 +10,13 @@ user-guide-description: placeholder
 + [Home](/help/substance-3d-general/home/home.md)
 + Ecosystem{#ecosystem}
   + [Ecosystem overview](/help/substance-3d-general/ecosystem/ecosystem.md)
-  + [General system requirements](/help/substance-3d-general/ecosystem/general-system-req/general-system-requirements.md)
+  + [General system requirements](/help/substance-3d-general/ecosystem/system-requirements/general-system-requirements.md)
   + Substance 3D for Linux{#substance-3d-for-linux}
-    + [Use ADA to manage Linux licenses](/help/substance-3d-general/ecosystem/substance-for-linux/substance-for-linux.md)
-    + [Frequently asked questions](/help/substance-3d-general/ecosystem/substance-for-linux/faq/faq.md)
+    + [Use ADA to manage Linux licenses](/help/substance-3d-general/ecosystem/for-linux/substance-for-linux.md)
+    + [Frequently asked questions](/help/substance-3d-general/ecosystem/for-linux/faq/faq.md)
   + [Import and export formats](/help/substance-3d-general/ecosystem/import-and-export-formats/import-and-export-formats.md)
   + [Legacy versions](/help/substance-3d-general/ecosystem/legacy-versions/legacy-versions.md)
-  + [Substance engine versioning](/help/substance-3d-general/ecosystem/substance-engine-ver/substance-engine-versioning.md)
+  + [Substance engine versioning](/help/substance-3d-general/ecosystem/engine-versioning/substance-engine-versioning.md)
   + [Substance 3D icons for artists](/help/substance-3d-general/ecosystem/susbtance-3d-app-icons/susbtance-3d-app-icons.md)
 + ASM{#asm}
   + [Adobe Standard Material overview](/help/substance-3d-general/adobe-standard-material/adobe-standard-material.md)

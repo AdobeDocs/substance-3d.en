@@ -2,6 +2,7 @@
 title: "Changing parameters"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Changing parameters"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/changing-parameters.html"
 ---
 
 # Changing parameters

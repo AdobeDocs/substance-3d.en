@@ -2,6 +2,7 @@
 title: "Generated Textures (Packing)"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Generated Textures (Packing)"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/generated-textures-packing.html"
 ---
 
 # Generated Textures (Packing)

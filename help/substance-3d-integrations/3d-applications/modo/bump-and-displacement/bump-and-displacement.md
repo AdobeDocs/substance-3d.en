@@ -2,6 +2,7 @@
 title: "Bump and Displacement"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Bump and Displacement"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/bump-and-displacement.html"
 ---
 
 # Bump and Displacement

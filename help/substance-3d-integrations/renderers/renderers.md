@@ -2,6 +2,7 @@
 title: "Renderers"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers.html"
 ---
 
 # Renderers
@@ -20,7 +21,7 @@ With Substance Painter, you can choose an [Output Template](https://helpx.adobe.
 
 ## Renderer Guides
 
-* [Converting Substance outputs](converting-substance-out/converting-substance-outputs.md)
+* [Converting Substance outputs](converting-outputs/converting-substance-outputs.md)
 * [Color Management](color-management/color-management.md)
 * [Arnold](arnold/arnold.md)
 * [Vray](vray/vray.md)

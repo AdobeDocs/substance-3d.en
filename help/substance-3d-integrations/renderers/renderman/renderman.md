@@ -2,6 +2,7 @@
 title: "Renderman"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Renderman"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/renderman.html"
 ---
 
 # Renderman
@@ -13,4 +14,4 @@ For more information on pxrSurface, please refer to the Renderman documentation.
 ## Table of Contents
 
 * [Renderman for Maya](renderman-for-maya/renderman-for-maya.md)
-* [Renderman - Substance Painter](renderman-substance-pai/renderman-substance-painter.md)
+* [Renderman - Substance Painter](renderman-painter/renderman-substance-painter.md)

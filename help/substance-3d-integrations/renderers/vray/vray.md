@@ -2,6 +2,7 @@
 title: "Vray"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Vray"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/vray.html"
 ---
 
 # Vray
@@ -14,4 +15,4 @@ Substance Painter 2020.1 (6.1.0) ships with VrayMtl shaders for both metallic an
 
 * [Vray Next - Substance in Maya](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/vray-for-maya-157352249.html)
 * [Vray Next - Substance in 3ds Max](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/vray-for-3ds-max-157352261.html)
-* [Vray Next - Substance Painter](vray-next-substance-pai/vray-next-substance-painter.md)
+* [Vray Next - Substance Painter](vray-next-painter/vray-next-substance-painter.md)

@@ -2,6 +2,7 @@
 title: "Working with References"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Working with References"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/working-with-references.html"
 ---
 
 # Working with References

@@ -2,6 +2,7 @@
 title: "Maya 2.3"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Maya Plugin Release Notes > Maya 2.3"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-3.html"
 ---
 
 # Maya 2.3

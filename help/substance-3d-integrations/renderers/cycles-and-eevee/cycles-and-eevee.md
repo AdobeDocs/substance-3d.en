@@ -2,6 +2,7 @@
 title: "Cycles and Eevee"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Cycles and Eevee"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/cycles-and-eevee.html"
 ---
 
 # Cycles and Eevee
@@ -14,5 +15,5 @@ For rendering with Cycles and Eevee you can use maps exported from Substance Des
 
 ## Table of Contents
 
-* [Cycles and Eevee - Substance 3D for Blender](cycles-and-eevee-sub/cycles-and-eevee-substance-3d-for-blender.md)
+* [Cycles and Eevee - Substance 3D for Blender](cycles-and-eevee-for-ble/cycles-and-eevee-substance-3d-for-blender.md)
 * [Cycles and Eevee - Susbtance Painter](cycles-and-eevee-sus/cycles-and-eevee-susbtance-painter.md)

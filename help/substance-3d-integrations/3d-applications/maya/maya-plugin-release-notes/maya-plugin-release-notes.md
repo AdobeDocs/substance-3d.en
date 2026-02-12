@@ -2,6 +2,7 @@
 title: "Maya Plugin Release Notes"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Maya Plugin Release Notes"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes.html"
 ---
 
 # Maya Plugin Release Notes

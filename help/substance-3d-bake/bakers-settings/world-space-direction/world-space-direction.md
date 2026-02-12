@@ -2,6 +2,7 @@
 title: "World Space Direction"
 description: ""
 helpx_description: "bakers > Bakers Settings > World Space Direction"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/world-space-direction.html"
 ---
 
 # World Space Direction

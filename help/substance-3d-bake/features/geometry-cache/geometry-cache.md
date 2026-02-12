@@ -2,6 +2,7 @@
 title: "Geometry Cache"
 description: ""
 helpx_description: "bakers > Features > Geometry Cache"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/geometry-cache.html"
 ---
 
 # Geometry Cache

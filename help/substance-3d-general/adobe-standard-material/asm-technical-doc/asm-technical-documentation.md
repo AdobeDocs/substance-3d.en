@@ -2,6 +2,7 @@
 title: "ASM technical documentation"
 description: ""
 helpx_description: "General Knowledge > Adobe Standard Material > ASM technical documentation"
+helpx_url: "https://helpx.adobe.com/substance-3d-general/adobe-standard-material/asm-technical-documentation.html"
 ---
 
 # ASM technical documentation

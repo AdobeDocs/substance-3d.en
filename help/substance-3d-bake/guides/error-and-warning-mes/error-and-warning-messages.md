@@ -2,6 +2,7 @@
 title: "Error and Warning Messages"
 description: ""
 helpx_description: "bakers > Guides > Error and Warning Messages"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/guides/error-and-warning-messages.html"
 ---
 
 # Error and Warning Messages

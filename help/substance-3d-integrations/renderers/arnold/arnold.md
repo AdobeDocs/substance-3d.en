@@ -2,6 +2,7 @@
 title: "Arnold"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Arnold"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/arnold.html"
 ---
 
 # Arnold
@@ -16,4 +17,4 @@ The Standard Surface material in Arnold 5 now supports the metallic workflow. Yo
 
 * [Arnold - Substance in 3ds Max](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/arnold-5-for-3ds-max-157352315.html)
 * [Arnold - Substance in Maya](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/arnold-5-for-maya-157352171.html)
-* [Arnold - Substance Painter](arnold-substance-painter/arnold-substance-painter.md)
+* [Arnold - Substance Painter](arnold-painter/arnold-substance-painter.md)

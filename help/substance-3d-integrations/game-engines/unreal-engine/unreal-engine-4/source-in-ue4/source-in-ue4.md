@@ -2,6 +2,7 @@
 title: "Source in UE4"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Source in UE4"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/source-in-ue4.html"
 ---
 
 # Source in UE4

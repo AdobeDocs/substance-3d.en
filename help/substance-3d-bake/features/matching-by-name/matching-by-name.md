@@ -2,6 +2,7 @@
 title: "Matching by Name"
 description: ""
 helpx_description: "bakers > Features > Matching by Name"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/matching-by-name.html"
 ---
 
 # Matching by Name
@@ -63,7 +64,7 @@ Matching By Name can be enabled in the [Common Parameters](../../bakers-settings
 
 The default suffixes are \_low and \_high and can be changed the following way:
 
-* **Substance Painter**: In the [Baking window](../../getting-started/software-interface/substance-3d-painter/substance-3d-painter.md), within the common parameters.
+* **Substance Painter**: In the [Baking window](../../getting-started/software-interface/3d-painter/substance-3d-painter.md), within the common parameters.
 * **Substance Designer**: In the [Project settings](https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/project-settings.html), under the Bake settings.
 
 ## High-poly meshes from zBrush
