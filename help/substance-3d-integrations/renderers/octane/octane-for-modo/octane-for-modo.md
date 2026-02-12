@@ -2,6 +2,7 @@
 title: "Octane for MODO"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Octane > Octane for MODO"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/octane/octane-for-modo.html"
 ---
 
 # Octane for MODO

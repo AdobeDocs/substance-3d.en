@@ -2,6 +2,7 @@
 title: "Publishing for Mobile"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Publishing for Mobile"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/publishing-for-mobile.html"
 ---
 
 # Publishing for Mobile

@@ -2,6 +2,7 @@
 title: "Normal map has strange colorful gradients"
 description: ""
 helpx_description: "bakers > Common Issues > Normal map has strange colorful gradients"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/normal-map-has-strange-colorful-gradients.html"
 ---
 
 # Normal map has strange colorful gradients

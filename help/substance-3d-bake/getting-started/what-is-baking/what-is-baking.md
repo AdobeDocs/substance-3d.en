@@ -2,6 +2,7 @@
 title: "What is Baking "
 description: ""
 helpx_description: "bakers > Getting Started > What is Baking "
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/what-is-baking.html"
 ---
 
 # What is Baking ?

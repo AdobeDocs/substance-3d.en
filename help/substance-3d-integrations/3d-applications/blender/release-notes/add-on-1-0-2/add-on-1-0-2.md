@@ -2,6 +2,7 @@
 title: "Add-on 1.0.2"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Release Notes > Add-on 1.0.2"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/release-notes/add-on-1-0-2.html"
 ---
 
 # Add-on 1.0.2

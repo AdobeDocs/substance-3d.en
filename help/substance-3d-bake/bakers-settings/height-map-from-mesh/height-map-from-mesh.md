@@ -2,6 +2,7 @@
 title: "Height Map from Mesh"
 description: ""
 helpx_description: "bakers > Bakers Settings > Height Map from Mesh"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/height-map-from-mesh.html"
 ---
 
 # Height Map from Mesh

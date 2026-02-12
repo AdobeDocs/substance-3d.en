@@ -2,6 +2,7 @@
 title: "Photoshop"
 description: ""
 helpx_description: "Ecosystems and Plugins > Creative Cloud Applications > Photoshop"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/creative-cloud-applications/photoshop.html"
 ---
 
 # Photoshop

@@ -2,6 +2,7 @@
 title: "Houdini"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Houdini"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/houdini.html"
 ---
 
 # Houdini

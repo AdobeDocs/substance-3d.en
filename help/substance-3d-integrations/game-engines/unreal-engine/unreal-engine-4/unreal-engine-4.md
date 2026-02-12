@@ -2,6 +2,7 @@
 title: "Unreal Engine 4"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4.html"
 ---
 
 # Unreal Engine 4

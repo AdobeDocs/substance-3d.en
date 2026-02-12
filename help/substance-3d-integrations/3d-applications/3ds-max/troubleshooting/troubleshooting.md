@@ -2,6 +2,7 @@
 title: "Troubleshooting"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Troubleshooting"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/troubleshooting.html"
 ---
 
 # Troubleshooting

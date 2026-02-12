@@ -2,6 +2,7 @@
 title: "Normal texture looks faceted"
 description: ""
 helpx_description: "bakers > Common Issues > Normal texture looks faceted"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/normal-texture-looks-faceted.html"
 ---
 
 # Normal texture looks faceted

@@ -2,6 +2,7 @@
 title: "Tutorials"
 description: ""
 helpx_description: "bakers > Getting Started > Tutorials"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/tutorials.html"
 ---
 
 # Tutorials

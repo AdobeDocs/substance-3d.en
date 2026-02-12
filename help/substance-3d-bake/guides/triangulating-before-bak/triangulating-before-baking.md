@@ -2,6 +2,7 @@
 title: "Triangulating before baking"
 description: ""
 helpx_description: "bakers > Guides > Triangulating before baking"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/guides/triangulating-before-baking.html"
 ---
 
 # Triangulating before baking

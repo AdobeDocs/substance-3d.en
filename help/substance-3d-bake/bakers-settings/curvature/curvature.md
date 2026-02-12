@@ -2,6 +2,7 @@
 title: "Curvature"
 description: ""
 helpx_description: "bakers > Bakers Settings > Curvature"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/curvature.html"
 ---
 
 # Curvature

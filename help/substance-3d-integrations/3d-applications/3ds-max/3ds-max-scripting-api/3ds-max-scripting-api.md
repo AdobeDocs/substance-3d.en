@@ -2,6 +2,7 @@
 title: "3ds MAX Scripting API"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > 3ds MAX Scripting API"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/3ds-max-scripting-api.html"
 ---
 
 # 3ds MAX Scripting API

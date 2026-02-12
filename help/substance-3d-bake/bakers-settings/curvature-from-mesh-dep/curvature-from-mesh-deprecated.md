@@ -2,6 +2,7 @@
 title: "Curvature from Mesh (deprecated)"
 description: ""
 helpx_description: "bakers > Bakers Settings > Curvature from Mesh (deprecated)"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/curvature-from-mesh-deprecated.html"
 ---
 
 # Curvature from Mesh (deprecated)

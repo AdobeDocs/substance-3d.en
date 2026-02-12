@@ -2,6 +2,7 @@
 title: "Cycles and Eevee - Susbtance Painter"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Cycles and Eevee > Cycles and Eevee - Susbtance Painter"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/cycles-and-eevee/cycles-and-eevee-susbtance-painter.html"
 ---
 
 # Cycles and Eevee - Susbtance Painter

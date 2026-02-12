@@ -2,18 +2,19 @@
 title: "Maya"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya.html"
 ---
 
 # Maya
 
-![](banner-45.jpg)
+![](banner.jpg)
 
 ## Table of Contents
 
 * [Maya Plugin Release Notes](maya-plugin-release-notes/maya-plugin-release-notes.md)
-* [Substance in Maya Overview](substance-maya-overview/substance-in-maya-overview.md)
+* [Substance in Maya Overview](in-maya-overview/substance-in-maya-overview.md)
 * [Installation](installation/installation.md)
-* [Substance Output Node](substance-output-node/substance-output-node.md)
+* [Substance Output Node](output-node/substance-output-node.md)
 * [Using Workflows](using-workflows/using-workflows.md)
 * [Working with Outputs](working-with-outputs/working-with-outputs.md)
 * [Procedural Sampling](procedural-sampling/procedural-sampling.md)

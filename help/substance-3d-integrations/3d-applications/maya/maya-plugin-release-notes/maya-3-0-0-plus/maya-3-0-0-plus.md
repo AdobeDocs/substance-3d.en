@@ -2,6 +2,7 @@
 title: "Maya 3.0.0"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > 3ds Max Plugin Release Notes > Maya 3.0.0"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-3-0-0-plus.html"
 ---
 
 # Maya 3.0.0+

@@ -2,6 +2,7 @@
 title: "Baking failed with Color Map from Mesh"
 description: ""
 helpx_description: "bakers > Common Issues > Baking failed with Color Map from Mesh"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/baking-failed-with-color-map-from-mesh.html"
 ---
 
 # Baking failed with Color Map from Mesh

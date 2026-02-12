@@ -2,6 +2,7 @@
 title: "Visual Feedback of Animated Substances"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Visual Feedback of Animated Substances"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/visual-feedback-of-animated-substances.html"
 ---
 
 # Visual Feedback of Animated Substances

@@ -2,6 +2,7 @@
 title: "Should I enable"
 description: ""
 helpx_description: "bakers > Common Questions > Should I enable"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/should-i-enable-compute-tangent-space-per-fragment.html"
 ---
 
 # Should I enable "Compute tangent space per fragment" ?

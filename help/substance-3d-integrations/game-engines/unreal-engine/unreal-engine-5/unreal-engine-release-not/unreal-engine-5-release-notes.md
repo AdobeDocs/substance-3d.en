@@ -2,6 +2,7 @@
 title: "Unreal Engine 5 Release Notes"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Unreal Engine 5 Release Notes"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/unreal-engine-5-release-notes.html"
 ---
 
 # Unreal Engine 5 Release Notes

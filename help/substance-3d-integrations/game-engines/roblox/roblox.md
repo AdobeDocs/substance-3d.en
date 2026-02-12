@@ -2,6 +2,7 @@
 title: "Roblox"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Roblox"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/roblox.html"
 ---
 
 # Roblox

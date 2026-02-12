@@ -2,6 +2,7 @@
 title: "Game Engines"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines.html"
 ---
 
 # Game Engines

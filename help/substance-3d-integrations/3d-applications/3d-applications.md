@@ -2,6 +2,7 @@
 title: "3D Applications"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications.html"
 ---
 
 # 3D Applications

@@ -2,6 +2,7 @@
 title: "Baker output is fully black or empty"
 description: ""
 helpx_description: "bakers > Common Issues > Baker output is fully black or empty"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/baker-output-is-fully-black-or-empty.html"
 ---
 
 # Baker output is fully black or empty

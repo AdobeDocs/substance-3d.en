@@ -2,6 +2,7 @@
 title: "Thickness Map from Mesh"
 description: ""
 helpx_description: "bakers > Bakers Settings > Thickness Map from Mesh"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/thickness-map-from-mesh.html"
 ---
 
 # Thickness Map from Mesh

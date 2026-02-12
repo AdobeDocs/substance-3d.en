@@ -2,6 +2,7 @@
 title: "Redshift"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Redshift"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/redshift.html"
 ---
 
 # Redshift
@@ -14,4 +15,4 @@ Substance Painter 2020.1 (6.1.0) ships with the Redshift ([rsMaterial](https://d
 
 * [Redshift for 3ds Max](redshift-for-3ds-max/redshift-for-3ds-max.md)
 * [Redshift for Maya](redshift-for-maya/redshift-for-maya.md)
-* [Redshift - Substance Painter](redshift-substance-pai/redshift-substance-painter.md)
+* [Redshift - Substance Painter](redshift-painter/redshift-substance-painter.md)

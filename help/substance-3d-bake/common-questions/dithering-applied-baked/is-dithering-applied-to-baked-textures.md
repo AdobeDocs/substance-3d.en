@@ -2,6 +2,7 @@
 title: "Is dithering applied to baked textures "
 description: ""
 helpx_description: "bakers > Common Questions > Is dithering applied to baked textures "
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/is-dithering-applied-to-baked-textures.html"
 ---
 
 # Is dithering applied to baked textures ?

@@ -2,6 +2,7 @@
 title: "Add-on 2.0.0"
 description: ""
 helpx_description: "Substance 3D Integrations"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/release-notes/blender-add-on-2-0-0.html"
 ---
 
 # Add-on 2.0.0

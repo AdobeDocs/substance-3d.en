@@ -2,6 +2,7 @@
 title: "Rendering Color Space"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Rendering Color Space"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/rendering-color-space.html"
 ---
 
 # Rendering Color Space

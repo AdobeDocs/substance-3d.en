@@ -1,8 +1,12 @@
 ---
-title: "Installing To Source Builds - UE5"
-description: ""
-helpx_description: "Substance 3D Integrations"
+title: Installing To Source Builds - UE5
+description: 
+helpx_description: Substance 3D Integrations
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/installing-to-source-builds-ue5.html"
+helpx_tags:
+  - SG_SUBSTANCE_INTEGRATIONS
 ---
+
 
 # Installing To Source Builds - UE5
 

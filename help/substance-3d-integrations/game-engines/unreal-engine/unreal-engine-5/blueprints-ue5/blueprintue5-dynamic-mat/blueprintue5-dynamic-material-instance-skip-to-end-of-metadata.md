@@ -2,6 +2,7 @@
 title: "Blueprint(UE5) Dynamic Material Instance Skip to end of metadata"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Blueprints - UE5 > Blueprint(UE5) Dynamic Material Instance Skip to end of metadata"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/blueprints-ue5/blueprintue5-dynamic-material-instance-skip-to-end-of-metadata.html"
 ---
 
 # Blueprint(UE5): Dynamic Material Instance Skip to end of metadata

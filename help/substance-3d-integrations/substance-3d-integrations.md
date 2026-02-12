@@ -2,6 +2,7 @@
 title: "Ecosystem and Plug-ins"
 description: ""
 helpx_description: "Ecosystems and Plugins"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations.html"
 ---
 
 # Ecosystem and Plug-ins

@@ -2,6 +2,7 @@
 title: "Unity Preferences"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Preferences"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-preferences.html"
 ---
 
 # Unity Preferences

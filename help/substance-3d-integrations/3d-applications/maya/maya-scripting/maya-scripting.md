@@ -2,6 +2,7 @@
 title: "Maya Scripting"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Maya Scripting"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-scripting.html"
 ---
 
 # Maya Scripting

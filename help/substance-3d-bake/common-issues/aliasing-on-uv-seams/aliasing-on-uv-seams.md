@@ -2,6 +2,7 @@
 title: "Aliasing on UV Seams"
 description: ""
 helpx_description: "bakers > Common Issues > Aliasing on UV Seams"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/aliasing-on-uv-seams.html"
 ---
 
 # Aliasing on UV Seams

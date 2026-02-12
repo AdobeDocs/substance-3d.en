@@ -2,6 +2,7 @@
 title: "Unity 3.0.0"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes > Unity 3.0.0"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-release-notes/unity-3-0-0-plus.html"
 ---
 
 # Unity 3.0.0+
@@ -80,7 +81,7 @@ helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Releas
 
 * Introduced support for parameters with conditional visibility (Visible If feature).
 * Upgraded the Substance engine to version 9.
-* Updated documentation to address an issue with NativeGraph.InRenderWork not functioning in a custom editor window script. Further details can be found here: [Substance 3D for Unity Scripting - Class Documentation](../../substance-for-unity-scr/class-documentation/substanceruntime-class/substanceruntime-class.md)
+* Updated documentation to address an issue with NativeGraph.InRenderWork not functioning in a custom editor window script. Further details can be found here: [Substance 3D for Unity Scripting - Class Documentation](../../3d-for-unity-scripting/class-documentation/substanceruntime-class/substanceruntime-class.md)
 
 <b>Fixed:</b>
 

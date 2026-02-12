@@ -2,15 +2,21 @@
 title: "Ecosystem and Plug-ins"
 description: ""
 helpx_description: "Ecosystems and Plugins > Home"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/home.html"
 ---
 
 # Ecosystem and Plug-ins
 
 The [Substance material sbsar format](https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html) is supported by all major game and Digital Content Creation (DCC) tools. The format is published from Substance 3D applications as an .sbsar file. SBSAR files can be loaded into DCC applications and game engines that support Substance materials via a Substance plugin or a native integration.
 
->[!NOTE]
-> 
-> Some links have been manually removed from this page temporarily pre-migration. The ToC is being updated on HelpX, and once that's complete the links will be re-added before the migration is complete.
+For more information on how to use those materials, see:
+
+* [Game Engines](../game-engines/game-engines.md)
+* [3D Applications](../3d-applications/3d-applications.md)
+* [Creative Cloud Applications](../creative-cloud-app/creative-cloud-applications.md)
+  * [After Effects](../creative-cloud-app/after-effects/after-effects.md)
+  * [Photoshop](../creative-cloud-app/photoshop/photoshop.md)[](../creative-cloud-app/after-effects/after-effects.md)
+* [Renderers](../renderers/renderers.md)
 
 If you'd like to experiment with SBSAR files, there are many ways to get your own SBSAR materials:
 

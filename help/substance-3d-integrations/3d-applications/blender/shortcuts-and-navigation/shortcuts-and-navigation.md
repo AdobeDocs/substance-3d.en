@@ -2,6 +2,7 @@
 title: "Shortcuts and Navigation"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Shortcuts and Navigation"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/shortcuts-and-navigation.html"
 ---
 
 # Shortcuts and Navigation

@@ -2,6 +2,7 @@
 title: "Opacity Mask from Mesh"
 description: ""
 helpx_description: "bakers > Bakers Settings > Opacity Mask from Mesh"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/opacity-mask-from-mesh.html"
 ---
 
 # Opacity Mask from Mesh

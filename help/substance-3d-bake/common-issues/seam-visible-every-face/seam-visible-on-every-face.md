@@ -2,6 +2,7 @@
 title: "Seam visible on every face"
 description: ""
 helpx_description: "bakers > Common Issues > Seam visible on every face"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/seam-visible-on-every-face.html"
 ---
 
 # Seam visible on every face

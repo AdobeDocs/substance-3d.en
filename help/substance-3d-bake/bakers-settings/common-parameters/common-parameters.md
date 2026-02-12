@@ -2,6 +2,7 @@
 title: "Common Parameters"
 description: ""
 helpx_description: "bakers > Bakers Settings > Common Parameters"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/common-parameters.html"
 ---
 
 # Common Parameters

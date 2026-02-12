@@ -2,6 +2,7 @@
 title: "Apply Workflow To Maps"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Apply Workflow To Maps"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/apply-workflow-to-maps.html"
 ---
 
 # Apply Workflow To Maps

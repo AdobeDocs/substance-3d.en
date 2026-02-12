@@ -2,6 +2,7 @@
 title: "Thea"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Thea"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/thea.html"
 ---
 
 # Thea

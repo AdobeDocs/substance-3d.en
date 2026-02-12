@@ -2,6 +2,7 @@
 title: "Tangent Space"
 description: ""
 helpx_description: "bakers > Features > Tangent Space"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/tangent-space.html"
 ---
 
 # Tangent Space

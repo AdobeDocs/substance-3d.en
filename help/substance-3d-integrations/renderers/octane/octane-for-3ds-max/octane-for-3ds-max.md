@@ -2,6 +2,7 @@
 title: "Octane for 3ds Max"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Octane > Octane for 3ds Max"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/octane/octane-for-3ds-max.html"
 ---
 
 # Octane for 3ds Max

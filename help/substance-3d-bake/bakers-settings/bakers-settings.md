@@ -2,6 +2,7 @@
 title: "Bakers Settings"
 description: ""
 helpx_description: "bakers > Bakers Settings"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings.html"
 ---
 
 # Bakers Settings

@@ -2,6 +2,7 @@
 title: "Optimization Guidelines"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Optimization Guidelines"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/optimization-guidelines.html"
 ---
 
 # Optimization Guidelines

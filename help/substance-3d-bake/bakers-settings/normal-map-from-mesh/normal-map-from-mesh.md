@@ -2,6 +2,7 @@
 title: "Normal Map from Mesh"
 description: ""
 helpx_description: "bakers > Bakers Settings > Normal Map from Mesh"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/normal-map-from-mesh.html"
 ---
 
 # Normal Map from Mesh

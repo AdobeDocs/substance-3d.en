@@ -2,6 +2,7 @@
 title: "Physical Size in Maya"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Physical Size in Maya"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/physical-size-in-maya.html"
 ---
 
 # Physical Size in Maya

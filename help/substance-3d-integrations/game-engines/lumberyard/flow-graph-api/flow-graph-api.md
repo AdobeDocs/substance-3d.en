@@ -2,6 +2,7 @@
 title: "Flow Graph API"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard > Flow Graph API"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/lumberyard/flow-graph-api.html"
 ---
 
 # Flow Graph API

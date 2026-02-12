@@ -2,6 +2,7 @@
 title: "Transferred Texture from Mesh"
 description: ""
 helpx_description: "bakers > Bakers Settings > Transferred Texture from Mesh"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/transferred-texture-from-mesh.html"
 ---
 
 # Transferred Texture from Mesh

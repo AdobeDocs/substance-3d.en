@@ -2,6 +2,7 @@
 title: "Black shading cross are visible on the mesh surface"
 description: ""
 helpx_description: "bakers > Common Issues > Black shading cross are visible on the mesh surface"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/black-shading-cross-are-visible-on-the-mesh-surface.html"
 ---
 
 # Black shading cross is visible on the mesh surface

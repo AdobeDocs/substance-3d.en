@@ -2,6 +2,7 @@
 title: "Unity Release Notes"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-release-notes.html"
 ---
 
 # Unity Release Notes

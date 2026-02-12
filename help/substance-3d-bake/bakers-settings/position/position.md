@@ -2,6 +2,7 @@
 title: "Position"
 description: ""
 helpx_description: "bakers > Bakers Settings > Position"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/position.html"
 ---
 
 # Position

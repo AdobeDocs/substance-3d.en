@@ -2,6 +2,7 @@
 title: "Unity 2.5.3"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes > Unity 2.5.3"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-release-notes/unity-2-5-3.html"
 ---
 
 # Unity 2.5.3

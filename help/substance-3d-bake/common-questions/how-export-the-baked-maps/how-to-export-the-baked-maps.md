@@ -2,6 +2,7 @@
 title: "How to export the baked maps "
 description: ""
 helpx_description: "bakers > Common Questions > How to export the baked maps "
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/how-to-export-the-baked-maps.html"
 ---
 
 # How to export the baked maps ?

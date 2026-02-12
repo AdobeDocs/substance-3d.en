@@ -2,6 +2,7 @@
 title: "API Overview"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Scripting in Unity (Deprecated) > API Overview"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/scripting-in-unity-deprecated/api-overview.html"
 ---
 
 # API Overview
@@ -52,7 +53,7 @@ The value in quotes is the parameter Identifier set in Substance Designer.
 
 In the Unity Inspector, you can mouse over a parameter to reveal a tooltip that showcases the name of the Identifier set in Substance Designer.
 
-![](tooltip.png)
+![](tooltip-6.png)
 
 ### Queue the substance for rendering
 

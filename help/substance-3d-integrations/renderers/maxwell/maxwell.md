@@ -2,6 +2,7 @@
 title: "Maxwell"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Maxwell"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maxwell.html"
 ---
 
 # Maxwell
@@ -12,5 +13,5 @@ Substance Painter 2020.1 (6.1.0) ships with Maxwell [Output templates](https://d
 
 ## Table of Contents
 
-* [Maxwell - Substance in Maya](maxwell-substance-in-maya/maxwell-substance-in-maya.md)
-* [Maxwell - Substance Painter](maxwell-substance-painter/maxwell-substance-painter.md)
+* [Maxwell - Substance in Maya](maxwell-in-maya/maxwell-substance-in-maya.md)
+* [Maxwell - Substance Painter](maxwell-painter/maxwell-substance-painter.md)

@@ -2,6 +2,7 @@
 title: "Corona for 3ds Max"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Corona > Corona for 3ds Max"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/corona/corona-for-3ds-max.html"
 ---
 
 # Corona for 3ds Max

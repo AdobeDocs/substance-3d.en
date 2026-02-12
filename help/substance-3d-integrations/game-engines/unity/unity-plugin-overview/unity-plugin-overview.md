@@ -2,6 +2,7 @@
 title: "Unity Plugin Overview"
 description: ""
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Plugin Overview"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-plugin-overview.html"
 ---
 
 # Unity Plugin Overview

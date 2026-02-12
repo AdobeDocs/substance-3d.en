@@ -2,6 +2,7 @@
 title: "Modo Switch Engine"
 description: ""
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Modo Switch Engine"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/modo-switch-engine.html"
 ---
 
 # Modo Switch Engine

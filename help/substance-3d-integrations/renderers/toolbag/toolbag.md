@@ -2,6 +2,7 @@
 title: "Toolbag"
 description: ""
 helpx_description: "Ecosystems and Plugins > Renderers > Toolbag"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/toolbag.html"
 ---
 
 # Toolbag

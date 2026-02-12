@@ -2,6 +2,7 @@
 title: "World Space Normals"
 description: ""
 helpx_description: "bakers > Bakers Settings > World Space Normals"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/world-space-normals.html"
 ---
 
 # World Space Normals
