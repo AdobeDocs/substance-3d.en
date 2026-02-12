@@ -1,6 +1,6 @@
 ---
 title: After Effects
-description: 
+description: ""
 helpx_description: Learn about SBSAR file support in Adobe After Effects.
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/creative-cloud-applications/after-effects.html"
 helpx_learn_topic:
@@ -8,6 +8,8 @@ helpx_learn_topic:
 helpx_tags:
   - SG_SUBSTANCE_INTEGRATIONS
 ---
+
+
 
 
 # After Effects

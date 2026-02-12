@@ -1,11 +1,14 @@
 ---
 title: Frequently asked questions
-description: 
+description: ""
 helpx_description: Substance 3D General
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/substance-for-linux/faq.html"
 helpx_tags:
   - SG_SUBSTANCE_GENERAL
 ---
+
+
+
 
 
 # Frequently asked questions

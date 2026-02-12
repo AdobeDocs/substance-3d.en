@@ -2,6 +2,7 @@
 user-guide-title: placeholder
 breadcrumb-title: placeholder
 user-guide-description: placeholder
+solution: Substance 3D
 ---
 
 # Substance 3D Ecosystem {#ecosystem}
