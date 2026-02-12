@@ -13,4 +13,4 @@ The Substance in 3ds Max plugin contains workflows for automatically creating a 
 
 To use a workflow, select the Substance node in the material editor and then choose the workflow from the Substance menu.
 
-![](https://helpx.adobe.com/content/dam/help/en/substance-3d/documentation/integrations/files/194216255/194216254/1/1584976236720/max-workflow.gif)
+![](max-workflow.gif)
