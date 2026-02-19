@@ -1,6 +1,6 @@
 ---
 title: "Bump and Displacement"
-description: ""
+description: "Use bump and displacement maps from Substance materials in MODO to add surface detail and depth to your models."
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Bump and Displacement"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/bump-and-displacement.html"
 ---

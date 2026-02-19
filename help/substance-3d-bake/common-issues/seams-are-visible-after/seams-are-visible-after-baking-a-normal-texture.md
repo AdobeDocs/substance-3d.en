@@ -1,6 +1,6 @@
 ---
 title: "Seams are visible after baking a normal texture"
-description: ""
+description: "Eliminate visible seams in baked normal textures by adjusting padding, anti-aliasing, and UV layout."
 helpx_description: "bakers > Common Issues > Seams are visible after baking a normal texture"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/seams-are-visible-after-baking-a-normal-texture.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "What is the difference between the OpenGL and DirectX normal format "
-description: ""
+description: "Learn the differences between OpenGL and DirectX normal map formats and when to use each one."
 helpx_description: "bakers > Common Questions > What is the difference between the OpenGL and DirectX normal format "
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/what-is-the-difference-between-the-opengl-and-directx-normal-format.html"
 ---

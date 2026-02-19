@@ -1,6 +1,6 @@
 ---
 title: "Normal texture looks faceted"
-description: ""
+description: "Fix faceted appearance in normal textures by smoothing mesh normals and adjusting smoothing group settings."
 helpx_description: "bakers > Common Issues > Normal texture looks faceted"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/normal-texture-looks-faceted.html"
 ---

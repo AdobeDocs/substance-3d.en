@@ -1,6 +1,6 @@
 ---
 title: "Maverick"
-description: ""
+description: "Use Substance materials in Maverick renderer for product visualization with Painter integration and SBSAR support."
 helpx_description: "Ecosystems and Plugins > Renderers > Maverick"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maverick.html"
 ---

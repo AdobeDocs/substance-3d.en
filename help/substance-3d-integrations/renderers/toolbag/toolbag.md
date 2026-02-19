@@ -1,6 +1,6 @@
 ---
 title: "Toolbag"
-description: ""
+description: "Use Substance roughness and metallic outputs in Toolbag 2 for real-time material preview and rendering."
 helpx_description: "Ecosystems and Plugins > Renderers > Toolbag"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/toolbag.html"
 ---

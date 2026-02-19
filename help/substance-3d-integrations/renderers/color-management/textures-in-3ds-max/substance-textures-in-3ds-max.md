@@ -1,6 +1,6 @@
 ---
 title: "Substance textures in 3ds Max"
-description: ""
+description: "Understand how the Substance plugin handles gamma settings for textures in 3ds Max to ensure proper color management."
 helpx_description: "Ecosystems and Plugins > Renderers > Color Management > Substance textures in 3ds Max"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/color-management/substance-textures-in-3ds-max.html"
 ---

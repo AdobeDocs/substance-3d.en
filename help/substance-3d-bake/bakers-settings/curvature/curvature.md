@@ -1,6 +1,6 @@
 ---
 title: "Curvature"
-description: ""
+description: "Extract curvature information from your mesh to create textures that highlight cavities and edges of your geometry."
 helpx_description: "bakers > Bakers Settings > Curvature"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/curvature.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting"
-description: ""
+description: "Diagnose and resolve common issues with the Substance 3D add-on in Blender using the system console."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Troubleshooting"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/troubleshooting.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Geometry Cache"
-description: ""
+description: "Use geometry caching to preserve pre-processed mesh data and speed up subsequent baking operations significantly."
 helpx_description: "bakers > Features > Geometry Cache"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/geometry-cache.html"
 ---

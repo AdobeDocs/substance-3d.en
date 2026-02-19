@@ -1,6 +1,6 @@
 ---
 title: "Material Instance Definition - UE5"
-description: ""
+description: "Create Material Instance Definitions with Substance materials in Unreal Engine 5 to optimize GPU rendering performance."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Material Instance Definition - UE5"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/material-instance-definition-ue5.html"
 ---

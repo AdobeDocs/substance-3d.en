@@ -1,6 +1,6 @@
 ---
 title: "Physical size in Blender"
-description: ""
+description: "Use physical size settings to scale Substance materials based on real-world dimensions in Blender."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Physical size in Blender"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/physical-size-in-blender.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The Substance 3D Panel"
-description: ""
+description: "Learn how to use the Substance 3D panel in Blender to manage materials, parameters, and outputs."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > The Substance 3D Panel"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/the-substance-3d-panel.html"
 ---

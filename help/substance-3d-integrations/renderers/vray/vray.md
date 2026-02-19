@@ -1,6 +1,6 @@
 ---
 title: "Vray"
-description: ""
+description: "Render Substance materials with V-Ray in Maya and 3ds Max using exported maps or the Substance plugin."
 helpx_description: "Ecosystems and Plugins > Renderers > Vray"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/vray.html"
 ---

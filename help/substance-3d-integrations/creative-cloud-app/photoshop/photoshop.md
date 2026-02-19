@@ -1,6 +1,6 @@
 ---
 title: "Photoshop"
-description: ""
+description: "Use Substance materials directly in Photoshop to create realistic textures and enhance your 2D artwork with 3D materials."
 helpx_description: "Ecosystems and Plugins > Creative Cloud Applications > Photoshop"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/creative-cloud-applications/photoshop.html"
 ---

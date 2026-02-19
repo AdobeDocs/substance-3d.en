@@ -1,6 +1,6 @@
 ---
 title: "Presets"
-description: ""
+description: "Manage embedded presets in Substance files or create new presets in Maya to save parameter configurations."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Presets"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/presets.html"
 ---

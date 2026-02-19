@@ -1,6 +1,6 @@
 ---
 title: "Opacity Mask from Mesh"
-description: ""
+description: "Generate opacity masks by converting missed rays into grayscale binary images for transparency effects."
 helpx_description: "bakers > Bakers Settings > Opacity Mask from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/opacity-mask-from-mesh.html"
 ---

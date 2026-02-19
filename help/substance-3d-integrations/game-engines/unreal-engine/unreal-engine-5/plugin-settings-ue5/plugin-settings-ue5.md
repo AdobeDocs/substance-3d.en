@@ -1,6 +1,6 @@
 ---
 title: "Plugin Settings - UE5"
-description: ""
+description: "Configure Substance plugin settings in Unreal Engine 5 through Project Settings to customize plugin behavior."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Plugin Settings - UE5"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/plugin-settings-ue5.html"
 ---

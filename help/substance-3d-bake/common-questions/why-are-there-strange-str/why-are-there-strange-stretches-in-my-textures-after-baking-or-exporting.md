@@ -1,6 +1,6 @@
 ---
 title: "Why are there strange stretches in my textures after baking or exporting "
-description: ""
+description: "Identify and fix strange stretches in your baked textures caused by UV mapping or mesh issues."
 helpx_description: "bakers > Common Questions > Why are there strange stretches in my textures after baking or exporting "
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/why-are-there-strange-stretches-in-my-textures-after-baking-or-exporting.html"
 ---

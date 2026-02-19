@@ -1,6 +1,6 @@
 ---
 title: "Working with Emissive"
-description: ""
+description: "Configure emissive properties for Substance materials in MODO to control luminous amount and color settings."
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Working with Emissive"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/working-with-emissive.html"
 ---

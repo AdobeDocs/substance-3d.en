@@ -1,6 +1,6 @@
 ---
 title: "Physical Size in Unity"
-description: ""
+description: "Use physical size settings to apply and scale Substance materials based on real-world dimensions in Unity."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Physical Size in Unity"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/physical-size-in-unity.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Substance textures in Maya"
-description: ""
+description: "Configure color space settings for Substance textures in Maya to ensure accurate color management and rendering."
 helpx_description: "Ecosystems and Plugins > Renderers > Color Management > Substance textures in Maya"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/color-management/substance-textures-in-maya.html"
 ---

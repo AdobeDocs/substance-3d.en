@@ -1,6 +1,6 @@
 ---
 title: "Blueprint(UE5) Aggregate Substance"
-description: ""
+description: "Combine multiple Substance materials at runtime in Unreal Engine 5 using Blueprint aggregate nodes for advanced workflows."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Blueprints - UE5 > Blueprint(UE5) Aggregate Substance"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/blueprints-ue5/blueprintue5-aggregate-substance.html"
 ---

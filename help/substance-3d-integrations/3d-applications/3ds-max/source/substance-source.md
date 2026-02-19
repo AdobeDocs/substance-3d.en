@@ -1,6 +1,6 @@
 ---
 title: "Substance Source"
-description: ""
+description: "Access and use Substance materials from Substance Source library directly in 3ds Max projects."
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Substance Source"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/substance-source.html"
 ---

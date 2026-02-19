@@ -1,6 +1,6 @@
 ---
 title: "World Space Direction"
-description: ""
+description: "Compute vector directions in world space and save them into textures for directional effects and masking."
 helpx_description: "bakers > Bakers Settings > World Space Direction"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/world-space-direction.html"
 ---

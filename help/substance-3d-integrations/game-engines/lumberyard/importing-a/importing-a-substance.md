@@ -1,6 +1,6 @@
 ---
 title: "Importing a Substance"
-description: ""
+description: "Import Substance material files into Lumberyard projects using the Procedural Material Editor."
 helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard > Importing a Substance"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/lumberyard/importing-a-substance.html"
 ---

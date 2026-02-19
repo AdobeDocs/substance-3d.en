@@ -1,6 +1,6 @@
 ---
 title: "Renderman for Maya"
-description: ""
+description: "Use Substance materials with Renderman in Maya using pxrSurface or pxrDisney materials for PBR rendering."
 helpx_description: "Ecosystems and Plugins > Renderers > Renderman > Renderman for Maya"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/renderman/renderman-for-maya.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Unreal Engine 4 plugin release notes"
-description: ""
+description: "Review release notes for all versions of the Substance 3D plugin for Unreal Engine 4 to stay updated on new features."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Unreal Engine 4 plugin release notes"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/unreal-engine-4-plugin-release-notes.html"
 ---

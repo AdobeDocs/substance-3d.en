@@ -1,6 +1,6 @@
 ---
 title: "Physical Size in Maya"
-description: ""
+description: "Use physical size settings in Maya to apply Substance materials at real-world scale for accurate visualization."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Physical Size in Maya"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/physical-size-in-maya.html"
 ---

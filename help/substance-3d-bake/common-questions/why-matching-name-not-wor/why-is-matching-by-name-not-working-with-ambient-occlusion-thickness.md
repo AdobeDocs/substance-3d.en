@@ -1,6 +1,6 @@
 ---
 title: "Why is Matching by Name not working with Ambient OcclusionThickness "
-description: ""
+description: "Understand why Matching by Name doesn't work with Ambient Occlusion and Thickness bakers and find alternatives."
 helpx_description: "bakers > Common Questions > Why is Matching by Name not working with Ambient OcclusionThickness "
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/why-is-matching-by-name-not-working-with-ambient-occlusion-thickness.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "General knowledge"
-description: ""
+description: "Discover essential information about the Substance 3D ecosystem and learn how to get started with Adobe's 3D tools."
 helpx_description: "General Knowledge > Home"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/home.html"
 ---

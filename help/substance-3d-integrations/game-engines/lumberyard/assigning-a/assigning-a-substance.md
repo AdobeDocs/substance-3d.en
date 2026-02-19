@@ -1,6 +1,6 @@
 ---
 title: "Assigning a Substance"
-description: ""
+description: "Assign Substance materials to objects in Lumberyard using the Material Editor just like other materials."
 helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard > Assigning a Substance"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/lumberyard/assigning-a-substance.html"
 ---

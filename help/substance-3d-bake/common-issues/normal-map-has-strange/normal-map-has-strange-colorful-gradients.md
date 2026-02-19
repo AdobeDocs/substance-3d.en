@@ -1,6 +1,6 @@
 ---
 title: "Normal map has strange colorful gradients"
-description: ""
+description: "Fix strange colorful gradients in normal maps by checking mesh normals, smoothing groups, and UV mapping."
 helpx_description: "bakers > Common Issues > Normal map has strange colorful gradients"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/normal-map-has-strange-colorful-gradients.html"
 ---

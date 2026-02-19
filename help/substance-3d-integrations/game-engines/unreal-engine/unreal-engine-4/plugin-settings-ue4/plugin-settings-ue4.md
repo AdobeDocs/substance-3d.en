@@ -1,6 +1,6 @@
 ---
 title: "Plugin Settings - UE4"
-description: ""
+description: "Configure Substance plugin settings in Unreal Engine 4 through Project Settings to customize plugin behavior."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Plugin Settings - UE4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/plugin-settings-ue4.html"
 ---

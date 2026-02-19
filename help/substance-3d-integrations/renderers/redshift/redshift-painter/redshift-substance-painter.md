@@ -1,6 +1,6 @@
 ---
 title: "Redshift - Substance Painter"
-description: ""
+description: "Export Substance Painter textures for Redshift renderer using output templates and proper material settings."
 helpx_description: "Ecosystems and Plugins > Renderers > Redshift > Redshift - Substance Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/redshift/redshift-substance-painter.html"
 ---

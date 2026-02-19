@@ -1,6 +1,6 @@
 ---
 title: "Optimization Guidelines"
-description: ""
+description: "Follow optimization guidelines to balance Substance material complexity with rendering performance in Unity."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Optimization Guidelines"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/optimization-guidelines.html"
 ---

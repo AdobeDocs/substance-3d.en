@@ -1,6 +1,6 @@
 ---
 title: "Bent Normals from Mesh"
-description: ""
+description: "Compute bent normals textures that describe the average direction of ambient lighting from high-poly meshes."
 helpx_description: "bakers > Bakers Settings > Bent Normals from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/bent-normals-from-mesh.html"
 ---

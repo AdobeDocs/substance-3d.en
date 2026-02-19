@@ -1,6 +1,6 @@
 ---
 title: "Arnold - Substance in Maya"
-description: ""
+description: "Learn how to use Substance materials with Arnold renderer in Maya using the Substance plugin and Standard Surface material."
 helpx_description: "Ecosystems and Plugins > Renderers > Arnold > Arnold - Substance in Maya"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/arnold/arnold-substance-in-maya.html"
 ---

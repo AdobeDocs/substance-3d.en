@@ -1,6 +1,6 @@
 ---
 title: "3Ds Max 3.0.0"
-description: ""
+description: "Review release notes for 3ds Max plugin version 3.0.0 and later to learn about new features, improvements, and bug fixes."
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > 3ds Max Plugin Release Notes > 3ds Max 3.0.0"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-3-0-0-plus.html"
 ---

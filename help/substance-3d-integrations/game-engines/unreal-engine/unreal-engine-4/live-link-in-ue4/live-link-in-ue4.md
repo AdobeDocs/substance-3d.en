@@ -1,6 +1,6 @@
 ---
 title: "Live Link in UE4"
-description: ""
+description: "Use Live Link in Unreal Engine 4 to synchronize Substance materials between Painter and UE4 in real-time."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Live Link in UE4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/live-link-in-ue4.html"
 ---

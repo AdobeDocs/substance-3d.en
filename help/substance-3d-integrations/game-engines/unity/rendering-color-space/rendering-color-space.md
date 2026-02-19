@@ -1,6 +1,6 @@
 ---
 title: "Rendering Color Space"
-description: ""
+description: "Configure Unity's color space settings to ensure proper rendering of Substance materials with physically-based shaders."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Rendering Color Space"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/rendering-color-space.html"
 ---

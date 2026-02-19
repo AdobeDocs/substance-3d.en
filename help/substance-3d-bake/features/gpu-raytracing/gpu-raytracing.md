@@ -1,6 +1,6 @@
 ---
 title: "GPU Raytracing"
-description: ""
+description: "Enable hardware-accelerated GPU raytracing to speed up baking computations by 25x or more for faster workflows."
 helpx_description: "bakers > Features > GPU Raytracing"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/gpu-raytracing.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Unreal plugin 5.3.2"
-description: ""
+description: "Review release notes for Unreal Engine 5 plugin version 5.3.2 to learn about new features, improvements, and bug fixes."
 helpx_description: "Substance 3D Integrations"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/unreal-engine-5-release-notes/unreal-plugin-5-3-2.html"
 ---

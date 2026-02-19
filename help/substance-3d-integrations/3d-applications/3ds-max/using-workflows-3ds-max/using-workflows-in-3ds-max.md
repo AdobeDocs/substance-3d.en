@@ -1,6 +1,6 @@
 ---
 title: "Using Workflows in 3ds Max"
-description: ""
+description: "Use render workflows in 3ds Max to automatically create shader networks for different renderers from Substance materials."
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Using Workflows in 3ds Max"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/using-workflows-in-3ds-max.html"
 ---

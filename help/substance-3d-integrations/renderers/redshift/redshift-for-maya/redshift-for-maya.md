@@ -1,6 +1,6 @@
 ---
 title: "Redshift for Maya"
-description: ""
+description: "Use Substance materials with Redshift renderer in Maya through exported maps or the Substance plugin."
 helpx_description: "Ecosystems and Plugins > Renderers > Redshift > Redshift for Maya"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/redshift/redshift-for-maya.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Uninstalling the Add-on"
-description: ""
+description: "Learn how to properly uninstall the Substance 3D add-on from Blender through the preferences menu."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Uninstalling the Add-on"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/uninstalling-the-add-on.html"
 ---

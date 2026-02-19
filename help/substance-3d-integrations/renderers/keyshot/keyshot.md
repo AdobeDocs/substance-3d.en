@@ -1,6 +1,6 @@
 ---
 title: "Keyshot"
-description: ""
+description: "Use Substance materials in Keyshot renderer for product visualization with exported texture maps."
 helpx_description: "Ecosystems and Plugins > Renderers > Keyshot"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/keyshot.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Tiling Substance - UE4"
-description: ""
+description: "Tile Substance textures in Unreal Engine 4 by adding Texture Coordinate nodes and scalar parameters to materials."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Tiling Substance - UE4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/tiling-substance-ue4.html"
 ---

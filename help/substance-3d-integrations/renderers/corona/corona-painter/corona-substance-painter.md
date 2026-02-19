@@ -1,6 +1,6 @@
 ---
 title: "Corona - Substance Painter"
-description: ""
+description: "Export Substance Painter textures for Corona renderer using Specular/Glossiness workflow and proper conversions."
 helpx_description: "Ecosystems and Plugins > Renderers > Corona > Corona - Substance Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/corona/corona-substance-painter.html"
 ---

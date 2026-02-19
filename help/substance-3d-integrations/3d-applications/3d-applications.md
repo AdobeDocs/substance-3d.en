@@ -1,6 +1,6 @@
 ---
 title: "3D Applications"
-description: ""
+description: "Learn how to import and use Substance files in major DCC applications like Maya, 3ds Max, Blender, and more."
 helpx_description: "Ecosystems and Plugins > 3D Applications"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications.html"
 ---

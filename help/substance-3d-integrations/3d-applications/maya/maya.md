@@ -1,6 +1,6 @@
 ---
 title: "Maya"
-description: ""
+description: "Install and use the Substance plugin for Maya to import Substance materials and integrate them into your workflow."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya.html"
 ---

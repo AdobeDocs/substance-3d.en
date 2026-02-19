@@ -1,6 +1,6 @@
 ---
 title: "Substance 3D Designer"
-description: ""
+description: "Learn how to access and use the baking window in Substance 3D Designer to bake model information into textures."
 helpx_description: "bakers > Getting Started > Software Interface > Substance 3D Designer"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/software-interface/substance-3d-designer.html"
 ---

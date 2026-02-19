@@ -1,6 +1,6 @@
 ---
 title: "Substance in 3ds Max Overview"
-description: ""
+description: "Learn about the Substance plugin for 3ds Max and how to import and use Substance materials in your projects."
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Substance in 3ds Max Overview"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/substance-in-3ds-max-overview.html"
 ---

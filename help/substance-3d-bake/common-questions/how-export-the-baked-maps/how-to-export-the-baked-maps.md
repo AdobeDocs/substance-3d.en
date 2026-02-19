@@ -1,6 +1,6 @@
 ---
 title: "How to export the baked maps "
-description: ""
+description: "Learn how to export baked textures from Substance Designer and Painter to use them in other applications."
 helpx_description: "bakers > Common Questions > How to export the baked maps "
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/how-to-export-the-baked-maps.html"
 ---

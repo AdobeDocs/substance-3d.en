@@ -1,6 +1,6 @@
 ---
 title: "Working with Bump Offset (Parallax) - UE4"
-description: ""
+description: "Use Bump Offset mapping with Substance materials in Unreal Engine 4 to create depth illusion and surface detail."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Working with Bump Offset (Parallax) - UE4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/working-with-bump-offset-parallax-ue4.html"
 ---

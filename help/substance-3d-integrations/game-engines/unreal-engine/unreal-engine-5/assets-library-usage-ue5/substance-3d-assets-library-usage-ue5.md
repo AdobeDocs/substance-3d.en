@@ -1,6 +1,6 @@
 ---
 title: "Substance 3D Assets Library Usage - UE5"
-description: ""
+description: "Access high-quality Substance materials from the Assets Library and community assets in Unreal Engine 5 projects."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Substance 3D Assets Library Usage - UE5"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/substance-3d-assets-library-usage-ue5.html"
 ---

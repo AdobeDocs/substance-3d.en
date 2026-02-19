@@ -1,6 +1,6 @@
 ---
 title: "Physical Size - UE5"
-description: ""
+description: "Use physical size settings to scale Substance materials based on real-world dimensions in Unreal Engine 5."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Physical Size - UE5"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/physical-size-ue5.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Corona"
-description: ""
+description: "Use Substance materials with Corona renderer in 3ds Max using the Specular/Glossiness workflow and required maps."
 helpx_description: "Ecosystems and Plugins > Renderers > Corona"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/corona.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Color Management"
-description: ""
+description: "Understand color management and gamma correction when using Substance materials with different renderers."
 helpx_description: "Ecosystems and Plugins > Renderers > Color Management"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/color-management.html"
 ---

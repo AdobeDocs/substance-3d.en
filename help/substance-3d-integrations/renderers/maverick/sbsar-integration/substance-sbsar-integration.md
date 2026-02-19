@@ -1,6 +1,6 @@
 ---
 title: "Substance SBSAR Integration"
-description: ""
+description: "Use Substance SBSAR files directly in Maverick renderer for real-time material editing and parameter control."
 helpx_description: "Ecosystems and Plugins > Renderers > Maverick > Substance SBSAR Integration"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maverick/substance-sbsar-integration.html"
 ---

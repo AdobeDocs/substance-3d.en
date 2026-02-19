@@ -1,6 +1,6 @@
 ---
 title: "Redshift"
-description: ""
+description: "Use Substance materials with Redshift renderer in Maya and 3ds Max, including metallic workflow support."
 helpx_description: "Ecosystems and Plugins > Renderers > Redshift"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/redshift.html"
 ---

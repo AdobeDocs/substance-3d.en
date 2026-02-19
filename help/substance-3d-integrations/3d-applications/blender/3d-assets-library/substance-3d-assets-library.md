@@ -1,6 +1,6 @@
 ---
 title: "Substance 3D Assets Library"
-description: ""
+description: "Access thousands of professional Substance materials from the Assets Library and community assets in Blender."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Substance 3D Assets Library"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/substance-3d-assets-library.html"
 ---

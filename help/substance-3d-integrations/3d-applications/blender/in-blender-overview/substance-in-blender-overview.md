@@ -1,6 +1,6 @@
 ---
 title: "Substance in Blender Overview"
-description: ""
+description: "Learn about the Substance 3D add-on for Blender and how to import and work with Substance materials in your projects."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Substance in Blender Overview"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/substance-in-blender-overview.html"
 ---

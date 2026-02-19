@@ -1,6 +1,6 @@
 ---
 title: "Substance Bakers"
-description: ""
+description: "Learn how to use Substance Bakers to compute mesh-based information into texture files and enhance your texturing workflow."
 helpx_description: "bakers > Home"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/home.html"
 ---

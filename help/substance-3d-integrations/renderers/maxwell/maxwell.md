@@ -1,6 +1,6 @@
 ---
 title: "Maxwell"
-description: ""
+description: "Use Substance materials with Maxwell renderer in Maya and Painter for physically-based rendering workflows."
 helpx_description: "Ecosystems and Plugins > Renderers > Maxwell"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maxwell.html"
 ---

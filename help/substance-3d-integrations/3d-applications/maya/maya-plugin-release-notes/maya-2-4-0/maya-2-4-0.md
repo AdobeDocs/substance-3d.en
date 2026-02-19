@@ -1,6 +1,6 @@
 ---
 title: "Maya 2.4.0"
-description: ""
+description: "Review release notes for Maya plugin version 2.4.0 to learn about new features, improvements, and bug fixes."
 helpx_description: "Substance 3D Integrations"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-4-0.html"
 ---

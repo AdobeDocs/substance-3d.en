@@ -1,6 +1,6 @@
 ---
 title: "Aliasing on UV Seams"
-description: ""
+description: "Fix aliasing artifacts that appear on UV seams during baking by adjusting anti-aliasing and padding settings."
 helpx_description: "bakers > Common Issues > Aliasing on UV Seams"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/aliasing-on-uv-seams.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Substance engine versioning"
-description: ""
+description: "Use this reference to check which Substance engine version is compatible with your software and ensure material compatibility."
 helpx_description: "General Knowledge > Ecosystem > Substance engine versioning"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/substance-engine-versioning.html"
 ---

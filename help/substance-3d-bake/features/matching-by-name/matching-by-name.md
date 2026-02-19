@@ -1,6 +1,6 @@
 ---
 title: "Matching by Name"
-description: ""
+description: "Use the Matching by Name feature to isolate low-poly and high-poly meshes and prevent geometry bleeding during baking."
 helpx_description: "bakers > Features > Matching by Name"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/matching-by-name.html"
 ---

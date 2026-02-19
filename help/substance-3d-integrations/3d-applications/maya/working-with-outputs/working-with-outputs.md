@@ -1,6 +1,6 @@
 ---
 title: "Working with Outputs"
-description: ""
+description: "Enable and disable Substance material outputs in Maya to control which textures are computed and used."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Working with Outputs"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/working-with-outputs.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Custom Materials"
-description: ""
+description: "Use Unreal, Unity, and glTF custom materials in MODO with the Substance plugin for specialized workflows."
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Custom Materials"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/custom-materials.html"
 ---

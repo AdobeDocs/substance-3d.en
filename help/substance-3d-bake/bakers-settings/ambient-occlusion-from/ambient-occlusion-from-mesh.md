@@ -1,6 +1,6 @@
 ---
 title: "Ambient Occlusion from Mesh"
-description: ""
+description: "Bake accurate ambient occlusion textures from high-poly meshes using ray tracing techniques for enhanced realism."
 helpx_description: "bakers > Bakers Settings > Ambient Occlusion from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/ambient-occlusion-from-mesh.html"
 ---

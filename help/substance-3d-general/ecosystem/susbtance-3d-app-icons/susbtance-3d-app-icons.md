@@ -1,6 +1,6 @@
 ---
 title: "Substance 3D icons for artists"
-description: ""
+description: "Download official Substance 3D application icons in multiple formats to use in your published artwork and creative projects."
 helpx_description: "General Knowledge > Ecosystem > Substance 3D icons for artists"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/susbtance-3d-app-icons.html"
 ---

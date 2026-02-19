@@ -1,6 +1,6 @@
 ---
 title: "Unity Preferences"
-description: ""
+description: "Configure Substance 3D plugin preferences in Unity to customize plugin behavior and settings."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Preferences"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-preferences.html"
 ---

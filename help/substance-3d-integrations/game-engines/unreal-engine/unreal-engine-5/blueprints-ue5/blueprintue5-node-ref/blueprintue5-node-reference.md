@@ -1,6 +1,6 @@
 ---
 title: "Blueprint(UE5) Node Reference"
-description: ""
+description: "Reference guide for all Substance Blueprint nodes available in Unreal Engine 5 for material operations."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Blueprints - UE5 > Blueprint(UE5) Node Reference"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/blueprints-ue5/blueprintue5-node-reference.html"
 ---

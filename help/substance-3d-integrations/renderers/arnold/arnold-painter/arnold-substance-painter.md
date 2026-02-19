@@ -1,6 +1,6 @@
 ---
 title: "Arnold - Substance Painter"
-description: ""
+description: "Use Substance Painter output templates for Arnold renderer with aiStandard material for physically-based rendering."
 helpx_description: "Ecosystems and Plugins > Renderers > Arnold > Arnold - Substance Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/arnold/arnold-substance-painter.html"
 ---

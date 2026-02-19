@@ -1,6 +1,6 @@
 ---
 title: "Octane for 3ds Max"
-description: ""
+description: "Use Substance materials with Octane renderer in 3ds Max through Live DB materials and proper output settings."
 helpx_description: "Ecosystems and Plugins > Renderers > Octane > Octane for 3ds Max"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/octane/octane-for-3ds-max.html"
 ---

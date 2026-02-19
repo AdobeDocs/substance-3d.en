@@ -1,6 +1,6 @@
 ---
 title: "Cinema 4D"
-description: ""
+description: "Install and use the Substance plugin for Cinema 4D to import and work with Substance materials in your projects."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d.html"
 ---

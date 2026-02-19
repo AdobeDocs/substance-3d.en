@@ -1,6 +1,6 @@
 ---
 title: "Arnold - Substance in 3ds Max"
-description: ""
+description: "Use Substance materials with Arnold renderer in 3ds Max using the Substance plugin and Standard Surface material."
 helpx_description: "Ecosystems and Plugins > Renderers > Arnold > Arnold - Substance in 3ds Max"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/arnold/arnold-substance-in-3ds-max.html"
 ---

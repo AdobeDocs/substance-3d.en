@@ -1,6 +1,6 @@
 ---
 title: "Should I enable"
-description: ""
+description: "Learn when to enable Compute tangent space per fragment and how it affects your baking results."
 helpx_description: "bakers > Common Questions > Should I enable"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/should-i-enable-compute-tangent-space-per-fragment.html"
 ---

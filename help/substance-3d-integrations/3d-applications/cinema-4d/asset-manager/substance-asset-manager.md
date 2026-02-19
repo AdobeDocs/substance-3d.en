@@ -1,6 +1,6 @@
 ---
 title: "Substance Asset Manager"
-description: ""
+description: "Use the Substance Asset Manager in Cinema 4D to add, remove, and organize Substance materials in your scene."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Substance Asset Manager"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/substance-asset-manager.html"
 ---

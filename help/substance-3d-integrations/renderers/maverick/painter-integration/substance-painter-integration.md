@@ -1,6 +1,6 @@
 ---
 title: "Substance Painter Integration"
-description: ""
+description: "Integrate Substance Painter with Maverick renderer for seamless material workflows and product visualization."
 helpx_description: "Ecosystems and Plugins > Renderers > Maverick > Substance Painter Integration"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maverick/substance-painter-integration.html"
 ---

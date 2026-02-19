@@ -1,6 +1,6 @@
 ---
 title: "Plugin Overview - UE4"
-description: ""
+description: "Learn how to import and use Substance materials in Unreal Engine 4 with the Substance plugin overview guide."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Plugin Overview - UE4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/plugin-overview-ue4.html"
 ---

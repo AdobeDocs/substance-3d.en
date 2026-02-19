@@ -1,6 +1,6 @@
 ---
 title: "Ecosystem"
-description: ""
+description: "Explore shared resources and information common across all Substance 3D applications to enhance your workflow."
 helpx_description: "General Knowledge > Ecosystem"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem.html"
 ---

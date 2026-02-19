@@ -1,6 +1,6 @@
 ---
 title: "Procedural Sampling"
-description: ""
+description: "Control procedural texture sampling size in Maya to optimize quality and performance for Substance materials."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Procedural Sampling"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/procedural-sampling.html"
 ---
