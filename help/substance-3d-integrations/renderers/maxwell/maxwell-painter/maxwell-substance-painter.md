@@ -1,6 +1,6 @@
 ---
 title: "Maxwell - Substance Painter"
-description: ""
+description: "Export Substance Painter textures for Maxwell renderer using proper output templates and material settings."
 helpx_description: "Ecosystems and Plugins > Renderers > Maxwell > Maxwell - Substance Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maxwell/maxwell-substance-painter.html"
 ---

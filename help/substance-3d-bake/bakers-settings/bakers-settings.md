@@ -1,6 +1,6 @@
 ---
 title: "Bakers Settings"
-description: ""
+description: "Explore all available baker settings and learn how to configure each baker type for optimal texture generation results."
 helpx_description: "bakers > Bakers Settings"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings.html"
 ---

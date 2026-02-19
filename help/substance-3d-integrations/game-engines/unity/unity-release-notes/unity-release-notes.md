@@ -1,6 +1,6 @@
 ---
 title: "Unity Release Notes"
-description: ""
+description: "Review release notes for all versions of the Substance 3D plugin for Unity to stay updated on new features and changes."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-release-notes.html"
 ---

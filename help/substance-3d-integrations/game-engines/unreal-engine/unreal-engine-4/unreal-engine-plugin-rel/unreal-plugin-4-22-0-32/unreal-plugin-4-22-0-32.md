@@ -1,6 +1,6 @@
 ---
 title: "Unreal plugin 4.22.0.32"
-description: ""
+description: "Review release notes for Unreal Engine 4 plugin version 4.22.0.32 to learn about new features, improvements, and bug fixes."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Unreal Engine 4 plugin release notes > Unreal plugin 4.22.0.32"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/unreal-engine-4-plugin-release-notes/unreal-plugin-4-22-0-32.html"
 ---

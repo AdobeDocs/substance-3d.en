@@ -1,6 +1,6 @@
 ---
 title: "Batch Import"
-description: ""
+description: "Import multiple Substance SBSAR files at once into 3ds Max using the Batch Import feature for efficiency."
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Batch Import"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/batch-import.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Blueprint(UE4) Dynamic Material Instance"
-description: ""
+description: "Create dynamic material instances from Substance materials at runtime in Unreal Engine 4 using Blueprints."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Blueprints - UE4 > Blueprint(UE4) Dynamic Material Instance"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/blueprints-ue4/blueprintue4-dynamic-material-instance.html"
 ---

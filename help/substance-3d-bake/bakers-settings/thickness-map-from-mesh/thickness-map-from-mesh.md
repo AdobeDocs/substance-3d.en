@@ -1,6 +1,6 @@
 ---
 title: "Thickness Map from Mesh"
-description: ""
+description: "Generate thickness maps by casting rays inward from mesh surfaces for use in SSS shaders and masking."
 helpx_description: "bakers > Bakers Settings > Thickness Map from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/thickness-map-from-mesh.html"
 ---

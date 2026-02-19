@@ -1,6 +1,6 @@
 ---
 title: "Redshift for 3ds Max"
-description: ""
+description: "Use Substance materials with Redshift renderer in 3ds Max through exported maps or the Substance plugin."
 helpx_description: "Ecosystems and Plugins > Renderers > Redshift > Redshift for 3ds Max"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/redshift/redshift-for-3ds-max.html"
 ---

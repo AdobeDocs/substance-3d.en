@@ -1,12 +1,11 @@
 ---
 title: Substance 3D for Linux (ADA)
-description: ""
+description: "Learn how to download, install, and activate Substance 3D applications on Linux using the Adobe Download Access portal."
 helpx_description: Substance 3D General
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/substance-for-linux.html"
 helpx_tags:
   - SG_SUBSTANCE_GENERAL
 ---
-
 
 
 

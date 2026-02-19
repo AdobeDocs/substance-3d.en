@@ -1,6 +1,6 @@
 ---
 title: Substance 3D and Maxon One FAQ
-description: ""
+description: "Find answers to frequently asked questions about the Substance 3D and Maxon One partnership and integration."
 helpx_description: Substance 3D Integrations
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/partnerships/maxon-and-substance-3d/faq.html"
 helpx_tags:

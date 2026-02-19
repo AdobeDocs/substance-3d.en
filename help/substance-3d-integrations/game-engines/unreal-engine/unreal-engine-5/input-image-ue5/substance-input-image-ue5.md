@@ -1,6 +1,6 @@
 ---
 title: "Substance Input Image - UE5"
-description: ""
+description: "Use image textures as input parameters for Substance materials in Unreal Engine 5 to create modular materials."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Substance Input Image - UE5"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/substance-input-image-ue5.html"
 ---

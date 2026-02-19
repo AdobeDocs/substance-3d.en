@@ -1,6 +1,6 @@
 ---
 title: "Modo Installation"
-description: ""
+description: "Install the Substance plugin for MODO by dragging the LPK file into MODO to add Substance functionality."
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Modo Installation"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/modo-installation.html"
 ---

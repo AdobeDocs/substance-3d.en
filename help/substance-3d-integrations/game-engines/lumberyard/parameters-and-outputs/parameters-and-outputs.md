@@ -1,6 +1,6 @@
 ---
 title: "Parameters and outputs"
-description: ""
+description: "Modify Substance material parameters and configure outputs in Lumberyard using the Procedural Material Editor."
 helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard > Parameters and outputs"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/lumberyard/parameters-and-outputs.html"
 ---

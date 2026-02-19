@@ -1,6 +1,6 @@
 ---
 title: "Thea"
-description: ""
+description: "Convert Substance SBSAR files to Thea materials using the Thea Substance Converter for rendering workflows."
 helpx_description: "Ecosystems and Plugins > Renderers > Thea"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/thea.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Using the Substance Plugin"
-description: ""
+description: "Learn how to use the Substance plugin in Cinema 4D to import materials and manage Substance assets."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Using the Substance Plugin"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/using-the-substance-plugin.html"
 ---

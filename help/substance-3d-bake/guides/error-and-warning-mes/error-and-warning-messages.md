@@ -1,6 +1,6 @@
 ---
 title: "Error and Warning Messages"
-description: ""
+description: "Reference guide for all error and warning messages that can appear when baking with Substance software."
 helpx_description: "bakers > Guides > Error and Warning Messages"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/guides/error-and-warning-messages.html"
 ---

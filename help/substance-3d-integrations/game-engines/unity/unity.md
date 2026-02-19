@@ -1,6 +1,6 @@
 ---
 title: "Unity"
-description: ""
+description: "Import and use Substance materials in Unity game engine with native plugin support and runtime parameter control."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity.html"
 ---

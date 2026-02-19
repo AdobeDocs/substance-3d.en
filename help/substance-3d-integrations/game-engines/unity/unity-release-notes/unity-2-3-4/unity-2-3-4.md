@@ -1,6 +1,6 @@
 ---
 title: "Unity 2.3.4"
-description: ""
+description: "Review release notes for Unity plugin version 2.3.4 to learn about new features, improvements, and bug fixes."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes > Unity 2.3.4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-release-notes/unity-2-3-4.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Parameters"
-description: ""
+description: "Modify Substance material parameters in MODO through the Substance Properties panel to customize materials."
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Parameters"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/parameters.html"
 ---

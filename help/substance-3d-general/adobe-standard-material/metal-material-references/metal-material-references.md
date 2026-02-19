@@ -1,6 +1,6 @@
 ---
 title: "Metal material references"
-description: ""
+description: "Use accurate color values and data tables to simulate real-world metal materials with the Adobe Standard Material model."
 helpx_description: "General Knowledge > Adobe Standard Material > Metal material references"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/adobe-standard-material/metal-material-references.html"
 ---

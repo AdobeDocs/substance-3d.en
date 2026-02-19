@@ -1,6 +1,6 @@
 ---
 title: "Cycles and Eevee - Substance 3D for Blender"
-description: ""
+description: "Use Substance 3D materials with Blender's Cycles and Eevee renderers through the Substance add-on integration."
 helpx_description: "Ecosystems and Plugins > Renderers > Cycles and Eevee > Cycles and Eevee - Substance 3D for Blender"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/cycles-and-eevee/cycles-and-eevee-substance-3d-for-blender.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Curvature from Mesh"
-description: ""
+description: "Generate accurate curvature textures from high-poly meshes using ray tracing for precise edge detection."
 helpx_description: "bakers > Bakers Settings > Curvature from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/curvature-from-mesh.html"
 ---

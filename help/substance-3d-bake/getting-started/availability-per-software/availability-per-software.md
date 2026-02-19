@@ -1,6 +1,6 @@
 ---
 title: "Availability per software"
-description: ""
+description: "Check which bakers are available in each Substance 3D application to plan your baking workflow."
 helpx_description: "bakers > Getting Started > Availability per software"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/availability-per-software.html"
 ---

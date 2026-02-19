@@ -1,6 +1,6 @@
 ---
 title: Adobe Substance 3D and Maxon One
-description: ""
+description: "Learn about the partnership between Substance 3D and Maxon One, including integration benefits and workflows."
 helpx_description: Substance 3D Integrations
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/partnerships/maxon-and-substance-3d.html"
 helpx_tags:

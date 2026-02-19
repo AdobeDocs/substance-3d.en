@@ -1,6 +1,6 @@
 ---
 title: "Managing Substance Graphs"
-description: ""
+description: "Learn how to import, organize, and manage Substance graphs in Unity projects for efficient workflows."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Managing Substance Graphs"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/managing-substance-graphs.html"
 ---

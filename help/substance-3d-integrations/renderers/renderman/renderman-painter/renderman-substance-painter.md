@@ -1,6 +1,6 @@
 ---
 title: "Renderman - Substance Painter"
-description: ""
+description: "Export Substance Painter textures for Renderman using pxrSurface material and proper output conversions."
 helpx_description: "Ecosystems and Plugins > Renderers > Renderman > Renderman - Substance Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/renderman/renderman-substance-painter.html"
 ---

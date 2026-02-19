@@ -1,6 +1,6 @@
 ---
 title: "Modo Switch Engine"
-description: ""
+description: "Switch between CPU and GPU Substance engines in MODO to optimize performance based on your hardware."
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Modo Switch Engine"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/modo-switch-engine.html"
 ---

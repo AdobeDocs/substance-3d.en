@@ -1,6 +1,6 @@
 ---
 title: "Creative Cloud Applications"
-description: ""
+description: "Use Substance materials in Adobe Creative Cloud applications like Photoshop and After Effects for enhanced workflows."
 helpx_description: "Ecosystems and Plugins > Creative Cloud Applications"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/creative-cloud-applications.html"
 ---

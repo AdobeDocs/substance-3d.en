@@ -1,6 +1,6 @@
 ---
 title: After Effects
-description: ""
+description: "Use Substance materials in After Effects to create realistic textures and materials for motion graphics and visual effects."
 helpx_description: Learn about SBSAR file support in Adobe After Effects.
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/creative-cloud-applications/after-effects.html"
 helpx_learn_topic:

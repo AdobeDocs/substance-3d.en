@@ -1,6 +1,6 @@
 ---
 title: "Transferred Texture from Mesh"
-description: ""
+description: "Transfer textures between meshes based on their UVs, including support for normal map conversions."
 helpx_description: "bakers > Bakers Settings > Transferred Texture from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/transferred-texture-from-mesh.html"
 ---

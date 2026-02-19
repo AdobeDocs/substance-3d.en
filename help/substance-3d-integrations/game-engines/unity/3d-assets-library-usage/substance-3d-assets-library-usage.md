@@ -1,6 +1,6 @@
 ---
 title: "Substance 3D Assets Library Usage"
-description: ""
+description: "Access and use high-quality Substance materials from the Assets Library and community assets in Unity projects."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Substance 3D Assets Library Usage"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-assets-library-usage.html"
 ---

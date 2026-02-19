@@ -1,6 +1,6 @@
 ---
 title: "Using Presets"
-description: ""
+description: "Use embedded presets from Substance files or create custom presets to save parameter configurations in 3ds Max."
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Using Presets"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/using-presets.html"
 ---

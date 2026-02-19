@@ -1,6 +1,6 @@
 ---
 title: "3ds MAX Scripting API"
-description: ""
+description: "Reference documentation for the Substance 3ds Max scripting API to automate material operations."
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > 3ds MAX Scripting API"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/3ds-max-scripting-api.html"
 ---

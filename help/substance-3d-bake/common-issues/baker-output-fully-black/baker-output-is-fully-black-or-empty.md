@@ -1,6 +1,6 @@
 ---
 title: "Baker output is fully black or empty"
-description: ""
+description: "Troubleshoot why baker outputs are fully black or empty and learn how to fix mesh and UV issues."
 helpx_description: "bakers > Common Issues > Baker output is fully black or empty"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/baker-output-is-fully-black-or-empty.html"
 ---

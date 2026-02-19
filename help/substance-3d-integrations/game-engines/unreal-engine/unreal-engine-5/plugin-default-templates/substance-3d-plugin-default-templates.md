@@ -1,6 +1,6 @@
 ---
 title: "Substance 3D Plugin Default Templates"
-description: ""
+description: "Learn about default material templates provided by the Substance 3D plugin for Unreal Engine 5 workflows."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Substance 3D Plugin Default Templates"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/substance-3d-plugin-default-templates.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Flow Graph API"
-description: ""
+description: "Use Flow Graph nodes in Lumberyard to configure procedural material settings programmatically."
 helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard > Flow Graph API"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/lumberyard/flow-graph-api.html"
 ---

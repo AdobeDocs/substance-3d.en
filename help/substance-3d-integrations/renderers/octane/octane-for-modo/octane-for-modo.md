@@ -1,6 +1,6 @@
 ---
 title: "Octane for MODO"
-description: ""
+description: "Use Substance materials with Octane renderer in MODO through Live DB materials and proper output configurations."
 helpx_description: "Ecosystems and Plugins > Renderers > Octane > Octane for MODO"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/octane/octane-for-modo.html"
 ---

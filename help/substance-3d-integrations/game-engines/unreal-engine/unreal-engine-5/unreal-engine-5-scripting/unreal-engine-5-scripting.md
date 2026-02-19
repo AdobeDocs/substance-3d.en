@@ -1,6 +1,6 @@
 ---
 title: "Unreal Engine 5 Scripting"
-description: ""
+description: "Use the Substance Unreal Engine 5 scripting API to programmatically manage Substance materials in your projects."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Unreal Engine 5 Scripting"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/unreal-engine-5-scripting.html"
 ---

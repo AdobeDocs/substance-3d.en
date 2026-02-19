@@ -1,6 +1,6 @@
 ---
 title: "Downloading Substance 3D Plugin in Unity"
-description: ""
+description: "Download and install the Substance 3D plugin for Unity from the Unity Asset Store or package manager."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Downloading Substance 3D Plugin in Unity"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/downloading-substance-3d-plugin-in-unity.html"
 ---

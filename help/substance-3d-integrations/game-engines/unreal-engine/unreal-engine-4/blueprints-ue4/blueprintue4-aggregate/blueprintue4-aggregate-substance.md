@@ -1,6 +1,6 @@
 ---
 title: "Blueprint(UE4) Aggregate Substance"
-description: ""
+description: "Combine multiple Substance materials at runtime in Unreal Engine 4 using Blueprint aggregate nodes for advanced workflows."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Blueprints - UE4 > Blueprint(UE4) Aggregate Substance"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/blueprints-ue4/blueprintue4-aggregate-substance.html"
 ---

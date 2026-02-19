@@ -1,6 +1,6 @@
 ---
 title: "Common Parameters"
-description: ""
+description: "Learn about common parameters that apply to all bakers and how to configure them for optimal texture generation."
 helpx_description: "bakers > Bakers Settings > Common Parameters"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/common-parameters.html"
 ---

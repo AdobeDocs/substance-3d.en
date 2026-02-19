@@ -1,6 +1,6 @@
 ---
 title: "Animating a Substance material"
-description: ""
+description: "Animate Substance material parameters over time in 3ds Max using the Curve Editor for dynamic effects."
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Animating a Substance material"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/animating-a-substance-material.html"
 ---

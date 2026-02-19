@@ -1,6 +1,6 @@
 ---
 title: "Material Template Usage - UE5"
-description: ""
+description: "Create and use material templates in Unreal Engine 5 to define how Substance output nodes connect to material inputs."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Material Template Usage - UE5"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/material-template-usage-ue5.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Using Image Inputs"
-description: ""
+description: "Use image textures as input parameters for Substance materials in Unity to enhance material customization."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Using Image Inputs"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/using-image-inputs.html"
 ---

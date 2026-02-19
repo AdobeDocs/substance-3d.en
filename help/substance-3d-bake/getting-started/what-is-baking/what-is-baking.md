@@ -1,6 +1,6 @@
 ---
 title: "What is Baking "
-description: ""
+description: "Discover what baking is and learn how to save 3D mesh information into texture files to enhance your Substance materials."
 helpx_description: "bakers > Getting Started > What is Baking "
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/what-is-baking.html"
 ---

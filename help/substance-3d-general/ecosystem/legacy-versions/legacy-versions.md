@@ -1,6 +1,6 @@
 ---
 title: "Legacy versions"
-description: ""
+description: "Access legacy versions of Substance 3D applications that use the previous license key file activation system."
 helpx_description: "General Knowledge > Ecosystem > Legacy versions"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/legacy-versions.html"
 ---

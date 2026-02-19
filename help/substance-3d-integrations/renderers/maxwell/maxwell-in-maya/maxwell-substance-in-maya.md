@@ -1,6 +1,6 @@
 ---
 title: "Maxwell - Substance in Maya"
-description: ""
+description: "Use Substance materials with Maxwell renderer in Maya through exported maps or the Substance plugin."
 helpx_description: "Ecosystems and Plugins > Renderers > Maxwell > Maxwell - Substance in Maya"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maxwell/maxwell-substance-in-maya.html"
 ---

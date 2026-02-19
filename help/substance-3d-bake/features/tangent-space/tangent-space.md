@@ -1,6 +1,6 @@
 ---
 title: "Tangent Space"
-description: ""
+description: "Learn how Substance Bakers handle tangent space calculations and customize the algorithm for your workflow."
 helpx_description: "bakers > Features > Tangent Space"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/tangent-space.html"
 ---

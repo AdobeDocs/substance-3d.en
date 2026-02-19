@@ -1,6 +1,6 @@
 ---
 title: "3ds Max 2.4.2"
-description: ""
+description: "Review release notes for 3ds Max plugin version 2.4.2 to learn about new features, improvements, and bug fixes."
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > 3ds Max Plugin Release Notes > 3ds Max 2.4.2"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-2-4-2.html"
 ---

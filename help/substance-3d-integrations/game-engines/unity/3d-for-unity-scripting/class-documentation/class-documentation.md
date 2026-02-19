@@ -1,6 +1,6 @@
 ---
 title: "Class Documentation"
-description: ""
+description: "Complete class documentation for Substance 3D Unity scripting APIs to update parameters at runtime."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting > Class Documentation"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting/class-documentation.html"
 ---

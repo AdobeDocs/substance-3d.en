@@ -1,6 +1,6 @@
 ---
 title: "API Overview"
-description: ""
+description: "Reference overview of the deprecated Substance Unity API for legacy projects and scripting needs."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Scripting in Unity (Deprecated) > API Overview"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/scripting-in-unity-deprecated/api-overview.html"
 ---

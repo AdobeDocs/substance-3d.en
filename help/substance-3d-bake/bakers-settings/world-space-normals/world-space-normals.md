@@ -1,6 +1,6 @@
 ---
 title: "World Space Normals"
-description: ""
+description: "Save mesh normals, tangents, and binormals into textures using world space coordinates for advanced workflows."
 helpx_description: "bakers > Bakers Settings > World Space Normals"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/world-space-normals.html"
 ---

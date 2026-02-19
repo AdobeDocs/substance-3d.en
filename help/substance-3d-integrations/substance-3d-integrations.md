@@ -1,6 +1,6 @@
 ---
 title: "Ecosystem and Plug-ins"
-description: ""
+description: "Discover how Substance materials integrate with game engines, DCC applications, and renderers through plugins and native support."
 helpx_description: "Ecosystems and Plugins"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations.html"
 ---

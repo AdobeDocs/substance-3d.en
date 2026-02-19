@@ -1,6 +1,6 @@
 ---
 title: "Tiling Substance - UE5"
-description: ""
+description: "Tile Substance textures in Unreal Engine 5 by adding Texture Coordinate nodes and scalar parameters to materials."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Tiling Substance - UE5"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/tiling-substance-ue5.html"
 ---

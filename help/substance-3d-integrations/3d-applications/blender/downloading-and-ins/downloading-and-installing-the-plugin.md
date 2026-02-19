@@ -1,6 +1,6 @@
 ---
 title: "Downloading and Installing the Plugin"
-description: ""
+description: "Download and install the Substance 3D add-on for Blender from the official website or Blender's add-on manager."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Downloading and Installing the Plugin"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/downloading-and-installing-the-plugin.html"
 ---

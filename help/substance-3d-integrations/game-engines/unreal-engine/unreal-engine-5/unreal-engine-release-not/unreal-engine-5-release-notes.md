@@ -1,6 +1,6 @@
 ---
 title: "Unreal Engine 5 Release Notes"
-description: ""
+description: "Review release notes for all versions of the Substance 3D plugin for Unreal Engine 5 to stay updated on new features."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Unreal Engine 5 Release Notes"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/unreal-engine-5-release-notes.html"
 ---

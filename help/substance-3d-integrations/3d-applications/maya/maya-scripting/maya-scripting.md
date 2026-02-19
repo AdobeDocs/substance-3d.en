@@ -1,6 +1,6 @@
 ---
 title: "Maya Scripting"
-description: ""
+description: "Use the Substance Maya API to script Substance material creation and management in your Maya workflows."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Maya Scripting"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-scripting.html"
 ---

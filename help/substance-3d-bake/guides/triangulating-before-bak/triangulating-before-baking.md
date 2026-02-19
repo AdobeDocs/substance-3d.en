@@ -1,6 +1,6 @@
 ---
 title: "Triangulating before baking"
-description: ""
+description: "Understand how mesh triangulation affects baking results and learn best practices for preparing your geometry."
 helpx_description: "bakers > Guides > Triangulating before baking"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/guides/triangulating-before-baking.html"
 ---

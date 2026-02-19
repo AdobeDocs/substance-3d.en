@@ -1,6 +1,6 @@
 ---
 title: "Attribute Manager"
-description: ""
+description: "Use Cinema 4D's Attribute Manager to configure Substance asset properties and material settings."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Attribute Manager"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/attribute-manager.html"
 ---

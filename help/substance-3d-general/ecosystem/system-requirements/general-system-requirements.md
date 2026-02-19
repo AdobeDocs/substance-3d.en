@@ -1,6 +1,6 @@
 ---
 title: "General system requirements"
-description: ""
+description: "Check system requirements for Substance 3D applications to ensure your hardware meets minimum, recommended, or optimal specifications."
 helpx_description: "General Knowledge > Ecosystem > General system requirements"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/general-system-requirements.html"
 ---

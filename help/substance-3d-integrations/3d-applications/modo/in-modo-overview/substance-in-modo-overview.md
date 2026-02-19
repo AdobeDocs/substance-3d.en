@@ -1,6 +1,6 @@
 ---
 title: "Substance in MODO Overview"
-description: ""
+description: "Learn about the Substance plugin for MODO and how to import and use Substance materials in your workflow."
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Substance in MODO Overview"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/substance-in-modo-overview.html"
 ---

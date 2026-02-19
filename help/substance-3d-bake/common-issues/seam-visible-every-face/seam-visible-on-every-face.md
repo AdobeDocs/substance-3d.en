@@ -1,6 +1,6 @@
 ---
 title: "Seam visible on every face"
-description: ""
+description: "Fix seams visible on every face by checking UV unwrapping, smoothing groups, and mesh topology issues."
 helpx_description: "bakers > Common Issues > Seam visible on every face"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/seam-visible-on-every-face.html"
 ---

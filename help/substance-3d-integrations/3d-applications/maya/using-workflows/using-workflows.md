@@ -1,6 +1,6 @@
 ---
 title: "Using Workflows"
-description: ""
+description: "Create and use render presets for Substance outputs in Maya to automatically generate shader networks for different renderers."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Using Workflows"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/using-workflows.html"
 ---

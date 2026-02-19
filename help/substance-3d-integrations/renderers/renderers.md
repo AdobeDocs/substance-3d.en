@@ -1,6 +1,6 @@
 ---
 title: "Renderers"
-description: ""
+description: "Use Substance materials with major renderers like Arnold, V-Ray, Redshift, and others in your 3D workflow."
 helpx_description: "Ecosystems and Plugins > Renderers"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Substance 3D Painter"
-description: ""
+description: "Learn how to access and use the baking window in Substance 3D Painter to generate mesh maps for your textures."
 helpx_description: "bakers > Getting Started > Software Interface > Substance 3D Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/software-interface/substance-3d-painter.html"
 ---

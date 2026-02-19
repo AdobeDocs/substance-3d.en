@@ -1,6 +1,6 @@
 ---
 title: "Unreal Engine 4"
-description: ""
+description: "Use Substance materials in Unreal Engine 4 with the Substance plugin for real-time material editing and rendering."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4.html"
 ---

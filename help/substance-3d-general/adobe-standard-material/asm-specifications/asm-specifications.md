@@ -1,6 +1,6 @@
 ---
 title: "ASM specifications"
-description: ""
+description: "Download and review the complete Adobe Standard Material specifications to understand the material model structure."
 helpx_description: "General Knowledge > Adobe Standard Material > ASM specifications"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/adobe-standard-material/asm-specifications.html"
 ---

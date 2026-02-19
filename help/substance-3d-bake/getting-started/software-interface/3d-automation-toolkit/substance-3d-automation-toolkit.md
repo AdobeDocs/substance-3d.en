@@ -1,6 +1,6 @@
 ---
 title: "Substance 3D Automation Toolkit"
-description: ""
+description: "Learn how to use sbsbaker, the command-line version of Substance bakers available in the Automation Toolkit."
 helpx_description: "bakers > Getting Started > Software Interface > Substance 3D Automation Toolkit"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/software-interface/substance-3d-automation-toolkit.html"
 ---

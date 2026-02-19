@@ -1,6 +1,6 @@
 ---
 title: "Octane"
-description: ""
+description: "Render Substance materials with Octane using the standalone renderer or DCC plugins in 3ds Max and MODO."
 helpx_description: "Ecosystems and Plugins > Renderers > Octane"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/octane.html"
 ---

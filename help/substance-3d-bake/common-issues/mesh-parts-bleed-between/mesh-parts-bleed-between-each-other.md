@@ -1,6 +1,6 @@
 ---
 title: "Mesh parts bleed between each other"
-description: ""
+description: "Prevent mesh parts from bleeding into each other during baking by using Matching by Name or adjusting distances."
 helpx_description: "bakers > Common Issues > Mesh parts bleed between each other"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/mesh-parts-bleed-between-each-other.html"
 ---

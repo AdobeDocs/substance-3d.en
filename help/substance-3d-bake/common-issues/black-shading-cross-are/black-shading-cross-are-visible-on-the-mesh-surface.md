@@ -1,6 +1,6 @@
 ---
 title: "Black shading cross are visible on the mesh surface"
-description: ""
+description: "Fix black shading artifacts visible on mesh surfaces by correcting tangent space and normal calculations."
 helpx_description: "bakers > Common Issues > Black shading cross are visible on the mesh surface"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/black-shading-cross-are-visible-on-the-mesh-surface.html"
 ---

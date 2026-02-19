@@ -1,6 +1,6 @@
 ---
 title: "Tutorials"
-description: ""
+description: "Access tutorials and learning resources to master Substance Bakers and improve your texture baking workflow."
 helpx_description: "bakers > Getting Started > Tutorials"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/tutorials.html"
 ---

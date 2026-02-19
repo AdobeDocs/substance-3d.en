@@ -1,6 +1,6 @@
 ---
 title: "Unity Plugin Overview"
-description: ""
+description: "Learn about the Substance 3D plugin for Unity, including version support, features, and integration capabilities."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Plugin Overview"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-plugin-overview.html"
 ---

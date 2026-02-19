@@ -1,6 +1,6 @@
 ---
 title: "Blender"
-description: ""
+description: "Install and use the Substance 3D add-on for Blender to import and work with Substance materials in your 3D projects."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender.html"
 ---

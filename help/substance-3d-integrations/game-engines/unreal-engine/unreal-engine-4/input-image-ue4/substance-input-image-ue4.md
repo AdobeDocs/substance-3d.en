@@ -1,6 +1,6 @@
 ---
 title: "Substance Input Image - UE4"
-description: ""
+description: "Use image textures as input parameters for Substance materials in Unreal Engine 4 to create modular materials."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Substance Input Image - UE4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/substance-input-image-ue4.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Lumberyard"
-description: ""
+description: "Use Substance materials in Amazon Lumberyard game engine with native plugin support for material workflows."
 helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/lumberyard.html"
 ---

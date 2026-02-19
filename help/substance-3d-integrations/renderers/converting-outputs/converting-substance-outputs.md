@@ -1,6 +1,6 @@
 ---
 title: "Converting Substance outputs"
-description: ""
+description: "Learn how to convert Substance material outputs to match different renderer requirements and workflows."
 helpx_description: "Ecosystems and Plugins > Renderers > Converting Substance outputs"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/converting-substance-outputs.html"
 ---

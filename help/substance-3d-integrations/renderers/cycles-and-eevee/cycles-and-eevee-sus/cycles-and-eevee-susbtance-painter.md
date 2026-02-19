@@ -1,6 +1,6 @@
 ---
 title: "Cycles and Eevee - Susbtance Painter"
-description: ""
+description: "Export Substance Painter textures for Blender's Cycles and Eevee renderers using proper output settings."
 helpx_description: "Ecosystems and Plugins > Renderers > Cycles and Eevee > Cycles and Eevee - Susbtance Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/cycles-and-eevee/cycles-and-eevee-susbtance-painter.html"
 ---

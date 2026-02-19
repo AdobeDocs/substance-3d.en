@@ -1,6 +1,6 @@
 ---
 title: "Arnold Support"
-description: ""
+description: "Connect Substance outputs directly to Arnold shaders in Maya for seamless rendering workflows."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Arnold Support"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/arnold-support.html"
 ---

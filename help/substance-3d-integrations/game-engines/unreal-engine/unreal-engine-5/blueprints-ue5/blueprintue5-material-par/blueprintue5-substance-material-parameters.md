@@ -1,6 +1,6 @@
 ---
 title: "Blueprint(UE5) Substance material parameters"
-description: ""
+description: "Change Substance material parameters at runtime in Unreal Engine 5 using Blueprint nodes for dynamic material control."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Blueprints - UE5 > Blueprint(UE5) Substance material parameters"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/blueprints-ue5/blueprintue5-substance-material-parameters.html"
 ---

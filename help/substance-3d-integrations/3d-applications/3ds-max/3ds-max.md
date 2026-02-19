@@ -1,6 +1,6 @@
 ---
 title: "3ds Max"
-description: ""
+description: "Install and use the Substance plugin for 3ds Max to import Substance materials and enhance your rendering workflow."
 helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max.html"
 ---

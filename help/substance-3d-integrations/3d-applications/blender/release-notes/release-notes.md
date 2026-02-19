@@ -1,6 +1,6 @@
 ---
 title: "Release Notes"
-description: ""
+description: "Review release notes for all versions of the Substance 3D add-on for Blender to stay updated on new features."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Release Notes"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/release-notes.html"
 ---

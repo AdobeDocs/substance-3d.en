@@ -1,6 +1,6 @@
 ---
 title: "Roblox"
-description: ""
+description: "Use Substance materials in Roblox Studio with PBR Metallic Roughness workflow for immersive 3D experiences."
 helpx_description: "Ecosystems and Plugins > Game Engines > Roblox"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/roblox.html"
 ---

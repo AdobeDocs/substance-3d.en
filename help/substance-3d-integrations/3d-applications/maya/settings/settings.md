@@ -1,6 +1,6 @@
 ---
 title: "Settings"
-description: ""
+description: "Configure Substance plugin settings in Maya through the Substance Shelf or menu to customize behavior."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Settings"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/settings.html"
 ---

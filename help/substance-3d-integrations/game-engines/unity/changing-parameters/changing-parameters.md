@@ -1,6 +1,6 @@
 ---
 title: "Changing parameters"
-description: ""
+description: "Modify Substance material parameters in Unity to customize material appearance and properties at runtime."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Changing parameters"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/changing-parameters.html"
 ---

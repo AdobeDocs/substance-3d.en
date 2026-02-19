@@ -1,6 +1,6 @@
 ---
 title: "Texture baked outside of Substance software looks incorrect"
-description: ""
+description: "Troubleshoot why textures baked outside Substance software look incorrect and learn how to fix color space issues."
 helpx_description: "bakers > Common Questions > Texture baked outside of Substance software looks incorrect"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/texture-baked-outside-of-substance-software-looks-incorrect.html"
 ---

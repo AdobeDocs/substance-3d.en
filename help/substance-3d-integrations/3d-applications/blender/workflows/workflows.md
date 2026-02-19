@@ -1,6 +1,6 @@
 ---
 title: "Workflows"
-description: ""
+description: "Learn how to use Substance materials with Blender's Cycles and Eevee renderers for different workflows."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Workflows"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/workflows.html"
 ---

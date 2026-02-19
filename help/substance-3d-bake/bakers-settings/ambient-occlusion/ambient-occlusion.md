@@ -1,6 +1,6 @@
 ---
 title: "Ambient Occlusion"
-description: ""
+description: "Learn how to use the Ambient Occlusion baker to generate ambient shadow textures using fast GPU-accelerated algorithms."
 helpx_description: "bakers > Bakers Settings > Ambient Occlusion"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/ambient-occlusion.html"
 ---

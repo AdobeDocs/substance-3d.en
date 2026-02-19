@@ -1,6 +1,6 @@
 ---
 title: "Add-on 2.0.0"
-description: ""
+description: "Review release notes for Blender add-on version 2.0.0 and later to learn about new features and improvements."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Release Notes > Add-on 2.0.0"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/release-notes/add-on-0-9-3/add-on-2-0-0-plus.html"
 ---

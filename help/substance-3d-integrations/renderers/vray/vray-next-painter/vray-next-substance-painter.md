@@ -1,6 +1,6 @@
 ---
 title: "Vray Next - Substance Painter"
-description: ""
+description: "Export Substance Painter textures for V-Ray Next renderer using output templates and proper workflow settings."
 helpx_description: "Ecosystems and Plugins > Renderers > Vray > Vray Next - Substance Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/vray/vray-next-substance-painter.html"
 ---

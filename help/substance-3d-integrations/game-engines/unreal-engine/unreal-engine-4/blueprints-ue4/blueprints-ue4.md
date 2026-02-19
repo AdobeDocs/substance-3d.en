@@ -1,6 +1,6 @@
 ---
 title: "Blueprints - UE4"
-description: ""
+description: "Use Blueprint nodes in Unreal Engine 4 to control Substance materials at runtime for dynamic material workflows."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Blueprints - UE4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/blueprints-ue4.html"
 ---

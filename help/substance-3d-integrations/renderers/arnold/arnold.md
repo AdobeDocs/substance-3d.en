@@ -1,6 +1,6 @@
 ---
 title: "Arnold"
-description: ""
+description: "Use Substance materials with Arnold renderer in Maya and 3ds Max, including support for metallic workflow outputs."
 helpx_description: "Ecosystems and Plugins > Renderers > Arnold"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/arnold.html"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Substance in Maya Overview"
-description: ""
+description: "Learn about the Substance plugin for Maya and how to import and use Substance materials in your workflow."
 helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Substance in Maya Overview"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/substance-in-maya-overview.html"
 ---

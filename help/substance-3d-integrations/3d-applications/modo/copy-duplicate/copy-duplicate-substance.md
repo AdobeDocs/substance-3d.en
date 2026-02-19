@@ -1,6 +1,6 @@
 ---
 title: "CopyDuplicate Substance"
-description: ""
+description: "Copy, instance, or duplicate Substance materials in MODO to reuse materials across multiple objects efficiently."
 helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > CopyDuplicate Substance"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/copy-duplicate-substance.html"
 ---

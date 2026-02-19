@@ -1,6 +1,6 @@
 ---
 title: "Blueprints - UE5"
-description: ""
+description: "Use Blueprint nodes in Unreal Engine 5 to control Substance materials at runtime for dynamic material workflows."
 helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Blueprints - UE5"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/blueprints-ue5.html"
 ---
