@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Using Workflows
 
 Under Workflows, you can choose or create render presets for Substance outputs. These presets are shader networks for a renderer such as Arnold or Vray.

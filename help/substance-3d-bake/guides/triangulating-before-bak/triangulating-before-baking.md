@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Triangulating before baking
 
 3D Meshes can be defined with polygons with multiple border edges per face. Usually via quads (4 edges), sometimes more (n-gons).  

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Publishing for Mobile
 
 >[!NOTE]

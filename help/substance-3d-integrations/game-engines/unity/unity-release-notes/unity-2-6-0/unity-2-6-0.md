@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Unity 2.6.0
 
 Released June 7th, 2021

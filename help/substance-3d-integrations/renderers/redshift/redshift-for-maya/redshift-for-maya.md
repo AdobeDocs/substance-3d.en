@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Redshift for Maya
 
 ## Substance in Maya Plugin

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Renderman
 
 Using pxrSurface or pxrDisney surface materials, you can render PBR outputs from Substance Designer and Substance Painter. Although pxrDisney is more straightforward since it support basecolor/roughness/metallic outputs directly, it is now a legacy material in Renderman and [pxrSurface](https://rmanwiki.pixar.com/display/REN/PxrSurface) is the preferred method.

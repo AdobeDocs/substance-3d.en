@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Unreal plugin 4.27.0.1
 
 This is a release for UE4.27 compatibility.

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Substance Settings
 
 Under the Substance menu at the top of the 3ds max UI, you can change various settings such as engine mode and default resolution.

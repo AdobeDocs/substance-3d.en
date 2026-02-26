@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Blueprints - UE5
 
 ![](https://helpx-prod.scene7.com/is/image/HelpxProd/blueprints?$pjpeg$&amp;jpegSize=200&amp;wid=1196){width="1000px"}

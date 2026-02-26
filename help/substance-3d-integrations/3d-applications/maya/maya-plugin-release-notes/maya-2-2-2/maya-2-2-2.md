@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Maya 2.2.2
 
 Change List:

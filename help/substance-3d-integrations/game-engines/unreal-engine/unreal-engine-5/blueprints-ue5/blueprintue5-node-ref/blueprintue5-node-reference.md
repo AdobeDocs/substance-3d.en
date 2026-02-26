@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Blueprint(UE5): Node Reference
 
 ## General Substance Nodes:

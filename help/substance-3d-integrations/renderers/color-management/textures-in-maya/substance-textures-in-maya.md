@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Substance textures in Maya
 
 The color space you set for maps depends on the settings and rules established in the [Maya Color Management Settings](https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-B260195C-A0FE-4F51-9EA2-099B61B7725A).

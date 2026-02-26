@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Physical Size in Maya
 
 The physical size feature in Maya allows you to use digital materials at the same size as their physical counterparts, and tile or repeat them over your models at the correct size. This can be extremely useful for the design and visualization of fashion, sportswear, and interiors, as well as costume design for film and games.

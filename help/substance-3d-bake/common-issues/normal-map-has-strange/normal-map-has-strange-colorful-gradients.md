@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Normal map has strange colorful gradients
 
 The output of the baker is a set of very strong colorful gradients.

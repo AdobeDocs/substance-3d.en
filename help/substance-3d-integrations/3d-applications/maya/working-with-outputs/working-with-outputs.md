@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Working with Outputs
 
 You can enable/disable outputs manually in the Outputs section.

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Maya 2.4.1
 
 <b>Added/Updated:</b>

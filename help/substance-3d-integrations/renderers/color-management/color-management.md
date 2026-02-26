@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Color Management
 
 We will take a simplistic approach in stating that linear space rendering provides the correct math for lighting calculations. It creates an environment that allows light interactions to be represented in a credible real-world manner. For a discussion on linear space rendering, we must introduce the concept of gamma correction. When encoding images for display and storage purposes, gamma correction is the optimization process of reducing bandwidth and bit allocation. This process leverages the human eye’s perception of brightness, which approximately follows the cube root of luminance.

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Blueprint(UE5): Aggregate Substance
 
 1. Use the “Create Aggregate Substance Factory” node and set the Output and Input Factory. The Output factory should have a texture map that would be used as an Input Image in the Input factory parameters.

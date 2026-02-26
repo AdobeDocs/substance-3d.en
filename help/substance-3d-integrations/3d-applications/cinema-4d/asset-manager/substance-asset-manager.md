@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Substance Asset Manager
 
 The Substance Asset Manager window lists all Substances loaded in a scene. Here you can add, remove and reorganize Substances.

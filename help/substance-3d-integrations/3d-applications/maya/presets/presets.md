@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Presets
 
 In the Presets section, you can fully manage embedded presets found in the Substance sbsar file or create new presets.

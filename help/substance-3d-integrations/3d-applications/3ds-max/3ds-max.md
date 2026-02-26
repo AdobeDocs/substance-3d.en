@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3ds Max
 
 ![](../../assets/3ds.jpg){width="800px"}

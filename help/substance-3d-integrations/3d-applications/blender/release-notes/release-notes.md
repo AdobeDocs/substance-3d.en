@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Release Notes
 
 ## Versions

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Substance in Blender Overview
 
 ## Plugin Overview

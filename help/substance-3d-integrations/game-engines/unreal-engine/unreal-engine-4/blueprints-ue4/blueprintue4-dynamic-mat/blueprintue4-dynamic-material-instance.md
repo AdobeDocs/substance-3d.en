@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Blueprint(UE4): Dynamic Material Instance
 
 You can create a Substance Graph Instance to create a Dynamic Graph Instance at runtime.

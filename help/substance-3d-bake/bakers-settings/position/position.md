@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Position
 
 The Position baker computes the location of the mesh geometry and save into a texture. The position is useful for computing information in the volume of the object or to create gradient masks.

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Material Instance Definition - UE4
 
 You can use UE4 Material Instances with Substances. This will save a large step in the GPU rendering process by not uploading a new material to process. An MID can be created at runtime or in the editor. With version 4.24.0.3, we added full support for material instancing and introduces a new material template workflow with numeric outputs supported by the Substance Engine. Material templates allow you to define exactly how you want to configure your Substance material shaders in UE4.

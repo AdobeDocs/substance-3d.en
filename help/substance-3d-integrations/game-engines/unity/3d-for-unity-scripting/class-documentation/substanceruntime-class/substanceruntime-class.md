@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # SubstanceRuntime Class
 
 ## Adobe.Substance.Runtime.SubstanceRuntime Class Reference

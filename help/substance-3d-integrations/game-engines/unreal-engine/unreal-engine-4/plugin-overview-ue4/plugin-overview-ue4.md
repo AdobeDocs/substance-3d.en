@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Plugin Overview - UE4
 
 ## Importing a Substance

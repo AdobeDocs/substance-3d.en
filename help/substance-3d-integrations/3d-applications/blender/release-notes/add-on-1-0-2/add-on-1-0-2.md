@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Add-on 1.0.2
 
 ***Release notes for Addon version 1.0.2***

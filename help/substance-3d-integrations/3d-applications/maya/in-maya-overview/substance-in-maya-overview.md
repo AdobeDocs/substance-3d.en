@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Substance in Maya Overview
 
 ## Plugin Overview

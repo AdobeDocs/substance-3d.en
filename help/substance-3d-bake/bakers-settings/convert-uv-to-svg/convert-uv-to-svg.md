@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Convert UV to SVG
 
 The Convert UV to SVG baker transforms the low-poly mesh UVs into a vector graphic file. This vector graphic file can be used to create masks.

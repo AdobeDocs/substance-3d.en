@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Physical Size - UE5
 
 Physical Size in Substance materials allows materials to be scaled based on their size in the world. This value is set in Substance Designer and read into Unreal through the material template system.   

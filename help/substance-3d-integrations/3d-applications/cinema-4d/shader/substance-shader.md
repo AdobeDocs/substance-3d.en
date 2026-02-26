@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Substance Shader
 
 A Substance shader is the link between a Substance asset and a Cinema 4D material.

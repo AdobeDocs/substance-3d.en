@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # After Effects
 
 ![](../../assets/apply-3d-materials-11-ae.jpg)

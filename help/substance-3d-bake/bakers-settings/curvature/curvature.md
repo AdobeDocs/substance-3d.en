@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Curvature
 
 The Curvature baker allows to extract a curvature texture. This texture contains cavities and edges information related to the geometry.

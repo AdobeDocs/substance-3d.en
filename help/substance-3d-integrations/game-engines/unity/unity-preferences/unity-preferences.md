@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Unity Preferences
 
 The Adobe Substance 3D preference window allows you to set user-defined options for the plugin.

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Vray Next - Substance Painter
 
 Substance Painter 2020.1 (6.1.0) ships with [VrayMtl](https://docs.chaosgroup.com/display/VRAY4MAYA/VRayMtl) shaders for both metallic and specular workflows. You can [setup your Substance Painter project](https://docs.substance3d.com/display/SPDOC/Project+Creation) using the **VrayMtl template**, which will configure your viewport shader.

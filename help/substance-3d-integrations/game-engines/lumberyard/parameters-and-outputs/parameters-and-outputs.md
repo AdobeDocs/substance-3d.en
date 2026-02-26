@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Parameters and outputs
 
 You use the Procedural Material Editor to change the parameters of a substance. The left column of the dialog lists the substances. The middle column of the dialog lists the parameters for the selected substance and the right column shows the outputs for the selected substance. Outputs can be enabled and disabled by click the check box button.

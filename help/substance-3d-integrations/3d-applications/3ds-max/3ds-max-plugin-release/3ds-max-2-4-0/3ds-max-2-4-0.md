@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3ds Max 2.4.0
 
 Released August 10, 2020

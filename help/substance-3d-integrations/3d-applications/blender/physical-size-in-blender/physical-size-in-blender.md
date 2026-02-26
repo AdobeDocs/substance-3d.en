@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Physical size in Blender
 
 Physical Size in Substance materials allows materials to be scaled based on their size in the world. The dimensions are set in Substance applications like Designer and shown in the plugin panel's Physical Size section.

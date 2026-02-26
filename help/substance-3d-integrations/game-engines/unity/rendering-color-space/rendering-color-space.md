@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Rendering Color Space
 
 Substance textures are designed to be used with a Physically-based shader. For the best results, you should set the color space to linear in the Unity Player Settings.

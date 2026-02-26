@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Substance 3D Painter
 
 ![](../../../assets/sp-baking-button-access.png)

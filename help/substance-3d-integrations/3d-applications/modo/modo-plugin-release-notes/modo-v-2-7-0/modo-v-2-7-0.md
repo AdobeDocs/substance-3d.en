@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Modo v. 2.7.0
 
 * Numerous crash fixes

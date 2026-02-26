@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3ds Max 2.4.2
 
 Released December 18th, 2020

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Arnold Support
 
 With version 2.2.1, the Substance Outputs can now be directly connected to Arnold Shaders for rendering.

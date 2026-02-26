@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Working with Emissive
 
 ## Working with Emissive (Luminous Amount and Color)

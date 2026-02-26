@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Downloading Substance 3D Plugin in Unity
 
 ## Asset Store

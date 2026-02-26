@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # The Substance 3D Panel
 
 ![](../../../assets/blender-substance3dpanel.png)

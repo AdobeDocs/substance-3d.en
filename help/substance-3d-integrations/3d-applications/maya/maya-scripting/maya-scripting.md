@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Maya Scripting
 
 The Substance in Maya plugin can be scripted. An exposed API allows Substance commands to be used in scripts for creating and managing Substance materials. You can access the available commands by going to the plugin information.

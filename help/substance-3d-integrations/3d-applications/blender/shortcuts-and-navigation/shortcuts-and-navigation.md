@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Shortcuts and Navigation
 
 A list of shortcuts can be found in at the bottom of the Addon Preferences. The Key-bindings for each shortcut can be customized by entering the desired keys in the Key field. Ctrl, Shift, and Alt can also be enabled for each shortcut.

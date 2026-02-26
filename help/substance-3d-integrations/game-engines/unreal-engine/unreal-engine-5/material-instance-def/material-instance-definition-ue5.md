@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Material Instance Definition - UE5
 
 You can use UE5 Material Instances with Substances. This will save a large step in the GPU rendering process by not uploading new material to the process. A MID can be created at runtime or in the editor. With version 5.0.0, we added full support for material instancing.

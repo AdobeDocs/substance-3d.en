@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Troubleshooting
 
 The Scripting Listener can be used to diagnose errors encountered while using the plugin. To open the script listener, navigating to Scripting Menu &gt; Script Listener. When an errors occurs during plugin use, a corresponding error message prints to this  Script Listener window. Visit the [official Script Editor documentation](https://help.autodesk.com/view/3DSMAX/2023/ENU/?guid=GUID-C8019A8A-207F-48A0-985E-18D47FAD8F36) for more information.

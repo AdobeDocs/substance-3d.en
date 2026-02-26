@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Maxwell - Substance Painter
 
 Substance Painter 2020.1 (6.1.0) supports Maxwell [Output Templates](https://helpx.adobe.com/substance-3d-painter/getting-started/export.html) for metallic/roughness and specular/glossiness. You can simply export using the Maxwell Output Template**.   

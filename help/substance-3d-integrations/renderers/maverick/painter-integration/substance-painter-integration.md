@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Substance Painter Integration
 
 >[!NOTE]

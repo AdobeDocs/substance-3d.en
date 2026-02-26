@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Substance 3D Add-on for Blender Tutorials
 
 Here is a detailed video tutorial on how to use the Adobe Substance 3D Add-on for Blender

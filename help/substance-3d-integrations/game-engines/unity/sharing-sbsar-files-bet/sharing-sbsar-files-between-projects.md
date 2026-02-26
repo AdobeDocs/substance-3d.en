@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Sharing sbsar Files Between Projects
 
 It is possible to share .sbsar files between projects and computers while keeping the same parameter adjustments with the use of .sbsprs files.

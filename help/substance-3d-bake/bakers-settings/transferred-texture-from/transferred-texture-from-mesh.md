@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Transferred Texture from Mesh
 
 The Transferred texture from mesh baker allows to convert a texture from one a mesh to another based on their respective UVs. This baker also supports the transfer or normal maps (which require special conversions). In order to work, both meshes need UV definitions.

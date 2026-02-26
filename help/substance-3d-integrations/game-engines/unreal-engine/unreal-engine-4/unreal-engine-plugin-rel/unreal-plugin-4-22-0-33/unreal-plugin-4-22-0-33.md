@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Unreal plugin 4.22.0.33
 
 This release is for compatibility with our substance v7 engines  

@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Ambient Occlusion from Mesh
 
 The Ambient Occlusion from mesh baker allows to bake an Ambient Occlusion texture from high poly meshes. It is slower than the base [ambient occlusion](../../bakers-settings/ambient-occlusion/ambient-occlusion.md) baker but produce more accurate results.

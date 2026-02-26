@@ -14,6 +14,7 @@ user-guide-title: ""
 
 
 
+
 # Deployment guide
 
 After purchasing Substance 3D for Linux® via your Enterprise contract, the corresponding products and licenses are provisioned on the [Adobe Download Access (ADA)](https://download-access.adobe.com/lws/downloads) portal. You'll need to download both the software builds and the license key files from ADA to deploy the software successfully.

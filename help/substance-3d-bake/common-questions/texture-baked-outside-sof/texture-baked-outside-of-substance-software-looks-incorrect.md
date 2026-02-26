@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Texture baked outside of Substance software looks incorrect
 
 >[!WARNING]

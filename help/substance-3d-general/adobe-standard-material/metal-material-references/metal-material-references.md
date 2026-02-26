@@ -14,6 +14,7 @@ user-guide-title: ""
 
 
 
+
 # Metal material references
 
 Use the following tables to accurately simulate real world materials with their corresponding **Base Color** (F0) and **Specular Edge Color** (F82 tint) data. This table is created for use with the **Adobe Standard Material** model. For more information refer to the [Adobe Standard Material technical documentation](../../adobe-standard-material/asm-technical-doc/asm-technical-documentation.md).

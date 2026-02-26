@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Source in UE4
 
 Substance Source is a vast PBR library available to Substance Subscription members. You can download materials from Source directly in Unreal Engine.

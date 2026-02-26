@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # SubstanceEditorTools
 
 ## Adobe.SubstanceEditor.SubstanceEditorTools Class Reference

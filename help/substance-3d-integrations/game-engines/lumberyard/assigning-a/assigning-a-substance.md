@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Assigning a Substance
 
 You use the Material Editor to assign the substance material just as you would any other material in Lumberyard.

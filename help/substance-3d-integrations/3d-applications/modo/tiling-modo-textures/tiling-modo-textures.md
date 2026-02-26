@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Tiling Modo textures
 
 You can adjust a Substance Texture's properties the same as you would any texture in MODO. To tile the textures, you can set the horizontal and vertical wrap.

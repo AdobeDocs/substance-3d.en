@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Using Image Inputs
 
 In order to use an image in an input parameter for a Substance:

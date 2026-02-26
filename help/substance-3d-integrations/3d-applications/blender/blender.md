@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Blender
 
 ![](../../assets/screen-shot-2022-10-13-at-2-23-19-pm-2.png)

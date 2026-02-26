@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # What is the bit depth of baked textures ?
 
 >[!WARNING]

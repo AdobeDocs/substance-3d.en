@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Uninstalling the Add-on
 
 To uninstall the add-on, navigate to Edit &gt; Preferences &gt; Add-ons and expand the section for the add-on.
