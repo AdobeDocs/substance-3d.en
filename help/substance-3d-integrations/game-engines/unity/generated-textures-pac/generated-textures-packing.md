@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Generated Textures (Packing)
 
 The Generated Textures show the outputs from the Substance that are computed by the Substance Engine to create textures. These textures are fed into the shader inputs. By default, the only the base inputs used by the shader are created. If "Generate All Outputs" is enabled, all of the textures will be shown here.

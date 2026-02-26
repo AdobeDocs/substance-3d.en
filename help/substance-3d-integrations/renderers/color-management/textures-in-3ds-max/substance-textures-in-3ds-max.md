@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Substance textures in 3ds Max
 
 The Substance in 3ds Max plugin takes care of the the gamma setting for outputs.

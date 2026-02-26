@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Visual Feedback of Animated Substances
 
 In order to have visual feedback of an animated Substance in Cinema 4D's viewport, the Animated Preview option should be enabled for these materials.

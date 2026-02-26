@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Arnold
 
 The Standard Surface material in Arnold 5 now supports the metallic workflow. You can export the document channels from Substance Painter when using the default metallic shader or simple use the Substance plugin metallic workflow outputs from a Substance material.

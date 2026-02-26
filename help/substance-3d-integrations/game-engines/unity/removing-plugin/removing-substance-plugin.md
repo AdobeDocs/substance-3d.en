@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Removing Substance Plugin
 
 You can remove the Substance materials before or after deleting the Adobe folder and the Adobe.meta file.

@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Blueprint(UE4): Aggregate Substance
 
 The new aggregate substance node allows you to take two substance instance factories and create a new instance factory at runtime which can be used to create a new graph instance. What makes this special is that you can connect output textures from one of the combined graph instances to input images of the other combined graph instance. To create a substance graph instance from this new factory, see our documentation on runtime graph instances. [Material Instance Definition - UE4](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/material-instance-definition-157352129.html)

@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Preferences
 
 The add-on preferences can be found within Blender's preferences window. Navigate to Edit &gt; Preferences &gt; Add-ons, and search for Node: Adobe Substance 3D add-on for Blender.

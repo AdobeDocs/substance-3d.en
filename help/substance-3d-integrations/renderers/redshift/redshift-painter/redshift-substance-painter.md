@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Redshift - Substance Painter
 
 Substance Painter 2020.1 (6.1.0) supports Redshift [Output Templates](https://docs.substance3d.com/display/SPDOC/Export) for metallic/roughness (rsMaterial). You can simply export using the Redshift template to produce textures that are compatible with Redshift materials.   

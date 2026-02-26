@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Material Template Usage - UE5
 
 Material Templates allow the user to create a base material for substances to use as a template for connecting their output nodes to inputs in the material.   

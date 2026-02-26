@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Unreal plugin 4.24.0.3
 
 Substance in Unreal Engine has undergone a major restructuring. Part of this restructure brings full support of **UTexture2D** and includes both inputs and outputs. With **UTexture2D** support, the plugin can now be used to publish to any platform Unreal supports including mobile. Along with the addition of multiple platform support, **UTexture2D** also allows the native use of the texture streaming system within UE4.

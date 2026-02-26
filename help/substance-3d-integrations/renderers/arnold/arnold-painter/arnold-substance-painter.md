@@ -13,6 +13,7 @@ user-guide-title: ""
 ---
 
 
+
 # Arnold - Substance Painter
 
 Substance Painter 2020.1 (6.1.0) ships with [Output Templates](https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets.html) for Arnold using the [aiStandard material](https://docs.arnoldrenderer.com/display/A5AFMUG/Standard+Surface).
