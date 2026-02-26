@@ -1,8 +1,15 @@
 ---
-title: "Maverick"
-description: "Use Substance materials in Maverick renderer for product visualization with Painter integration and SBSAR support."
-helpx_description: "Ecosystems and Plugins > Renderers > Maverick"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maverick.html"
+breadcrumb-title: ""
+description: Use Substance materials in Maverick renderer for product visualization with Painter integration and SBSAR support.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Maverick
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Maverick
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Maverick
@@ -15,5 +22,5 @@ With the integration of SBSAR in **Maverick**, our customers will now have acces
 
 ## Table of Contents
 
-* [Substance Painter Integration](painter-integration/substance-painter-integration.md)
-* [Substance SBSAR Integration](sbsar-integration/substance-sbsar-integration.md)
+* [Substance Painter Integration](../../renderers/maverick/painter-integration/substance-painter-integration.md)
+* [Substance SBSAR Integration](../../renderers/maverick/sbsar-integration/substance-sbsar-integration.md)

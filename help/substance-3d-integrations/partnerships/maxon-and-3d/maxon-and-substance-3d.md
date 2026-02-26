@@ -1,20 +1,22 @@
 ---
-title: Adobe Substance 3D and Maxon One
-description: "Learn about the partnership between Substance 3D and Maxon One, including integration benefits and workflows."
-helpx_description: Substance 3D Integrations
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/partnerships/maxon-and-substance-3d.html"
-helpx_tags:
-  - SG_SUBSTANCE_INTEGRATIONS
+breadcrumb-title: ""
+description: Learn about the partnership between Substance 3D and Maxon One, including integration benefits and workflows.
+helpx_creative_field: ""
+helpx_description: Substance 3D Integrations
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Adobe Substance 3D and Maxon One
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
-
 
 # Adobe Substance 3D and Maxon One
 
 Adobe has partnered with Maxon to offer the awesome 3D design and visualization tools of Substance 3D and Maxon One in a single package.
 
-![Image showing two rooms rendered using Substance Assets in C4D.](MaxonPartnership.png)
+![Image showing two rooms rendered using Substance Assets in C4D.](../../assets/MaxonPartnership.png)
 
 
 Artist: Peter Tarka
@@ -29,4 +31,4 @@ The Maxon One and Substance 3D bundle is available for purchase on [Maxon's webs
 * All the tools in the Adobe Substance 3D Collection.
 * Access to Maxon and Adobe Training.
 
-More information is available in [the FAQ](faq/faq.md) or on [Maxon's website](https://www.maxon.net/en/).
+More information is available in [the FAQ](../../partnerships/maxon-and-3d/faq/faq.md) or on [Maxon's website](https://www.maxon.net/en/).

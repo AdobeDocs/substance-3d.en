@@ -1,15 +1,22 @@
 ---
-title: "Vray Next - Substance Painter"
-description: "Export Substance Painter textures for V-Ray Next renderer using output templates and proper workflow settings."
-helpx_description: "Ecosystems and Plugins > Renderers > Vray > Vray Next - Substance Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/vray/vray-next-substance-painter.html"
+breadcrumb-title: ""
+description: Export Substance Painter textures for V-Ray Next renderer using output templates and proper workflow settings.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Vray > Vray Next - Substance Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Vray Next - Substance Painter
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Vray Next - Substance Painter
 
 Substance Painter 2020.1 (6.1.0) ships with [VrayMtl](https://docs.chaosgroup.com/display/VRAY4MAYA/VRayMtl) shaders for both metallic and specular workflows. You can [setup your Substance Painter project](https://docs.substance3d.com/display/SPDOC/Project+Creation) using the **VrayMtl template**, which will configure your viewport shader.
 
-![](template-16.jpg)
+![](../../../assets/template-16.jpg)
 
 Under the Shader Settings, you can configure the Vray shader for working with VrayMtl.
 
@@ -17,11 +24,11 @@ Under the Shader Settings, you can configure the Vray shader for working with Vr
 >
 > If your project was setup to use [UV Tile UDIM Legacy](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Use the Vray Next UDIM output template.
 
-![](vray-mtl-shader.png){width="800px"}
+![](../../../assets/vray-mtl-shader.png){width="800px"}
 
 To export textures for rendering in Vray Next, choose the Vray Mtl Output template.
 
-![](template-project.jpg){width="800px"}
+![](../../../assets/template-project.jpg){width="800px"}
 
 ## Vray Material (Vray Next - Metallic/Roughness)
 
@@ -53,8 +60,8 @@ To export textures for rendering in Vray Next, choose the Vray Mtl Output templa
 
 >[!NOTE]
 >
-> Maps that represent data will need to be interpreted correctly. Please see the [Color Management ](../../color-management/color-management.md)page for more information.
+> Maps that represent data will need to be interpreted correctly. Please see the [Color Management ](../../../renderers/color-management/color-management.md)page for more information.
 
 This example show the Substance Painter viewport using the Vray Metallic/Roughness shader and the Vray render using Maya.
 
-![](vray-maya.jpg){width="800px"}
+![](../../../assets/vray-maya.jpg){width="800px"}

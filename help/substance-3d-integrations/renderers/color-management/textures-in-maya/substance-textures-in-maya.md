@@ -1,8 +1,15 @@
 ---
-title: "Substance textures in Maya"
-description: "Configure color space settings for Substance textures in Maya to ensure accurate color management and rendering."
-helpx_description: "Ecosystems and Plugins > Renderers > Color Management > Substance textures in Maya"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/color-management/substance-textures-in-maya.html"
+breadcrumb-title: ""
+description: Configure color space settings for Substance textures in Maya to ensure accurate color management and rendering.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Color Management > Substance textures in Maya
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance textures in Maya
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Substance textures in Maya
@@ -16,4 +23,4 @@ Normal, height, displacement, roughness, metallic = RAW
 
 Typically, you will need to set the Color Space to RAW for images that represent non-color data. However, this setting can be affected by the rules you have set in Color Management.
 
-![](raw.png)
+![](../../../assets/raw.png)

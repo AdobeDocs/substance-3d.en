@@ -1,8 +1,15 @@
 ---
-title: "What are Assbin files "
-description: "Learn what Assbin files are and how they're used as geometry cache files to speed up baking operations."
-helpx_description: "bakers > Common Questions > What are Assbin files "
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/what-are-assbin-files.html"
+breadcrumb-title: ""
+description: Learn what Assbin files are and how they're used as geometry cache files to speed up baking operations.
+helpx_creative_field: ""
+helpx_description: "bakers > Common Questions > What are Assbin files "
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: "What are Assbin files "
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # What are Assbin files ?

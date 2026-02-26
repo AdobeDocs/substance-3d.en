@@ -1,8 +1,15 @@
 ---
-title: "Source in UE4"
-description: "Access and download Substance Source materials directly in Unreal Engine 4 for your Substance subscription."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Source in UE4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/source-in-ue4.html"
+breadcrumb-title: ""
+description: Access and download Substance Source materials directly in Unreal Engine 4 for your Substance subscription.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Source in UE4
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Source in UE4
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Source in UE4

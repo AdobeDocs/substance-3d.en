@@ -1,8 +1,15 @@
 ---
-title: "Removing Substance Plugin"
-description: "Learn how to properly remove the Substance 3D plugin from Unity projects and clean up associated files."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Removing Substance Plugin"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/removing-substance-plugin.html"
+breadcrumb-title: ""
+description: Learn how to properly remove the Substance 3D plugin from Unity projects and clean up associated files.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Removing Substance Plugin
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Removing Substance Plugin
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Removing Substance Plugin

@@ -1,8 +1,15 @@
 ---
-title: "Maxwell - Substance Painter"
-description: "Export Substance Painter textures for Maxwell renderer using proper output templates and material settings."
-helpx_description: "Ecosystems and Plugins > Renderers > Maxwell > Maxwell - Substance Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maxwell/maxwell-substance-painter.html"
+breadcrumb-title: ""
+description: Export Substance Painter textures for Maxwell renderer using proper output templates and material settings.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Maxwell > Maxwell - Substance Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Maxwell - Substance Painter
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Maxwell - Substance Painter
@@ -14,7 +21,7 @@ Maxwell 5.1.0** has an integration with Substance Painter that allows you to eas
 
 You can choose the Maxwell (Metallic Roughness) or Maxwell (Specular Glossiness) Output Templates to export textures for rendering in Maxwell.
 
-![](maxwell-output.png){width="500px"}
+![](../../../assets/maxwell-output.png){width="500px"}
 
 ## Applying Textures in Maxwell
 
@@ -30,7 +37,7 @@ If you have multiple texture sets exported from Substance Painter, the integrati
 
 You can then assign the material to the asset in your scene.
 
-![](assigned.png){width="500px"}
+![](../../../assets/assigned.png){width="500px"}
 
 All materials applied using the Substance Painter integration.
 

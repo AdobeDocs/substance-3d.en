@@ -1,8 +1,15 @@
 ---
-title: "Keyshot"
-description: "Use Substance materials in Keyshot renderer for product visualization with exported texture maps."
-helpx_description: "Ecosystems and Plugins > Renderers > Keyshot"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/keyshot.html"
+breadcrumb-title: ""
+description: Use Substance materials in Keyshot renderer for product visualization with exported texture maps.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Keyshot
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Keyshot
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Keyshot
@@ -48,4 +55,4 @@ You will use 2 advanced materials. One will be for metallic and the other will b
 
 1. Take the output of the Metallic Advanced Material and add it to the + of the Dielectric Advanced Material. This will create a Label field on the material.
 
-   ![](key-02.png)
+   ![](../../assets/key-02.png)

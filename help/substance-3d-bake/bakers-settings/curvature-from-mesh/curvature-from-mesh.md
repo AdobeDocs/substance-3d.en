@@ -1,13 +1,20 @@
 ---
-title: "Curvature from Mesh"
-description: "Generate accurate curvature textures from high-poly meshes using ray tracing for precise edge detection."
-helpx_description: "bakers > Bakers Settings > Curvature from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/curvature-from-mesh.html"
+breadcrumb-title: ""
+description: Generate accurate curvature textures from high-poly meshes using ray tracing for precise edge detection.
+helpx_creative_field: ""
+helpx_description: bakers > Bakers Settings > Curvature from Mesh
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Curvature from Mesh
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Curvature from Mesh
 
-The Curvature from mesh baker generates a curvature texture from high-poly meshes. It is slower than the base [curvature](../curvature/curvature.md) baker but produce more accurate results.
+The Curvature from mesh baker generates a curvature texture from high-poly meshes. It is slower than the base [curvature](../../bakers-settings/curvature/curvature.md) baker but produce more accurate results.
 
 **Available in:**
 

@@ -1,8 +1,15 @@
 ---
-title: "Height Map from Mesh"
-description: "Create height maps from high-poly meshes to capture surface detail and geometry information for texturing."
-helpx_description: "bakers > Bakers Settings > Height Map from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/height-map-from-mesh.html"
+breadcrumb-title: ""
+description: Create height maps from high-poly meshes to capture surface detail and geometry information for texturing.
+helpx_creative_field: ""
+helpx_description: bakers > Bakers Settings > Height Map from Mesh
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Height Map from Mesh
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Height Map from Mesh

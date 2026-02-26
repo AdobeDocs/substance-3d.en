@@ -1,8 +1,15 @@
 ---
-title: "API Overview"
-description: "Reference overview of the deprecated Substance Unity API for legacy projects and scripting needs."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Scripting in Unity (Deprecated) > API Overview"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/scripting-in-unity-deprecated/api-overview.html"
+breadcrumb-title: ""
+description: Reference overview of the deprecated Substance Unity API for legacy projects and scripting needs.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Scripting in Unity (Deprecated) > API Overview
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: API Overview
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # API Overview
@@ -53,7 +60,7 @@ The value in quotes is the parameter Identifier set in Substance Designer.
 
 In the Unity Inspector, you can mouse over a parameter to reveal a tooltip that showcases the name of the Identifier set in Substance Designer.
 
-![](tooltip-6.png)
+![](../../../../assets/tooltip-6.png)
 
 ### Queue the substance for rendering
 
@@ -71,10 +78,10 @@ Substance.Game.Substance.RenderAsync();
 ```
 
 
-![](unityscript.gif)
+![](../../../../assets/unityscript.gif)
 
 >[!NOTE]
 >
 > Currently, we only support x86\_64 Architecture. You need to set x86\_64 in the Build Settings
 
-![](arch.png)
+![](../../../../assets/arch.png)

@@ -1,8 +1,15 @@
 ---
-title: "Preferences"
-description: "Configure Substance 3D add-on preferences in Blender to customize plugin behavior and settings."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Preferences"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/preferences.html"
+breadcrumb-title: ""
+description: Configure Substance 3D add-on preferences in Blender to customize plugin behavior and settings.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Blender > Preferences
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Preferences
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Preferences
@@ -13,12 +20,12 @@ The add-on preferences can be found within Blender's preferences window. Navigat
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![First half of the add-on preferences menu.](blender-prefs-1.png)
+![First half of the add-on preferences menu.](../../../assets/blender-prefs-1.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Second half of the add-on preferences menu.](blender-prefs-2-b.png)
+![Second half of the add-on preferences menu.](../../../assets/blender-prefs-2-b.png)
 
 </td>
 </tr>

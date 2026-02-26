@@ -1,8 +1,15 @@
 ---
-title: "Game Engines"
-description: "Learn how to import and use Substance materials in Unity, Unreal Engine, Lumberyard, and other game engines."
-helpx_description: "Ecosystems and Plugins > Game Engines"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines.html"
+breadcrumb-title: ""
+description: Learn how to import and use Substance materials in Unity, Unreal Engine, Lumberyard, and other game engines.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Game Engines
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Game Engines

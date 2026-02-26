@@ -1,8 +1,15 @@
 ---
-title: "Set-Up"
-description: "Set up the Substance plugin in Cinema 4D by meeting system requirements and installing the plugin correctly."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Set-Up"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/set-up.html"
+breadcrumb-title: ""
+description: Set up the Substance plugin in Cinema 4D by meeting system requirements and installing the plugin correctly.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Cinema 4D > Set-Up
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Set-Up
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Set-Up

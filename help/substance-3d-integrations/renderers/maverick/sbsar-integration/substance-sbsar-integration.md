@@ -1,8 +1,15 @@
 ---
-title: "Substance SBSAR Integration"
-description: "Use Substance SBSAR files directly in Maverick renderer for real-time material editing and parameter control."
-helpx_description: "Ecosystems and Plugins > Renderers > Maverick > Substance SBSAR Integration"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maverick/substance-sbsar-integration.html"
+breadcrumb-title: ""
+description: Use Substance SBSAR files directly in Maverick renderer for real-time material editing and parameter control.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Maverick > Substance SBSAR Integration
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance SBSAR Integration
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Substance SBSAR Integration
@@ -13,19 +20,19 @@ helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maverick
 
 1. Use the SBSAR icon and select your SBSAR file.
 
-   ![](maverickrender-sbsar-icon.jpg)
+   ![](../../../assets/maverickrender-sbsar-icon.jpg)
 1. In the Import dialog you can set some material parameters:
 
-   ![](maverickrender-sbsar-import-1.jpg)
+   ![](../../../assets/maverickrender-sbsar-import-1.jpg)
 1. Proceed and you will see your material appear in the Materials panel, ready to be used in your scene:
 
-   ![](maverickrender-sbsar-drop.jpg)
+   ![](../../../assets/maverickrender-sbsar-drop.jpg)
 
    **Method** **2****:**
 1. Simply drop your SBSAR file from the Windows Explorer to any object in the scene. You can drop SBSAR files on the Material panel too.
 1. In the Import dialog you can set some material parameters:
 
-   ![](maverickrender-sbsar-import-1.jpg)
+   ![](../../../assets/maverickrender-sbsar-import-1.jpg)
 1. The material will be applied to the object you dropped on.
 
    **Tips &amp; Tricks :**
@@ -34,10 +41,10 @@ helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maverick
 1. If you want to use the same SBSAR but with different parameters on another object in the scene, duplicate it and apply it to the new object. Maverick will automatically create a new material that you can edit independently.
 1. If you have several SBSARs on scene you can use the button “Set as global resolution” in any of them to control the resolution of all of them at once.
 
-    ![](maverickrender-sbsar-resolution.jpg)
+    ![](../../../assets/maverickrender-sbsar-resolution.jpg)
 1. Maverick includes 10 Materials and SBSARs that you can find in the Shading library under the Materials/Substance and under Maps/Sbsar folders:
 
-    ![](maverickrender-sbsar-library.jpg)
+    ![](../../../assets/maverickrender-sbsar-library.jpg)
 1. If you want to make your own SBSARs available to Maverick, create a sub-folder to place them in
 
     “C:\Users\User\Documents\RandomControl\library\Shading\My Maps”.

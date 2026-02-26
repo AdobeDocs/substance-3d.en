@@ -1,8 +1,15 @@
 ---
-title: "Substance engine versioning"
-description: "Use this reference to check which Substance engine version is compatible with your software and ensure material compatibility."
-helpx_description: "General Knowledge > Ecosystem > Substance engine versioning"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/substance-engine-versioning.html"
+breadcrumb-title: ""
+description: Use this reference to check which Substance engine version is compatible with your software and ensure material compatibility.
+helpx_creative_field: ""
+helpx_description: General Knowledge > Ecosystem > Substance engine versioning
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance engine versioning
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Substance engine versioning
@@ -17,25 +24,29 @@ The tables in this page help to know if a Substance material or a Substance proc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>  
+<b>Substance 3D
+Sampler  
 </b>
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>  
+<b>Substance 3D
+Designer  
 </b>
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>  
+<b>Substance 3D
+Painter  
 </b>
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>  
+<b>Substance 3D
+Stager  
 </b>
 
 </td>
@@ -50,7 +61,7 @@ The tables in this page help to know if a Substance material or a Substance proc
 <tr style="border: 0;">
 <td width="8.33%" style="border: 0;" valign="top">
 
-![Substance 3D Painter icon](pt-appicon-noshadow-256.png "Substance 3D Painter icon"){width="64px"}
+![Substance 3D Painter icon](../../assets/pt-appicon-noshadow-256.png "Substance 3D Painter icon"){width="64px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -79,7 +90,7 @@ The tables in this page help to know if a Substance material or a Substance proc
 <tr style="border: 0;">
 <td width="8.33%" style="border: 0;" valign="top">
 
-![Substance 3D Designer icon](ds-appicon-noshadow-256.png "Substance 3D Designer icon"){width="64px"}
+![Substance 3D Designer icon](../../assets/ds-appicon-noshadow-256.png "Substance 3D Designer icon"){width="64px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -125,7 +136,7 @@ The tables in this page help to know if a Substance material or a Substance proc
 <tr style="border: 0;">
 <td width="8.33%" style="border: 0;" valign="top">
 
-![Substance 3D Sampler icon](sa-appicon-noshadow-256.png "Substance 3D Sampler icon"){width="64px"}
+![Substance 3D Sampler icon](../../assets/sa-appicon-noshadow-256.png "Substance 3D Sampler icon"){width="64px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -153,7 +164,7 @@ The tables in this page help to know if a Substance material or a Substance proc
 <tr style="border: 0;">
 <td width="8.33%" style="border: 0;" valign="top">
 
-![Substance 3D Stager icon](sg-appicon-noshadow-256.png "Substance 3D Stager icon"){width="64px"}
+![Substance 3D Stager icon](../../assets/sg-appicon-noshadow-256.png "Substance 3D Stager icon"){width="64px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -1,13 +1,20 @@
 ---
-title: "Matching by Name"
-description: "Use the Matching by Name feature to isolate low-poly and high-poly meshes and prevent geometry bleeding during baking."
-helpx_description: "bakers > Features > Matching by Name"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/matching-by-name.html"
+breadcrumb-title: ""
+description: Use the Matching by Name feature to isolate low-poly and high-poly meshes and prevent geometry bleeding during baking.
+helpx_creative_field: ""
+helpx_description: bakers > Features > Matching by Name
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Matching by Name
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Matching by Name
 
-![](banner-matching-by-name.jpg)
+![](../../assets/banner-matching-by-name.jpg)
 
 Matching By Name is the name of a filtering method that can be used in Substance Bakers to isolate low poly and high poly meshes based on their name.
 
@@ -19,8 +26,8 @@ Examples
 
 | *Use case* | *Mesh* | *Matching By Name Off* | *Matching By Name On* |
 | --- | --- | --- | --- |
-| **Normal map baking with mesh bleeding.**In this example the helmet on top on the head of the character bleeds onto the character face.By enabling Matching By Name we are able to ignore the helmet and bake the face properly.*This result is based on the main Match setting.* | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="baking-demo-vela.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="baking-demo-vela-normal-nomatch.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c3_dynamic_grid_items_grid-cell_position-par_image" src="baking-demo-vela-normal-withmatch.png" width="250px"/></div> |
-| **Ignore Backface for floating geometry.**In this example the "buttons" at the top of the box are floating geometry, they are not connected to the high poly mesh. Therefore they will cast shadows by default on the box underneath them which will show the geometry border.By enabling Matching By Name for the **Ignore Backface** setting we are able to bake the ambient occlusion while ignoring the area under the buttons to make it look like one singular box.*This result is based on the use of the Ignore Backface setting.* | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="ignorebf-mesh.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="ignorebf-off.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c3_dynamic_grid_items_grid-cell_position-par_image" src="ignorebf-on.png" width="250px"/></div> |
+| **Normal map baking with mesh bleeding.**In this example the helmet on top on the head of the character bleeds onto the character face.By enabling Matching By Name we are able to ignore the helmet and bake the face properly.*This result is based on the main Match setting.* | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/baking-demo-vela.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/baking-demo-vela-normal-nomatch.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c3_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/baking-demo-vela-normal-withmatch.png" width="250px"/></div> |
+| **Ignore Backface for floating geometry.**In this example the "buttons" at the top of the box are floating geometry, they are not connected to the high poly mesh. Therefore they will cast shadows by default on the box underneath them which will show the geometry border.By enabling Matching By Name for the **Ignore Backface** setting we are able to bake the ambient occlusion while ignoring the area under the buttons to make it look like one singular box.*This result is based on the use of the Ignore Backface setting.* | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/ignorebf-mesh.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/ignorebf-off.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c3_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/ignorebf-on.png" width="250px"/></div> |
 
 ## How Matching By Name Works
 
@@ -57,7 +64,7 @@ Matching By Name can be enabled in the [Common Parameters](../../bakers-settings
 
 | *Software* | *Setting Configuration* |
 | --- | --- |
-| **Substance Painter** | <ol class="steps" data-preserve-html="true"> <li class="step" data-preserve-html="true">     Open the Baking Window (via the Texture Set Settings).    </li> <li class="step" data-preserve-html="true">     Display the Common Parameters.    </li> <li class="step" data-preserve-html="true">     Change the setting <strong>Match</strong> from "Always" to "By Mesh Name".<br/> <img data-preserve-html="true" src="baking-match-setting-sp.png"/>    </li> </ol> |
+| **Substance Painter** | <ol class="steps" data-preserve-html="true"> <li class="step" data-preserve-html="true">     Open the Baking Window (via the Texture Set Settings).    </li> <li class="step" data-preserve-html="true">     Display the Common Parameters.    </li> <li class="step" data-preserve-html="true">     Change the setting <strong>Match</strong> from "Always" to "By Mesh Name".<br/> <img data-preserve-html="true" src="../../assets/baking-match-setting-sp.png"/>    </li> </ol> |
 | **Substance Designer** | <ol class="steps" data-preserve-html="true"> <li class="step" data-preserve-html="true">     Open the Baking Window (by right-clicking on a linked mesh in the Explorer Window).    </li> <li class="step" data-preserve-html="true">     Change the setting  <strong>Match</strong>  from "Always" to "By Mesh Name". <br/> <br/>    </li> </ol> |
 
 ### Changing the Suffix Names

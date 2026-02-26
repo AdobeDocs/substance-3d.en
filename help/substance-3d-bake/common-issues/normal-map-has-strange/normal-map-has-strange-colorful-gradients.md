@@ -1,15 +1,22 @@
 ---
-title: "Normal map has strange colorful gradients"
-description: "Fix strange colorful gradients in normal maps by checking mesh normals, smoothing groups, and UV mapping."
-helpx_description: "bakers > Common Issues > Normal map has strange colorful gradients"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/normal-map-has-strange-colorful-gradients.html"
+breadcrumb-title: ""
+description: Fix strange colorful gradients in normal maps by checking mesh normals, smoothing groups, and UV mapping.
+helpx_creative_field: ""
+helpx_description: bakers > Common Issues > Normal map has strange colorful gradients
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Normal map has strange colorful gradients
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Normal map has strange colorful gradients
 
 The output of the baker is a set of very strong colorful gradients.
 
-![](color-gradient.png)
+![](../../assets/color-gradient.png)
 
 
 ## Explanation
@@ -34,4 +41,4 @@ Given the few possible reasons which lead to non-overlap between the meshes, a f
 
 Below is an example with a high-poly and low-poly sphere. On the left the meshes don't overlap because the high-poly has been shifted away :
 
-![](baking-gradients.jpg)
+![](../../assets/baking-gradients.jpg)

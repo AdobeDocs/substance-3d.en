@@ -1,8 +1,15 @@
 ---
-title: "Upgrading ProjectsKnown Issues"
-description: "Learn about upgrading Unity projects with Substance materials and known issues to avoid during migration."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Upgrading ProjectsKnown Issues"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/upgrading-projects-known-issues.html"
+breadcrumb-title: ""
+description: Learn about upgrading Unity projects with Substance materials and known issues to avoid during migration.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Upgrading ProjectsKnown Issues
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Upgrading ProjectsKnown Issues
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Upgrading Projects/Known Issues

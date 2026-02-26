@@ -1,8 +1,15 @@
 ---
-title: "Convert UV to SVG"
-description: "Transform mesh UVs into vector graphic files that can be used to create precise masks and overlays."
-helpx_description: "bakers > Bakers Settings > Convert UV to SVG"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/convert-uv-to-svg.html"
+breadcrumb-title: ""
+description: Transform mesh UVs into vector graphic files that can be used to create precise masks and overlays.
+helpx_creative_field: ""
+helpx_description: bakers > Bakers Settings > Convert UV to SVG
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Convert UV to SVG
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Convert UV to SVG

@@ -1,8 +1,15 @@
 ---
-title: "Arnold Support"
-description: "Connect Substance outputs directly to Arnold shaders in Maya for seamless rendering workflows."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Arnold Support"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/arnold-support.html"
+breadcrumb-title: ""
+description: Connect Substance outputs directly to Arnold shaders in Maya for seamless rendering workflows.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Maya > Arnold Support
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Arnold Support
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Arnold Support
@@ -11,7 +18,7 @@ With version 2.2.1, the Substance Outputs can now be directly connected to Arnol
 
 In the Substance Settings, **Enable Rendering Extensions** for use with Arnold.
 
-![](settings-35.png)
+![](../../../assets/settings-35.png)
 
 >[!NOTE]
 >

@@ -1,8 +1,15 @@
 ---
-title: "Working with Normals"
-description: "Configure normal map orientation settings in MODO to ensure correct normal map rendering with Substance materials."
-helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Working with Normals"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/working-with-normals.html"
+breadcrumb-title: ""
+description: Configure normal map orientation settings in MODO to ensure correct normal map rendering with Substance materials.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > MODO > Working with Normals
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Working with Normals
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Working with Normals
@@ -19,12 +26,12 @@ Stock Substances are built to use DX normal orientation. However, MODO uses OGL.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](normal-1.png)
+![](../../../assets/normal-1.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](invert-2.png)
+![](../../../assets/invert-2.png)
 
 </td>
 </tr>

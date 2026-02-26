@@ -1,8 +1,15 @@
 ---
-title: "Color Management"
-description: "Understand color management and gamma correction when using Substance materials with different renderers."
-helpx_description: "Ecosystems and Plugins > Renderers > Color Management"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/color-management.html"
+breadcrumb-title: ""
+description: Understand color management and gamma correction when using Substance materials with different renderers.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Color Management
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color Management
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Color Management
@@ -50,5 +57,5 @@ When using Substance materials via the Substance Integration plugin, outputs are
 
 ### Working with Textures
 
-* [Substance textures in Maya](textures-in-maya/substance-textures-in-maya.md)
-* [Substance textures in 3ds Max](textures-in-3ds-max/substance-textures-in-3ds-max.md)
+* [Substance textures in Maya](../../renderers/color-management/textures-in-maya/substance-textures-in-maya.md)
+* [Substance textures in 3ds Max](../../renderers/color-management/textures-in-3ds-max/substance-textures-in-3ds-max.md)

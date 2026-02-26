@@ -1,13 +1,20 @@
 ---
-title: "Bent Normals from Mesh"
-description: "Compute bent normals textures that describe the average direction of ambient lighting from high-poly meshes."
-helpx_description: "bakers > Bakers Settings > Bent Normals from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/bent-normals-from-mesh.html"
+breadcrumb-title: ""
+description: Compute bent normals textures that describe the average direction of ambient lighting from high-poly meshes.
+helpx_creative_field: ""
+helpx_description: bakers > Bakers Settings > Bent Normals from Mesh
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Bent Normals from Mesh
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Bent Normals from Mesh
 
-The Bent Normals from mesh baker computes a texture that describes the average direction of ambient lighting. This baker is derived from the [Ambient Occlusion from Mesh](../ambient-occlusion-from/ambient-occlusion-from-mesh.md) baker.
+The Bent Normals from mesh baker computes a texture that describes the average direction of ambient lighting. This baker is derived from the [Ambient Occlusion from Mesh](../../bakers-settings/ambient-occlusion-from/ambient-occlusion-from-mesh.md) baker.
 
 **Available in:**
 

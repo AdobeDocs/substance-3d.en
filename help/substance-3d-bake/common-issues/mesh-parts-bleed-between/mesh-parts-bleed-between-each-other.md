@@ -1,8 +1,15 @@
 ---
-title: "Mesh parts bleed between each other"
-description: "Prevent mesh parts from bleeding into each other during baking by using Matching by Name or adjusting distances."
-helpx_description: "bakers > Common Issues > Mesh parts bleed between each other"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/mesh-parts-bleed-between-each-other.html"
+breadcrumb-title: ""
+description: Prevent mesh parts from bleeding into each other during baking by using Matching by Name or adjusting distances.
+helpx_creative_field: ""
+helpx_description: bakers > Common Issues > Mesh parts bleed between each other
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Mesh parts bleed between each other
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Mesh parts bleed between each other
@@ -13,7 +20,7 @@ helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/mesh-parts-b
 > 
 > Mesh geometry bleeds on other parts and create artifacts.
 > 
-> ![](bleed-example.png)
+> ![](../../assets/bleed-example.png)
 
 >[!NOTE]
 >

@@ -1,8 +1,15 @@
 ---
-title: "Downloading and Installing the Plugin"
-description: "Download and install the Substance 3D add-on for Blender from the official website or Blender's add-on manager."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Downloading and Installing the Plugin"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/downloading-and-installing-the-plugin.html"
+breadcrumb-title: ""
+description: Download and install the Substance 3D add-on for Blender from the official website or Blender's add-on manager.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Blender > Downloading and Installing the Plugin
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Downloading and Installing the Plugin
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Downloading and Installing the Plugin
@@ -41,7 +48,7 @@ There are two separate .zip files to download and install:
    If they were not previously downloaded, click **Download** to open the Adobe prerelease page in your browser and download the tools, then use **Install from disk** to install them.
 1. The addon is now ready to use!
 
-![](blender-install.gif)
+![](../../../assets/blender-install.gif)
 
 ### Updating Add-on and Tools
 

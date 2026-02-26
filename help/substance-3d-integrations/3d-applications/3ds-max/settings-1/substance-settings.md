@@ -1,8 +1,15 @@
 ---
-title: "Substance Settings"
-description: "Configure Substance plugin settings in 3ds Max including engine mode and default resolution options."
-helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Substance Settings"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/substance-settings.html"
+breadcrumb-title: ""
+description: Configure Substance plugin settings in 3ds Max including engine mode and default resolution options.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > 3ds Max > Substance Settings
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance Settings
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Substance Settings

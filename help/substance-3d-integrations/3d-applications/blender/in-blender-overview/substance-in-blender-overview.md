@@ -1,8 +1,15 @@
 ---
-title: "Substance in Blender Overview"
-description: "Learn about the Substance 3D add-on for Blender and how to import and work with Substance materials in your projects."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Substance in Blender Overview"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/substance-in-blender-overview.html"
+breadcrumb-title: ""
+description: Learn about the Substance 3D add-on for Blender and how to import and work with Substance materials in your projects.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Blender > Substance in Blender Overview
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance in Blender Overview
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Substance in Blender Overview
@@ -21,13 +28,13 @@ The Substance 3D add-on allows you to import Substance materials into Blender. U
 >
 > If the object has no materials, the **Apply** button will automatically attach the Substance material.
 
-![](blender-overview-steps.png)
+![](../../../assets/blender-overview-steps.png)
 
 ## The Substance 3D Panel
 
 The Substance 3D Panel is used to manage the Substance materials in a project, and adjust their individual parameters. The Graph Parameters section has controls for texture resolution, tiling, randomization, and presets. The outputs section has controls for the image formats of generated textures. The Substance Parameter section is where is where Substance parameters can be adjusted.  
   
-For more information, see the [Substance 3D Panel](../the-3d-panel/the-substance-3d-panel.md) page.
+For more information, see the [Substance 3D Panel](../../../3d-applications/blender/the-3d-panel/the-substance-3d-panel.md) page.
 
 ## Preferences
 
@@ -35,23 +42,23 @@ Default behaviors and other settings can be adjusted in the add-on preferences. 
   
 Displacement can be enabled with the toggle for Height in the Outputs section. Here you can also adjust the file format and bit depth of each output.  
   
-For more information, see the [Preferences](../preferences/preferences.md) page.
+For more information, see the [Preferences](../../../3d-applications/blender/preferences/preferences.md) page.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](blender-overview-preferences-1-v2.png)
+![](../../../assets/blender-overview-preferences-1-v2.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](blender-overview-preferences-2-v2.png)
+![](../../../assets/blender-overview-preferences-2-v2.png)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](blender-overview-preferences-3.png)
+![](../../../assets/blender-overview-preferences-3.png)
 
 </td>
 </tr>

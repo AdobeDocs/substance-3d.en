@@ -1,13 +1,20 @@
 ---
-title: "General knowledge"
-description: "Discover essential information about the Substance 3D ecosystem and learn how to get started with Adobe's 3D tools."
-helpx_description: "General Knowledge > Home"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/home.html"
+breadcrumb-title: ""
+description: Discover essential information about the Substance 3D ecosystem and learn how to get started with Adobe's 3D tools.
+helpx_creative_field: ""
+helpx_description: General Knowledge > Home
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: General knowledge
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # General knowledge
 
-![](ecosystem-banner.jpg)
+![](../assets/ecosystem-banner.jpg)
 
 Learn and discover information relevant to the whole [Substance 3D ecosystem](https://www.adobe.com/products/substance3d/3d-augmented-reality.html).
 

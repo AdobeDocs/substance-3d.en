@@ -1,8 +1,15 @@
 ---
-title: "Animating Substances"
-description: "Animate Substance material parameters over time in MODO to create dynamic material effects and variations."
-helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Animating Substances"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/animating-substances.html"
+breadcrumb-title: ""
+description: Animate Substance material parameters over time in MODO to create dynamic material effects and variations.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > MODO > Animating Substances
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Animating Substances
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Animating Substances

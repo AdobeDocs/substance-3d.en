@@ -1,8 +1,15 @@
 ---
-title: "Scripting API"
-description: "Reference documentation for the deprecated Substance Unity scripting API for legacy project support."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Scripting in Unity (Deprecated) > Scripting API"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/scripting-in-unity-deprecated/scripting-api.html"
+breadcrumb-title: ""
+description: Reference documentation for the deprecated Substance Unity scripting API for legacy project support.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Scripting in Unity (Deprecated) > Scripting API
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Scripting API
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Scripting API

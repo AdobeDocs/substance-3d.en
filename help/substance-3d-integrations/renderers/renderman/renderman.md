@@ -1,8 +1,15 @@
 ---
-title: "Renderman"
-description: "Render Substance materials with Renderman using pxrSurface or pxrDisney materials in Maya and other DCC applications."
-helpx_description: "Ecosystems and Plugins > Renderers > Renderman"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/renderman.html"
+breadcrumb-title: ""
+description: Render Substance materials with Renderman using pxrSurface or pxrDisney materials in Maya and other DCC applications.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Renderman
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Renderman
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Renderman
@@ -13,5 +20,5 @@ For more information on pxrSurface, please refer to the Renderman documentation.
 
 ## Table of Contents
 
-* [Renderman for Maya](renderman-for-maya/renderman-for-maya.md)
-* [Renderman - Substance Painter](renderman-painter/renderman-substance-painter.md)
+* [Renderman for Maya](../../renderers/renderman/renderman-for-maya/renderman-for-maya.md)
+* [Renderman - Substance Painter](../../renderers/renderman/renderman-painter/renderman-substance-painter.md)

@@ -1,15 +1,16 @@
 ---
-title: Frequently asked questions
-description: "Find answers to common questions about managing Substance 3D licenses and accessing software through the Adobe Download Access portal."
-helpx_description: Substance 3D General
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/substance-for-linux/faq.html"
-helpx_tags:
-  - SG_SUBSTANCE_GENERAL
+breadcrumb-title: ""
+description: Find answers to common questions about managing Substance 3D licenses and accessing software through the Adobe Download Access portal.
+helpx_creative_field: ""
+helpx_description: Substance 3D General
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Frequently asked questions
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
-
-
 
 # Frequently asked questions
 
@@ -125,6 +126,6 @@ If you need further assistance, you can contact your Adobe CSM.
 +++
 
 +++I am unable to activate the software with the license key file from ADA.
-[Detailed activation instructions are available here](../substance-for-linux.md). If these don't solve your problem, please [contact the enterprise support team](https://helpx.adobe.com/enterprise/using/support-for-enterprise.html).
+[Detailed activation instructions are available here](../../../ecosystem/for-linux/substance-for-linux.md). If these don't solve your problem, please [contact the enterprise support team](https://helpx.adobe.com/enterprise/using/support-for-enterprise.html).
 
 +++

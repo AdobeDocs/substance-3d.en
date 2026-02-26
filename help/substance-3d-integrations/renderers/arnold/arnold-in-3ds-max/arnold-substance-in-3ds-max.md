@@ -1,8 +1,15 @@
 ---
-title: "Arnold - Substance in 3ds Max"
-description: "Use Substance materials with Arnold renderer in 3ds Max using the Substance plugin and Standard Surface material."
-helpx_description: "Ecosystems and Plugins > Renderers > Arnold > Arnold - Substance in 3ds Max"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/arnold/arnold-substance-in-3ds-max.html"
+breadcrumb-title: ""
+description: Use Substance materials with Arnold renderer in 3ds Max using the Substance plugin and Standard Surface material.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Arnold > Arnold - Substance in 3ds Max
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Arnold - Substance in 3ds Max
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Arnold - Substance in 3ds Max
@@ -25,4 +32,4 @@ Legacy map support needs to be enabled for Production and ActiveShade renders.
 >
 > The GPU renderer is not support with Substance Textures when using ActiveShade.
 
-![](legacy-1.png)
+![](../../../assets/legacy-1.png)

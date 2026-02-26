@@ -1,8 +1,15 @@
 ---
-title: "Modo 2.7.3"
-description: "Review release notes for MODO plugin version 2.7.3 to learn about new features, improvements, and bug fixes."
-helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Modo Plugin Release Notes > Modo 2.7.3"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/modo-plugin-release-notes/modo-2-7-3.html"
+breadcrumb-title: ""
+description: Review release notes for MODO plugin version 2.7.3 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > MODO > Modo Plugin Release Notes > Modo 2.7.3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Modo 2.7.3
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Modo 2.7.3

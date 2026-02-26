@@ -1,8 +1,15 @@
 ---
-title: "Position"
-description: "Compute and save mesh geometry location into textures to create volume-based effects and gradient masks."
-helpx_description: "bakers > Bakers Settings > Position"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/position.html"
+breadcrumb-title: ""
+description: Compute and save mesh geometry location into textures to create volume-based effects and gradient masks.
+helpx_creative_field: ""
+helpx_description: bakers > Bakers Settings > Position
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Position
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Position

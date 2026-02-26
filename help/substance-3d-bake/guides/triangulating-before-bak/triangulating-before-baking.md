@@ -1,8 +1,15 @@
 ---
-title: "Triangulating before baking"
-description: "Understand how mesh triangulation affects baking results and learn best practices for preparing your geometry."
-helpx_description: "bakers > Guides > Triangulating before baking"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/guides/triangulating-before-baking.html"
+breadcrumb-title: ""
+description: Understand how mesh triangulation affects baking results and learn best practices for preparing your geometry.
+helpx_creative_field: ""
+helpx_description: bakers > Guides > Triangulating before baking
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Triangulating before baking
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Triangulating before baking
@@ -12,7 +19,7 @@ Software however transform those polygons into Triangles later because it's easi
 
 ## How can triangulation affect a mesh ?
 
-![](triangulation.jpg)
+![](../../assets/triangulation.jpg)
 
 There are **no standard solutions** to convert Quad/N-Gons into triangles. As demonstrated on the image above, multiple choices are valid.  
 The bakers are unlikely to triangule meshes like a game engine would do because we choose a specific algorithm over an other.
@@ -25,4 +32,4 @@ Because those information are based on UVs and sometimes on the mesh topology, o
 On the image below, you can see the low-poly mesh at the top left and the high-poly mesh at the top right.  
 At the bottom is the low-poly with the normal map baked from the high-poly. The mesh on the left use a triangulation identical to the one used by Substance Painter when baking. The mesh on the right doesn't and display black artifacts. This is because there is a mismatch between how the normal map was baked and how the mesh is currently triangulated. This can be fixed by **updating the mesh and/or rebaking**.
 
-![](example-triangulation-artifact.jpg)
+![](../../assets/example-triangulation-artifact.jpg)

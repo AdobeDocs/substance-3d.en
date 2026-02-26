@@ -1,8 +1,15 @@
 ---
-title: "General system requirements"
-description: "Check system requirements for Substance 3D applications to ensure your hardware meets minimum, recommended, or optimal specifications."
-helpx_description: "General Knowledge > Ecosystem > General system requirements"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/general-system-requirements.html"
+breadcrumb-title: ""
+description: Check system requirements for Substance 3D applications to ensure your hardware meets minimum, recommended, or optimal specifications.
+helpx_creative_field: ""
+helpx_description: General Knowledge > Ecosystem > General system requirements
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: General system requirements
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # General system requirements
@@ -66,21 +73,21 @@ For more details, take a look at the requirements of each application:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Substance 3D Sampler icon](sa-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html)
+[![Substance 3D Sampler icon](../../assets/sa-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html)
 
 [Substance 3D Sampler](https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Substance 3D Designer icon](ds-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html)
+[![Substance 3D Designer icon](../../assets/ds-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html)
 
 [Substance 3D](https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html) [Designer](https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Substance 3D Painter icon](pt-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html)
+[![Substance 3D Painter icon](../../assets/pt-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html)
 
 [Substance 3D Painter](https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html)
 
@@ -92,14 +99,14 @@ For more details, take a look at the requirements of each application:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Substance 3D Modeler icon](md-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-modeler/getting-started/system-requirements.html)
+[![Substance 3D Modeler icon](../../assets/md-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-modeler/getting-started/system-requirements.html)
 
 [Substance 3D Modeler](https://helpx.adobe.com/substance-3d-modeler/getting-started/system-requirements.html)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Substance 3D Stager icon](sg-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-stager/getting-started/system-requirements.html)
+[![Substance 3D Stager icon](../../assets/sg-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-stager/getting-started/system-requirements.html)
 
 [Substance 3D Stager](https://helpx.adobe.com/substance-3d-stager/getting-started/system-requirements.html)
 

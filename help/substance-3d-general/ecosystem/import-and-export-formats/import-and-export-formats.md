@@ -1,8 +1,15 @@
 ---
-title: "Import and export formats"
-description: "Discover which file formats each Substance 3D application supports for importing and exporting your projects and assets."
-helpx_description: "General Knowledge > Ecosystem > Import and export formats"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/import-and-export-formats.html"
+breadcrumb-title: ""
+description: Discover which file formats each Substance 3D application supports for importing and exporting your projects and assets.
+helpx_creative_field: ""
+helpx_description: General Knowledge > Ecosystem > Import and export formats
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Import and export formats
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Import and export formats

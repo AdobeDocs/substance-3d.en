@@ -1,8 +1,15 @@
 ---
-title: "Redshift"
-description: "Use Substance materials with Redshift renderer in Maya and 3ds Max, including metallic workflow support."
-helpx_description: "Ecosystems and Plugins > Renderers > Redshift"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/redshift.html"
+breadcrumb-title: ""
+description: Use Substance materials with Redshift renderer in Maya and 3ds Max, including metallic workflow support.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Redshift
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Redshift
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Redshift
@@ -13,6 +20,6 @@ Substance Painter 2020.1 (6.1.0) ships with the Redshift ([rsMaterial](https://d
 
 ## Table of Contents
 
-* [Redshift for 3ds Max](redshift-for-3ds-max/redshift-for-3ds-max.md)
-* [Redshift for Maya](redshift-for-maya/redshift-for-maya.md)
-* [Redshift - Substance Painter](redshift-painter/redshift-substance-painter.md)
+* [Redshift for 3ds Max](../../renderers/redshift/redshift-for-3ds-max/redshift-for-3ds-max.md)
+* [Redshift for Maya](../../renderers/redshift/redshift-for-maya/redshift-for-maya.md)
+* [Redshift - Substance Painter](../../renderers/redshift/redshift-painter/redshift-substance-painter.md)

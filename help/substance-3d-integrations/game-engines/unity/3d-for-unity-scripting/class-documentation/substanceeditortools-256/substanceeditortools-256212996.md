@@ -1,14 +1,16 @@
 ---
-title: SubstanceEditorTools
-description: "Reference documentation for the SubstanceEditorTools class used for Substance material management in Unity."
-helpx_description: Substance 3D Integrations
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting/class-documentation/substanceeditortools-256212996.html"
-helpx_tags:
-  - SG_SUBSTANCE_INTEGRATIONS
+breadcrumb-title: ""
+description: Reference documentation for the SubstanceEditorTools class used for Substance material management in Unity.
+helpx_creative_field: ""
+helpx_description: Substance 3D Integrations
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: SubstanceEditorTools
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
-
 
 # SubstanceEditorTools
 
@@ -18,7 +20,7 @@ Tools and utilities for users to utilize on Editor scripts.
 
 Inheritance diagram for Adobe.SubstanceEditor.SubstanceEditorTools:
 
-![](image2022-10-14-17-53-23.png)
+![](../../../../../assets/image2022-10-14-17-53-23.png)
 
 ### Static Public Member Functions
 

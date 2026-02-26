@@ -1,8 +1,15 @@
 ---
-title: "Rendering Color Space"
-description: "Configure Unity's color space settings to ensure proper rendering of Substance materials with physically-based shaders."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Rendering Color Space"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/rendering-color-space.html"
+breadcrumb-title: ""
+description: Configure Unity's color space settings to ensure proper rendering of Substance materials with physically-based shaders.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Rendering Color Space
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Rendering Color Space
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Rendering Color Space
@@ -18,4 +25,4 @@ Substance textures are designed to be used with a Physically-based shader. For t
    > 
    > sRGB options on textures are disabled if the Color Space Setting in Unity is set to Gamma
 
-   ![](rendering-4.png){width="600px"}
+   ![](../../../assets/rendering-4.png){width="600px"}

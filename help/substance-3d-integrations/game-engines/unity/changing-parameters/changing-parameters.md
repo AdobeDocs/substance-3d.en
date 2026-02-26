@@ -1,8 +1,15 @@
 ---
-title: "Changing parameters"
-description: "Modify Substance material parameters in Unity to customize material appearance and properties at runtime."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Changing parameters"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/changing-parameters.html"
+breadcrumb-title: ""
+description: Modify Substance material parameters in Unity to customize material appearance and properties at runtime.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Changing parameters
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Changing parameters
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Changing parameters
@@ -15,7 +22,7 @@ Parameters for the Substance material are accessible on the Substance Graph Obje
 
 1. In the Project window, Select the sbsar file logo for the graph you want to customize. The sbsar has the green "SBSAR" logo.
 
-   ![](screen-shot-2022-03-29-at-2-27-56-pm.png)
+   ![](../../../assets/screen-shot-2022-03-29-at-2-27-56-pm.png)
 
 ## Procedural Properties
 
@@ -28,7 +35,7 @@ Parameters for the Substance material are accessible on the Substance Graph Obje
 </td>
 <td style="border: 0;" valign="top">
 
-![](changing-parameters.png)
+![](../../../assets/changing-parameters.png)
 
 </td>
 </tr>

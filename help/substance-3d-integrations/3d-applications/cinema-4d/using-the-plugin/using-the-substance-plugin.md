@@ -1,15 +1,22 @@
 ---
-title: "Using the Substance Plugin"
-description: "Learn how to use the Substance plugin in Cinema 4D to import materials and manage Substance assets."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Using the Substance Plugin"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/using-the-substance-plugin.html"
+breadcrumb-title: ""
+description: Learn how to use the Substance plugin in Cinema 4D to import materials and manage Substance assets.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Cinema 4D > Using the Substance Plugin
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Using the Substance Plugin
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Using the Substance Plugin
 
 The Substance plugin is located in the Cinema 4D Plugins menu.
 
-![](cinema-4d-1.png){width="500px"}
+![](../../../assets/cinema-4d-1.png){width="500px"}
 
 ## Load Asset...
 
@@ -17,7 +24,7 @@ Use this to load Substance assets into your scene. Only Substance archives (.sbs
 
 Upon import you may be asked if the Substance should be copied into your project folder.
 
-![](cinema-4d-2.png){width="500px"}
+![](../../../assets/cinema-4d-2.png){width="500px"}
 
 * If you answer 'No', an absolute path to the Substance will be stored in your scene.
 * If you answer 'Yes', the Substance will be copied into your project's tex sub-folder and in your scene it will be referred to by filename, only.

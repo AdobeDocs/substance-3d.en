@@ -1,8 +1,15 @@
 ---
-title: "Member Function Documentation"
-description: "Detailed documentation for all member functions of the SubstanceRuntimeGraph class in Unity scripting."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting > Class Documentation > SubstanceRuntimeGraph Class > Member Function Documentation"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting/class-documentation/substanceruntimegraph-class/member-function-documentation.html"
+breadcrumb-title: ""
+description: Detailed documentation for all member functions of the SubstanceRuntimeGraph class in Unity scripting.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting > Class Documentation > SubstanceRuntimeGraph Class > Member Function Documentation
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Member Function Documentation
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Member Function Documentation

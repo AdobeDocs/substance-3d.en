@@ -1,8 +1,15 @@
 ---
-title: "Assigning a Substance"
-description: "Assign Substance materials to objects in Lumberyard using the Material Editor just like other materials."
-helpx_description: "Ecosystems and Plugins > Game Engines > Lumberyard > Assigning a Substance"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/lumberyard/assigning-a-substance.html"
+breadcrumb-title: ""
+description: Assign Substance materials to objects in Lumberyard using the Material Editor just like other materials.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Lumberyard > Assigning a Substance
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Assigning a Substance
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Assigning a Substance
@@ -12,4 +19,4 @@ You use the Material Editor to assign the substance material just as you would a
 1. Click the Material Editor button to open the editor and navigate to the location in the materials folder were you copied the substance file.
 1. Select the object and the material and then click the "Assign Item to Selected Objects" button at the top of the Material Editor.
 
-![](assign-7.png)
+![](../../../assets/assign-7.png)

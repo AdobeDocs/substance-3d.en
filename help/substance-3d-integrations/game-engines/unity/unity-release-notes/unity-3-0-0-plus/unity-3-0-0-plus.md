@@ -1,8 +1,15 @@
 ---
-title: "Unity 3.0.0"
-description: "Review release notes for Unity plugin version 3.0.0 and later to learn about new features and improvements."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes > Unity 3.0.0"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-release-notes/unity-3-0-0-plus.html"
+breadcrumb-title: ""
+description: Review release notes for Unity plugin version 3.0.0 and later to learn about new features and improvements.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes > Unity 3.0.0
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Unity 3.0.0
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Unity 3.0.0+
@@ -26,8 +33,8 @@ helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity
 
 * Improved performance for projects with 1000+ Substance graphs, significantly reducing UI response times when inspecting sbsar files in the Assets folder.
 * Added a reset button to revert sbsar files to their original state, enhancing workflow efficiency.
-* Updated documentation with a workaround for "Image inputs locked to 8-bit" issue, available at: [Substance 3D Integrations in Unity - Upgrading Projects &amp; Known Issues](../../upgrading-projects-known/upgrading-projects-known-issues.md).
-* Updated documentation to address the "Assertion failed on expression" error encountered when navigating panel folders in Unity: [Substance 3D Integrations in Unity - Upgrading Projects &amp; Known Issues](../../upgrading-projects-known/upgrading-projects-known-issues.md).
+* Updated documentation with a workaround for "Image inputs locked to 8-bit" issue, available at: [Substance 3D Integrations in Unity - Upgrading Projects &amp; Known Issues](../../../../game-engines/unity/upgrading-projects-known/upgrading-projects-known-issues.md).
+* Updated documentation to address the "Assertion failed on expression" error encountered when navigating panel folders in Unity: [Substance 3D Integrations in Unity - Upgrading Projects &amp; Known Issues](../../../../game-engines/unity/upgrading-projects-known/upgrading-projects-known-issues.md).
 
 <b>Fixed:</b>
 
@@ -81,7 +88,7 @@ helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity
 
 * Introduced support for parameters with conditional visibility (Visible If feature).
 * Upgraded the Substance engine to version 9.
-* Updated documentation to address an issue with NativeGraph.InRenderWork not functioning in a custom editor window script. Further details can be found here: [Substance 3D for Unity Scripting - Class Documentation](../../3d-for-unity-scripting/class-documentation/substanceruntime-class/substanceruntime-class.md)
+* Updated documentation to address an issue with NativeGraph.InRenderWork not functioning in a custom editor window script. Further details can be found here: [Substance 3D for Unity Scripting - Class Documentation](../../../../game-engines/unity/3d-for-unity-scripting/class-documentation/substanceruntime-class/substanceruntime-class.md)
 
 <b>Fixed:</b>
 

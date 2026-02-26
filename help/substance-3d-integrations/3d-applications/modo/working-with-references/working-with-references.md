@@ -1,8 +1,15 @@
 ---
-title: "Working with References"
-description: "Manage Substance material references in MODO to share materials across multiple objects and scenes."
-helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Working with References"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/working-with-references.html"
+breadcrumb-title: ""
+description: Manage Substance material references in MODO to share materials across multiple objects and scenes.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > MODO > Working with References
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Working with References
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Working with References

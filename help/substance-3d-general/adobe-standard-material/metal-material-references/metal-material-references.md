@@ -1,13 +1,20 @@
 ---
-title: "Metal material references"
-description: "Use accurate color values and data tables to simulate real-world metal materials with the Adobe Standard Material model."
-helpx_description: "General Knowledge > Adobe Standard Material > Metal material references"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/adobe-standard-material/metal-material-references.html"
+breadcrumb-title: ""
+description: Use accurate color values and data tables to simulate real-world metal materials with the Adobe Standard Material model.
+helpx_creative_field: ""
+helpx_description: General Knowledge > Adobe Standard Material > Metal material references
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Metal material references
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Metal material references
 
-Use the following tables to accurately simulate real world materials with their corresponding **Base Color** (F0) and **Specular Edge Color** (F82 tint) data. This table is created for use with the **Adobe Standard Material** model. For more information refer to the [Adobe Standard Material technical documentation](../asm-technical-doc/asm-technical-documentation.md).
+Use the following tables to accurately simulate real world materials with their corresponding **Base Color** (F0) and **Specular Edge Color** (F82 tint) data. This table is created for use with the **Adobe Standard Material** model. For more information refer to the [Adobe Standard Material technical documentation](../../adobe-standard-material/asm-technical-doc/asm-technical-documentation.md).
 
 ## 8-bit sRGB
 

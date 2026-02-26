@@ -1,8 +1,15 @@
 ---
-title: "Converting Substance outputs"
-description: "Learn how to convert Substance material outputs to match different renderer requirements and workflows."
-helpx_description: "Ecosystems and Plugins > Renderers > Converting Substance outputs"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/converting-substance-outputs.html"
+breadcrumb-title: ""
+description: Learn how to convert Substance material outputs to match different renderer requirements and workflows.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Converting Substance outputs
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Converting Substance outputs
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Converting Substance outputs
@@ -11,7 +18,7 @@ helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/converti
 
 You can export the converted maps from Substance Painter. A wide range of render presets are supported and simply selecting a preset will convert the maps types. (conversion is based on the metal/rough workflow).
 
-![](convertpainter.png){width="800px"}
+![](../../assets/convertpainter.png){width="800px"}
 
 ## Substance Plugin
 
@@ -24,4 +31,4 @@ The Substance plugin will generate outputs and automatically create materials fo
 
 If you are building a custom Substance, you can create the specific outputs you need for renderers such as Vray and Corona. Using the metallic/roughness conversion node (Library&gt;PBR Utilities), You can easily convert the base color, roughness and metallic maps to the specific renderer.
 
-![](convert-designer.png){width="600px"}
+![](../../assets/convert-designer.png){width="600px"}

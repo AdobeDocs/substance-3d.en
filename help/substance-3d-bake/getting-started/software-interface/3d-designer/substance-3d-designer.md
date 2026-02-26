@@ -1,25 +1,32 @@
 ---
-title: "Substance 3D Designer"
-description: "Learn how to access and use the baking window in Substance 3D Designer to bake model information into textures."
-helpx_description: "bakers > Getting Started > Software Interface > Substance 3D Designer"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/software-interface/substance-3d-designer.html"
+breadcrumb-title: ""
+description: Learn how to access and use the baking window in Substance 3D Designer to bake model information into textures.
+helpx_creative_field: ""
+helpx_description: bakers > Getting Started > Software Interface > Substance 3D Designer
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance 3D Designer
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Substance 3D Designer
 
-![](sd-mesh-right-click.png)
+![](../../../assets/sd-mesh-right-click.png)
 
 The baking window can be accessed via the mesh file in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) window. Right-Click on the mesh name and choose "**Bake Model Information**" to open the baking window.
 
 ## Overview
 
-![](sd-window-overview.png){width="500px"}
+![](../../../assets/sd-window-overview.png){width="500px"}
 
 The baking window of is divided into several panels which are described below.
 
 ### Element to Bake
 
-![](sd-mesh-selection.png)
+![](../../../assets/sd-mesh-selection.png)
 
 This panel controls which part of the low-poly mesh will be used to perform the baking.
 
@@ -27,7 +34,7 @@ This panel will list the geometry found inside the low-poly mesh file. By defaul
 
 ### Output
 
-![](sd-output.png)
+![](../../../assets/sd-output.png)
 
 This panel controls where the baked texture will be located.
 
@@ -41,19 +48,19 @@ This panel controls where the baked texture will be located.
 
 ### High Definition Meshes
 
-![](sd-high.png)
+![](../../../assets/sd-high.png)
 
 This panel controls the high-poly mesh list and the related settings. See the [common parameters](../../../bakers-settings/common-parameters/common-parameters.md) for more information.
 
 ### Default Values
 
-![](sd-default-values.png)
+![](../../../assets/sd-default-values.png)
 
 See the [common parameters](../../../bakers-settings/common-parameters/common-parameters.md) for more information.
 
 ### Baker List and Settings
 
-![](sd-baker-list.png)
+![](../../../assets/sd-baker-list.png)
 
 The baker is where you can choose which baked texture you want to generate. By default the list is empty.
 

@@ -1,8 +1,15 @@
 ---
-title: "Add-on 0.9.5"
-description: "Review release notes for Blender add-on version 0.9.5 to learn about new features, improvements, and bug fixes."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Release Notes > Add-on 0.9.5"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/release-notes/add-on-0-9-5.html"
+breadcrumb-title: ""
+description: Review release notes for Blender add-on version 0.9.5 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Blender > Release Notes > Add-on 0.9.5
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Add-on 0.9.5
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Add-on 0.9.5
