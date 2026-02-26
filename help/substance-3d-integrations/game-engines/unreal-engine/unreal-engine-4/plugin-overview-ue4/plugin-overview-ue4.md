@@ -1,9 +1,17 @@
 ---
-title: "Plugin Overview - UE4"
-description: "Learn how to import and use Substance materials in Unreal Engine 4 with the Substance plugin overview guide."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Plugin Overview - UE4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/plugin-overview-ue4.html"
+breadcrumb-title: ""
+description: Learn how to import and use Substance materials in Unreal Engine 4 with the Substance plugin overview guide.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Plugin Overview - UE4
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Plugin Overview - UE4
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Plugin Overview - UE4
 
@@ -21,4 +29,4 @@ helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unrea
 1. Random Seed will change the seed value to generate the textures. This is good for randomizing materials.
 1. The Parameters section allows you to tweak the material.
 
-![](param.png){width="600px"}
+![](../../../../assets/param.png){width="600px"}

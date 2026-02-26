@@ -1,9 +1,17 @@
 ---
-title: "Troubleshooting"
-description: "Diagnose and resolve common issues with the Substance 3D add-on in Blender using the system console."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Troubleshooting"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/troubleshooting.html"
+breadcrumb-title: ""
+description: Diagnose and resolve common issues with the Substance 3D add-on in Blender using the system console.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Blender > Troubleshooting
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Troubleshooting
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Troubleshooting
 
@@ -25,7 +33,7 @@ To report a bug, please join the #substance-blender-beta channel on the [Substan
   * This may happen when removing an older version of the add-on and installing a newer version in the same session, since older files may still be cached in the system.  
     Restarting Blender should allow the changes to take effect.
 * *Issues when installing the add-on./ Materials are stuck processing in between sessions. / Materials do not generate textures in between sessions. / Errors when loading .sbsar files.*
-  * This may be an issue with the Integration tools installation and is usually fixed by manually removing the tools manually. Visit the [Uninstalling the Add-on](../uninstalling-the-add-on/uninstalling-the-add-on.md) page for manual removal instructions.
+  * This may be an issue with the Integration tools installation and is usually fixed by manually removing the tools manually. Visit the [Uninstalling the Add-on](../../../3d-applications/blender/uninstalling-the-add-on/uninstalling-the-add-on.md) page for manual removal instructions.
 * *Materials do not update in Cycles render view*.
   * By default, the add-on does not update textures in Cycles render view. However, they can be force-updated by enabling <b>Cycles Auto-update textures</b>in the add-on preferences.
 * Parameters appear to revert after saving while in Cycles render view.  

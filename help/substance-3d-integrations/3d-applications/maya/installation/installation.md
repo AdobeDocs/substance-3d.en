@@ -1,9 +1,17 @@
 ---
-title: "Installation"
-description: "Install the Substance plugin for Maya using the official installer or through Maya's plugin manager."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Installation"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/installation.html"
+breadcrumb-title: ""
+description: Install the Substance plugin for Maya using the official installer or through Maya's plugin manager.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Maya > Installation
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Installation
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Installation
 

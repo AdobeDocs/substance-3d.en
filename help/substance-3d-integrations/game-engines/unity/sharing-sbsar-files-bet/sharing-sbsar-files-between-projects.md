@@ -1,9 +1,17 @@
 ---
-title: "Sharing sbsar Files Between Projects"
-description: "Share Substance SBSAR files between Unity projects while preserving parameter adjustments using preset files."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity >Sharing sbsar Files Between Projects"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/sharing-sbsar-files-between-projects.html"
+breadcrumb-title: ""
+description: Share Substance SBSAR files between Unity projects while preserving parameter adjustments using preset files.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity >Sharing sbsar Files Between Projects
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Sharing sbsar Files Between Projects
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Sharing sbsar Files Between Projects
 

@@ -1,9 +1,17 @@
 ---
-title: "Substance Bakers"
-description: "Learn how to use Substance Bakers to compute mesh-based information into texture files and enhance your texturing workflow."
-helpx_description: "bakers > Home"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/home.html"
+breadcrumb-title: ""
+description: Learn how to use Substance Bakers to compute mesh-based information into texture files and enhance your texturing workflow.
+helpx_creative_field: ""
+helpx_description: bakers > Home
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance Bakers
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Substance Bakers
 
@@ -18,7 +26,7 @@ This documentation covers the <b>fundamentals of baking</b> and the <b>common is
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
 
-![](optim-baker-home.png){width="400px"}
+![](../assets/optim-baker-home.png){width="400px"}
 
 </td>
 </tr>

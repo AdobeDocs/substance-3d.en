@@ -1,9 +1,17 @@
 ---
-title: "Unity Preferences"
-description: "Configure Substance 3D plugin preferences in Unity to customize plugin behavior and settings."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Preferences"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-preferences.html"
+breadcrumb-title: ""
+description: Configure Substance 3D plugin preferences in Unity to customize plugin behavior and settings.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Unity Preferences
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Unity Preferences
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Unity Preferences
 
@@ -21,4 +29,4 @@ The Adobe Substance 3D preference window allows you to set user-defined options 
 
 **About** - Displays plugin version information.
 
-![](project-settings-5.png)
+![](../../../assets/project-settings-5.png)

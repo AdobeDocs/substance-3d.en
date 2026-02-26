@@ -1,9 +1,17 @@
 ---
-title: "Unity Plugin Overview"
-description: "Learn about the Substance 3D plugin for Unity, including version support, features, and integration capabilities."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Plugin Overview"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-plugin-overview.html"
+breadcrumb-title: ""
+description: Learn about the Substance 3D plugin for Unity, including version support, features, and integration capabilities.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Unity Plugin Overview
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Unity Plugin Overview
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Unity Plugin Overview
 
@@ -24,17 +32,17 @@ The Adobe Substance 3D for Unity Plugin version 3.0.0 currently supports Unity 2
    1. The sbsar asset will create a main import file and a folder containing the output textures and a generated Unity material.
 1. You can then drag and drop the material on a mesh in the Scene view and then edit the parameters in the Inspector.
 
-   ![](window-overview.png){width="1000px"}
+   ![](../../../assets/window-overview.png){width="1000px"}
 
 >[!NOTE]
 >
 > **Normal Map Conversion**
 > 
-> The Substance in Unity plugin will automatically converts DirectX to OpenGL. When using materials from [Substance Source](https://source.substance3d.com/), you do not need to change the normal orientation to OGL. If you are creating your own material in Substance Designer, be sure you work with the default DirectX shader as the plugin will handle the normal conversion automatically. For more info, please check .
+> The Substance in Unity plugin will automatically converts DirectX to OpenGL. When using materials from [Substance Source](https://source.substance3d.com/), you do not need to change the normal orientation to OGL. If you are creating your own material in Substance Designer, be sure you work with the default DirectX shader as the plugin will handle the normal conversion automatically. For more info, please check Working with Normals in Unity.
 
 ## Changing Parameters
 
-Parameters and resolutions can be set in the Inspector window. Please see [Changing Parameters](../changing-parameters/changing-parameters.md).
+Parameters and resolutions can be set in the Inspector window. Please see [Changing Parameters](../../../game-engines/unity/changing-parameters/changing-parameters.md).
 
 [unity\_tweaking\_parameters.mp4](https://helpx.adobe.com/content/dam/help/en/substance-3d/documentation/download/attachments/186056716/unity-tweaking-parameters.mp4)
 

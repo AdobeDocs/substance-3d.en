@@ -1,9 +1,17 @@
 ---
-title: "Adobe Standard Material"
-description: "Learn about the Adobe Standard Material model and how to use it for physically-based rendering across Adobe applications."
-helpx_description: "General Knowledge > Adobe Standard Material"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/adobe-standard-material.html"
+breadcrumb-title: ""
+description: Learn about the Adobe Standard Material model and how to use it for physically-based rendering across Adobe applications.
+helpx_creative_field: ""
+helpx_description: General Knowledge > Adobe Standard Material
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Adobe Standard Material
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Adobe Standard Material
 
@@ -11,6 +19,6 @@ The <b>Adobe Standard Material</b> (ASM) is a material model, designed to be the
 
 For more information, see the following pages:
 
-* [ASM specifications](asm-specifications/asm-specifications.md)
-* [ASM technical documentation](asm-technical-doc/asm-technical-documentation.md)
-* [Metal material references](metal-material-references/metal-material-references.md)
+* [ASM specifications](../adobe-standard-material/asm-specifications/asm-specifications.md)
+* [ASM technical documentation](../adobe-standard-material/asm-technical-doc/asm-technical-documentation.md)
+* [Metal material references](../adobe-standard-material/metal-material-references/metal-material-references.md)

@@ -1,9 +1,17 @@
 ---
-title: "Maya 3.0.0"
-description: "Review release notes for Maya plugin version 3.0.0 and later to learn about new features, improvements, and bug fixes."
-helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > 3ds Max Plugin Release Notes > Maya 3.0.0"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-3-0-0-plus.html"
+breadcrumb-title: ""
+description: Review release notes for Maya plugin version 3.0.0 and later to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > 3ds Max > 3ds Max Plugin Release Notes > Maya 3.0.0
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Maya 3.0.0
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Maya 3.0.0+
 

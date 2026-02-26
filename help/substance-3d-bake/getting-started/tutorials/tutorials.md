@@ -1,9 +1,17 @@
 ---
-title: "Tutorials"
-description: "Access tutorials and learning resources to master Substance Bakers and improve your texture baking workflow."
-helpx_description: "bakers > Getting Started > Tutorials"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/tutorials.html"
+breadcrumb-title: ""
+description: Access tutorials and learning resources to master Substance Bakers and improve your texture baking workflow.
+helpx_creative_field: ""
+helpx_description: bakers > Getting Started > Tutorials
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Tutorials
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Tutorials
 

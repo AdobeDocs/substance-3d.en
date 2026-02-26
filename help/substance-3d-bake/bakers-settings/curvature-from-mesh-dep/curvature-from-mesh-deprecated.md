@@ -1,13 +1,21 @@
 ---
-title: "Curvature from Mesh (deprecated)"
-description: "Reference for the deprecated Curvature from Mesh baker. Use the updated Curvature from Mesh baker instead."
-helpx_description: "bakers > Bakers Settings > Curvature from Mesh (deprecated)"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/curvature-from-mesh-deprecated.html"
+breadcrumb-title: ""
+description: Reference for the deprecated Curvature from Mesh baker. Use the updated Curvature from Mesh baker instead.
+helpx_creative_field: ""
+helpx_description: bakers > Bakers Settings > Curvature from Mesh (deprecated)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Curvature from Mesh (deprecated)
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Curvature from Mesh (deprecated)
 
-The Curvature from mesh baker generates a curvature texture from high-poly meshes. It is slower than the base [curvature](../curvature/curvature.md) baker but produce more accurate results.
+The Curvature from mesh baker generates a curvature texture from high-poly meshes. It is slower than the base [curvature](../../bakers-settings/curvature/curvature.md) baker but produce more accurate results.
 
 **Available in:**
 
@@ -16,7 +24,7 @@ The Curvature from mesh baker generates a curvature texture from high-poly meshe
 
 >[!NOTE]
 >
-> Since Substance Designer 2019.3 this baker is deprecated and we recommend using the new [Curvature from mesh](../curvature-from-mesh/curvature-from-mesh.md) baker instead.
+> Since Substance Designer 2019.3 this baker is deprecated and we recommend using the new [Curvature from mesh](../../bakers-settings/curvature-from-mesh/curvature-from-mesh.md) baker instead.
 
 ## Parameters
 

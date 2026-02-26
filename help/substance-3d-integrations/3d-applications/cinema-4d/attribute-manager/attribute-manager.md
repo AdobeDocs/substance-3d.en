@@ -1,9 +1,17 @@
 ---
-title: "Attribute Manager"
-description: "Use Cinema 4D's Attribute Manager to configure Substance asset properties and material settings."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Attribute Manager"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/attribute-manager.html"
+breadcrumb-title: ""
+description: Use Cinema 4D's Attribute Manager to configure Substance asset properties and material settings.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Cinema 4D > Attribute Manager
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Attribute Manager
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Attribute Manager
 
@@ -13,7 +21,7 @@ When a Substance is selected in the Substance Asset Manager, the Attribute Manag
 
 In Substance asset mode you have access to all inputs of a Substance, and you also have an overview of all output channels.
 
-![](cinema-4d-9.png){width="500px"}
+![](../../../assets/cinema-4d-9.png){width="500px"}
 
 ## Grouping of Substance Inputs
 
@@ -26,13 +34,13 @@ If inputs of a Substance are grouped, these groups will be shown as such in the 
 
 By using the Filename parameter in the Attribute Manager, the file location of Substance assets can be changed after they were loaded into a scene.
 
-![](cinema-4d-10.png){width="500px"}
+![](../../../assets/cinema-4d-10.png){width="500px"}
 
 This can be useful not only for relocating Substance files, but also when exchanging a Substance with a completely different one.
 
 In this case the user will be asked, if any existing references to previous Substance output channels should be remapped to the new Substance.
 
-![](cinema-4d-11.png){width="500px"}
+![](../../../assets/cinema-4d-11.png){width="500px"}
 
 If the question is answered with 'No', links to the previous Substance will be deleted from all Substance shaders. In order to re-map the output channels, the plugin will first search for output channels with the same type and then with the same name.
 
@@ -42,4 +50,4 @@ If multiple Substances are selected at the same time, inputs shared between thes
 
 In these instances, the output channels will be displayed as shown below.
 
-![](cinema-4d-12.png){width="300px"}
+![](../../../assets/cinema-4d-12.png){width="300px"}

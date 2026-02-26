@@ -1,15 +1,23 @@
 ---
-title: "Plugin Settings - UE4"
-description: "Configure Substance plugin settings in Unreal Engine 4 through Project Settings to customize plugin behavior."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Plugin Settings - UE4"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/plugin-settings-ue4.html"
+breadcrumb-title: ""
+description: Configure Substance plugin settings in Unreal Engine 4 through Project Settings to customize plugin behavior.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Plugin Settings - UE4
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Plugin Settings - UE4
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Plugin Settings - UE4
 
 To access the settings, go to Edit&gt;Project Settings and scroll down to the Plugins category and click on Substance.
 
-![](settings-36.png){width="400px"}
+![](../../../../assets/settings-36.png){width="400px"}
 
 ## Hardware Budget
 
@@ -43,7 +51,7 @@ The Substance Generation Mode (SGM) controls how the textures are generated. Thi
 
 To change the SGM for a Substance, right-click on the Substance Factory&gt;Asset Actions&gt;Bulk Edit via Property Matrix. You can then change the SGM.
 
-![](sgm.png){width="800px"}
+![](../../../../assets/sgm.png){width="800px"}
 
 ## Optimization:
 

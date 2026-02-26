@@ -1,9 +1,18 @@
 ---
-user-guide-title: placeholder
+helpx_url: ""
 breadcrumb-title: placeholder
-user-guide-description: placeholder
+description: ""
+helpx_creative_field: ""
+helpx_description: ""
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
 solution: Substance 3D
+title: ""
+user-guide-description: placeholder
+user-guide-title: placeholder
 ---
+
 
 # Substance 3D Bakers {#bakers}
 

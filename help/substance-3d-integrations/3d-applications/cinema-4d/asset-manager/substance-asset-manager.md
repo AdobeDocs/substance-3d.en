@@ -1,9 +1,17 @@
 ---
-title: "Substance Asset Manager"
-description: "Use the Substance Asset Manager in Cinema 4D to add, remove, and organize Substance materials in your scene."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Substance Asset Manager"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/substance-asset-manager.html"
+breadcrumb-title: ""
+description: Use the Substance Asset Manager in Cinema 4D to add, remove, and organize Substance materials in your scene.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Cinema 4D > Substance Asset Manager
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance Asset Manager
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Substance Asset Manager
 
@@ -15,7 +23,7 @@ Selecting (left click) a Substance inside the Substance Asset Manager opens the 
 >
 > The Attribute Manager has a special Substance Asset mode, which comes in handy for having a dedicated Attribute Manager for Substances in your Cinema 4D layout.
 
-![](cinema-4d-4.png){width="500px"}
+![](../../../assets/cinema-4d-4.png){width="500px"}
 
 ## File menu
 
@@ -103,9 +111,9 @@ You can interact with the Substance Asset Manager via drag and drop. There are s
 
 ## The Substance Asset Manager is in **Unsorted mode by default**. The header cell of the name column does not display an arrow on the right. You can use drag and drop to re-arrange the substances to your liking.
 
-![](cinema-4d-3.png){width="500px"}
+![](../../../assets/cinema-4d-3.png){width="500px"}
 
-![](cinema-4d-5.png){width="500px"}
+![](../../../assets/cinema-4d-5.png){width="500px"}
 
 ## Previews in Substance Asset Manager
 

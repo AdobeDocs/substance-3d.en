@@ -1,9 +1,17 @@
 ---
-title: "GPU Raytracing"
-description: "Enable hardware-accelerated GPU raytracing to speed up baking computations by 25x or more for faster workflows."
-helpx_description: "bakers > Features > GPU Raytracing"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/gpu-raytracing.html"
+breadcrumb-title: ""
+description: Enable hardware-accelerated GPU raytracing to speed up baking computations by 25x or more for faster workflows.
+helpx_creative_field: ""
+helpx_description: bakers > Features > GPU Raytracing
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: GPU Raytracing
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # GPU Raytracing
 
@@ -24,7 +32,7 @@ Ray tracing will automatically be enabled if the system follows these requiremen
 </td>
 <td style="border: 0;" valign="top">
 
-![GPU raytracing on/off comparison](rtx-ao-demo.gif "GPU raytracing on/off comparison"){zoomable="yes"}
+![GPU raytracing on/off comparison](../../assets/rtx-ao-demo.gif "GPU raytracing on/off comparison"){zoomable="yes"}
 
 </td>
 </tr>

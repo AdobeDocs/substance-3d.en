@@ -1,9 +1,17 @@
 ---
-title: "Publishing for Mobile"
-description: "Optimize Substance materials for mobile platforms in Unity by adjusting settings and texture resolutions."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Publishing for Mobile"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/publishing-for-mobile.html"
+breadcrumb-title: ""
+description: Optimize Substance materials for mobile platforms in Unity by adjusting settings and texture resolutions.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Publishing for Mobile
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Publishing for Mobile
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Publishing for Mobile
 

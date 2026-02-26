@@ -1,9 +1,17 @@
 ---
-title: "Substance Shader"
-description: "Understand how Substance shaders link Substance assets to Cinema 4D materials for rendering workflows."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Substance Shader"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/substance-shader.html"
+breadcrumb-title: ""
+description: Understand how Substance shaders link Substance assets to Cinema 4D materials for rendering workflows.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Cinema 4D > Substance Shader
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance Shader
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Substance Shader
 
@@ -11,7 +19,7 @@ A Substance shader is the link between a Substance asset and a Cinema 4D materia
 
 The Substance shader can be found in the normal Cinema 4D Material Editor selection menu, as shown in the screenshot below:
 
-![](cinema-4d-6.png){width="500px"}
+![](../../../assets/cinema-4d-6.png){width="500px"}
 
 After manually adding a Substance shader, it has no linked Substance asset. It will look like below and when rendered, the material will look like the image on the right:
 
@@ -19,7 +27,7 @@ After manually adding a Substance shader, it has no linked Substance asset. It w
 
 To access the parameters of the Substance shader, you can either click the small arrow on the top left, or on the shader's preview image.
 
-![](cinema-4d-8.png){width="500px"}
+![](../../../assets/cinema-4d-8.png){width="500px"}
 
 ## Parameters
 

@@ -1,9 +1,17 @@
 ---
-title: "Tangent Space"
-description: "Learn how Substance Bakers handle tangent space calculations and customize the algorithm for your workflow."
-helpx_description: "bakers > Features > Tangent Space"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/tangent-space.html"
+breadcrumb-title: ""
+description: Learn how Substance Bakers handle tangent space calculations and customize the algorithm for your workflow.
+helpx_creative_field: ""
+helpx_description: bakers > Features > Tangent Space
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Tangent Space
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Tangent Space
 
@@ -46,13 +54,13 @@ To set the tangent space algorithm in Substance Designer follow these steps:
 
 1. Choose **Edit** &gt; **Preferences**.
 
-   ![](sd-edit-pref.png)
+   ![](../../assets/sd-edit-pref.png)
 1. Click on **Projects**.
 
-   ![](sd-pref-projects.png)
+   ![](../../assets/sd-pref-projects.png)
 1. Navigate to the **General** tab. Scroll until the section **3D Scenes** is visible.
 
-   ![](sd-tab-general.png)
+   ![](../../assets/sd-tab-general.png)
 1. Click on the **three dots** (...) to load a custom plugin.
 
 ## Substance Automation Toolkit

@@ -1,9 +1,17 @@
 ---
-title: "Substance in 3ds Max Overview"
-description: "Learn about the Substance plugin for 3ds Max and how to import and use Substance materials in your projects."
-helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Substance in 3ds Max Overview"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/substance-in-3ds-max-overview.html"
+breadcrumb-title: ""
+description: Learn about the Substance plugin for 3ds Max and how to import and use Substance materials in your projects.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > 3ds Max > Substance in 3ds Max Overview
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance in 3ds Max Overview
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Substance in 3ds Max Overview
 
@@ -21,7 +29,7 @@ helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3d
 
    ![](https://helpx-prod.scene7.com/is/image/HelpxProd/max8?$png$&amp;jpegSize=100&amp;wid=341)
 
-   ![](max1.png)
+   ![](../../../assets/max1.png)
 1. With the Substance node selected, go to the Substance menu and choose a supported renderer. The material will be created and ready to be applied to the object. Substance textures are hooked into the rendering material.
 
    | Supported Renderers |
@@ -31,14 +39,14 @@ helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3d
    | Corona |
    | Octane |
 
-   ![](max3.png)
+   ![](../../../assets/max3.png)
 
 ## Changing Resolution:
 
 1. Set the desired resolution for the computed Substance textures in the Substance Output Settings.
-1. For resolution up to 8K, make sure you are using the GPU engine, which is set in the [Substance Settings](../settings-1/substance-settings.md).
+1. For resolution up to 8K, make sure you are using the GPU engine, which is set in the [Substance Settings](../../../3d-applications/3ds-max/settings-1/substance-settings.md).
 
-   ![](max6.png)
+   ![](../../../assets/max6.png)
 
 ## Changing Parameters:
 
@@ -53,10 +61,10 @@ You can set a specific channel for the thumbnail for the Substance node.
 
 1. In the Output Preview drop down, choose the channel you want to use for the node thumbnail.
 
-   ![](max7.png)
+   ![](../../../assets/max7.png)
 
 ## Tiling Substances:
 
 You can use the Coordinates properties to tile Substance textures and set Map Channels.
 
-![](max10.png)
+![](../../../assets/max10.png)

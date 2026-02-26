@@ -1,9 +1,17 @@
 ---
-title: "Blueprint(UE4) Aggregate Substance"
-description: "Combine multiple Substance materials at runtime in Unreal Engine 4 using Blueprint aggregate nodes for advanced workflows."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Blueprints - UE4 > Blueprint(UE4) Aggregate Substance"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/blueprints-ue4/blueprintue4-aggregate-substance.html"
+breadcrumb-title: ""
+description: Combine multiple Substance materials at runtime in Unreal Engine 4 using Blueprint aggregate nodes for advanced workflows.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Blueprints - UE4 > Blueprint(UE4) Aggregate Substance
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Blueprint(UE4) Aggregate Substance
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Blueprint(UE4): Aggregate Substance
 
@@ -21,8 +29,8 @@ The new aggregate substance node allows you to take two substance instance facto
 1. Set the MID variable from step 3.
 1. Set the material for the mesh using **Set Material** with the MID variable.
 
-    ![](a2-3.png){width="800px"}
+    ![](../../../../../assets/a2-3.png){width="800px"}
 1. Set the channels for the material as shown in the Dynamic Material Instance docs (steps 11-19)   
     [Blueprint(UE4): Dynamic Material Instance](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/blueprint-dynamic-material-instance-152535142.html)
 
-    ![](a4-3.png){width="800px"}
+    ![](../../../../../assets/a4-3.png){width="800px"}

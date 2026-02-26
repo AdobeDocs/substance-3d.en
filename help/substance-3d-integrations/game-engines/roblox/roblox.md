@@ -1,9 +1,17 @@
 ---
-title: "Roblox"
-description: "Use Substance materials in Roblox Studio with PBR Metallic Roughness workflow for immersive 3D experiences."
-helpx_description: "Ecosystems and Plugins > Game Engines > Roblox"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/roblox.html"
+breadcrumb-title: ""
+description: Use Substance materials in Roblox Studio with PBR Metallic Roughness workflow for immersive 3D experiences.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Roblox
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Roblox
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Roblox
 
@@ -17,7 +25,7 @@ helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/roblo
 
 To create textures for Roblox, you can use the Substance 3D file below as a [Substance compositing graphs](https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html) template in [Substance 3D Designer](https://helpx.adobe.com/substance-3d-designer/home.html).
 
-[![Image of the sbs file format icon that links to the roblox template.](sbs.png){width="64px"}](https://helpx.adobe.com/content/dam/roblox.sbs)
+[![Image of the sbs file format icon that links to the roblox template.](../../assets/sbs.png){width="64px"}](https://helpx.adobe.com/content/dam/roblox.sbs)
 
 This graph template allows for the pre-configuration of final texture file names and types. This template can be installed and reused to create new materials that always follow the Roblox material guidelines.
 
@@ -50,7 +58,7 @@ First, *install* the Roblox template.
 </td>
 <td style="border: 0;" valign="top">
 
-![](roblox-01-place-template.gif){width="512px"}
+![](../../assets/roblox-01-place-template.gif){width="512px"}
 
 </td>
 </tr>
@@ -75,7 +83,7 @@ Then, have Designer *watch* the templates folder to look for graph templates.
 </td>
 <td style="border: 0;" valign="top">
 
-![](roblox-02-detect-template.gif){width="512px"}
+![](../../assets/roblox-02-detect-template.gif){width="512px"}
 
 </td>
 </tr>
@@ -99,7 +107,7 @@ Create a graph using the Roblox template and export bitmaps out of that graph on
 </td>
 <td style="border: 0;" valign="top">
 
-![](roblox-03-export-textures.gif){width="512px"}
+![](../../assets/roblox-03-export-textures.gif){width="512px"}
 
 </td>
 </tr>
@@ -122,7 +130,7 @@ In Roblox, create a Material Variant and assign the textures exported from Desig
 </td>
 <td style="border: 0;" valign="top">
 
-![](roblox-04-roblox-create-material.gif){width="512px"}
+![](../../assets/roblox-04-roblox-create-material.gif){width="512px"}
 
 </td>
 </tr>
@@ -146,7 +154,7 @@ Use your new material variant in your Roblox scene
 </td>
 <td style="border: 0;" valign="top">
 
-![](roblox-05-roblox-apply-material.gif){width="512px"}
+![](../../assets/roblox-05-roblox-apply-material.gif){width="512px"}
 
 </td>
 </tr>
@@ -166,7 +174,7 @@ The amount of repetition of the material on a surface – i.e., tiling – may b
 </td>
 <td style="border: 0;" valign="top">
 
-![](roblox-06-roblox-adjust-tiling.gif){width="512px"}
+![](../../assets/roblox-06-roblox-adjust-tiling.gif){width="512px"}
 
 </td>
 </tr>

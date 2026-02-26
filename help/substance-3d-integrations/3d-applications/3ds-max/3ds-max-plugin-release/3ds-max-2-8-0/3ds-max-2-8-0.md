@@ -1,9 +1,17 @@
 ---
-title: "3ds Max 2.8.0"
-description: "Review release notes for 3ds Max plugin version 2.8.0 to learn about new features, improvements, and bug fixes."
-helpx_description: "Substance 3D Integrations"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-2-8-0.html"
+breadcrumb-title: ""
+description: Review release notes for 3ds Max plugin version 2.8.0 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Substance 3D Integrations
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 3ds Max 2.8.0
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # 3ds Max 2.8.0
 

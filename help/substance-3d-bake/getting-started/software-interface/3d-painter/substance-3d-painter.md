@@ -1,19 +1,27 @@
 ---
-title: "Substance 3D Painter"
-description: "Learn how to access and use the baking window in Substance 3D Painter to generate mesh maps for your textures."
-helpx_description: "bakers > Getting Started > Software Interface > Substance 3D Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/software-interface/substance-3d-painter.html"
+breadcrumb-title: ""
+description: Learn how to access and use the baking window in Substance 3D Painter to generate mesh maps for your textures.
+helpx_creative_field: ""
+helpx_description: bakers > Getting Started > Software Interface > Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance 3D Painter
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Substance 3D Painter
 
-![](sp-baking-button-access.png)
+![](../../../assets/sp-baking-button-access.png)
 
 The baking window can be accessed via the [Texture Set Settings](https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-settings.html). Click on the button named "**Bake Mesh Maps**" to open the baking window of the current project.
 
 ## Overview
 
-![](sp-ui-overview.png){width="400px"}
+![](../../../assets/sp-ui-overview.png){width="400px"}
 
 The baking window is divided into three main components.
 
@@ -41,7 +49,7 @@ Next to those button is a checkbox, if it is checked it will enable this baking 
 
 ### Parameters
 
-![](sp-baking-params.png)
+![](../../../assets/sp-baking-params.png)
 
 This part of the window displays the various baking settings. Its content can change depending of the currently selected baker or common parameters.
 
@@ -49,6 +57,6 @@ To learn more about the baker settings see the [Baker Settings](../../../bakers-
 
 ### Help Message
 
-![](sp-baking-help.png){width="500px"}
+![](../../../assets/sp-baking-help.png){width="500px"}
 
 This part of the window shows the various tooltips and help message related to the settings. Move the mouse over a setting to read its tooltip here.

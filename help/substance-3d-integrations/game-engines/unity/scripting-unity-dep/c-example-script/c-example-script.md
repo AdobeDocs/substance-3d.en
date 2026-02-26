@@ -1,9 +1,17 @@
 ---
-title: "C Example Script"
-description: "Example C# scripts demonstrating how to use the deprecated Substance Unity API for parameter changes."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Scripting in Unity (Deprecated) > C Example Script"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/scripting-in-unity-deprecated/c-example-script.html"
+breadcrumb-title: ""
+description: Example C# scripts demonstrating how to use the deprecated Substance Unity API for parameter changes.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Scripting in Unity (Deprecated) > C Example Script
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: C Example Script
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # C# Example Script
 

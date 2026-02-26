@@ -1,9 +1,17 @@
 ---
-title: "Color Map from Mesh"
-description: "Project color properties from high-poly meshes into textures to bake polypaint or material IDs for selection masks."
-helpx_description: "bakers > Bakers Settings > Color Map from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/color-map-from-mesh.html"
+breadcrumb-title: ""
+description: Project color properties from high-poly meshes into textures to bake polypaint or material IDs for selection masks.
+helpx_creative_field: ""
+helpx_description: bakers > Bakers Settings > Color Map from Mesh
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color Map from Mesh
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Color Map from Mesh
 

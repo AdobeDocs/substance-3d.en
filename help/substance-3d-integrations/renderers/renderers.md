@@ -1,15 +1,23 @@
 ---
-title: "Renderers"
-description: "Use Substance materials with major renderers like Arnold, V-Ray, Redshift, and others in your 3D workflow."
-helpx_description: "Ecosystems and Plugins > Renderers"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers.html"
+breadcrumb-title: ""
+description: Use Substance materials with major renderers like Arnold, V-Ray, Redshift, and others in your 3D workflow.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Renderers
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Renderers
 
 Substance materials provided in [Substance Source](https://source.substance3d.com/) contain outputs for Physically-based shaders and support both the [Metallic/Roughness (default workflow) and Specular/Glossiness workflows](https://academy.substance3d.com/courses/pbrguides). It's important to understand the the workflow your renderer material supports. Depending on the renderer, you may be able to use Substance material outputs directly or you may need to convert the output textures. Custom Substance materials or materials you download from Substance Share may not contain the appropriate outputs needed for a given renderer.
 
-![](outputs-2.png){width="200px"}
+![](../assets/outputs.png){width="200px"}
 
 For example with Arnold or Vray Next, you can use metallic/roughness outputs directly. However, with Renderman's pxrSurface, the basecolor/metallic outputs need to be converted to diffuse and specular face color. A Substance integration plugin will handle these conversions automatically if the renderer is supported.
 
@@ -17,21 +25,21 @@ With Substance Painter, you can choose an [Output Template](https://helpx.adobe.
   
 **Substance Painter Output Template**
 
-![](output-template.png){width="500px"}
+![](../assets/output-template.png){width="500px"}
 
 ## Renderer Guides
 
-* [Converting Substance outputs](converting-outputs/converting-substance-outputs.md)
-* [Color Management](color-management/color-management.md)
-* [Arnold](arnold/arnold.md)
-* [Vray](vray/vray.md)
-* [Renderman](renderman/renderman.md)
-* [Redshift](redshift/redshift.md)
-* [Maxwell](maxwell/maxwell.md)
-* [Corona](corona/corona.md)
-* [Octane](octane/octane.md)
-* [Keyshot](keyshot/keyshot.md)
-* [Thea](thea/thea.md)
-* [Maverick](maverick/maverick.md)
-* [Toolbag](toolbag/toolbag.md)
-* [Cycles and Eevee](cycles-and-eevee/cycles-and-eevee.md)
+* [Converting Substance outputs](../renderers/converting-outputs/converting-substance-outputs.md)
+* [Color Management](../renderers/color-management/color-management.md)
+* [Arnold](../renderers/arnold/arnold.md)
+* [Vray](../renderers/vray/vray.md)
+* [Renderman](../renderers/renderman/renderman.md)
+* [Redshift](../renderers/redshift/redshift.md)
+* [Maxwell](../renderers/maxwell/maxwell.md)
+* [Corona](../renderers/corona/corona.md)
+* [Octane](../renderers/octane/octane.md)
+* [Keyshot](../renderers/keyshot/keyshot.md)
+* [Thea](../renderers/thea/thea.md)
+* [Maverick](../renderers/maverick/maverick.md)
+* [Toolbag](../renderers/toolbag/toolbag.md)
+* [Cycles and Eevee](../renderers/cycles-and-eevee/cycles-and-eevee.md)

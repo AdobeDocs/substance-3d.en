@@ -1,9 +1,17 @@
 ---
-title: "Substance in Maya Overview"
-description: "Learn about the Substance plugin for Maya and how to import and use Substance materials in your workflow."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Substance in Maya Overview"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/substance-in-maya-overview.html"
+breadcrumb-title: ""
+description: Learn about the Substance plugin for Maya and how to import and use Substance materials in your workflow.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Maya > Substance in Maya Overview
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance in Maya Overview
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Substance in Maya Overview
 
@@ -21,18 +29,18 @@ The Substance plugin allows you to load a Substance material created in Substanc
 
 1. Open the Hypershade and in the Node Editor, right-click and swipe up in the marking menu to choose create node. This opens the Create Node window. From there, you can search for the Substance node.   
      
-   ![](createnode.png)  
+   ![](../../../assets/createnode.png)  
      
    You can also hit tab in the node editor and in the text field, type substance and this will filter to the substance options. From the options, choose Substance Texture.
-1. Select the Substance node and in the Property Editor and browse to load a .
+1. Select the Substance node and in the Property Editor and browse to load a Substance (.sbsar) file.
 
-   ![](1.png)
+   ![](../../../assets/1.png)
 1. The Selected Graph drop-down will populate if the Substance contains multiple graphs. The graph chosen will be used to create the material.
 1. The Graph Info button will display the graph attributes set in Substance Designer.
 1. Set the Resolution by choosing a value from the Width and Height drop-down box. Lock Ration is enabled by default.
 1. Enable Cache Outputs to Disk in order to bake the Substance Outputs to disk so they can be used with renderers such as Arnold. The cached file will be read back in by the plugin using a Maya file node.
 
-   ![](outputsettings.png)
+   ![](../../../assets/outputsettings.png)
 1. Choose a workflow for the renderer you are using and click the Create Shader Network button. A shader network is created for the renderer workflow. You can now apply the material in the scene.
 
-   ![](createnetwork.gif){width="1000px"}
+   ![](../../../assets/createnetwork.gif){width="1000px"}

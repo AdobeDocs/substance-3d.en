@@ -1,9 +1,17 @@
 ---
-title: "Baking failed with Color Map from Mesh"
-description: "Resolve Color Map from Mesh baking failures by checking mesh color properties and UV mapping."
-helpx_description: "bakers > Common Issues > Baking failed with Color Map from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/baking-failed-with-color-map-from-mesh.html"
+breadcrumb-title: ""
+description: Resolve Color Map from Mesh baking failures by checking mesh color properties and UV mapping.
+helpx_creative_field: ""
+helpx_description: bakers > Common Issues > Baking failed with Color Map from Mesh
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Baking failed with Color Map from Mesh
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Baking failed with Color Map from Mesh
 

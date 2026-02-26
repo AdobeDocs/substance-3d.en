@@ -1,9 +1,17 @@
 ---
-title: "Houdini"
-description: "Use Substance materials in Houdini through exported texture maps for procedural workflows and rendering."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Houdini"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/houdini.html"
+breadcrumb-title: ""
+description: Use Substance materials in Houdini through exported texture maps for procedural workflows and rendering.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Houdini
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Houdini
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Houdini
 

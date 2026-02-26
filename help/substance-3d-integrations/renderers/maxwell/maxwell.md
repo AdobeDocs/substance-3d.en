@@ -1,9 +1,17 @@
 ---
-title: "Maxwell"
-description: "Use Substance materials with Maxwell renderer in Maya and Painter for physically-based rendering workflows."
-helpx_description: "Ecosystems and Plugins > Renderers > Maxwell"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maxwell.html"
+breadcrumb-title: ""
+description: Use Substance materials with Maxwell renderer in Maya and Painter for physically-based rendering workflows.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Maxwell
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Maxwell
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Maxwell
 
@@ -13,5 +21,5 @@ Substance Painter 2020.1 (6.1.0) ships with Maxwell [Output templates](https://d
 
 ## Table of Contents
 
-* [Maxwell - Substance in Maya](maxwell-in-maya/maxwell-substance-in-maya.md)
-* [Maxwell - Substance Painter](maxwell-painter/maxwell-substance-painter.md)
+* [Maxwell - Substance in Maya](../../renderers/maxwell/maxwell-in-maya/maxwell-substance-in-maya.md)
+* [Maxwell - Substance Painter](../../renderers/maxwell/maxwell-painter/maxwell-substance-painter.md)

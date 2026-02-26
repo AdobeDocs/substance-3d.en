@@ -1,9 +1,17 @@
 ---
-title: "Working with Emissive"
-description: "Configure emissive properties for Substance materials in MODO to control luminous amount and color settings."
-helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Working with Emissive"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/working-with-emissive.html"
+breadcrumb-title: ""
+description: Configure emissive properties for Substance materials in MODO to control luminous amount and color settings.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > MODO > Working with Emissive
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Working with Emissive
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Working with Emissive
 
@@ -18,7 +26,7 @@ Right-click the texture in the Shader tree and choose duplicate. Then, set the d
 
 To get a bloom effect, you need to enable Bloom in the Render panel and set the Threshold and Radius.
 
-![](bloom.png)
+![](../../../assets/bloom.png)
 
 For the Unreal and Unity materials, the Emissive output is handled specifically by the material.   
 Unreal = Unreal Emissive  

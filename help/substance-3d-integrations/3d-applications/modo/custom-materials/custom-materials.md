@@ -1,9 +1,17 @@
 ---
-title: "Custom Materials"
-description: "Use Unreal, Unity, and glTF custom materials in MODO with the Substance plugin for specialized workflows."
-helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Custom Materials"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/custom-materials.html"
+breadcrumb-title: ""
+description: Use Unreal, Unity, and glTF custom materials in MODO with the Substance plugin for specialized workflows.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > MODO > Custom Materials
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Custom Materials
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Custom Materials
 
@@ -25,7 +33,7 @@ When using the Unity Material, the Material Layer Effect will be set automatical
 | Height | Linear | Unity Bump |
 | Ambient Occlusion | Linear | Unity Ambient Occlusion |
 
-![](unity-1.png){width="600px"}
+![](../../../assets/unity-1.png){width="600px"}
 
 ## Unreal Material
 
@@ -44,7 +52,7 @@ When using the Unreal Material, the Material Layer Effect will be set automatica
 
 ![](https://helpx-prod.scene7.com/is/image/HelpxProd/unreal?$png$&amp;jpegSize=200&amp;wid=1343){width="600px"}
 
-You may need to invert the normal. You can do this from the Tweaks menu if the Substance has a control for normal orientation. If not, this can be done on the texture itself. For more information, please see the "**[Working with Normals](../working-with-normals/working-with-normals.md)**" page.
+You may need to invert the normal. You can do this from the Tweaks menu if the Substance has a control for normal orientation. If not, this can be done on the texture itself. For more information, please see the "**[Working with Normals](../../../3d-applications/modo/working-with-normals/working-with-normals.md)**" page.
 
 ## glTF Material
 
@@ -59,6 +67,6 @@ When using the glTF Material, the Material Layer Effect will be set automaticall
 | Emissive | sRGB | glTF Emissive **\*set to sRGB on Image Still** |
 | Ambient Occlusion | Linear | glTF Ambient Occlusion |
 
-![](gltf.png){width="600px"}
+![](../../../assets/gltf.png){width="600px"}
 
-You may need to invert the normal. You can do this from the Tweaks menu if the Substance has a control for normal orientation. If not, this can be done on the texture itself. For more information, please see the "**[Working with Normals](../working-with-normals/working-with-normals.md)**" page.
+You may need to invert the normal. You can do this from the Tweaks menu if the Substance has a control for normal orientation. If not, this can be done on the texture itself. For more information, please see the "**[Working with Normals](../../../3d-applications/modo/working-with-normals/working-with-normals.md)**" page.

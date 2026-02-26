@@ -1,9 +1,17 @@
 ---
-title: "Normal texture looks faceted"
-description: "Fix faceted appearance in normal textures by smoothing mesh normals and adjusting smoothing group settings."
-helpx_description: "bakers > Common Issues > Normal texture looks faceted"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/normal-texture-looks-faceted.html"
+breadcrumb-title: ""
+description: Fix faceted appearance in normal textures by smoothing mesh normals and adjusting smoothing group settings.
+helpx_creative_field: ""
+helpx_description: bakers > Common Issues > Normal texture looks faceted
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Normal texture looks faceted
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Normal texture looks faceted
 
@@ -13,7 +21,7 @@ helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/normal-textu
 > 
 > The Normal texture looks faceted or every face of the mesh is visible in it after baking it.
 > 
-> ![](normal-faceted.jpg)
+> ![](../../assets/normal-faceted.jpg)
 
 >[!NOTE]
 >

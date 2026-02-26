@@ -1,9 +1,17 @@
 ---
-title: "Baker output is fully black or empty"
-description: "Troubleshoot why baker outputs are fully black or empty and learn how to fix mesh and UV issues."
-helpx_description: "bakers > Common Issues > Baker output is fully black or empty"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/baker-output-is-fully-black-or-empty.html"
+breadcrumb-title: ""
+description: Troubleshoot why baker outputs are fully black or empty and learn how to fix mesh and UV issues.
+helpx_creative_field: ""
+helpx_description: bakers > Common Issues > Baker output is fully black or empty
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Baker output is fully black or empty
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Baker output is fully black or empty
 
@@ -13,7 +21,7 @@ helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/baker-output
 > 
 > The result of a baker is a black or empty texture:
 > 
-> ![](black.png)
+> ![](../../assets/black.png)
 
 >[!NOTE]
 >

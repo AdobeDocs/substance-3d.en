@@ -1,13 +1,21 @@
 ---
-title: "Photoshop"
-description: "Use Substance materials directly in Photoshop to create realistic textures and enhance your 2D artwork with 3D materials."
-helpx_description: "Ecosystems and Plugins > Creative Cloud Applications > Photoshop"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/creative-cloud-applications/photoshop.html"
+breadcrumb-title: ""
+description: Use Substance materials directly in Photoshop to create realistic textures and enhance your 2D artwork with 3D materials.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Creative Cloud Applications > Photoshop
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Photoshop
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Photoshop
 
-![](pswhatsnewmaterialgraphic-03.jpg)
+![](../../assets/pswhatsnewmaterialgraphic-03.jpg)
 
 The Substance 3D Material plugin for Photoshop is a powerful tool, that lets you to import and use .sbsar files as parametric materials in your projects. Substance materials offer more advanced customization options compared to Photoshop’s native patterns, allowing you to apply realistic 3D textures with just one click and fine-tune settings such as patterns, colors, and even lighting.
 

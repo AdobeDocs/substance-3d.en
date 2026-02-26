@@ -1,9 +1,17 @@
 ---
-title: "ASM technical documentation"
-description: "Access detailed technical documentation including formulas and mathematics used by the Adobe Standard Material model."
-helpx_description: "General Knowledge > Adobe Standard Material > ASM technical documentation"
 helpx_url: "https://helpx.adobe.com/substance-3d-general/adobe-standard-material/asm-technical-documentation.html"
+breadcrumb-title: ""
+description: Access detailed technical documentation including formulas and mathematics used by the Adobe Standard Material model.
+helpx_creative_field: ""
+helpx_description: General Knowledge > Adobe Standard Material > ASM technical documentation
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: ASM technical documentation
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # ASM technical documentation
 

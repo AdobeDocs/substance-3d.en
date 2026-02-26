@@ -1,9 +1,17 @@
 ---
-title: "Is dithering applied to baked textures "
-description: "Understand whether dithering is applied to baked textures and how it affects texture quality."
-helpx_description: "bakers > Common Questions > Is dithering applied to baked textures "
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/is-dithering-applied-to-baked-textures.html"
+breadcrumb-title: ""
+description: Understand whether dithering is applied to baked textures and how it affects texture quality.
+helpx_creative_field: ""
+helpx_description: "bakers > Common Questions > Is dithering applied to baked textures "
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: "Is dithering applied to baked textures "
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Is dithering applied to baked textures ?
 
@@ -19,7 +27,7 @@ helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/is-dither
 > 
 > Dithering is applied to avoid banding in 8bit normal maps for example :
 > 
-> ![](dither.jpg)
+> ![](../../assets/dither.jpg)
 
 >[!NOTE]
 >

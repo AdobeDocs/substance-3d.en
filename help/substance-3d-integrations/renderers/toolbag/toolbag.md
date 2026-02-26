@@ -1,9 +1,17 @@
 ---
-title: "Toolbag"
-description: "Use Substance roughness and metallic outputs in Toolbag 2 for real-time material preview and rendering."
-helpx_description: "Ecosystems and Plugins > Renderers > Toolbag"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/toolbag.html"
+breadcrumb-title: ""
+description: Use Substance roughness and metallic outputs in Toolbag 2 for real-time material preview and rendering.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Toolbag
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Toolbag
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Toolbag
 
@@ -20,10 +28,10 @@ Substance 3D Painter uses the metallic PBR shader as default, however, you can a
 1. When using the default metallic PBR shader, we can export using the default Document channels + Normal + AO export preset.  ***\*Document channels exports Normal Map based on Project Configuration. Toolbag requires OGL Normal map. You can switch the Normal Format in the Project Configuration.***
 1. Alternatively, you can create a custom export config that uses glossiness
 
-   ![](settings-export.png){width="600px"}
+   ![](../../assets/settings-export.png){width="600px"}
 1. You can change the Normal Format to OpenGL before exporting.  **Edit&gt;Project Configuration**
 
-   ![](settings-normal-format.png)
+   ![](../../assets/settings-normal-format.png)
 
 ## Material Setup
 
@@ -39,4 +47,4 @@ Substance 3D Painter uses the metallic PBR shader as default, however, you can a
    | Normal | sRGB Off | Normal |
    | Ambient Occlusion | sRGB Off | Occlusion |
 
-![](settings-toolbag.jpg){width="600px"}
+![](../../assets/settings-toolbag.jpg){width="600px"}

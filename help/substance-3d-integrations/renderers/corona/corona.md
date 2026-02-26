@@ -1,9 +1,17 @@
 ---
-title: "Corona"
-description: "Use Substance materials with Corona renderer in 3ds Max using the Specular/Glossiness workflow and required maps."
-helpx_description: "Ecosystems and Plugins > Renderers > Corona"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/corona.html"
+breadcrumb-title: ""
+description: Use Substance materials with Corona renderer in 3ds Max using the Specular/Glossiness workflow and required maps.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Corona
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Corona
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Corona
 
@@ -22,5 +30,5 @@ The 1/IOR map can only be converted from the metallic/roughness workflow which i
 
 ## Table of Contents
 
-* [Corona for 3ds Max](corona-for-3ds-max/corona-for-3ds-max.md)
-* [Corona - Substance Painter](corona-painter/corona-substance-painter.md)
+* [Corona for 3ds Max](../../renderers/corona/corona-for-3ds-max/corona-for-3ds-max.md)
+* [Corona - Substance Painter](../../renderers/corona/corona-painter/corona-substance-painter.md)

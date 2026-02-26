@@ -1,9 +1,17 @@
 ---
-title: "Blueprint(UE4) Node Reference"
-description: "Reference guide for all Substance Blueprint nodes available in Unreal Engine 4 for material operations."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Blueprints - UE4 > Blueprint(UE4) Node Reference"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/blueprints-ue4/blueprintue4-node-reference.html"
+breadcrumb-title: ""
+description: Reference guide for all Substance Blueprint nodes available in Unreal Engine 4 for material operations.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Blueprints - UE4 > Blueprint(UE4) Node Reference
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Blueprint(UE4) Node Reference
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Blueprint(UE4): Node Reference
 

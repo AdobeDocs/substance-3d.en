@@ -1,9 +1,17 @@
 ---
-title: "Blueprint(UE5) Aggregate Substance"
-description: "Combine multiple Substance materials at runtime in Unreal Engine 5 using Blueprint aggregate nodes for advanced workflows."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Blueprints - UE5 > Blueprint(UE5) Aggregate Substance"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/blueprints-ue5/blueprintue5-aggregate-substance.html"
+breadcrumb-title: ""
+description: Combine multiple Substance materials at runtime in Unreal Engine 5 using Blueprint aggregate nodes for advanced workflows.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Blueprints - UE5 > Blueprint(UE5) Aggregate Substance
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Blueprint(UE5) Aggregate Substance
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Blueprint(UE5): Aggregate Substance
 

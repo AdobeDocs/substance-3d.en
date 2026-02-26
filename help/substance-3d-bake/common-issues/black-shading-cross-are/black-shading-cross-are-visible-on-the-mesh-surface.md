@@ -1,15 +1,23 @@
 ---
-title: "Black shading cross are visible on the mesh surface"
-description: "Fix black shading artifacts visible on mesh surfaces by correcting tangent space and normal calculations."
-helpx_description: "bakers > Common Issues > Black shading cross are visible on the mesh surface"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/black-shading-cross-are-visible-on-the-mesh-surface.html"
+breadcrumb-title: ""
+description: Fix black shading artifacts visible on mesh surfaces by correcting tangent space and normal calculations.
+helpx_creative_field: ""
+helpx_description: bakers > Common Issues > Black shading cross are visible on the mesh surface
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Black shading cross are visible on the mesh surface
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Black shading cross is visible on the mesh surface
 
 Black shading artifacts appear on multiple areas of the mesh when under lighting.
 
-![](black-shading-cross.jpg)
+![](../../assets/black-shading-cross.jpg)
 
 
 ## Explanation

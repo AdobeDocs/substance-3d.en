@@ -1,9 +1,17 @@
 ---
-title: "Modo Switch Engine"
-description: "Switch between CPU and GPU Substance engines in MODO to optimize performance based on your hardware."
-helpx_description: "Ecosystems and Plugins > 3D Applications > MODO > Modo Switch Engine"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/modo-switch-engine.html"
+breadcrumb-title: ""
+description: Switch between CPU and GPU Substance engines in MODO to optimize performance based on your hardware.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > MODO > Modo Switch Engine
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Modo Switch Engine
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Modo Switch Engine
 
@@ -19,4 +27,4 @@ Go to the Substance Settings option in the Substance Kit menu and choose Switch 
 > Nvidia: GeForce 650M 1GB or higher  
 > AMD: 6870M or higher
 
-![](switch.png)
+![](../../../assets/switch.png)

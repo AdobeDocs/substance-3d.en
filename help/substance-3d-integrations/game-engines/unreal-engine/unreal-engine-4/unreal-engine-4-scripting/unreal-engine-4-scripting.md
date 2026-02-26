@@ -1,9 +1,17 @@
 ---
-title: "Unreal Engine 4 Scripting"
-description: "Use the Substance Unreal Engine 4 scripting API to programmatically manage Substance materials in your projects."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Unreal Engine 4 Scripting"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/unreal-engine-4-scripting.html"
+breadcrumb-title: ""
+description: Use the Substance Unreal Engine 4 scripting API to programmatically manage Substance materials in your projects.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Unreal Engine 4 Scripting
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Unreal Engine 4 Scripting
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Unreal Engine 4 Scripting
 
@@ -12,7 +20,7 @@ The Substance in Unreal Engine plugin can be scripted. Methods are listed and an
 * **Engine Install**: &#91;UE\_4.X.X location&#93;\Engine\Plugins\Marketplace\Substance\Source\SubstanceCore\Classes\SubstanceGraphInstance.h
 * **Project Install**: &#91;project folder loacation&#93;\Plugins\Runtime\Substance\Source\SubstanceCore\Classes\SubstanceGraphInstance.h
 
-  ![](substancegraphinstance.png)
+  ![](../../../../assets/substancegraphinstance.png)
 
 `BlueprintCallable` indicates that the method is usable in the Blueprint editor as well.
 

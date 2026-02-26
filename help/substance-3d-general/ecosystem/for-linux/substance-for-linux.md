@@ -1,13 +1,16 @@
 ---
-title: Substance 3D for Linux (ADA)
-description: "Learn how to download, install, and activate Substance 3D applications on Linux using the Adobe Download Access portal."
-helpx_description: Substance 3D General
 helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/substance-for-linux.html"
-helpx_tags:
-  - SG_SUBSTANCE_GENERAL
+breadcrumb-title: ""
+description: Learn how to download, install, and activate Substance 3D applications on Linux using the Adobe Download Access portal.
+helpx_creative_field: ""
+helpx_description: Substance 3D General
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance 3D for Linux (ADA)
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Deployment guide
@@ -20,27 +23,27 @@ Sign in to [Adobe Download Access](https://download-access.adobe.com/lws/downloa
 
 1. Use the Account dropdown to select the account on which you purchased Substance 3D Linux.
 
-   ![](ADA1.png)
+   ![](../../assets/ADA1.png)
 1. Navigate to Downloads with the link in the page header.
 
-   ![](ADA2.png)
+   ![](../../assets/ADA2.png)
 1. Click View downloads on the corresponding product.
 
-   ![](ADA3.png)
+   ![](../../assets/ADA3.png)
 1. ADA will load the license information associated with this ID and display it in the table below.
 1. Click "Download" on the "Digital Certificate" line to download the zip file containing the license key files.
 
    * The zip file contains one license key per product.
    * The license key will activate the product on each of your licensed machines.
 
-   ![](ADA4.png)
+   ![](../../assets/ADA4.png)
 1. Click "Substance 3D" Sampler, Painter, or Designer to display the software builds of Substance 3D Painter, Substance 3D Designer, and Substance 3D Sampler.
 1. Click "Download" to download the installation file of the product you would like to install.
 
-   ![](ADA5.png)
+   ![](../../assets/ADA5.png)
 1. A “Download Software” notification will pop up. Click “accept”
 
-   ![](ADA6.png)
+   ![](../../assets/ADA6.png)
 
 ## Installation and activation
 
@@ -57,7 +60,7 @@ There are two options for software activation, either local activation or networ
 1. Launch the software that you want to activate.
 1. In the activation wizard, select "Activate using a license key file".
 
-   ![](LinuxActivation3.png)
+   ![](../../assets/LinuxActivation3.png)
 1. Click "Browse", and point to the location of the corresponding license key file.
 1. Click "Next" to activate the software.
 

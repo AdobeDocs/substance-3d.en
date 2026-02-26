@@ -1,9 +1,17 @@
 ---
-title: "Substance 3D for Unity Scripting"
-description: "Use the Substance 3D API in Unity to write scripts that update and change Substance parameters at runtime."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting.html"
+breadcrumb-title: ""
+description: Use the Substance 3D API in Unity to write scripts that update and change Substance parameters at runtime.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance 3D for Unity Scripting
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Substance 3D for Unity Scripting
 

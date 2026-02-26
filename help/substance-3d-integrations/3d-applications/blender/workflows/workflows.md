@@ -1,9 +1,17 @@
 ---
-title: "Workflows"
-description: "Learn how to use Substance materials with Blender's Cycles and Eevee renderers for different workflows."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Workflows"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/workflows.html"
+breadcrumb-title: ""
+description: Learn how to use Substance materials with Blender's Cycles and Eevee renderers for different workflows.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Blender > Workflows
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Workflows
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Workflows
 
@@ -25,17 +33,17 @@ The add-on supports .sbrar files with multiple substance graphs. When loading a 
 
 When using a Substance material that allows custom image inputs, an image selection parameter Substance 3D Panel will allow you to open the file browser for an image (folder icon) or select from an image that exists in your project (image icon drop down).  
   
-The Export Image Format preference can be used to to save image inputs generated within Blender to the temporary folder. See the [ Preferences ](../preferences/preferences.md)page for more details.
+The Export Image Format preference can be used to to save image inputs generated within Blender to the temporary folder. See the [ Preferences ](../../../3d-applications/blender/preferences/preferences.md)page for more details.
 
-![](blender-workflows-image-inputs-steps.png)
+![](../../../assets/blender-workflows-image-inputs-steps.png)
 
 ## Shader Network Presets.
 
 The shader preset can be quickly adjusted via the dropdown in the Outputs section of the Substance 3D Panel. These shader presets adjust the way that image textures are applied.Cycles/Eevee Standard uses regular UV texture coordinate mapping. The other three Cycles/Eevee Projection presets use generated texture coordinate mapping for box, sphere, or cylinder projection methods.
 
-The default shader preset used by materials can be selected in the add-on [Preferences](../preferences/preferences.md).
+The default shader preset used by materials can be selected in the add-on [Preferences](../../../3d-applications/blender/preferences/preferences.md).
 
-![](2022-08-12-12-12-33-adobeexpress-1.gif)
+![](../../../assets/2022-08-12-12-12-33-adobeexpress-1.gif)
 
 ## Filtering and Adjusting Outputs
 
@@ -44,7 +52,7 @@ The Outputs section of the Substance 3D Panel also has options for filtering out
 Outputs can enabled individually using the checkbox. When an output is enabled, a corresponding output in the texture node group will be created. If that output is supported by the Principled BSDF material node, it will be automatically connected to it. Height will connect to a displacement node and Ambient Occlusion will combine with the base color in a MixRGB node.  
 The file format dropdown next to the checkmark can be used to set the file type that the output texture is saved as.
 
-Additionally, the default file output preferences can be changed in the add-on [Preferences](../preferences/preferences.md).
+Additionally, the default file output preferences can be changed in the add-on [Preferences](../../../3d-applications/blender/preferences/preferences.md).
 
 ## Swapping Materials on Objects
 

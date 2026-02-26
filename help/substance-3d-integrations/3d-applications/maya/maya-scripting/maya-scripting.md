@@ -1,9 +1,17 @@
 ---
-title: "Maya Scripting"
-description: "Use the Substance Maya API to script Substance material creation and management in your Maya workflows."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Maya Scripting"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-scripting.html"
+breadcrumb-title: ""
+description: Use the Substance Maya API to script Substance material creation and management in your Maya workflows.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Maya > Maya Scripting
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Maya Scripting
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Maya Scripting
 
@@ -13,7 +21,7 @@ The Substance in Maya plugin can be scripted. An exposed API allows Substance c
 
 Click the "i" button to see the available commands
 
-![](script-7.png)
+![](../../../assets/script-7.png)
 
 ## Example Script:
 

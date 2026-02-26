@@ -1,9 +1,17 @@
 ---
-title: "Visual Feedback of Animated Substances"
-description: "Enable animated preview in Cinema 4D to see visual feedback of animated Substance materials in the viewport."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Cinema 4D > Visual Feedback of Animated Substances"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/visual-feedback-of-animated-substances.html"
+breadcrumb-title: ""
+description: Enable animated preview in Cinema 4D to see visual feedback of animated Substance materials in the viewport.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Cinema 4D > Visual Feedback of Animated Substances
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Visual Feedback of Animated Substances
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Visual Feedback of Animated Substances
 
@@ -11,7 +19,7 @@ In order to have visual feedback of an animated Substance in Cinema 4D's viewpor
 
 This option is found in the Material Editor under Editor (see below). If a material was created using the Create Material(s) command, this option will be enabled by default.
 
-![](cinema-4d-13.png){width="500px"}
+![](../../../assets/cinema-4d-13.png){width="500px"}
 
 
 ## Creating material(s)
@@ -45,7 +53,7 @@ Simply select the Substance shader in a material channel and drag in the Substan
 
 Like so:
 
-![](cinema-4d-15.png){width="800px"}
+![](../../../assets/cinema-4d-15.png){width="800px"}
 
 This method offers a lot of creative freedom and lets you do the following:
 

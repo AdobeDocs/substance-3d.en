@@ -1,18 +1,26 @@
 ---
-title: "Unreal Engine 5 Release Notes"
-description: "Review release notes for all versions of the Substance 3D plugin for Unreal Engine 5 to stay updated on new features."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Unreal Engine 5 Release Notes"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/unreal-engine-5-release-notes.html"
+breadcrumb-title: ""
+description: Review release notes for all versions of the Substance 3D plugin for Unreal Engine 5 to stay updated on new features.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Unreal Engine 5 Release Notes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Unreal Engine 5 Release Notes
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Unreal Engine 5 Release Notes
 
 We currently support the Adobe Substance 3D plugin for UE 5. While we actively support UE 4.27 and higher, we recommend using UE 5.0.0 and higher.
 
-* [Unreal plugin 5.3.2](unreal-plugin-5-3-2/unreal-plugin-5-3-2.md)
-* [Unreal plugin 5.0.3](unreal-plugin-5-0-3/unreal-plugin-5-0-3.md)
-* [Unreal plugin 5.0.2](unreal-plugin-5-0-2/unreal-plugin-5-0-2.md)
-* [Unreal plugin 5.0.1](unreal-plugin-5-0-1/unreal-plugin-5-0-1.md)
+* [Unreal plugin 5.3.2](../../../../game-engines/unreal-engine/unreal-engine-5/unreal-engine-release-not/unreal-plugin-5-3-2/unreal-plugin-5-3-2.md)
+* [Unreal plugin 5.0.3](../../../../game-engines/unreal-engine/unreal-engine-5/unreal-engine-release-not/unreal-plugin-5-0-3/unreal-plugin-5-0-3.md)
+* [Unreal plugin 5.0.2](../../../../game-engines/unreal-engine/unreal-engine-5/unreal-engine-release-not/unreal-plugin-5-0-2/unreal-plugin-5-0-2.md)
+* [Unreal plugin 5.0.1](../../../../game-engines/unreal-engine/unreal-engine-5/unreal-engine-release-not/unreal-plugin-5-0-1/unreal-plugin-5-0-1.md)
 
 ## Submitting Bugs and Feedback
 

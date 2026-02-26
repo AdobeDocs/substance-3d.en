@@ -1,9 +1,17 @@
 ---
-title: "Substance 3D Assets Library"
-description: "Access thousands of professional Substance materials from the Assets Library and community assets in Blender."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Substance 3D Assets Library"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/substance-3d-assets-library.html"
+breadcrumb-title: ""
+description: Access thousands of professional Substance materials from the Assets Library and community assets in Blender.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Blender > Substance 3D Assets Library
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance 3D Assets Library
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Substance 3D Assets Library
 
@@ -11,4 +19,4 @@ Thousands of professionally created materials and other assets are available for
 
 From the Substance 3D Panel within Blender, you can also click on the Substance 3D Assets and Substance 3D Community Assets buttons to open the web browser to those pages.
 
-![](blender-assets.png)
+![](../../../assets/blender-assets.png)

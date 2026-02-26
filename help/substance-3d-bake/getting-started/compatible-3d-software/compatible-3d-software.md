@@ -1,9 +1,17 @@
 ---
-title: "Compatible 3D software"
-description: "Discover which 3D software is compatible with Substance Bakers and learn how to prepare meshes for optimal baking results."
-helpx_description: "bakers > Getting Started > Compatible 3D software"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/compatible-3d-software.html"
+breadcrumb-title: ""
+description: Discover which 3D software is compatible with Substance Bakers and learn how to prepare meshes for optimal baking results.
+helpx_creative_field: ""
+helpx_description: bakers > Getting Started > Compatible 3D software
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Compatible 3D software
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Compatible 3D software
 

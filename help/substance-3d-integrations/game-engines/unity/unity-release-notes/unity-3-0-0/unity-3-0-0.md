@@ -1,9 +1,17 @@
 ---
-title: "Unity 3.0.0"
-description: "Review release notes for Unity plugin version 3.0.0 to learn about new features, improvements, and changes."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes > Unity 3.0.0"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-release-notes/unity-3-0-0.html"
+breadcrumb-title: ""
+description: Review release notes for Unity plugin version 3.0.0 to learn about new features, improvements, and changes.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Unity Release Notes > Unity 3.0.0
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Unity 3.0.0
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Unity 3.0.0
 

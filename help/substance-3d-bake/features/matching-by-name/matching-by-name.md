@@ -1,13 +1,21 @@
 ---
-title: "Matching by Name"
-description: "Use the Matching by Name feature to isolate low-poly and high-poly meshes and prevent geometry bleeding during baking."
-helpx_description: "bakers > Features > Matching by Name"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/matching-by-name.html"
+breadcrumb-title: ""
+description: Use the Matching by Name feature to isolate low-poly and high-poly meshes and prevent geometry bleeding during baking.
+helpx_creative_field: ""
+helpx_description: bakers > Features > Matching by Name
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Matching by Name
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Matching by Name
 
-![](banner-matching-by-name.jpg)
+![](../../assets/banner-matching-by-name.jpg)
 
 Matching By Name is the name of a filtering method that can be used in Substance Bakers to isolate low poly and high poly meshes based on their name.
 

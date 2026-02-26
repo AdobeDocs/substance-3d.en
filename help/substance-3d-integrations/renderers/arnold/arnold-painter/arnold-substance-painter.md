@@ -1,15 +1,23 @@
 ---
-title: "Arnold - Substance Painter"
-description: "Use Substance Painter output templates for Arnold renderer with aiStandard material for physically-based rendering."
-helpx_description: "Ecosystems and Plugins > Renderers > Arnold > Arnold - Substance Painter"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/arnold/arnold-substance-painter.html"
+breadcrumb-title: ""
+description: Use Substance Painter output templates for Arnold renderer with aiStandard material for physically-based rendering.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Arnold > Arnold - Substance Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Arnold - Substance Painter
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Arnold - Substance Painter
 
 Substance Painter 2020.1 (6.1.0) ships with [Output Templates](https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets.html) for Arnold using the [aiStandard material](https://docs.arnoldrenderer.com/display/A5AFMUG/Standard+Surface).
 
-![](arnold-export.png){width="800px"}
+![](../../../assets/arnold-export.png){width="800px"}
 
 ## Arnold Standard Shader (Arnold 5 and higher)
 
@@ -26,4 +34,4 @@ Substance Painter 2020.1 (6.1.0) ships with [Output Templates](https://helpx.ado
 
 >[!NOTE]
 >
-> Maps that represent data will need to be interpreted correctly. Please see the [Color Management ](../../color-management/color-management.md)page for more information.
+> Maps that represent data will need to be interpreted correctly. Please see the [Color Management ](../../../renderers/color-management/color-management.md)page for more information.

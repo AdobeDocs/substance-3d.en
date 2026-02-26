@@ -1,9 +1,17 @@
 ---
-title: "Settings"
-description: "Configure Substance plugin settings in Maya through the Substance Shelf or menu to customize behavior."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Maya > Settings"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/settings.html"
+breadcrumb-title: ""
+description: Configure Substance plugin settings in Maya through the Substance Shelf or menu to customize behavior.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Maya > Settings
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Settings
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Settings
 
@@ -65,7 +73,7 @@ Enable if Physical Size should be used by default when sbsar files are loaded an
 </td>
 <td style="border: 0;" valign="top">
 
-![](settings-35.png)
+![](../../../assets/settings-35.png)
 
 </td>
 </tr>

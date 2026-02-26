@@ -1,9 +1,17 @@
 ---
-title: "Shortcuts and Navigation"
-description: "Learn keyboard shortcuts for the Substance 3D add-on in Blender and customize key bindings for efficiency."
-helpx_description: "Ecosystems and Plugins > 3D Applications > Blender > Shortcuts and Navigation"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/shortcuts-and-navigation.html"
+breadcrumb-title: ""
+description: Learn keyboard shortcuts for the Substance 3D add-on in Blender and customize key bindings for efficiency.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > Blender > Shortcuts and Navigation
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Shortcuts and Navigation
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Shortcuts and Navigation
 

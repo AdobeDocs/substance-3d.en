@@ -1,9 +1,17 @@
 ---
-title: "Troubleshooting"
-description: "Diagnose and resolve issues with the Substance plugin in 3ds Max using the Script Listener for error messages."
-helpx_description: "Ecosystems and Plugins > 3D Applications > 3ds Max > Troubleshooting"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/troubleshooting.html"
+breadcrumb-title: ""
+description: Diagnose and resolve issues with the Substance plugin in 3ds Max using the Script Listener for error messages.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > 3D Applications > 3ds Max > Troubleshooting
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Troubleshooting
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Troubleshooting
 

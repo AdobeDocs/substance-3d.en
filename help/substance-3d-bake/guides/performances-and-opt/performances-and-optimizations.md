@@ -1,9 +1,17 @@
 ---
-title: "Performances and optimizations"
-description: "Learn how to optimize your hardware setup and mesh preparation to achieve faster baking performance."
-helpx_description: "bakers > Guides > Performances and optimizations"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/guides/performances-and-optimizations.html"
+breadcrumb-title: ""
+description: Learn how to optimize your hardware setup and mesh preparation to achieve faster baking performance.
+helpx_creative_field: ""
+helpx_description: bakers > Guides > Performances and optimizations
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Performances and optimizations
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Performances and optimizations
 

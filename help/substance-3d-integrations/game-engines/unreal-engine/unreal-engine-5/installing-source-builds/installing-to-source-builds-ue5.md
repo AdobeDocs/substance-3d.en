@@ -1,13 +1,16 @@
 ---
-title: Installing To Source Builds - UE5
-description: "Install the Substance 3D plugin to Unreal Engine 5 source builds for custom engine modifications."
-helpx_description: Substance 3D Integrations
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/installing-to-source-builds-ue5.html"
-helpx_tags:
-  - SG_SUBSTANCE_INTEGRATIONS
+breadcrumb-title: ""
+description: Install the Substance 3D plugin to Unreal Engine 5 source builds for custom engine modifications.
+helpx_creative_field: ""
+helpx_description: Substance 3D Integrations
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Installing To Source Builds - UE5
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Installing To Source Builds - UE5

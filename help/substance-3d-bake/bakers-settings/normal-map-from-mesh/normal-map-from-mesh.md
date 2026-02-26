@@ -1,9 +1,17 @@
 ---
-title: "Normal Map from Mesh"
-description: "Create tangent space or world space normal maps from high-poly meshes using the Normal Map from Mesh baker."
-helpx_description: "bakers > Bakers Settings > Normal Map from Mesh"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/normal-map-from-mesh.html"
+breadcrumb-title: ""
+description: Create tangent space or world space normal maps from high-poly meshes using the Normal Map from Mesh baker.
+helpx_creative_field: ""
+helpx_description: bakers > Bakers Settings > Normal Map from Mesh
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Normal Map from Mesh
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Normal Map from Mesh
 

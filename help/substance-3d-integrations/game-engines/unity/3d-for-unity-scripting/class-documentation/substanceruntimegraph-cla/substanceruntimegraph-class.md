@@ -1,9 +1,17 @@
 ---
-title: "SubstanceRuntimeGraph Class"
-description: "Reference documentation for the SubstanceRuntimeGraph class used for runtime graph operations in Unity."
-helpx_description: "Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting > Class Documentation > SubstanceRuntimeGraph Class"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting/class-documentation/substanceruntimegraph-class.html"
+breadcrumb-title: ""
+description: Reference documentation for the SubstanceRuntimeGraph class used for runtime graph operations in Unity.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting > Class Documentation > SubstanceRuntimeGraph Class
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: SubstanceRuntimeGraph Class
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # SubstanceRuntimeGraph Class
 
@@ -13,7 +21,7 @@ Class that provides runtime functionality to modify inputs at and render substan
 
 Inheritance diagram for Adobe.Substance.Runtime.SubstanceRuntimeGraph:
 
-![](image2022-10-14-17-53-23-1.png)
+![](../../../../../assets/image2022-10-14-17-53-23-1.png)
 
 ### Public Member Functions
 

@@ -1,9 +1,17 @@
 ---
-title: "What is Baking "
-description: "Discover what baking is and learn how to save 3D mesh information into texture files to enhance your Substance materials."
-helpx_description: "bakers > Getting Started > What is Baking "
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/what-is-baking.html"
+breadcrumb-title: ""
+description: Discover what baking is and learn how to save 3D mesh information into texture files to enhance your Substance materials.
+helpx_creative_field: ""
+helpx_description: "bakers > Getting Started > What is Baking "
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: "What is Baking "
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # What is Baking ?
 
@@ -24,7 +32,7 @@ Many filters and materials can adapt to the specific geometry of a 3D mesh by lo
 
 For example : an old car may have rust applied at its bottom because it didn't move for a while. Baking the position map will allow to know where the bottom is on the mesh which will feed the rust generator and produce the adapted texture.
 
-![](examples.jpg){width="500px"}
+![](../../assets/examples.jpg){width="500px"}
 
 ## How does baking work ?
 

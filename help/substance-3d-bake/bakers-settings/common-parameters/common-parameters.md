@@ -1,9 +1,17 @@
 ---
-title: "Common Parameters"
-description: "Learn about common parameters that apply to all bakers and how to configure them for optimal texture generation."
-helpx_description: "bakers > Bakers Settings > Common Parameters"
 helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/common-parameters.html"
+breadcrumb-title: ""
+description: Learn about common parameters that apply to all bakers and how to configure them for optimal texture generation.
+helpx_creative_field: ""
+helpx_description: bakers > Bakers Settings > Common Parameters
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Common Parameters
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Common Parameters
 
@@ -42,7 +50,7 @@ The following parameters control high-poly to low-poly mesh baking ("from mesh" 
 | **Relative to Bounding Box** | If enabled, ray distance and other size-based computations are based on the normalized space of the low-poly mesh. If disabled, the ray distance computation is based on units specified in the low-poly mesh when it was exported (meters, centimeters, etc).It can sometimes be useful to disable this setting and enter the ray distance manually when an object has precise measurements. |
 |  |  |
 | **Match** | Indicates how the bakers should match low and high-poly geometry. It can be used to filter the baking process without the need to manually move apart (explode) meshes.Possible values:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Always</strong> (default): Low-poly mesh is matched with every high-poly meshes.</li><li data-preserve-html="true"><strong>By Mesh Name</strong>: Filter the meshes by their name to avoid matching with unwanted geometry.</li></ul>To learn more about matching geometry see: [Matching by Name](../../features/matching-by-name/matching-by-name.md). |
-| **Match Suffixes** or **High Poly Mesh Suffix** **Low Poly Mesh Suffix** | Mesh name suffixes to identify and group together the geometry when using the Matching By Name feature. Available suffixes:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Low Poly Mesh</strong>: suffix to identify low poly meshes in the scene</li><li data-preserve-html="true"><strong>High Poly Mesh</strong>: suffix to identify high poly meshes in the scene</li><li data-preserve-html="true"><strong>Ignore Backfaces</strong>: suffix to identify meshes that should be ignored by specific bakers (like the [Ambient Occlusion From Mesh](../ambient-occlusion-from/ambient-occlusion-from-mesh.md))</li></ul>To learn more about matching geometry see: [Matching by Name](../../features/matching-by-name/matching-by-name.md) . |
+| **Match Suffixes** or **High Poly Mesh Suffix** **Low Poly Mesh Suffix** | Mesh name suffixes to identify and group together the geometry when using the Matching By Name feature. Available suffixes:<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Low Poly Mesh</strong>: suffix to identify low poly meshes in the scene</li><li data-preserve-html="true"><strong>High Poly Mesh</strong>: suffix to identify high poly meshes in the scene</li><li data-preserve-html="true"><strong>Ignore Backfaces</strong>: suffix to identify meshes that should be ignored by specific bakers (like the [Ambient Occlusion From Mesh](../../bakers-settings/ambient-occlusion-from/ambient-occlusion-from-mesh.md))</li></ul>To learn more about matching geometry see: [Matching by Name](../../features/matching-by-name/matching-by-name.md) . |
 |  |  |
 | **Use Skew Correction** | If enabled, ray direction will be computed from **Average Normal** or the original geometry normal depending on the input texture. Black values in the texture use the average normal computed while white values use the original mesh normal.*Not available in Substance Painter.* |
 | **Skew Map** | Path to the texture file used to skew ray projection. |

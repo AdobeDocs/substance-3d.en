@@ -1,21 +1,29 @@
 ---
-title: "Corona for 3ds Max"
-description: "Use Substance materials with Corona renderer in 3ds Max using Specular/Glossiness workflow and required maps."
-helpx_description: "Ecosystems and Plugins > Renderers > Corona > Corona for 3ds Max"
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/corona/corona-for-3ds-max.html"
+breadcrumb-title: ""
+description: Use Substance materials with Corona renderer in 3ds Max using Specular/Glossiness workflow and required maps.
+helpx_creative_field: ""
+helpx_description: Ecosystems and Plugins > Renderers > Corona > Corona for 3ds Max
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Corona for 3ds Max
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Corona for 3ds Max
 
 ## Substance in Maya Plugin
 
-![](scene-001v03.jpg)
+![](../../../assets/scene-001v03.jpg)
 
 ## Corona 1.6 - 6
 
 Using the[ 3ds Max plugin](../../../3d-applications/3ds-max/3ds-max.md), you can choose Corona in the Substance menu to automatically setup the Corona material with Substance texture inputs.
 
-![](corona.png){width="500px"}
+![](../../../assets/corona.png){width="500px"}
 
 ## Corona 7 - 9
 
