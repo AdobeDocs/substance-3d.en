@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Modo v. 2.7.1
 
 * Changed all engines to D3D11 and OGL3

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Out-of-the-Box Material Templates
 
 When importing SBSAR materials into the content browser, you can choose the different material templates in the drop down that are available out-of-the-box.

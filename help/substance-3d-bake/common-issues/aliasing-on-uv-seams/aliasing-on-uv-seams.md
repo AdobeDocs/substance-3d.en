@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Aliasing on UV Seams
 
 >[!WARNING]

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Batch Import
 
 You can batch import multiple .sbsar Substance files using the Batch Import.

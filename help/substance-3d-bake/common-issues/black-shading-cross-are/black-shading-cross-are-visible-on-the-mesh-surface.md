@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Black shading cross is visible on the mesh surface
 
 Black shading artifacts appear on multiple areas of the mesh when under lighting.

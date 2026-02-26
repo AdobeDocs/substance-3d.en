@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Seams are visible after baking a normal texture
 
 >[!WARNING]

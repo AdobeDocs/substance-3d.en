@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Maya 2.1.6
 
 Released September 22, 2020

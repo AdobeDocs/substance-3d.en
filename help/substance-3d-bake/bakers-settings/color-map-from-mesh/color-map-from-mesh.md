@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Color Map from Mesh
 
 This Color Map from mesh baker projects color properties from a high definition mesh into a texture. It can be used to bake polypaint or material IDs to create selection masks.

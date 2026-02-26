@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Add-on 2.0.0
 
 The Substance 3D Addon 2.0 marks a transformative update for Blender users, featuring a completely refactored plugin architecture. This redesign focuses on seamless integration, enhanced performance, and a flexible foundation for future expansions. It represents not just an upgrade, but a reimagining of how Substance materials are handled within Blender, catering to the evolving needs of 3D professionals.

@@ -12,9 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
-
 # Adobe Standard Material
 
 The <b>Adobe Standard Material</b> (ASM) is a material model, designed to be the common interface for materials used by Adobe applications and services for physically-based rendering (PBR).

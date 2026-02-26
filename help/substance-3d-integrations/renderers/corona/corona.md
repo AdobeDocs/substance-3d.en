@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Corona
 
 For rendering with Corona you can use maps exported from Substance Painter or the Substance plugin. Corona is using the Specular/Glossiness workflow with a 1/IOR map. You will need the following maps:

@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Bakers Settings
 
 To learn more about each baker and their settings, take a look at their dedicated pages:

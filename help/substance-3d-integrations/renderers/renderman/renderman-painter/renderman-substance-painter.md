@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Renderman - Substance Painter
 
 Substance Painter 2020.1 (6.1.0) supports [**pxrSurface**](https://rmanwiki.pixar.com/display/REN/PxrSurface) and pxrDisney [Output Templates](https://docs.substance3d.com/display/SPDOC/Export).

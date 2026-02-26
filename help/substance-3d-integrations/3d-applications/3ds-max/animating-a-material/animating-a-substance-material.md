@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Animating a Substance material
 
 You can animate Substance textures using the Curve Editor in 3ds Max.

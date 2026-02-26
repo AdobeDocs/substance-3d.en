@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Bent Normals from Mesh
 
 The Bent Normals from mesh baker computes a texture that describes the average direction of ambient lighting. This baker is derived from the [Ambient Occlusion from Mesh](../../bakers-settings/ambient-occlusion-from/ambient-occlusion-from-mesh.md) baker.

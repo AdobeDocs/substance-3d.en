@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D Applications
 
 You can import a Substance file (.sbsar) in most major DCC applications via the Substance Plugin. The plugins are free and available on [our site](https://www.substance3d.com/ecosystem-plug-ins/) or via a native installer.

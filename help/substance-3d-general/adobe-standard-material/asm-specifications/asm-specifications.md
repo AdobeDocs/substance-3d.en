@@ -12,9 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
-
 # ASM specifications
 
 This page regroups the specifications of the Adobe Standard Material (ASM) model.

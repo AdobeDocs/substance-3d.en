@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # What is the difference between the OpenGL and DirectX normal format ?
 
 >[!WARNING]

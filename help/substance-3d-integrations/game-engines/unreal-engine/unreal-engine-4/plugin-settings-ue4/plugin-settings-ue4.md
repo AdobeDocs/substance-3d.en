@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Plugin Settings - UE4
 
 To access the settings, go to Edit&gt;Project Settings and scroll down to the Plugins category and click on Substance.

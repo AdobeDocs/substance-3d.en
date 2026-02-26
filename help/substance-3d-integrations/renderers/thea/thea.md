@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Thea
 
 Thea Substance™ Converter allows you to create a Thea material from a Substance™ SBSAR file. You can use the parameters exported with the Substance™ file to change the look of the textures and also see the preview of the created Thea material before you save the final result.

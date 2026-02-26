@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Lumberyard
 
 ![](../../assets/lumber.jpg){width="800px"}

@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Baking failed with Color Map from Mesh
 
 >[!WARNING]

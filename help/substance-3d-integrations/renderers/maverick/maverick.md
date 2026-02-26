@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Maverick
 
 **Maverick** is a standalone application focused on product visualization that allows designers, engineers, and marketing specialists to bring their projects to life with truly unprecedented speed, quality, and ease of use.  

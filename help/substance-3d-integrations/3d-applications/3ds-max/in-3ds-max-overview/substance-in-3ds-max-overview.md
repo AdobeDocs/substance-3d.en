@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Substance in 3ds Max Overview
 
 ## Plugin Overview:

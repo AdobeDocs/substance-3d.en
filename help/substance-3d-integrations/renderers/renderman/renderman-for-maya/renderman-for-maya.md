@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Renderman for Maya
 
 ## Substance in Maya Plugin

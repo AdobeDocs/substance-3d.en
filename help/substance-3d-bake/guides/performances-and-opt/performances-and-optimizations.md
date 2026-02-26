@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Performances and optimizations
 
 ## Minimum Hardware Requirements

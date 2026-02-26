@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Keyshot
 
 *Keyshot 6.1.72*[Download Example Scene](https://www.dropbox.com/s/rvjsbbcx7c74aah/keyshot.zip?dl=0)

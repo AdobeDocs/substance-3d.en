@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Opacity Mask from Mesh
 
 The Opacity Mask from mesh baker compute a texture where missed rays are converted into a grayscale binary image. This texture is generally used as an opacity map.

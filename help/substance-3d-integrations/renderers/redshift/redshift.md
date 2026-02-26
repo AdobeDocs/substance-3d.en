@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Redshift
 
 The Redshift material in version 2.5.43 supports the metallic workflow. For rendering with Redshift, you can use maps exported from Substance Painter or the Substance plugin in [Maya](https://www.substance3d.com/ecosystem-plug-ins/substance-in-maya/).

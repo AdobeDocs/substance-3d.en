@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Blueprint(UE5): Dynamic Material Instance Skip to end of metadata
 
 1. Create a variable of type Substance Instance Factory and set the default value to the Imported Substance Factory.

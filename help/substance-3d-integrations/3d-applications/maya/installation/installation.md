@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Installation
 
 The Substance in Maya plugin is also installed officially in the Maya 2022/2020 installer. It is enabled to install by default.

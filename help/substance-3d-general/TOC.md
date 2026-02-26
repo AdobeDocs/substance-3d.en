@@ -13,9 +13,6 @@ user-guide-description: placeholder
 user-guide-title: placeholder
 ---
 
-
-
-
 # Substance 3D General Knowledge {#general-knowledge}
 
 + [Home](/help/substance-3d-general/home/home.md)

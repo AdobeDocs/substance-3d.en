@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3ds Max 2.7.0
 
 <b>Added/Updated:</b>

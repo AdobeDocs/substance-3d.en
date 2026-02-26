@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Normal texture looks faceted
 
 >[!WARNING]

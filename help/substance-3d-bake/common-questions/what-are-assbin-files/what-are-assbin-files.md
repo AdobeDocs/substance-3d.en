@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # What are Assbin files ?
 
 >[!WARNING]

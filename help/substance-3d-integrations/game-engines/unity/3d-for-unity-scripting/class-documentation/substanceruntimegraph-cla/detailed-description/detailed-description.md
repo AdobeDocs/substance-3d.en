@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Detailed Description
 
 Class that provides runtime functionality to modify inputs at and render substance graphs, allowing Substance←GraphSO to generate its assets at runtime.

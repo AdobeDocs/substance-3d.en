@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Substance 3D Plugin Default Templates
 
 *Note: This feature is currently in development and it will be available soon.*

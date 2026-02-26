@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Physical Size in Unity
 
 The physical size feature in the [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) plugin for Unity allows Substance materials to be applied and scaled based on their real-world sizes. The dimensions are set in Substance applications like Designer and shown in the plugin panel's Physical Size section.  

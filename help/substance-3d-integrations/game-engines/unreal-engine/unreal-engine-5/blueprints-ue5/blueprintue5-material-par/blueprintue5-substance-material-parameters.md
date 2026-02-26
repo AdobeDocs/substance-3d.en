@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Blueprint(UE5): Substance material parameters
 
 ## Changing a float parameter:

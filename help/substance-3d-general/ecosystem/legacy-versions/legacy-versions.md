@@ -12,9 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
-
 # Legacy versions
 
 Legacy versions are Substance 3D applications compatible with the legacy license key file activation system in place before the transition to Adobe Account activation. These versions are not compatible with licenses purchased via your Adobe Account or Steam account.

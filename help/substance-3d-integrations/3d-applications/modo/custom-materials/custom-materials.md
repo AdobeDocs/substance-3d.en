@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Custom Materials
 
 The Substance plugin supports the Unreal, Unity and glTF custom materials. Before you load an sbsar file, you can select which shading mode you would like to use.

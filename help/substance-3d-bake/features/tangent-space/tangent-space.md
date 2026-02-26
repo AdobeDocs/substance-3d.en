@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Tangent Space
 
 Substance Bakers can either load the Tangents and Binormals present on the low-poly mesh or recompute them. When recomputing them it is possible to define a custom Tangent Space algorithm (by default it is MikkTSpace).

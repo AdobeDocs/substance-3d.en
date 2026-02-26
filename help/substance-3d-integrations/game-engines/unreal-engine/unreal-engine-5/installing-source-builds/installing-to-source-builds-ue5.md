@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Installing To Source Builds - UE5
 
 The Substance plugin can be used with versions of Unreal Engine built from source. To do this, the plugin can be installed to either a C++project folder or the engine folder of a source build.

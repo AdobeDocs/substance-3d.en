@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # MODO
 
 ![](../../assets/modo.jpg){width="800px"}

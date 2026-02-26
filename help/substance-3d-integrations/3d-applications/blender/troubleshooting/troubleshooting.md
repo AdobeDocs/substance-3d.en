@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Troubleshooting
 
 The system console can be used to diagnose errors encountered while using the add-on. Blender's system console window is opened differently depending on your operating system. For detailed instructions, follow the steps on Blender's system console [documentation page](https://docs.blender.org/manual/en/2.79/advanced/command_line/introduction.html#console-window-status-and-error-messages). The console output can be helpful when encountering unexpected issues, such as textures not loading or materials stuck in processing.

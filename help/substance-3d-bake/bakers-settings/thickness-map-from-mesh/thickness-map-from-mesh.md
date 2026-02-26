@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Thickness Map from Mesh
 
 The Thickness map from mesh is very similar to the ambient occlusion baker, but it casts rays from the surface of the mesh to the inside. This texture can be used in a Sub Surface Scattering (SSS) shader or for masking textures.

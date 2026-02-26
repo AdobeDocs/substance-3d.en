@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Error and Warning Messages
 
 Below is the list of all the error messages that can appear when baking with Substance software.

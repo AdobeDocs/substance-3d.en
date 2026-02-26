@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Availability per software
 
 Some bakers may not be available in every software. The list below reference which ones are present per software.

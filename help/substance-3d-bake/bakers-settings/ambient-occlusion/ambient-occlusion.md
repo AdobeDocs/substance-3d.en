@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Ambient Occlusion
 
 The Ambient Occlusion baker allows to bake an ambient shadow texture. This baker uses a fast algorithm executed on the GPU.

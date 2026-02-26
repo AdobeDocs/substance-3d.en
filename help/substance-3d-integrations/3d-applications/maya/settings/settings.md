@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Settings
 
 The Substance settings menu can be access via the Substance Shelf or the Substance menu. The settings for this menu are stored in an editable configuration file "substance.cfg."

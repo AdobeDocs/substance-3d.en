@@ -13,7 +13,6 @@ user-guide-description: placeholder
 user-guide-title: placeholder
 ---
 
-
 # Substance 3D Ecosystem {#ecosystem}
 
 + Ecosystems and Plugins{#ecosystems-and-plugins}

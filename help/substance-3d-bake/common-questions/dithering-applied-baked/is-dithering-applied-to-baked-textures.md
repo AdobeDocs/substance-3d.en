@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Is dithering applied to baked textures ?
 
 >[!WARNING]

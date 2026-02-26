@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Geometry Cache
 
 When baking, meshes are pre-processed to clean them up and converted in a format compatible with the baking process. The geometry cache is a way to preserve this pre-processed geometry in a way that is fast to reload in order to avoid redoing this operation later (unless the source mesh change).

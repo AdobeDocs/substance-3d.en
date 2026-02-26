@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # SubstanceRuntimeGraph Class
 
 ## Adobe.Substance.Runtime.SubstanceRuntimeGraph Class Reference

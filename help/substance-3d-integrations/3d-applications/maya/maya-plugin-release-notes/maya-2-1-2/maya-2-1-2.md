@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Maya 2.1.2
 
 Released June 2, 2020

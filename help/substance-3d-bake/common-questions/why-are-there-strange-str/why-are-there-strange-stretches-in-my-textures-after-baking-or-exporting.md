@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Why are there strange stretches in my textures after baking or exporting ?
 
 >[!WARNING]

@@ -12,9 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
-
 # General knowledge
 
 ![](../assets/ecosystem-banner.jpg)

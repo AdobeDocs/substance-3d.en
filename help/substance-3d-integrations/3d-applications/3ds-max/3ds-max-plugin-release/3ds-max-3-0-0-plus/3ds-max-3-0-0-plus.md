@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3ds Max 3.0.0+
 
 ## 3ds Max 3.0.4

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Substance SBSAR Integration
 
 **You can** **easily****bring** **SBSAR files** **created** **in Substance Designer or Substance** **Alchemist** **to** **Maverick****following****either** **of** **these** **2** **methods****:**

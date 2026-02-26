@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Maxwell - Substance in Maya
 
 ## Substance in Maya Plugin

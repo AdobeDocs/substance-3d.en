@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Maya 2.1.9
 
 1. 1.9 – Released with Maya 2022 and is contained in the Maya installer

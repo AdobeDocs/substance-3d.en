@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Curvature from Mesh (deprecated)
 
 The Curvature from mesh baker generates a curvature texture from high-poly meshes. It is slower than the base [curvature](../../bakers-settings/curvature/curvature.md) baker but produce more accurate results.

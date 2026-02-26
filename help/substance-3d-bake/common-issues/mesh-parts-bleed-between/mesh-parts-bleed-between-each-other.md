@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Mesh parts bleed between each other
 
 >[!WARNING]

@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Common Parameters
 
 Common parameters apply to all bakers. These parameters usually define how the bakers will behave and work with high-poly meshes but how the final textures will be generated. Some of these parameters can be overridden by specific bakers.

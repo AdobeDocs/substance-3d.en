@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Parameters
 
 A Substance has a set of core parameters. These parameters are divided into Substance, Outputs and Tweaks. They can be found in the Substance Properties panel.   

@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # How to export the baked maps ?
 
 >[!WARNING]

@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Normal Map from Mesh
 
 The Normal Map from mesh baker allows you to create a tangent space or world space normal map from a high poly mesh.**Available in:**

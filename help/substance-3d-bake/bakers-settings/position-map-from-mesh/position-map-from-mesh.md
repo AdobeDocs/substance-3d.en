@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Position map from Mesh
 
 The Position map from mesh baker computes the location of the high-poly mesh geometry and save into a texture. It is similar to the base position baker but can produce more accurate results.

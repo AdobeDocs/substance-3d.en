@@ -12,9 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
-
 # General system requirements
 
 ## Hardware requirements

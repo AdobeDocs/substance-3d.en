@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # What is Baking ?
 
 ![](https://upload.wikimedia.org/wikipedia/commons/3/36/Normal_map_example.png)

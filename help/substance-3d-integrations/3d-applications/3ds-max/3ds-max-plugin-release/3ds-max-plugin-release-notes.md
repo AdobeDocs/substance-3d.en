@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3ds Max Plugin Release Notes
 
 ## Versions

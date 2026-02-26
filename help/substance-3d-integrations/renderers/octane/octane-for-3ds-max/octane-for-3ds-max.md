@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Octane for 3ds Max
 
 ## Substance in 3ds Max Plugin

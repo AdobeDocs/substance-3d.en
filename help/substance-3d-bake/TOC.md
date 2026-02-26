@@ -13,8 +13,6 @@ user-guide-description: placeholder
 user-guide-title: placeholder
 ---
 
-
-
 # Substance 3D Bakers {#bakers}
 
 + [Home](/help/substance-3d-bake/home/home.md)

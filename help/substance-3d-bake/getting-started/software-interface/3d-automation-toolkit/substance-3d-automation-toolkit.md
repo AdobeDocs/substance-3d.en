@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Substance 3D Automation Toolkit
 
 The Substance 3D Automation Toolkit provides multiples tools, one of them being **sbsbaker** which is a command line version of the Substance bakers.

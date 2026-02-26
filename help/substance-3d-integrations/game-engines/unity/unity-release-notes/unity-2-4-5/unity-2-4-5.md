@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Unity 2.4.5
 
 Released April 6th 2020

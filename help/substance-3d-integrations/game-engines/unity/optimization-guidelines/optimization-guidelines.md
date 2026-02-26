@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Optimization Guidelines
 
 The more complex your Substance materials are, the more processing power is needed to render them. Substance materials must therefore **strike a balance between complexity and rendering speed**. This is *especially* important if they will be used in real-time graphics applications, such as games.

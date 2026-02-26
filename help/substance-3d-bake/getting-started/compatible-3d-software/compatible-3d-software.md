@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Compatible 3D software
 
 Most 3D software is compatible with the Substance Bakers as long as they export mesh geometry as polygons in file formats supported by the applications.

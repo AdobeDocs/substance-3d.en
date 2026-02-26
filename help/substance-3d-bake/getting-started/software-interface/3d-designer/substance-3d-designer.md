@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # Substance 3D Designer
 
 ![](../../../assets/sd-mesh-right-click.png)

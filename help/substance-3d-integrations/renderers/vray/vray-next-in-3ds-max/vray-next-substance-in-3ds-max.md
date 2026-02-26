@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Vray Next - Substance in 3ds Max
 
 ## Substance in 3ds Max Plugin

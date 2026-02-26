@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Unreal Engine 4 Scripting
 
 The Substance in Unreal Engine plugin can be scripted. Methods are listed and annotated in the plugin's SubstanceGraphInstance.h file, which is normally found in the following directory when installing the plugin from the marketplace:

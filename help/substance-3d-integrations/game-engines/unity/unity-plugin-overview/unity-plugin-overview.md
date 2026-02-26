@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Unity Plugin Overview
 
 ## Unity Version Support

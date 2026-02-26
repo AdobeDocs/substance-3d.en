@@ -12,8 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
-
 # World Space Direction
 
 The World Space Direction baker allows to compute a vector direction in world space into a texture.

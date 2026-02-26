@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Working with Normals
 
 Working with Normal Data - Setting the correct orientation

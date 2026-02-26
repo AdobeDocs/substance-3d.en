@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Substance Source
 
 You can use Substance materials from Substance Source in 3ds Max v2 plugin.

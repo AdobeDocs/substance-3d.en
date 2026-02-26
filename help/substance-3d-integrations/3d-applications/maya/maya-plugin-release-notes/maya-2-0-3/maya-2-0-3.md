@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Maya 2.0.3
 
 The 2.0.3 version of the plugin is now released on the [website](https://www.substance3d.com/ecosystem-plug-ins/substance-in-maya/).  
