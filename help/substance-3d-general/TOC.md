@@ -9,8 +9,8 @@ helpx_learn_topic: ""
 helpx_tags: ""
 solution: Substance 3D
 title: ""
-user-guide-description: placeholder
-user-guide-title: placeholder
+user-guide-description: Substance 3D General Knowledge
+user-guide-title: Substance 3D General Knowledge
 ---
 
 # Substance 3D General Knowledge {#general-knowledge}
