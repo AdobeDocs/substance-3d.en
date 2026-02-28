@@ -11,6 +11,7 @@ solution: Substance 3D
 title: ""
 user-guide-description: Substance 3D General Knowledge
 user-guide-title: Substance 3D General Knowledge
+breadcrumb-title: Substance 3D General Knowledge
 ---
 
 # Substance 3D General Knowledge {#general-knowledge}

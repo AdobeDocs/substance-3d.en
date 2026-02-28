@@ -4,6 +4,7 @@ solution: Substance 3D
 title: ""
 user-guide-description: Substance 3D Ecosystem
 user-guide-title: Substance 3D Ecosystem
+breadcrumb-title: Substance 3D Ecosystem
 ---
 
 # Substance 3D Ecosystem {#ecosystem}

@@ -11,6 +11,7 @@ solution: Substance 3D
 title: ""
 user-guide-description: Substance 3D Bakers
 user-guide-title: Substance 3D Bakers
+breadcrumb-title: Substance 3D Bakers
 ---
 
 # Substance 3D Bakers {#bakers}
