@@ -16,6 +16,7 @@ user-guide-title: Substance 3D General Knowledge
 # Substance 3D General Knowledge {#general-knowledge}
 
 + [Home](/help/substance-3d-general/home/home.md)
++ [Documentation migration FAQ](/help/substance-3d-general/migration-faq.md)
 + Ecosystem{#ecosystem}
   + [Ecosystem overview](/help/substance-3d-general/ecosystem/ecosystem.md)
   + [General system requirements](/help/substance-3d-general/ecosystem/system-requirements/general-system-requirements.md)
