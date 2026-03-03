@@ -1,12 +1,7 @@
 ---
 helpx_url: ""
-breadcrumb-title: placeholder
+breadcrumb-title: Substance 3D General Knowledge
 description: ""
-helpx_creative_field: ""
-helpx_description: ""
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 solution: Substance 3D
 title: ""
 user-guide-description: Substance 3D General Knowledge
@@ -17,6 +12,7 @@ breadcrumb-title: Substance 3D General Knowledge
 # Substance 3D General Knowledge {#general-knowledge}
 
 + [Home](/help/substance-3d-general/home/home.md)
++ [Documentation migration FAQ](/help/substance-3d-general/migration-faq/migration-faq.md)
 + Ecosystem{#ecosystem}
   + [Ecosystem overview](/help/substance-3d-general/ecosystem/ecosystem.md)
   + [General system requirements](/help/substance-3d-general/ecosystem/system-requirements/general-system-requirements.md)
