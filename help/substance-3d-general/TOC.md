@@ -1,12 +1,7 @@
 ---
 helpx_url: ""
-breadcrumb-title: placeholder
+breadcrumb-title: Substance 3D General Knowledge
 description: ""
-helpx_creative_field: ""
-helpx_description: ""
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 solution: Substance 3D
 title: ""
 user-guide-description: Substance 3D General Knowledge
