@@ -1,9 +1,6 @@
 ---
-helpx_url: ""
 breadcrumb-title: Substance 3D Bakers
-description: ""
 solution: Substance 3D
-title: ""
 user-guide-description: Substance 3D Bakers
 user-guide-title: Substance 3D Bakers
 ---
