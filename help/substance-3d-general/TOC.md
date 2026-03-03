@@ -1,5 +1,4 @@
 ---
-breadcrumb-title: Substance 3D General Knowledge
 solution: Substance 3D
 user-guide-description: Substance 3D General Knowledge
 user-guide-title: Substance 3D General Knowledge
