@@ -1,7 +1,9 @@
 ---
 breadcrumb-title: ""
 description: "Get answers to frequently asked questions regarding the move of Substance 3D documentation from HelpX to Experience League."
-title: "Documentation move FAQ
+title: "Documentation move FAQ"
+user-guide-description: ""
+user-guide-title: ""
 ---
 
 # Substance 3D documentation move FAQ
