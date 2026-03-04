@@ -4,7 +4,7 @@ solution: Substance 3D
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/substance-3d.en
-index: no
+index: yes
 ---
 
 # Metadata for internal use
