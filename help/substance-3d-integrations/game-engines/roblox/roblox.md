@@ -22,7 +22,7 @@ user-guide-title: ""
 
 ## Substance 3D Designer template
 
-To create textures for Roblox, you can use the Substance 3D file below as a [Substance compositing graphs](https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html) template in [Substance 3D Designer](https://helpx.adobe.com/substance-3d-designer/home.html).
+To create textures for Roblox, you can use the Substance 3D file below as a [Substance compositing graphs](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/substance-compositing-graphs) template in [Substance 3D Designer](https://experienceleague.adobe.com/en/docs/substance-3d-designer/home).
 
 [![Image of the sbs file format icon that links to the roblox template.](../../assets/sbs.png){width="64px"}](https://helpx.adobe.com/content/dam/roblox.sbs)
 
@@ -72,7 +72,7 @@ First, *install* the Roblox template.
 Then, have Designer *watch* the templates folder to look for graph templates.
 
 * In Designer, go to **Edit &gt; Preferences...**
-* In the [Preferences](https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html) window, go to **Projects &gt; User project &gt; General**
+* In the [Preferences](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/workspace/preferences/preferences-window) window, go to **Projects &gt; User project &gt; General**
 * In the **Templates Directories** list, click the **+** button
 * Go to the `templates` directory and click **Select Folder**
 * Click the **OK** button
@@ -98,9 +98,9 @@ Create a graph using the Roblox template and export bitmaps out of that graph on
 
 * In the [New Substance graph](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) window, select the `Roblox` template
 * Set any identifier and other parameters for the graph and click **OK**
-* Work on your material in the [Graph View](https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html) – see [here](https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html) for getting started with the workflow
+* Work on your material in the [Graph View](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/workspace/graph-view/the-graph-view) – see [here](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/getting-started/workflow-overview) for getting started with the workflow
 * Once you are done, go to **Tools &gt; Export bitmaps...** in the Graph View *toolbar*
-* In the [Export bitmaps](https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html) window, set a valid **Destination** path, make sure *all* the outputs are *checked* and click **Export**
+* In the [Export bitmaps](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/exporting-bitmaps) window, set a valid **Destination** path, make sure *all* the outputs are *checked* and click **Export**
 * Check the textures are correctly exported to the **Destination** path
 
 </td>

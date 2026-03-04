@@ -20,7 +20,7 @@ Substance materials provided in [Substance Source](https://source.substance3d.co
 
 For example with Arnold or Vray Next, you can use metallic/roughness outputs directly. However, with Renderman's pxrSurface, the basecolor/metallic outputs need to be converted to diffuse and specular face color. A Substance integration plugin will handle these conversions automatically if the renderer is supported.
 
-With Substance Painter, you can choose an [Output Template](https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window.html) that will create the appropriate map types needed for a given renderer. If you renderer is not supported by default, you can also create custom Output Templates.  
+With Substance Painter, you can choose an [Output Template](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/getting-started/export/export-window/export-window) that will create the appropriate map types needed for a given renderer. If you renderer is not supported by default, you can also create custom Output Templates.  
   
 **Substance Painter Output Template**
 

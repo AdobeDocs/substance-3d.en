@@ -33,4 +33,4 @@ user-guide-title: ""
 > There are two possible solutions :
 > 
 > * Fix your baking setup to avoid black textures, see : [Baker output is fully black or empty](https://helpx.adobe.com/substance-3d/unlisted/documentation/bake/baker-output-is-fully-black-159451835.html)
-> * Remove the black texture from the [Texture Set Settings](https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-settings.html).
+> * Remove the black texture from the [Texture Set Settings](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/texture-set/texture-set-settings).

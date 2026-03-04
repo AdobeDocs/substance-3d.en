@@ -72,7 +72,7 @@ Matching By Name can be enabled in the [Common Parameters](../../bakers-settings
 The default suffixes are \_low and \_high and can be changed the following way:
 
 * **Substance Painter**: In the [Baking window](../../getting-started/software-interface/3d-painter/substance-3d-painter.md), within the common parameters.
-* **Substance Designer**: In the [Project settings](https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/project-settings.html), under the Bake settings.
+* **Substance Designer**: In the [Project settings](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/workspace/preferences/project-settings), under the Bake settings.
 
 ## High-poly meshes from zBrush
 
