@@ -16,7 +16,7 @@ user-guide-title: ""
 
 ![](../../../assets/sp-baking-button-access.png)
 
-The baking window can be accessed via the [Texture Set Settings](https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-settings.html). Click on the button named "**Bake Mesh Maps**" to open the baking window of the current project.
+The baking window can be accessed via the [Texture Set Settings](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/texture-set/texture-set-settings). Click on the button named "**Bake Mesh Maps**" to open the baking window of the current project.
 
 ## Overview
 

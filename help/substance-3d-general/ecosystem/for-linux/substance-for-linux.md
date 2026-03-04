@@ -69,6 +69,6 @@ There are two options for software activation, either local activation or networ
 1. Place the unzipped license key files on a shared mounted network.
 1. On your user's machine, set up an environment variable pointing to the license key file as explained on these pages:
 
-   * Substance 3D Painter - <https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html>
-   * Substance 3D Designer - <https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/environment-variables.html>
-   * Substance 3D Sampler - <https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/environment-variables.html>
+   * Substance 3D Painter - <https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/pipeline-and-integration/configuration/environment-variables>
+   * Substance 3D Designer - <https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/pipeline-and-project-configuration/environment-variables>
+   * Substance 3D Sampler - <https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/pipeline-and-integrations/environment-variables>

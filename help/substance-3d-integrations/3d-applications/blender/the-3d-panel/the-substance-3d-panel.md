@@ -60,7 +60,7 @@ Parameters that have been exposed in Substance Designer can be adjusted using th
 
 The file format of output textures can be toggled and changed via the dropdowns.
 
-For more information, see the [Exposing a Parameter](https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html) on the Designer documentation page.
+For more information, see the [Exposing a Parameter](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/manage-parameters/exposing-a-parameter) on the Designer documentation page.
 
 ## Technical Parameters
 

@@ -29,6 +29,6 @@ A major caveat to look out for are nodes that have an absolute resolution of 4K 
 >   
 > The Substance CPU engine can compute at 4K, but it is very slow and can cause an integration to hang or possibly crash.
 
-In the following example, a [Tile Sampler](https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html) node's output size is set to [Absolute](https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html) 4096. It causes several nodes downstream to compute at 4K before being down-scaled for the final 2048 output resolution.
+In the following example, a [Tile Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/nodes-reference-for-substance-graphs/node-library/texture-generators/patterns/tile-sampler) node's output size is set to [Absolute](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/output-size) 4096. It causes several nodes downstream to compute at 4K before being down-scaled for the final 2048 output resolution.
 
 ![](../../../assets/absolute.png){width="1000px"}

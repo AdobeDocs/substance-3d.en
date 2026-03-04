@@ -57,7 +57,7 @@ user-guide-title: ""
 
 * Addressed a memory leak issue in the C++ code of the plugin, ensuring complete memory recovery upon disposal of objects.
 * Fixed an issue on Linux where importing the Unity plugin package resulted in a 'SubstanceException: An invalid argument was given to the API' error, now allowing for the successful import of SBSAR files.
-* Resolved an issue where SubstanceGraphSO.CurrentStatePreset was not functioning correctly for loading presets with a custom editor window script in Unity; a corrective script is now available on our Substance documentation(HelpX) page: https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting.html
+* Resolved an issue where SubstanceGraphSO.CurrentStatePreset was not functioning correctly for loading presets with a custom editor window script in Unity; a corrective script is now available on our Substance documentation(HelpX) page: https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/game-engines/unity/substance-3d-for-unity-scripting/substance-3d-for-unity-scripting
 * Fixed a bug where graph properties were disappearing upon re-selection in the Unity editor.
 * Addressed the 'Unknown managed type referenced' issue related to SubstanceGraphSO in the Unity plugin, improving compatibility and functionality on Android platforms, particularly for Unity 2022.1 and potentially across all Unity versions.
 * Fixed an issue where the 'NORMAL FORMAT' selection in the TECHNICAL PARAMETERS section was incorrectly displayed as a number input field, instead of the expected dropdown list with DirectX and OpenGL options.
