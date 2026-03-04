@@ -73,23 +73,23 @@ For more details, take a look at the requirements of each application:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Substance 3D Sampler icon](../../assets/sa-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html)
+[![Substance 3D Sampler icon](../../assets/sa-appicon-noshadow-256.png){width="64px"}](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/getting-started/system-requirements)
 
-[Substance 3D Sampler](https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Substance 3D Designer icon](../../assets/ds-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html)
-
-[Substance 3D](https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html) [Designer](https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html)
+[Substance 3D Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/getting-started/system-requirements)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Substance 3D Painter icon](../../assets/pt-appicon-noshadow-256.png){width="64px"}](https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html)
+[![Substance 3D Designer icon](../../assets/ds-appicon-noshadow-256.png){width="64px"}](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/getting-started/system-requirements)
 
-[Substance 3D Painter](https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html)
+[Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/getting-started/system-requirements) [Designer](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/getting-started/system-requirements)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Substance 3D Painter icon](../../assets/pt-appicon-noshadow-256.png){width="64px"}](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/getting-started/system-requirements)
+
+[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/getting-started/system-requirements)
 
 </td>
 </tr>
