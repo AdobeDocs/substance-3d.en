@@ -1,5 +1,4 @@
 ---
-solution: Substance 3D
 user-guide-description: Substance 3D Bakers
 user-guide-title: Substance 3D Bakers
 breadcrumb-title: Substance 3D Bakers
