@@ -4,6 +4,7 @@ solution: Substance 3D
 product_v2:
   - id: b5c1b9d0-8765-43f4-b8ea-1aa286ab7892
     internal-label: "Substance 3D"
+usetq: true
 landing-page-name: substance-3d
 landing-page-breadcrumb-title: Substance 3D
 type: Documentation
