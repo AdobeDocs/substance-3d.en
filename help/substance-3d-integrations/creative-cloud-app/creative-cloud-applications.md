@@ -16,4 +16,7 @@ user-guide-title: ""
 
 Outside of the Substance 3D Collection applications, Substance files (.sbsar) can be also used in Adobe Creative Cloud applications listed below:
 
-* [Photoshop](../creative-cloud-app/photoshop/photoshop.md)
+* [Photoshop (Beta)](../creative-cloud-app/photoshop/photoshop.md)
+* [Illustrator](https://www.youtube.com/watch?v=mMvEjK_01yo)
+* [After Effects](../creative-cloud-app/after-effects/after-effects.md)
+* [Dimension](https://helpx.adobe.com/dimension/using/add-materials-and-textures.html)

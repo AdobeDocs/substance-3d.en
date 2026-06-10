@@ -22,7 +22,9 @@ For more information on how to use those materials, see:
 * [3D Applications](../3d-applications/3d-applications.md)
 * [Creative Cloud Applications](../creative-cloud-app/creative-cloud-applications.md)
   * [After Effects](../creative-cloud-app/after-effects/after-effects.md)
-  * [Photoshop](../creative-cloud-app/photoshop/photoshop.md)[](../creative-cloud-app/after-effects/after-effects.md)
+  * [Photoshop (Beta)](../creative-cloud-app/photoshop/photoshop.md)
+  * [Illustrator](https://www.youtube.com/watch?v=mMvEjK_01yo)
+  * [Dimension](https://helpx.adobe.com/dimension/using/add-materials-and-textures.html)
 * [Renderers](../renderers/renderers.md)
 
 If you'd like to experiment with SBSAR files, there are many ways to get your own SBSAR materials:
