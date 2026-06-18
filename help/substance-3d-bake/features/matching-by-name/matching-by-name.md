@@ -1,15 +1,15 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/matching-by-name.html"
-breadcrumb-title: ""
+helpx_url: 'https://helpx.adobe.com/substance-3d-bake/features/matching-by-name.html'
+breadcrumb-title: ''
 description: Use the Matching by Name feature to isolate low-poly and high-poly meshes and prevent geometry bleeding during baking.
-helpx_creative_field: ""
+helpx_creative_field: ''
 helpx_description: bakers > Features > Matching by Name
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+helpx_experience_level: ''
+helpx_learn_topic: ''
+helpx_tags: ''
 title: Matching by Name
-user-guide-description: ""
-user-guide-title: ""
+user-guide-description: ''
+user-guide-title: ''
 ---
 
 # Matching by Name
@@ -22,12 +22,25 @@ This functionality is very useful to avoid geometry bleeding over each other dur
 
 ## When to Use Matching By Name
 
-Examples
+### Normal map baking with mesh bleeding
 
-| *Use case* | *Mesh* | *Matching By Name Off* | *Matching By Name On* |
-| --- | --- | --- | --- |
-| **Normal map baking with mesh bleeding.**In this example the helmet on top on the head of the character bleeds onto the character face.By enabling Matching By Name we are able to ignore the helmet and bake the face properly.*This result is based on the main Match setting.* | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/baking-demo-vela.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/baking-demo-vela-normal-nomatch.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c3_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/baking-demo-vela-normal-withmatch.png" width="250px"/></div> |
-| **Ignore Backface for floating geometry.**In this example the "buttons" at the top of the box are floating geometry, they are not connected to the high poly mesh. Therefore they will cast shadows by default on the box underneath them which will show the geometry border.By enabling Matching By Name for the **Ignore Backface** setting we are able to bake the ambient occlusion while ignoring the area under the buttons to make it look like one singular box.*This result is based on the use of the Ignore Backface setting.* | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/ignorebf-mesh.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/ignorebf-off.png" width="250px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c3_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/ignorebf-on.png" width="250px"/></div> |
+In this example the helmet on top on the head of the character bleeds onto the character face.
+
+By enabling Matching By Name we are able to ignore the helmet and bake the face properly. *This result is based on the main Match setting.*
+
+| *Mesh* | *Matching By Name Off* | *Matching By Name On* |
+| --- | --- | --- |
+| ![](../../assets/baking-demo-vela.png){width="250px"} | ![](../../assets/baking-demo-vela-normal-nomatch.png){width="250px"} | ![](../../assets/baking-demo-vela-normal-withmatch.png){width="250px"} |
+
+### Ignore Backface for floating geometry
+
+In this example the "buttons" at the top of the box are floating geometry, they are not connected to the high poly mesh. Therefore they will cast shadows by default on the box underneath them which will show the geometry border.
+
+By enabling Matching By Name for the **Ignore Backface** setting we are able to bake the ambient occlusion while ignoring the area under the buttons to make it look like one singular box.*This result is based on the use of the Ignore Backface setting.*
+
+| *Mesh* | *Matching By Name Off* | *Matching By Name On* |
+| --- | --- | --- |
+| ![](../../assets/ignorebf-mesh.png){width="250px"} | ![](../../assets/ignorebf-off.png){width="250px"} | ![](../../assets/ignorebf-on.png){width="250px"} |
 
 ## How Matching By Name Works
 
@@ -81,4 +94,4 @@ High-poly meshes exported from zBrush can be used for baking with the Matching B
 | *File format* | *Description* |
 | --- | --- |
 | **FBX** | No specific parameters to enable/disable, mesh files can be used as-is. |
-| **OBJ** | OBJ files exported by zBrush won't work with **Matching By Name** by default. Instead, it is possible to tell Substance Painter to use the mesh filename instead to match meshes by name.To do so, make sure to:<ol data-preserve-html="true"><li data-preserve-html="true"><strong>Disable</strong> the group (Grp) parameter for <strong>each</strong> subtool.</li><li data-preserve-html="true"><strong>Name</strong> the OBJ file appropriately (ex: <strong>body&#95;high.obj</strong>).</li></ol> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="https://helpx-prod.scene7.com/is/image/HelpxProd/zbrush-setting?$png$&amp;jpegSize=100&amp;wid=221"/></div> |
+| **OBJ** | OBJ files exported by zBrush won't work with **Matching By Name** by default. Instead, it is possible to tell Substance Painter to use the mesh filename instead to match meshes by name.To do so, make sure to:<ol data-preserve-html="true"><li data-preserve-html="true"><strong>Disable</strong> the group (Grp) parameter for <strong>each</strong> subtool.</li><li data-preserve-html="true"><strong>Name</strong> the OBJ file appropriately (ex: <strong>body&#95;high.obj</strong>).</li></ol> ![](../../assets/zbrush-setting.png) |
