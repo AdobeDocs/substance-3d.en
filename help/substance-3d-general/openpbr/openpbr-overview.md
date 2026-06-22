@@ -1,6 +1,6 @@
 ---
-title: 'OpenPBR'
-description: 'Learn about the OpenPBR Material model and how to use it for physically-based rendering across 3D applications.'
+title: OpenPBR
+description: Learn about the OpenPBR Material model and how to use it for physically-based rendering across 3D applications.
 hold: 'true'
 ---
 
@@ -65,7 +65,7 @@ Even when materials never leave a single application, these practices align with
 OpenPBR is a monolithic model (an 'uber-shader') intended to represent a wide range of material types; such types are described in terms of how light interacts with them. Rather than defining materials in terms of fixed presets such as, for instance, 'glass' or 'skin', each OpenPBR material is built from a model of horizontal and vertical layering, which allows artists to blend together fully defined and physically meaningful characteristics – such as diffuse reflection, specular reflection, transmission, subsurface scattering, and layering. Different combinations of these behaviors naturally produce familiar real-world materials.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/extra/lighting-condition/fabricLightingInteriorAtelier.png" alt=""/></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/extra/lighting-condition/fabricLightingStudio.png" alt=""/></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/extra/lighting-condition/fabricLightingTerraceNearGranaries.png" alt=""/></td>
@@ -180,7 +180,7 @@ The following parameters control fundamental properties of the material, mainly 
 While Specular Color determines the color tint of any reflection at grazing angles, Specular Weight determines the intensity of such reflections, between a range of 0 to 1. At a value of 0, there is no reflection at grazing angles at all; at higher values the intensity of such reflections becomes more pronounced. Note that, in the 'real world' every material is reflective to some degree, and if recreated in 3D would have a Specular Weight value greater than 0. Note too that Specular Weight should not be considered in any way a 'primary' value for parameterizing a material's reflection; Specular Roughness (see below) is always a key consideration in determining a material's reflectivity.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/weight/weight0.png" alt=""/><br><em>Specular weight = 0.0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/weight/weight05.png" alt=""/><br><em>Specular weight = 0.5</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/weight/weight1.png" alt=""/><br><em>Specular weight = 1.0</em></td>
@@ -192,12 +192,12 @@ While Specular Color determines the color tint of any reflection at grazing angl
 This determines any color tint to reflections when light reflects at a grazing angle (an angle that is nearly parallel to the surface of a material). For metallic materials (see Metalness, below) a color tint may apply; for non-metallic materials Specular Color should typically be white. The images below show different specular colors on metallic and non-metallic materials.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/color/specColorGreen.png" alt=""/><br></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/color/specColorViolet.png" alt=""/><br></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/color/specColorYellow.png" alt=""/><br></td>
   </tr>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/color/specColorGreenNoMetal.png" alt=""/><br><em>Green Specular color</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/color/specColorPurpleNoMetal.png" alt=""/><br><em>Violet Specular color</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/color/specColorYellowNoMetal.png" alt=""/><br><em>Yellow Specular color</em></td>
@@ -209,7 +209,7 @@ This determines any color tint to reflections when light reflects at a grazing a
 Like the Roughness parameter in a PBR material, Specular Roughness in an OpenPBR material represents microscopic surface variation: even surfaces that appear smooth to the naked eye possess tiny imperfections that scatter reflected light. This value reproduces that effect, controlling how smooth or rough a surface appears in its reflections by defining how sharply or broadly light is reflected. Materials with a low roughness will produce sharp, mirror-like reflections. Conversely, materials with a high roughness will produce soft, blurred reflections.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/roughness/roughness01.png" alt=""/><br><em>Specular roughness = 0.1</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/roughness/roughness05.png" alt=""/><br><em>Specular roughness = 0.5</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/roughness/roughness08.png" alt=""/><br><em>Specular roughness = 0.8</em></td>
@@ -223,7 +223,7 @@ Note that this has no bearing on the overall quantity of light reflected – it 
 The IOR describes how strongly a material interacts with light, controlling both how light rays bend (refract) when entering the material, and how reflective it appears, particularly at shallow (grazing) viewing angles. Less reflective surfaces, such as water or some plastics, will have a low IOR. More reflective surfaces – glass, or some gemstones, for instance – will have a higher IOR and stronger refraction effect. The IOR of a material is a physical value, and as such it is an objective number, rather than a matter of artistic interpretation. When creating a given material, you need only look up the material's IOR and ensure this is set correctly to ensure that the material reacts correctly with light. A range of sources are available online listing the IORs of various materials. For instance, the IOR of granite is 1.43; if you were creating a granite material, you would enter this value as its IOR, and this would ensure that light reflects your material in a realistic way. Note that IOR has no bearing on metallic materials (see Metalness, below). Changing the IOR value of a metallic material will not affect its appearance.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/ior/IOR1.png" alt=""/><br><em>IOR = 1.1</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/ior/IOR15.png" alt=""/><br><em>IOR = 1.5</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/ior/IOR2.png" alt=""/><br><em>IOR = 2.0</em></td>
@@ -237,7 +237,7 @@ Varying the specular index of refraction, setting it (from left to right) at 1.1
 When the microscopic surface variations are somewhat aligned in the same direction, like grooves, the material reflection will tend to depend on the viewing direction and stretch perpendicularly to the grooves. The more aligned those grooves, the more pronounced the effect. The material's Anisotropy value defines whether a surface's reflections appear the same in all directions, or whether they stretch in a particular way. This might reproduce the effect of materials such as brushed metal, for instance, where reflections along the 'brush effect' are much longer. Anisotropic reflection can also occur in more subtle ways when a polished surface is smeared with a fingerprint, or when a deformable surface such as dry skin is stretched.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/anisotropy/anisotropy0.png" alt=""/><br><em>Anisotropy = 0.0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/anisotropy/anisotropy05.png" alt=""/><br><em>Anisotropy weight = 0.5</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/anisotropy/anisotropy1.png" alt=""/><br><em>Anisotropy weight = 1.0</em></td>
@@ -249,7 +249,7 @@ When the microscopic surface variations are somewhat aligned in the same directi
 When some degree of Anisotropy is present (that is, the material's Anisotropy value is greater than 0), the Anisotropy Tangent indicates the dominant direction of the grooves. The reflection will stretch perpendicularly to that direction.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/tangent/tangentGreen.png" alt=""/><br><em>Green Anisotropy tangent</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/tangent/tangentOrange.png" alt=""/><br><em>Orange Anisotropy tangent</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/tangent/tangentRed.png" alt=""/><br><em>Red Anisotropy tangent</em></td>
@@ -260,30 +260,22 @@ When some degree of Anisotropy is present (that is, the material's Anisotropy va
 
 Emission allows a surface to act as a light source by emitting light directly. While emission is not a reflective phenomenon, it is included within the OpenPBR material model so that emissive materials can be defined consistently alongside reflective and transmissive properties.
 
-<table>
-  <tr>
-    <td style="border: 0;" valign="top"></td>
-    <td style="border: 0;" valign="top"></td>
-    <td style="border: 0;" valign="top"></td>
-  </tr>
-</table>
-
 Emission parameters are:
 
 * **Luminance**: Defines the brightness of the light emitted from the material, measured in cd/m², also known as nits. This measurement presumes white light; changing the color of the light (see below) may impact overall brightness.
 
 <table>
-  <tr>
-    <td><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance100.png" alt=""/><br><em>Luminance = 100</em></td>
-    <td><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance400.png" alt=""/><br><em>Luminance = 400</em></td>
-    <td><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance1000.png" alt=""/><br><em>Luminance = 1000</em></td>
+  <tr style="border: 0">
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance100.png" alt=""/><br><em>Luminance = 100</em></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance400.png" alt=""/><br><em>Luminance = 400</em></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance1000.png" alt=""/><br><em>Luminance = 1000</em></td>
   </tr>
 </table>
 
 * **Color**: Determines the light color emitted by the material.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/emission/color/emissionColorGreen.png" alt=""/></td>
     <td><img src="../assets/openpbrf/renders/emission/color/emissionColorPurple.png" alt=""/></td>
     <td><img src="../assets/openpbrf/renders/emission/color/emissionColorYellow.png" alt=""/></td>
@@ -328,7 +320,7 @@ At the bottom of the OpenPBR model, the Base layer represents the fundamental in
 * **Base Weight**: Essentially defines the intensity of the Base Color (see below), on a scale of 0 to 1, with a value of 0 resulting in a primarily black material (no color), and a value of 1 (a combination of the greatest amount of red, green, and blue light possible).
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/weight/baseWeight0.png" alt=""/><br><em>Base weight = 0.0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/weight/baseWeight05.png" alt=""/><br><em>Base weight = 0.5</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/weight/baseWeight1.png" alt=""/><br><em>Base weight = 1.0</em></td>
@@ -338,7 +330,7 @@ At the bottom of the OpenPBR model, the Base layer represents the fundamental in
 * **Base Color**: This determines the 'main color' of a material, setting the albedo – that is, the amount of red, green, and blue light reflected – of both the metallic and diffuse (for non-metallic) bases. As noted above, while Base Color determines which colors are reflected, the Base Weight setting determines the intensity of this reflection.
 
   <table>
-    <tr>
+    <tr style="border: 0">
       <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorGreen.png" alt=""/></td>
       <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorViolet.png" alt=""/></td>
       <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorYellow.png" alt=""/></td>
@@ -348,7 +340,7 @@ At the bottom of the OpenPBR model, the Base layer represents the fundamental in
 * **Metalness**: Defines whether a material behaves as non-metallic (dielectric) or metallic, on a 0-1 scale (0 = dielectric, 1 = fully metallic and opaque).
 
   <table>
-    <tr>
+    <tr style="border: 0">
       <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness05.png" alt=""/><br><em>Metalness = 0.5</em></td>
       <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1.png" alt=""/><br><em>Metalness= 1.0</em></td>
       <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1Colored.png" alt=""/><br><em>Metalness = 1.0 with yellow base color</em></td>
@@ -358,7 +350,7 @@ At the bottom of the OpenPBR model, the Base layer represents the fundamental in
 * **Diffuse Roughness**: Defines the micro surface roughness of a material, ranging from 0 (possessing a very smooth, even reflection) to 1 (with a very rough, diffuse reflection), suitable for materials such as rock or tree bark.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/diffuse-rough/diffuseRoughness0.png" alt=""/><br><em>Diffuse Roughness = 0.0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/diffuse-rough/diffuseRoughness1.png" alt=""/><br><em>Diffuse Roughness = 1.0</em></td>
   </tr>
@@ -383,7 +375,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 * **Subsurface Weight**: This defines how much subsurface scattering is used – essentially, how much light enters the material.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/sss/weight/SSSWeight05.png" alt=""/><br><em>Weight = 0.5</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/sss/weight/SSSWeight1.png" alt=""/><br><em>Weight = 1.0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/sss/weight/TransmissionWeight0.png" alt=""/><br><em>Transmission weight = 0</em></td>
@@ -393,7 +385,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 * **Subsurface Color**: Defines the overall color of any light that re-emerges from beneath the surface of a material. Lighter colors will typically result in brighter, more visible scattering; a black value here results in no subsurface scattering effect at all.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/sss/color/SSSColorGreen.png" alt=""/></td>
     <td><img src="../assets/openpbrf/renders/sss/color/SSSColorPurple.png" alt=""/></td>
     <td><img src="../assets/openpbrf/renders/sss/color/SSSColorYellow.png" alt=""/></td>
@@ -403,7 +395,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 * **Subsurface Radius**: Defines how far light can travel inside a material before being scattered or absorbed. With a low value, light will only travel a short distance; materials will have a dense appearance as a result. With a high radius, light travels farther; materials with have a soft, waxy, translucent look.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/sss/radius/SSSRadius1_vers2.png" alt=""/><br><em>Radius = 1</em></td>
     <td><img src="../assets/openpbrf/renders/sss/radius/SSSRadius10_vers2.png" alt=""/><br><em>Radius = 10</em></td>
     <td><img src="../assets/openpbrf/renders/sss/radius/SSSRadius20_vers2.png" alt=""/><br><em>Radius = 20</em></td>
@@ -413,7 +405,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 * **Subsurface Radius Scale**:
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/sss/radiusScale/radiusScaleDefault.png" alt=""/><br><em>Radius scale = default</em></td>
     <td><img src="../assets/openpbrf/renders/sss/radiusScale/radiusScaleGrey.png" alt=""/><br><em>Radius scale = Grey</em></td>
     <td><img src="../assets/openpbrf/renders/sss/radiusScale/radiusScaleWhite.png" alt=""/><br><em>Radius scale = White</em></td>
@@ -425,7 +417,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 * **Subsurface Anisotropy**: Defines the direction that light prefers to scatter inside a subsurface material. At a value of 0, light will scatter evenly in all directions. With a positive value, light will tend to scatter forward, in the same direction as the initial ray of light; this will typically result in materials having a clearer, more translucent appearance. With a negative value, light will tend to scatter backwards towards the source of the light beam; this will typically give materials a more opaque, denser appearance.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/sss/anisotropy/SSSanisotropy-1.png" alt=""/><br><em>Anisotropy = -1</em></td>
     <td><img src="../assets/openpbrf/renders/sss/anisotropy/SSSanisotropy0.png" alt=""/><br><em>Anisotropy = 0</em></td>
     <td><img src="../assets/openpbrf/renders/sss/anisotropy/SSSanisotropy1.png" alt=""/><br><em>Anisotropy = 1</em></td>
@@ -441,7 +433,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 * **Weight**: Controls the amount of light that can pass through the surface of the material. Often used for transparent materials such as liquids or glass.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/weight/TransmissionWeight0.png" alt=""/><br><em>Weight = 0.0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/weight/TransmissionWeight05.png" alt=""/><br><em>Weight = 0.5</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/weight/TransmissionWeight1.png" alt=""/><br><em>Weight = 1.0</em></td>
@@ -451,7 +443,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 * **Color**: Determines the color of the light passing through a material.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/color/transmission_green.png" alt=""/></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/color/transmission_orange.png" alt=""/></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/color/transmission_purple.png" alt=""/></td>
@@ -461,7 +453,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 * **Depth**: Defines, in centimeters, how far a ray of light has to travel through a material before the transmission color reaches full saturation – essentially, how quickly light picks up color as it passes through a transparent (or partly transparent) material. For materials with low Transmission Depth, light will pick up color very quickly, meaning that even very thin parts of the material look strongly colored. Conversely, with a high depth, thicker sections will look very dark or almost opaque, and the material with have a 'dense' appearance, like colored resin or thick liquid.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/depth/transmissionDepth0.png" alt=""/><br><em>Depth = 0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/depth/transmissionDepth1.png" alt=""/><br><em>Depth = 1</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/depth/transmissionDepth10.png" alt=""/><br><br><em>Depth= 10</em></td>
@@ -471,7 +463,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 * **Scatter Color**: This defines the color and strength of the light scattered inside a transparent or partly transparent material. It essentially defines the internal 'cloudiness' of a material, determining how light spreads and softens within the material. Scatter Color is useful for reproducing materials where light doesn't travel cleanly or in a straight line, such as, for example, certain plastics, milk, or cloudy apple juice – or even for large bodies of water (creating the blue tint of ocean, for example).
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/scatter/transmissionScatterDarkGrey.png" alt=""/><br><em>Dark grey scatter color</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/scatter/transmissionScatterMiddleGrey.png" alt=""/><br><em>Middle grey scatter color</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/scatter/transmissionScatterWhite.png" alt=""/><br><em>White scatter color</em></td>
@@ -481,7 +473,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 * **Scatter Anisotropy**: This determines which direction light will tend to scatter inside a material. With a value of 0, light will scatter evenly in all directions. With a positive value, light will tend to scatter forward, in the same direction as the initial ray of light; this will typically result in materials having a clearer, more glass-like appearance. With a negative value, light will tend to scatter backwards towards the source of the light beam; this will typically give materials a more frosted or chalky appearance.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/anisotropy/transmissionAnisotropy-1.png" alt=""/><br><em>Anisotropy = -1</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/anisotropy/transmissionAnisotropy0.png" alt=""/><br><br><em>Anisotropy = 0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/anisotropy/transmissionAnisotropy1.png" alt=""/><br><em>Anisotropy = 1</em></td>
@@ -495,7 +487,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 * **Dispersion (Abbe)**: This defines how much different colors of light bend when passing through a transparent material, resulting in color splitting, rainbow-like fringes, or colored edges in refracted light. A Dispersion (Abbe) value of 0 disables this effect entirely. A low Dispersion (Abbe) value will result in very visible separation of colors (as you might see in a prism), while a high Dispersion (Abbe) value will result in a weak or negligible separation of colors, and a cleaner, clearer refraction overall. (The Dispersion (Abbe) parameter is named after Ernst Abbe, a 19th-century physicist and optical engineer.)
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/abbe/transmissionAbbe20.png" alt=""/><br><em>Abbe = 20</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/abbe/transmissionAbbe45.png" alt=""/><br><em>Abbe = 45</em></td>
   </tr>
@@ -503,15 +495,15 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 
 * **Dispersion Weight**: As with Weight parameters elsewhere, this value defines the intensity of light dispersion within the material.
 
-+++
-
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/weight/TransmissionWeight0.png" alt=""/><br><em>Weight = 0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/weight/TransmissionWeight05.png" alt=""/><br><em>Weight = 0.5</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/transmission/weight/TransmissionWeight1.png" alt=""/><br><em>Weight = 1.0</em></td>
   </tr>
 </table>
+
++++
 
 #### Metallic materials (Metalness &gt; 0)
 
@@ -534,7 +526,7 @@ A Thin-film effect, if present, reproduces the visual appearance of very thin su
 * **Weight**: As with Weight parameters elsewhere, this controls the intensity of the Thin-film effect, with a value between 0 and 1. Nearer to 0 any Thin-film effects are barely visible; at the higher end of this range they are much more pronounced.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/thin-film/weight/thinFilmWeight0.png" alt=""/><br><em>Weight = 0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/thin-film/weight/thinFilmWeight05.png" alt=""/><br><em>Weight = 0.5</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/thin-film/weight/thinFilmWeight1.png" alt=""/><br><em>Weight = 1.0</em></td>
@@ -544,7 +536,7 @@ A Thin-film effect, if present, reproduces the visual appearance of very thin su
 * **Thickness**: Defines the thickness of the film layer, in micrometers. In a physically accurate material, most thin-film effects occur at a thickness of between 0 and 1 micrometers.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/thin-film/thickness/thinFilmThickness0.png" alt=""/><br><em>Thickness = 0</em></td>
     <td><img src="../assets/openpbrf/renders/thin-film/thickness/thinFilmThickness05.png" alt=""/><br><em>Thickness = 0.5</em></td>
     <td><img src="../assets/openpbrf/renders/thin-film/thickness/thinFilmThickness1.png" alt=""/><br><em>Thickness = 1.0</em></td>
@@ -554,7 +546,7 @@ A Thin-film effect, if present, reproduces the visual appearance of very thin su
 * **Index of Refraction (IOR)**: As noted above, a material's IOR determines how strongly a material reacts with light. The Thin-film layer of an OpenPBR material has its own IOR. For example, diamond has an IOR of 2.417.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR1.png" alt=""/><br><em>IOR = 1</em></td>
     <td><img src="../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR1,5.png" alt=""/><br><em>IOR = 1.5</em></td>
     <td><img src="../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR2.png" alt=""/><br><em>IOR = 2</em></td>
@@ -572,7 +564,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 * Weight: Essentially determines the intensity of the Coat layer. Setting this to a minimum value of 0 disables the Coat entirely; higher values increase the layer's intensity.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/coat/weight/coatWeight0.png" alt=""/><br><em>Weight = 0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/coat/weight/coatWeight05.png" alt=""/><br><em>Weight = 0.5</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/coat/weight/coatWeight1.png" alt=""/><br><em>Weight = 1.0</em></td>
@@ -582,7 +574,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 * Color: Determines the overall color of the Coat layer, which can tint the reflection of the Base layer beneath.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/coat/color/coatColorGreen.png" alt=""/></td>
     <td><img src="../assets/openpbrf/renders/coat/color/coatColorPurple.png" alt=""/></td>
     <td><img src="../assets/openpbrf/renders/coat/color/coatColorYellow.png" alt=""/></td>
@@ -592,7 +584,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 * Darkening: Determines the degree to which the reflection from the Base layer is darkened and saturated. For instance, varnished wood typically appears darker than the same wood if unvarnished; the Darkening characteristic can reproduce this effect.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/coat/darkening/coatDarkening0.png" alt=""/><br><em>Darkening = 0</em></td>
     <td><img src="../assets/openpbrf/renders/coat/darkening/coatDarkening05.png" alt=""/><br><em>Darkening = 0.5</em></td>
     <td><img src="../assets/openpbrf/renders/coat/darkening/coatDarkening1.png" alt=""/><br><em>Darkening = 1.0</em></td>
@@ -602,7 +594,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 * Index of Refraction (IOR): Essentially a numerical definition of how reflective a non-metallic surface appears, based on how light behaves inside the Coat layer.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/coat/ior/coatIOR1,4.png" alt=""/><br><em>IOR = 1.4</em></td>
     <td><img src="../assets/openpbrf/renders/coat/ior/coatIOR2.png" alt=""/><br><em>IOR = 2</em></td>
     <td><img src="../assets/openpbrf/renders/coat/ior/coatIOR3.png" alt=""/><br><em>IOR = 3</em></td>
@@ -612,7 +604,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 * Roughness: As mentioned when discussing the Base layer, surface roughness defines how reflective a surface is – smooth surfaces reflect light very evenly, while rough surfaces scatter light in random directions. A Coat layer will have its own degree of Roughness.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/coat/roughness/coatRoughness01.png" alt=""/><br><em>Roughness = 0.1</em></td>
     <td><img src="../assets/openpbrf/renders/coat/roughness/coatRoughness05.png" alt=""/><br><em>Roughness = 0.5</em></td>
     <td><img src="../assets/openpbrf/renders/coat/roughness/coatRoughness08.png" alt=""/><br><em>Roughness = 0.8</em></td>
@@ -626,7 +618,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 * Anisotropy: Anisotropy describes how the coat layer's reflections vary depending on direction, causing highlights to stretch or align along a surface rather than appearing circular. This effect is used to represent directional surface structure in the coating, such as brushing, streaking, or flow patterns.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/coat/anisotropy/coatAnisotropy01.png" alt=""/><br><em>Anisotropy = 0.1</em></td>
     <td><img src="../assets/openpbrf/renders/coat/anisotropy/coatAnisotropy05.png" alt=""/><br><em>Anisotropy = 0.5</em></td>
     <td><img src="../assets/openpbrf/renders/coat/anisotropy/coatAnisotropy1.png" alt=""/><br><em>Anisotropy = 1.0</em></td>
@@ -636,7 +628,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 * Anisotropy Tangent: The direction of any stretching or streaking due to the Anisotropy value, above.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/coat/tangent/coatTangent0-orange.png" alt=""/><br><em>Orange tangent</em></td>
     <td><img src="../assets/openpbrf/renders/coat/tangent/coatTangent03-darkRed.png" alt=""/><br><em>Dark red tangent</em></td>
     <td><img src="../assets/openpbrf/renders/coat/tangent/coatTangent06-green.png" alt=""/><br><em>Green tangent</em></td>
@@ -649,14 +641,14 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 
 ##### Fuzz
 
- A Fuzz layer can be added to reproduce the appearance of fabric-like surfaces such as velvet or satin, or it can be used to create the effect of a layer of dust on a surface.
+A Fuzz layer can be added to reproduce the appearance of fabric-like surfaces such as velvet or satin, or it can be used to create the effect of a layer of dust on a surface.
 
 +++Fuzz parameters
 
 * **Weight**: As with Weight parameters elsewhere, this controls the intensity of the Fuzz effect, with a value between 0 and 1. At 0, the Fuzz layer is entirely disabled.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/fuzz/weight/fuzzWeight0.png" alt=""/><br><em>Weight = 0.0</em></td>
     <td><img src="../assets/openpbrf/renders/fuzz/weight/fuzzWeight05.png" alt=""/><br><em>Weight = 0.5</em></td>
     <td><img src="../assets/openpbrf/renders/fuzz/weight/fuzzWeight1.png" alt=""/><br><em>Weight = 1.0</em></td>
@@ -666,7 +658,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 * **Color**: Determines the color of the Fuzz effect.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/fuzz/color/fuzzColorGreen.png" alt=""/></td>
     <td><img src="../assets/openpbrf/renders/fuzz/color/fuzzColorPurple.png" alt=""/></td>
     <td><img src="../assets/openpbrf/renders/fuzz/color/fuzzColorYellow.png" alt=""/></td>
@@ -676,7 +668,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 * **Roughness**: Essentially determines the shape of the 'fuzz particles' within this layer. When this value is close to 0, particles are tall and thin; they are more visible when viewing the surface from a shallow (grazing) angle. At higher values, particles become closer to spherical; they are more easily visible from a wider range of angles, and the surface appears rougher overall as a result.
 
 <table>
-  <tr>
+  <tr style="border: 0">
     <td><img src="../assets/openpbrf/renders/fuzz/roughness/fuzzRoughness01.png" alt=""/><br><em>Roughness = 0.1</em></td>
     <td><img src="../assets/openpbrf/renders/fuzz/roughness/fuzzRoughness05.png" alt=""/><br><em>Roughness = 0.5</em></td>
     <td><img src="../assets/openpbrf/renders/fuzz/roughness/fuzzRoughness1.png" alt=""/><br><em>Roughness = 1.0</em></td>
