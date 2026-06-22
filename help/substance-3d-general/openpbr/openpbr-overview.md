@@ -6,6 +6,8 @@ hold: 'true'
 
 # OpenPBR
 
+![**Download an offline version of this page.**](../assets/openpbrf/openpbr.pdf)
+
 **OpenPBR** is an open, physically based surface shading model designed to provide a consistent and predictable way to describe materials across different 3D tools, renderers, and pipelines. It defines a single, comprehensive material model capable of representing a wide range of real-world surfaces, while remaining flexible enough to support more stylized or artist-driven looks using physically meaningful parameters.
 
 The model addresses long-standing inconsistencies between "standard" shaders that behave similarly in name but differ in parameter definitions and physical assumptions across applications. Grounded in the principles of physically based rendering, OpenPBR describes materials in terms of real-world light behavior, emphasizing energy conservation, intuitive parameter ranges, and stable lighting responses. Rather than prescribing a specific user interface, OpenPBR defines how materials behave at a fundamental level, allowing tools to implement the model in their own way while preserving consistent visual results as assets move between applications and pipelines.
