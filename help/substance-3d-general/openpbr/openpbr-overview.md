@@ -1,6 +1,6 @@
 ---
-title: 'OpenPBR'
-description: 'Learn about the OpenPBR Material model and how to use it for physically-based rendering across 3D applications.'
+title: OpenPBR
+description: Learn about the OpenPBR Material model and how to use it for physically-based rendering across 3D applications.
 hold: 'true'
 ---
 
@@ -175,7 +175,9 @@ Conceptually, you can think of an OpenPBR material as possessing three key eleme
 
 The following parameters control fundamental properties of the material, mainly focused on the appearance of reflections.
 
-##### Specular Weight
++++Specular parameters
+
+**Specular Weight**
 
 While Specular Color determines the color tint of any reflection at grazing angles, Specular Weight determines the intensity of such reflections, between a range of 0 to 1. At a value of 0, there is no reflection at grazing angles at all; at higher values the intensity of such reflections becomes more pronounced. Note that, in the 'real world' every material is reflective to some degree, and if recreated in 3D would have a Specular Weight value greater than 0. Note too that Specular Weight should not be considered in any way a 'primary' value for parameterizing a material's reflection; Specular Roughness (see below) is always a key consideration in determining a material's reflectivity.
 
@@ -187,7 +189,7 @@ While Specular Color determines the color tint of any reflection at grazing angl
   </tr>
 </table>
 
-##### Specular Color
+**Specular Color**
 
 This determines any color tint to reflections when light reflects at a grazing angle (an angle that is nearly parallel to the surface of a material). For metallic materials (see Metalness, below) a color tint may apply; for non-metallic materials Specular Color should typically be white. The images below show different specular colors on metallic and non-metallic materials.
 
@@ -204,7 +206,7 @@ This determines any color tint to reflections when light reflects at a grazing a
   </tr>
 </table>
 
-##### Specular Roughness
+**Specular Roughness**
 
 Like the Roughness parameter in a PBR material, Specular Roughness in an OpenPBR material represents microscopic surface variation: even surfaces that appear smooth to the naked eye possess tiny imperfections that scatter reflected light. This value reproduces that effect, controlling how smooth or rough a surface appears in its reflections by defining how sharply or broadly light is reflected. Materials with a low roughness will produce sharp, mirror-like reflections. Conversely, materials with a high roughness will produce soft, blurred reflections.
 
@@ -218,7 +220,7 @@ Like the Roughness parameter in a PBR material, Specular Roughness in an OpenPBR
 
 Note that this has no bearing on the overall quantity of light reflected – it is simply a measure of whether that light is reflected in a very focused or diffuse way.
 
-##### IOR (Index of Refraction)
+**IOR (Index of Refraction)**
 
 The IOR describes how strongly a material interacts with light, controlling both how light rays bend (refract) when entering the material, and how reflective it appears, particularly at shallow (grazing) viewing angles. Less reflective surfaces, such as water or some plastics, will have a low IOR. More reflective surfaces – glass, or some gemstones, for instance – will have a higher IOR and stronger refraction effect. The IOR of a material is a physical value, and as such it is an objective number, rather than a matter of artistic interpretation. When creating a given material, you need only look up the material's IOR and ensure this is set correctly to ensure that the material reacts correctly with light. A range of sources are available online listing the IORs of various materials. For instance, the IOR of granite is 1.43; if you were creating a granite material, you would enter this value as its IOR, and this would ensure that light reflects your material in a realistic way. Note that IOR has no bearing on metallic materials (see Metalness, below). Changing the IOR value of a metallic material will not affect its appearance.
 
@@ -232,7 +234,7 @@ The IOR describes how strongly a material interacts with light, controlling both
 
 Varying the specular index of refraction, setting it (from left to right) at 1.1, 1.3, and 1.5
 
-##### Anisotropy
+**Anisotropy**
 
 When the microscopic surface variations are somewhat aligned in the same direction, like grooves, the material reflection will tend to depend on the viewing direction and stretch perpendicularly to the grooves. The more aligned those grooves, the more pronounced the effect. The material's Anisotropy value defines whether a surface's reflections appear the same in all directions, or whether they stretch in a particular way. This might reproduce the effect of materials such as brushed metal, for instance, where reflections along the 'brush effect' are much longer. Anisotropic reflection can also occur in more subtle ways when a polished surface is smeared with a fingerprint, or when a deformable surface such as dry skin is stretched.
 
@@ -244,7 +246,7 @@ When the microscopic surface variations are somewhat aligned in the same directi
   </tr>
 </table>
 
-##### Anisotropy Tangent
+**Anisotropy Tangent**
 
 When some degree of Anisotropy is present (that is, the material's Anisotropy value is greater than 0), the Anisotropy Tangent indicates the dominant direction of the grooves. The reflection will stretch perpendicularly to that direction.
 
@@ -256,19 +258,14 @@ When some degree of Anisotropy is present (that is, the material's Anisotropy va
   </tr>
 </table>
 
-##### Emission
++++
+
+**Emission**
 
 Emission allows a surface to act as a light source by emitting light directly. While emission is not a reflective phenomenon, it is included within the OpenPBR material model so that emissive materials can be defined consistently alongside reflective and transmissive properties.
 
-<table>
-  <tr>
-    <td style="border: 0;" valign="top"></td>
-    <td style="border: 0;" valign="top"></td>
-    <td style="border: 0;" valign="top"></td>
-  </tr>
-</table>
 
-Emission parameters are:
++++Emission parameters
 
 * **Luminance**: Defines the brightness of the light emitted from the material, measured in cd/m², also known as nits. This measurement presumes white light; changing the color of the light (see below) may impact overall brightness.
 
@@ -289,6 +286,8 @@ Emission parameters are:
     <td><img src="../assets/openpbrf/renders/emission/color/emissionColorYellow.png" alt=""/></td>
   </tr>
 </table>
+
++++
 
 ##### Geometry
 
@@ -649,7 +648,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 
 ##### Fuzz
 
- A Fuzz layer can be added to reproduce the appearance of fabric-like surfaces such as velvet or satin, or it can be used to create the effect of a layer of dust on a surface.
+A Fuzz layer can be added to reproduce the appearance of fabric-like surfaces such as velvet or satin, or it can be used to create the effect of a layer of dust on a surface.
 
 +++Fuzz parameters
 
