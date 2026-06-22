@@ -148,7 +148,7 @@ Real-world materials are rarely perfectly pure. Many surfaces are best described
 
 While metalness is typically set to either 0 or 1 (that is, entirely non-metallic or entirely metallic), intermediate values are meaningful. These values represent surfaces where metallic and non-metallic materials are mixed together at a small scale, in cases such as paint containing metal particles or flakes. Also, as previously mentioned, OpenPBR materials are built from layers that represent distinct physical interfaces. It is entirely possible for a material's Base layer (it's 'core' layer) to be metallic, but for it to have a non-metallic Coat layer above – the Coat layer is not simply an additional specular control – it represents a separate physical surface through which light must pass. This would be the case with some types of car paint, for instance: metallic flakes would be represented in the material's Base layer, while the Coat layer would represent a clear-coat lacquer.
 
-![](../assets/openpbrf/extra/metalness/metalnessAsBlend.png)
+![](../assets/openpbrf/extra/metalness/metalnessAsBlend.png){width="400"}
 
 ### Combine Layers to Create Complex Behavior
 
@@ -402,6 +402,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
   </tr>
 </table>
 
+TODO
 * **Subsurface Radius Scale**:
 
 <table>
@@ -735,7 +736,7 @@ Certain material features and combinations are inherently more expensive or pron
 
 While physically plausible values provide a strong baseline, production realities sometimes require intentional deviation. Stylization, readability, art direction, or technical constraints may justify pushing parameters beyond realistic ranges.
 
-XXXXXXX ADD SPECIFIC EXAMPLES XXXXXXXX
+TODO XXXXXXX ADD SPECIFIC EXAMPLES XXXXXXXX
 
 The goal is not to undermine physical principles, but to bend them consciously in service of a clear artistic or technical objective.
 
