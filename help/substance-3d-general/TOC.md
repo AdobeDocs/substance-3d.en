@@ -2,6 +2,7 @@
 user-guide-description: Substance 3D General Knowledge
 user-guide-title: Substance 3D General Knowledge
 breadcrumb-title: Substance 3D General Knowledge
+hold: true
 ---
 
 # Substance 3D General Knowledge {#general-knowledge}
@@ -18,6 +19,8 @@ breadcrumb-title: Substance 3D General Knowledge
   + [Legacy versions](/help/substance-3d-general/ecosystem/legacy-versions/legacy-versions.md)
   + [Substance engine versioning](/help/substance-3d-general/ecosystem/engine-versioning/substance-engine-versioning.md)
   + [Substance 3D icons for artists](/help/substance-3d-general/ecosystem/susbtance-3d-app-icons/susbtance-3d-app-icons.md)
++ OpenPBR{#openpbr}
+  + [OpenPBR](/help/substance-3d-general/openpbr/openpbr-overview.md)
 + ASM{#asm}
   + [Adobe Standard Material overview](/help/substance-3d-general/adobe-standard-material/adobe-standard-material.md)
   + [ASM specifications](/help/substance-3d-general/adobe-standard-material/asm-specifications/asm-specifications.md)
