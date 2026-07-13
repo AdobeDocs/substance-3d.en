@@ -8,15 +8,13 @@ hold: 'true'
 
 +++What is OpenPBR, and which version does Painter support?
 
-OpenPBR is an open material specification hosted by the Academy Software Foundation, defining a standardized shading model designed to work consistently across applications. You can learn more about OpenPBR in Painter here.
+OpenPBR is an open material specification hosted by the Academy Software Foundation, defining a standardized shading model designed to work consistently across applications. [Painter's documentation has more information about using OpenPBR](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home).
 
 +++
 
 +++What does it actually mean when an application claims to "support OpenPBR"?
 
-There is no formal certification process, so the claim can mean different things. At minimum it means the application exposes an OpenPBR-compatible material. In practice, implementations vary — some cover the full spec, others only a subset of it, leaving out features like thin-film, dispersion, or certain subsurface behaviors. The only reliable way to confirm what's supported is to check the application's documentation directly.
-
-Note that "MaterialX support" and "OpenPBR support" are not the same thing. An application may support one without fully implementing the other. When portability matters, verify that the specific OpenPBR nodes and MaterialX features your materials rely on are supported at every point in your pipeline.
+There is no formal certification process, so the claim can mean different things. At minimum it means the application exposes an OpenPBR-compatible material. In practice, implementations vary — some cover the full spec, others only a subset of it, leaving out features like thin-film, dispersion, or certain subsurface behaviors. The only reliable way to confirm what's supported is to check the application's documentation directly.</br>Note that "MaterialX support" and "OpenPBR support" are not the same thing. An application may support one without fully implementing the other. When portability matters, verify that the specific OpenPBR nodes and MaterialX features your materials rely on are supported at every point in your pipeline.
 
 +++
 
@@ -26,9 +24,7 @@ Note that "MaterialX support" and "OpenPBR support" are not the same thing. An a
 
 +++How does OpenPBR relate to MaterialX and MDL — and what is the difference between them?
 
-They operate at different levels. OpenPBR is a material model — it defines how a material responds to light and what parameters it exposes. MaterialX is a file format and framework for storing and exchanging those material descriptions in a renderer-agnostic way; OpenPBR's reference implementation lives within MaterialX. MDL (Material Definition Language), developed by NVIDIA, serves a broadly similar purpose to MaterialX — a language for defining and exchanging materials across tools — but is a distinct standard with different technical approaches and industry adoption.
-
-A useful analogy: if OpenPBR is a recipe, MaterialX and MDL are two different kitchens in which you can prepare it. OpenPBR does not require MaterialX specifically, but MaterialX is its primary reference implementation and the most widely adopted interchange path in current pipelines.
+They operate at different levels. OpenPBR is a material model — it defines how a material responds to light and what parameters it exposes. MaterialX is a file format and framework for storing and exchanging those material descriptions in a renderer-agnostic way; OpenPBR's reference implementation lives within MaterialX. MDL (Material Definition Language), developed by NVIDIA, serves a broadly similar purpose to MaterialX — a language for defining and exchanging materials across tools — but is a distinct standard with different technical approaches and industry adoption.</br>A useful analogy: if OpenPBR is a recipe, MaterialX and MDL are two different kitchens in which you can prepare it. OpenPBR does not require MaterialX specifically, but MaterialX is its primary reference implementation and the most widely adopted interchange path in current pipelines.
 
 +++
 
@@ -52,9 +48,7 @@ Not entirely — and this is by design. OpenPBR defines a shared material model,
 
 +++Can I create car paint materials with OpenPBR?
 
-Yes — with a couple of caveats. OpenPBR doesn’t include a specialized car paint shader, so it may prove insufficient for certain uses within the automotive industry. Moreover, it simply depends on the type of car paint — some car paints will always have properties that fall outside the scope of any given shader. But with those points in mind, car paint maps naturally onto OpenPBR's layered architecture. Use the Base layer for the metallic flake component and the Coat layer for the clear-coat lacquer, which acts as a physically separate surface with its own IOR, roughness, and color. For paints with angular color shifts, the Thin-film layer can add iridescent effects on top.
-
-Note, however, that OpenPBR is a parametric model — it produces convincing, physically plausible car paint, but cannot match the precision of measured material formats such as X-Rite AxF, which capture actual optical data from a physical sample. For general production work OpenPBR is well suited; for applications requiring exact sample matching, a measured format may be more appropriate.
+Yes — with a couple of caveats. OpenPBR doesn’t include a specialized car paint shader, so it may prove insufficient for certain uses within the automotive industry. Moreover, it simply depends on the type of car paint — some car paints will always have properties that fall outside the scope of any given shader. But with those points in mind, car paint maps naturally onto OpenPBR's layered architecture. Use the Base layer for the metallic flake component and the Coat layer for the clear-coat lacquer, which acts as a physically separate surface with its own IOR, roughness, and color. For paints with angular color shifts, the Thin-film layer can add iridescent effects on top.</br>Note, however, that OpenPBR is a parametric model — it produces convincing, physically plausible car paint, but cannot match the precision of measured material formats such as X-Rite AxF, which capture actual optical data from a physical sample. For general production work OpenPBR is well suited; for applications requiring exact sample matching, a measured format may be more appropriate.
 
 +++
 
