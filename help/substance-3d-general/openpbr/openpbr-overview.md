@@ -528,7 +528,7 @@ Combined with the following channels, metallic materials can create various effe
 
 A Thin-film effect, if present, reproduces the visual appearance of very thin surface layers, producing iridescent colors, such as those seen in soap bubbles, or films of oil.
 
-![](../assets/OpenPBR_thinfilm.png)
+![](../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR1,5.png)
 
 +++Thin film parameters
 
