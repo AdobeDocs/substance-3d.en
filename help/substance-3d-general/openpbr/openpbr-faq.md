@@ -20,7 +20,9 @@ There is no formal certification process, so the claim can mean different things
 
 +++If I build a material library using OpenPBR natively, can those materials be used across other applications?
 
- In principle yes — portability is a core promise of OpenPBR. The most robust exchange path is via USD with MaterialX bindings, which provides a standardized, renderer-agnostic container for material descriptions. That said, workflows for exporting materials as standalone assets — without an associated model, for use in a shared library — are still being actively developed and not yet fully supported everywhere. The infrastructure is close, but before committing to a library architecture that depends on it, validate your specific pipeline against current capabilities.
+In principle yes — portability is a core promise of OpenPBR. The most robust exchange path is via USD with MaterialX bindings, which provides a standardized, renderer-agnostic container for material descriptions. That said, workflows for exporting materials as standalone assets — without an associated model, for use in a shared library — are still being actively developed and not yet fully supported everywhere. The infrastructure is close, but before committing to a library architecture that depends on it, validate your specific pipeline against current capabilities.
+
++++
 
 +++How does OpenPBR relate to MaterialX and MDL — and what is the difference between them?
 
@@ -38,13 +40,19 @@ No. For most artists, OpenPBR is simply the material model built into the tools 
 
 There is no automatic conversion — migration is manual. Select the OpenPBR shader in the Shader settings window, then add the relevant OpenPBR channels via Texture Set settings > Add or remove channels. Once that's done, review your existing layers to make sure their content targets the intended channels.
 
++++
+
 +++Can I still use the Adobe Standard Material (ASM) workflow?
 
 Yes. Existing ASM projects keep their current shader when opened, and ASM templates remain available for new projects.
 
++++
+
 +++Can OpenPBR guarantee identical results across different applications and renderers?
 
 Not entirely — and this is by design. OpenPBR defines a shared material model, but final appearance is also shaped by lighting, rendering algorithms, color management, and how closely each implementation conforms to the spec. For the closest possible consistency, combine OpenPBR with MaterialX and USD. Together these provide a stable, renderer-agnostic foundation — though some implementation-level differences may always remain.
+
++++
 
 +++Can I create car paint materials with OpenPBR?
 
