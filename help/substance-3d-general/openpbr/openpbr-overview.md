@@ -1,7 +1,6 @@
 ---
 title: OpenPBR
 description: Learn about the OpenPBR Material model and how to use it for physically-based rendering across 3D applications.
-hold: 'true'
 ---
 
 # OpenPBR
@@ -13,6 +12,10 @@ hold: 'true'
 The model addresses long-standing inconsistencies between "standard" shaders that behave similarly in name but differ in parameter definitions and physical assumptions across applications. Grounded in the principles of physically based rendering, OpenPBR describes materials in terms of real-world light behavior, emphasizing energy conservation, intuitive parameter ranges, and stable lighting responses. Rather than prescribing a specific user interface, OpenPBR defines how materials behave at a fundamental level, allowing tools to implement the model in their own way while preserving consistent visual results as assets move between applications and pipelines.
 
 This document is an artist-focused guide to understanding and working with OpenPBR. It explains the model's underlying principles, how its components describe real-world light behavior, and how those ideas translate into practical material creation. Rather than focusing on a specific application, the guide is intended for 3D artists working in areas including look development, texturing, and rendering who want to build robust, physically plausible materials that remain consistent and transferable across different software environments.
+
+>[!NOTE]
+>
+> If you're already working with OpenPBR and are looking for technical assistance, [the OpenPBR FAQ](openpbr-faq.md) may already have answers to your questions.
 
 ![](../assets/OpenPBR_desk.jpg)
 
@@ -76,7 +79,7 @@ OpenPBR is a monolithic model (an 'uber-shader') intended to represent a wide ra
 
 This approach uses a fixed model which defines in advance the framework of layering and mixing, thereby circumventing any requirement for the artist to create a shading network on a case-by-case basis, and allows OpenPBR to represent both simple and complex materials in a consistent, physically grounded way.
 
-![](../assets/openpbrf/model_schematic2.png)
+![](../assets/openpbrf/model_schematic2.png) Click to zoom. *Figure adapted from the OpenPBR Surface specification, © Academy Software Foundation, used under the Apache License 2.0*
 
 ### Core Material Behaviors
 
@@ -173,7 +176,7 @@ Conceptually, you can think of an OpenPBR material as possessing three key eleme
 
 ### Material Layers Within the Framework
 
-![](../assets/openpbrf/model_schematic2.png)
+![](../assets/openpbrf/model_schematic2.png) Click to zoom. *Figure adapted from the OpenPBR Surface specification, © Academy Software Foundation, used under the Apache License 2.0*
 
 Each layer contributes a specific physical effect, and the material model manages how these layers interact in a physically plausible way. This layered structure is consistent across OpenPBR implementations. Individual applications remain free to present a user interface that controls these layers however they see fit.
 
@@ -234,7 +237,7 @@ Emission allows a surface to act as a light source by emitting light directly. W
 
 A Thin-film effect, if present, reproduces the visual appearance of very thin surface layers, producing iridescent colors, such as those seen in soap bubbles, or films of oil.
 
-![](../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR15.png)
+![](../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR15.png){width="250" align="center"}
 
 **Coat**
 
@@ -343,11 +346,13 @@ When some degree of Anisotropy is present (that is, the material's Anisotropy va
 
 <table>
   <tr style="border: 0;">
-    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/tangent/tangentGreen.png" alt=""/><br><em>Green Anisotropy tangent</em></td>
-    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/tangent/tangentOrange.png" alt=""/><br><em>Orange Anisotropy tangent</em></td>
-    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/tangent/tangentRed.png" alt=""/><br><em>Red Anisotropy tangent</em></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/tangent/tangentGreen.png" alt=""/></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/tangent/tangentOrange.png" alt=""/></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/specular/tangent/tangentRed.png" alt=""/></td>
   </tr>
 </table>
+
+*Different orientations of Anisotropy tangent.*
 
 +++
 
@@ -683,11 +688,13 @@ The default value (1, 0.5, 0.25) means red light travels deepest, followed by gr
 
 <table>
   <tr>
-    <td><img src="../assets/openpbrf/renders/coat/tangent/coatTangent0-orange.png" alt=""/><br><em>Orange tangent</em></td>
-    <td><img src="../assets/openpbrf/renders/coat/tangent/coatTangent03-darkRed.png" alt=""/><br><em>Dark red tangent</em></td>
-    <td><img src="../assets/openpbrf/renders/coat/tangent/coatTangent06-green.png" alt=""/><br><em>Green tangent</em></td>
+    <td><img src="../assets/openpbrf/renders/coat/tangent/coatTangent0-orange.png" alt=""/><br></td>
+    <td><img src="../assets/openpbrf/renders/coat/tangent/coatTangent03-darkRed.png" alt=""/><br></td>
+    <td><img src="../assets/openpbrf/renders/coat/tangent/coatTangent06-green.png" alt=""/><br></td>
   </tr>
 </table>
+
+*Different orientations of Anisotropy tangent.*
 
 * Coat Normal: The Coat layer can be deformed to a small degree to produce the appearance of fine-scale geometry. This might be used, for example, to reproduce the appearance of scratches, or raindrops on a material.
 
