@@ -76,7 +76,7 @@ OpenPBR is a monolithic model (an 'uber-shader') intended to represent a wide ra
 
 This approach uses a fixed model which defines in advance the framework of layering and mixing, thereby circumventing any requirement for the artist to create a shading network on a case-by-case basis, and allows OpenPBR to represent both simple and complex materials in a consistent, physically grounded way.
 
-![](../assets/OpenPBR_Diagram.png)
+![](../assets/openpbrf/model_schematic2.png)
 
 ### Core Material Behaviors
 
@@ -171,11 +171,100 @@ Conceptually, you can think of an OpenPBR material as possessing three key eleme
 * **A series of layers that contribute to the shared framework**: Every material will have a Base layer, which determines characteristics such as the main color of the material, or whether the material is rough or smooth. Materials may also have additional layers – Thin-film, Coat, and Fuzz – which can reproduce effects such as varnish, or dust.
 * **A set of artist-facing controls**: an interface allowing an artist to control the rules of the reflection framework – and so, the appearance of the OpenPBR material overall. Depending on how specific software might represent these controls in its user interface, these are essentially a set of knobs or sliders that allow an artist to control, for example, how strong reflections should be, or what color tint should appear at certain viewing angles. Some controls will apply to the overall framework (and will therefore apply to all layers in the material); some controls will only apply to specific layers.
 
-### A shared framework for reflections
+### Material Layers Within the Framework
 
-#### Parameters within the shared framework for reflections
+![](../assets/openpbrf/model_schematic2.png)
 
-The following parameters control fundamental properties of the material, mainly focused on the appearance of reflections.
+Each layer contributes a specific physical effect, and the material model manages how these layers interact in a physically plausible way. This layered structure is consistent across OpenPBR implementations. Individual applications remain free to present a user interface that controls these layers however they see fit.
+
+>[!NOTE]
+>
+> There are two "layers" that do not appear in the diagram above:
+>
+> * **Specular**: Controls how shiny or reflective a surface is, whether the base is metallic or not. Specular exists inside the layer stack, but isn't itself a real layer, it's a property of the base and coat layers that do appear in the layer stack.
+> * **Geometry**: While other OpenPBR layers determine what the material is made of, the Geometry layer defines the shape and presence the material is applied to, including opacity, normals, tangents, and thin-wall behavior.
+>
+> We'll continue referring to Geometry and Specular as "layers" for simplicity.
+
+The layers that constitute an OpenPBR surface, from deepest to outermost, are:
+
+* **The Base Layer**: At the bottom of an OpenPBR material, the Base layer defines the fundamental interaction between light and the material. The parameters of this Base layer determine the principal color of the material, whether it is rough or smooth, and whether (in terms of how it interacts with light) it is metallic or non-metallic (also known as dielectric).
+
+>[!NOTE]
+>
+> For the majority of materials the Base layer is absolutely necessary. The layers above this (Thin-film, Coat, and Fuzz) may or may not be present, depending on the type of material being reproduced in 3D.
+
+* **Thin-film**: If present, a Thin-film layer is positioned above the Base layer. It reproduces the visual appearance of very thin surface layers, producing iridescent colors, such as those seen in soap bubbles, burned metal, or films of oil.
+
+* **Coat**: A Coat layer, if present, reproduces a transparent, reflective layer positioned above every other layer except Fuzz. This can simulate real-world effects such as varnish, wet surfaces, or certain types of car paint.
+
+* **Fuzz**: If present, a Fuzz layer reproduces the reflection from micro-fibers. It can be used to reproduce the appearance of a fuzzy fabric, for instance, or a layer of dust.
+
+The way in which each of these layers interacts with light is determined by a set of parameters.
+
+### Material Types
+
+The Base Metalness, in turn, determines the characteristics that apply to the next layer of the material – an entirely non-metallic material possesses different characteristics to a metallic material.
+
+#### Non-metallic materials (Base Metalness = 0)
+
+An entirely non-metallic material (that is, a material with a Base Metalness value of 0) will fall into three basic types: **diffuse**, **subsurface**, or **translucent**. Note that materials do not necessarily fall into just one of the above base types. More complex materials that are a mix of these basic material types are possible.
+
+**Diffuse materials** are typically opaque materials such as wood or stone.
+
+**Subsurface materials** scatter light internally; skin or wax would fall under this material type, for instance. Key material parameters here are the global specular parameters, the Base layer parameters, and the specific
+
+**Translucent base materials** allow light to pass through them; these include materials such as glass, crystal, or certain liquids. Key parameters to keep in mind are the global specular parameters, the Base layer parameters, and the specific Transmission parameters, below. The difference between subsurface scattering (SSS) and transmission is essentially that SSS doesn't allow you to see through the material – a light beam is scattered within a material, and then comes back out the same side. Transmission, conversely, governs materials that are at least partly transparent – a light beam passes through the material.
+
+#### Metallic materials (Metalness &gt; 0)
+
+Conversely, when Base Metalness is enabled (that is, it has a value greater than 0), it acquires some specific behavioral characteristics:
+
+* The material's Specular Color value controls the tint of the material near grazing angles (when light strikes a surface at an angle that is close to parallel).
+* The material's Base Color value controls the reflection at normal incidence (that is, when light is reflected at 90 degrees from the surface).
+* The Specular Weight value of the material scales the overall strength of the reflections, affecting both normal and grazing angles.
+
+Combined with the following channels, metallic materials can create various effects.
+
+**Emission**
+
+Emission allows a surface to act as a light source by emitting light directly. While emission is not a reflective phenomenon, it is included within the OpenPBR material model so that emissive materials can be defined consistently alongside reflective and transmissive properties.
+
+**Thin-film**
+
+A Thin-film effect, if present, reproduces the visual appearance of very thin surface layers, producing iridescent colors, such as those seen in soap bubbles, or films of oil.
+
+![](../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR15.png)
+
+**Coat**
+
+A Coat layer, if present, reproduces a transparent, reflective layer positioned above every other layer except Fuzz. This can simulate real-world effects such as varnish, or certain types of car paint. A Coat layer is defined by a range between 0 and 1; setting this value to 0 disables the Coat layer entirely.
+
+**Fuzz**
+
+A Fuzz layer can be added to reproduce the appearance of fabric-like surfaces such as velvet or satin, or it can be used to create the effect of a layer of dust on a surface.
+
+### Material workflow concepts
+
+#### Thinking in Light Behaviours, Not Material Labels
+
+OpenPBR is designed around how light behaves, rather than around fixed material categories. Instead of selecting a shader that represents 'glass,' 'skin,' or 'metal,' artists build materials by describing how light reflects from a surface, passes through it, scatters within it, or is emitted by it. This approach encourages a shift in mindset: materials are not predefined types, but combinations of physical behaviours. A single real-world material may involve several of these behaviours at once, and OpenPBR makes those contributions explicit rather than hiding them behind presets or opaque shading models.
+
+#### Separation of Concerns: Materials Are Independent from Lighting
+
+A core principle of physically based workflows is the separation of material description from lighting. Materials are authored to describe intrinsic surface and volume properties, while lighting defines the environment in which those properties are revealed. This separation reduces interdependency and makes complex scenes more manageable. A well-authored OpenPBR material should remain believable across a wide range of lighting conditions, without requiring scene-specific tweaks. At a smaller scale, OpenPBR continues this philosophy by keeping parameters as independent as possible, allowing artists to adjust one aspect of a material without unintentionally destabilizing others.
+
+#### Building Materials Incrementally
+
+OpenPBR encourages an incremental approach to material creation. Most workflows begin by establishing surface response – how light reflects from the object – before introducing volume effects such as transmission or subsurface scattering. Secondary behaviours, including fuzz, emission, or thin-film interference, are typically layered on later to refine realism or achieve specific visual cues. This layered approach helps artists diagnose issues more easily and avoid overcomplicating materials early in the process. By building from primary behaviours to secondary ones, materials remain easier to comprehend, debug, and reuse.
+
+#### Presets and Examples as Learning Tools
+
+OpenPBR includes presets for common materials, but these are best understood as reference examples rather than final solutions. Examining how presets balance parameters such as roughness, metalness, or transmission depth can help artists understand how specific visual results are constructed. Rather than relying on presets wholesale, OpenPBR workflows encourage artists to observe real-world materials, identify the underlying light behaviours at play, and recreate those behaviours using physically meaningful controls.
+
+## OpenPBR Channels and parameters
+
+### Specular
 
 +++Specular parameters
 
@@ -262,35 +351,7 @@ When some degree of Anisotropy is present (that is, the material's Anisotropy va
 
 +++
 
-**Emission**
-
-Emission allows a surface to act as a light source by emitting light directly. While emission is not a reflective phenomenon, it is included within the OpenPBR material model so that emissive materials can be defined consistently alongside reflective and transmissive properties.
-
-+++Emission parameters
-
-* **Luminance**: Defines the brightness of the light emitted from the material, measured in cd/m², also known as nits. This measurement presumes white light; changing the color of the light (see below) may impact overall brightness.
-
-<table>
-  <tr style="border: 0;">
-    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance100.png" alt=""/><br><em>Luminance = 100</em></td>
-    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance400.png" alt=""/><br><em>Luminance = 400</em></td>
-    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance1000.png" alt=""/><br><em>Luminance = 1000</em></td>
-  </tr>
-</table>
-
-* **Color**: Determines the light color emitted by the material.
-
-<table>
-  <tr>
-    <td><img src="../assets/openpbrf/renders/emission/color/emissionColorGreen.png" alt=""/></td>
-    <td><img src="../assets/openpbrf/renders/emission/color/emissionColorPurple.png" alt=""/></td>
-    <td><img src="../assets/openpbrf/renders/emission/color/emissionColorYellow.png" alt=""/></td>
-  </tr>
-</table>
-
-+++
-
-##### Geometry
+### Geometry
 
 OpenPBR also includes parameters that affect how the material interacts with geometry, such as opacity and thin-walled behavior. These controls determine whether a surface should be treated as having physical thickness or as a thin shell, which is particularly important for materials like paper, leaves, windows, or fabric
 
@@ -301,25 +362,7 @@ OpenPBR also includes parameters that affect how the material interacts with geo
 
 +++
 
-### Material Layers Within the Framework
-
-Each layer contributes a specific physical effect, and the material model manages how these layers interact in a physically plausible way. This layered structure is consistent across OpenPBR implementations. Individual applications remain free to present a user interface that controls these layers however they see fit. The layers that constitute an OpenPBR surface, from deepest to outermost, are:
-
-* **The Base Layer**: At the bottom of an OpenPBR material, the Base layer defines the fundamental interaction between light and the material. The parameters of this Base layer determine the principal color of the material, whether it is rough or smooth, and whether (in terms of how it interacts with light) it is metallic or non-metallic (also known as dielectric).
-
->[!NOTE]
->
-> For the majority of materials the Base layer is absolutely necessary. The layers above this (Thin-film, Coat, and Fuzz) may or may not be present, depending on the type of material being reproduced in 3D.
-
-* **Thin-film**: If present, a Thin-film layer is positioned above the Base layer. It reproduces the visual appearance of very thin surface layers, producing iridescent colors, such as those seen in soap bubbles, burned metal, or films of oil.
-
-* **Coat**: A Coat layer, if present, reproduces a transparent, reflective layer positioned above every other layer except Fuzz. This can simulate real-world effects such as varnish, wet surfaces, or certain types of car paint.
-
-* **Fuzz**: If present, a Fuzz layer reproduces the reflection from micro-fibers. It can be used to reproduce the appearance of a fuzzy fabric, for instance, or a layer of dust.
-
-The way in which each of these layers interacts with light is determined by a set of parameters.
-
-#### The Base Layer
+### The Base Layer
 
 At the bottom of the OpenPBR model, the Base layer represents the fundamental interaction between light and the surface material itself. The Base layer is defined by four characteristics: Base Weight, Base Color, Metalness, and Diffuse Roughness.
 
@@ -367,17 +410,7 @@ At the bottom of the OpenPBR model, the Base layer represents the fundamental in
 
 +++
 
-### Material Types
-
-The Base Metalness, in turn, determines the characteristics that apply to the next layer of the material – an entirely non-metallic material possesses different characteristics to a metallic material.
-
-#### Non-metallic materials (Base Metalness = 0)
-
-An entirely non-metallic material (that is, a material with a Base Metalness value of 0) will fall into three basic types: **diffuse**, **subsurface**, or **translucent**. Note that materials do not necessarily fall into just one of the above base types. More complex materials that are a mix of these basic material types are possible.
-
-**Diffuse materials** are typically opaque materials such as wood or stone.
-
-**Subsurface materials** scatter light internally; skin or wax would fall under this material type, for instance. Key material parameters here are the global specular parameters, the Base layer parameters, and the specific
+### Subsurface
 
 +++Subsurface Parameters
 
@@ -437,7 +470,7 @@ The default value (1, 0.5, 0.25) means red light travels deepest, followed by gr
 
 +++
 
-**Translucent base materials** allow light to pass through them; these include materials such as glass, crystal, or certain liquids. Key parameters to keep in mind are the global specular parameters, the Base layer parameters, and the specific Transmission parameters, below. The difference between subsurface scattering (SSS) and transmission is essentially that SSS doesn't allow you to see through the material – a light beam is scattered within a material, and then comes back out the same side. Transmission, conversely, governs materials that are at least partly transparent – a light beam passes through the material.
+### Transmission
 
 +++Transmission parameters
 
@@ -516,21 +549,33 @@ The default value (1, 0.5, 0.25) means red light travels deepest, followed by gr
 
 +++
 
-#### Metallic materials (Metalness &gt; 0)
+### Emission
 
-Conversely, when Base Metalness is enabled (that is, it has a value greater than 0), it acquires some specific behavioral characteristics:
++++Emission parameters
 
-* The material's Specular Color value controls the tint of the material near grazing angles (when light strikes a surface at an angle that is close to parallel).
-* The material's Base Color value controls the reflection at normal incidence (that is, when light is reflected at 90 degrees from the surface).
-* The Specular Weight value of the material scales the overall strength of the reflections, affecting both normal and grazing angles.
+* **Luminance**: Defines the brightness of the light emitted from the material, measured in cd/m², also known as nits. This measurement presumes white light; changing the color of the light (see below) may impact overall brightness.
 
-Combined with the following channels, metallic materials can create various effects.
+<table>
+  <tr style="border: 0;">
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance100.png" alt=""/><br><em>Luminance = 100</em></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance400.png" alt=""/><br><em>Luminance = 400</em></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/emission/luminance/emissionLuminance1000.png" alt=""/><br><em>Luminance = 1000</em></td>
+  </tr>
+</table>
 
-##### Thin-film
+* **Color**: Determines the light color emitted by the material.
 
-A Thin-film effect, if present, reproduces the visual appearance of very thin surface layers, producing iridescent colors, such as those seen in soap bubbles, or films of oil.
+<table>
+  <tr>
+    <td><img src="../assets/openpbrf/renders/emission/color/emissionColorGreen.png" alt=""/></td>
+    <td><img src="../assets/openpbrf/renders/emission/color/emissionColorPurple.png" alt=""/></td>
+    <td><img src="../assets/openpbrf/renders/emission/color/emissionColorYellow.png" alt=""/></td>
+  </tr>
+</table>
 
-![](../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR1.5.png)
++++
+
+### Thin-film
 
 +++Thin film parameters
 
@@ -559,16 +604,14 @@ A Thin-film effect, if present, reproduces the visual appearance of very thin su
 <table>
   <tr>
     <td><img src="../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR1.png" alt=""/><br><em>IOR = 1</em></td>
-    <td><img src="../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR1,5.png" alt=""/><br><em>IOR = 1.5</em></td>
+    <td><img src="../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR15.png" alt=""/><br><em>IOR = 1.5</em></td>
     <td><img src="../assets/openpbrf/renders/thin-film/ior/thinFIlmIOR2.png" alt=""/><br><em>IOR = 2</em></td>
   </tr>
 </table>
 
 +++
 
-##### Coat
-
-A Coat layer, if present, reproduces a transparent, reflective layer positioned above every other layer except Fuzz. This can simulate real-world effects such as varnish, or certain types of car paint. A Coat layer is defined by a range between 0 and 1; setting this value to 0 disables the Coat layer entirely.
+### Coat
 
 +++Coat parameters
 
@@ -606,7 +649,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 
 <table>
   <tr>
-    <td><img src="../assets/openpbrf/renders/coat/ior/coatIOR1.4.png" alt=""/><br><em>IOR = 1.4</em></td>
+    <td><img src="../assets/openpbrf/renders/coat/ior/coatIOR14.png" alt=""/><br><em>IOR = 1.4</em></td>
     <td><img src="../assets/openpbrf/renders/coat/ior/coatIOR2.png" alt=""/><br><em>IOR = 2</em></td>
     <td><img src="../assets/openpbrf/renders/coat/ior/coatIOR3.png" alt=""/><br><em>IOR = 3</em></td>
   </tr>
@@ -650,9 +693,7 @@ A Coat layer, if present, reproduces a transparent, reflective layer positioned 
 
 +++
 
-##### Fuzz
-
-A Fuzz layer can be added to reproduce the appearance of fabric-like surfaces such as velvet or satin, or it can be used to create the effect of a layer of dust on a surface.
+### Fuzz
 
 +++Fuzz parameters
 
@@ -687,24 +728,6 @@ A Fuzz layer can be added to reproduce the appearance of fabric-like surfaces su
 </table>
 
 +++
-
-### Material workflow concepts
-
-#### Thinking in Light Behaviours, Not Material Labels
-
-OpenPBR is designed around how light behaves, rather than around fixed material categories. Instead of selecting a shader that represents 'glass,' 'skin,' or 'metal,' artists build materials by describing how light reflects from a surface, passes through it, scatters within it, or is emitted by it. This approach encourages a shift in mindset: materials are not predefined types, but combinations of physical behaviours. A single real-world material may involve several of these behaviours at once, and OpenPBR makes those contributions explicit rather than hiding them behind presets or opaque shading models.
-
-#### Separation of Concerns: Materials Are Independent from Lighting
-
-A core principle of physically based workflows is the separation of material description from lighting. Materials are authored to describe intrinsic surface and volume properties, while lighting defines the environment in which those properties are revealed. This separation reduces interdependency and makes complex scenes more manageable. A well-authored OpenPBR material should remain believable across a wide range of lighting conditions, without requiring scene-specific tweaks. At a smaller scale, OpenPBR continues this philosophy by keeping parameters as independent as possible, allowing artists to adjust one aspect of a material without unintentionally destabilizing others.
-
-#### Building Materials Incrementally
-
-OpenPBR encourages an incremental approach to material creation. Most workflows begin by establishing surface response – how light reflects from the object – before introducing volume effects such as transmission or subsurface scattering. Secondary behaviours, including fuzz, emission, or thin-film interference, are typically layered on later to refine realism or achieve specific visual cues. This layered approach helps artists diagnose issues more easily and avoid overcomplicating materials early in the process. By building from primary behaviours to secondary ones, materials remain easier to comprehend, debug, and reuse.
-
-#### Presets and Examples as Learning Tools
-
-OpenPBR includes presets for common materials, but these are best understood as reference examples rather than final solutions. Examining how presets balance parameters such as roughness, metalness, or transmission depth can help artists understand how specific visual results are constructed. Rather than relying on presets wholesale, OpenPBR workflows encourage artists to observe real-world materials, identify the underlying light behaviours at play, and recreate those behaviours using physically meaningful controls.
 
 ## Best Practices for Material Creation
 
