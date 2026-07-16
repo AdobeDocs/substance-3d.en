@@ -76,7 +76,7 @@ OpenPBR is a monolithic model (an 'uber-shader') intended to represent a wide ra
 
 This approach uses a fixed model which defines in advance the framework of layering and mixing, thereby circumventing any requirement for the artist to create a shading network on a case-by-case basis, and allows OpenPBR to represent both simple and complex materials in a consistent, physically grounded way.
 
-![](../assets/openpbrf/model_schematic2.svg)
+![](../assets/openpbrf/model_schematic2.png)
 
 ### Core Material Behaviors
 
@@ -173,7 +173,7 @@ Conceptually, you can think of an OpenPBR material as possessing three key eleme
 
 ### Material Layers Within the Framework
 
-![](../assets/openpbrf/model_schematic2.svg)
+![](../assets/openpbrf/model_schematic2.png)
 
 Each layer contributes a specific physical effect, and the material model manages how these layers interact in a physically plausible way. This layered structure is consistent across OpenPBR implementations. Individual applications remain free to present a user interface that controls these layers however they see fit.
 
