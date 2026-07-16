@@ -1,7 +1,6 @@
 ---
 title: Frequently asked questions
 description: Find out answers to common questions about OpenPBR and Substance 3D.
-hold: 'true'
 ---
 
 # OpenPBR Frequently asked questions

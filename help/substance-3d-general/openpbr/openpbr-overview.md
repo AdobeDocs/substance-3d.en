@@ -1,7 +1,6 @@
 ---
 title: OpenPBR
 description: Learn about the OpenPBR Material model and how to use it for physically-based rendering across 3D applications.
-hold: 'true'
 ---
 
 # OpenPBR
