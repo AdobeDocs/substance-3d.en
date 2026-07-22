@@ -90,7 +90,7 @@ Although OpenPBR does not impose strict material types, most real-world material
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorViolet.png" alt=""/><br><em>An example of a dieletric material.</em></td>
-    <td style="border: 0;" valign="top">Dielectrics are non-metal materials such as plastic, wood, stone, fabric, rubber, and skin. Their defining characteristics are:<br><br><br><ul><li>A visible diffuse component</li><li>Mostly colorless (white) specular reflections</li><li>Reflectivity controlled primarily by the Index of Refraction (IOR)</li><li>No metallic reflection behavior Key parameters for dielectric materials:</li><li>Base Color defines the overall color of the material</li><li>Specular Color influences the tint of specular highlights (most prominent at grazing angles)</li><li>Specular Roughness controls how sharp or blurred specular highlights appear</li><li>Specular Weight scales the overall intensity of specular highlights For dielectric materials, the diffuse reflection dominates the appearance of the surface and is controlled by the Base Color. Specular reflections are limited at normal incidence, and increase toward grazing angles, but remain untinted.</li></ul></td>
+    <td style="border: 0;" valign="top">Dielectrics are non-metal materials such as plastic, wood, stone, fabric, rubber, and skin. Their defining characteristics are:<br><br><br><br><br><br><br><br><ul><li>A visible diffuse component</li><li>Mostly colorless (white) specular reflections</li><li>Reflectivity controlled primarily by the Index of Refraction (IOR)</li><li>No metallic reflection behavior Key parameters for dielectric materials:</li><li>Base Color defines the overall color of the material</li><li>Specular Color influences the tint of specular highlights (most prominent at grazing angles)</li><li>Specular Roughness controls how sharp or blurred specular highlights appear</li><li>Specular Weight scales the overall intensity of specular highlights For dielectric materials, the diffuse reflection dominates the appearance of the surface and is controlled by the Base Color. Specular reflections are limited at normal incidence, and increase toward grazing angles, but remain untinted.</li></ul></td>
   </tr>
 </table>
 
@@ -99,7 +99,7 @@ Although OpenPBR does not impose strict material types, most real-world material
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1Colored.png" alt=""/><br><em>An example of a metallic material.</em></td>
-    <td style="border: 0;" valign="top">Metallic materials such as steel, aluminum, copper, or gold behave fundamentally differently from non-metallic (dielectric) materials. For metals, appearance is driven almost entirely by specular reflection: unlike dielectrics, metals have no diffuse component, and light does not scatter beneath the surface but is reflected directly. Their defining characteristics are:<br><br><br><ul><li>No diffuse component — color comes entirely from reflection</li><li>Colored specular reflections</li><li>Surface detail, especially roughness, plays a major role in appearance Key parameters for metallic materials:</li><li>Base Color controls the color of reflections</li><li>Specular Roughness controls how sharp or blurred those reflections appear</li><li>Specular Weight scales reflection intensity</li></ul></td>
+    <td style="border: 0;" valign="top">Metallic materials such as steel, aluminum, copper, or gold behave fundamentally differently from non-metallic (dielectric) materials. For metals, appearance is driven almost entirely by specular reflection: unlike dielectrics, metals have no diffuse component, and light does not scatter beneath the surface but is reflected directly. Their defining characteristics are:<br><br><br><br><br><br><br><br><ul><li>No diffuse component — color comes entirely from reflection</li><li>Colored specular reflections</li><li>Surface detail, especially roughness, plays a major role in appearance Key parameters for metallic materials:</li><li>Base Color controls the color of reflections</li><li>Specular Roughness controls how sharp or blurred those reflections appear</li><li>Specular Weight scales reflection intensity</li></ul></td>
   </tr>
 </table>
 
@@ -133,7 +133,7 @@ A point of distinction between the terms 'transparent' and 'transmissive': 'tran
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/extra/subsurface-scattering/subsurfaceScattering.png" alt=""/></td>
-    <td style="border: 0;" valign="top">Subsurface materials allow light to enter the surface, scatter beneath it, and exit again near the point of entry. Common examples include skin, wax, marble, and a lot of organic materials, such as many types of food. – fruit, or vegetables, or Saint-Nectaire cheese, for instance. The defining characteristics of subsurface materials are:<br><br><ul><li>Soft, diffused shading</li><li>Color bleeding in thin areas</li><li>Appearance is dependent on thickness</li><li>Light does not pass through the object</li></ul><br><br>Subsurface scattering is distinct from transmission. Whereas transmission describes light passing through a material and exiting the opposite side, subsurface scattering describes light entering a surface, scattering within that surface, and then exiting in the vicinity of the point by which it entered, mostly on the same side. Notably, metallic materials do not support transmission or subsurface scattering. Changing the transmission or subsurface valueof a completely metallic material (that is, a material whose BaseMetalness value is 1) will not affect its appearance.</td>
+    <td style="border: 0;" valign="top">Subsurface materials allow light to enter the surface, scatter beneath it, and exit again near the point of entry. Common examples include skin, wax, marble, and a lot of organic materials, such as many types of food. – fruit, or vegetables, or Saint-Nectaire cheese, for instance. The defining characteristics of subsurface materials are:<br><br><br><br><br><br><br><ul><li>Soft, diffused shading</li><li>Color bleeding in thin areas</li><li>Appearance is dependent on thickness</li><li>Light does not pass through the object</li></ul><br><br><br><br><br><br><br>Subsurface scattering is distinct from transmission. Whereas transmission describes light passing through a material and exiting the opposite side, subsurface scattering describes light entering a surface, scattering within that surface, and then exiting in the vicinity of the point by which it entered, mostly on the same side. Notably, metallic materials do not support transmission or subsurface scattering. Changing the transmission or subsurface valueof a completely metallic material (that is, a material whose BaseMetalness value is 1) will not affect its appearance.</td>
   </tr>
 </table>
 
@@ -367,6 +367,15 @@ OpenPBR also includes parameters that affect how the material interacts with geo
 
 At the bottom of the OpenPBR model, the Base layer represents the fundamental interaction between light and the surface material itself. The Base layer is defined by four characteristics: Base Weight, Base Color, Metalness, and Diffuse Roughness.
 
+<table>
+  <tr style="border: 0;">
+    <th style="border: 0;"><img src="../assets/openpbrf/renders/base/basecolor/baseColorYellow.png" alt=""/></th>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1Colored.png" alt=""/></td>
+  </tr>
+</table>
+
+*Yellow dielectric and metallic materials side by side.*
+
 +++Base layer characteristics
 
 * **Base Weight**: Essentially defines the intensity of the Base Color (see below), on a scale of 0 to 1, with a value of 0 resulting in a primarily black material (no color), and a value of 1 (a combination of the greatest amount of red, green, and blue light possible).
@@ -412,6 +421,10 @@ At the bottom of the OpenPBR model, the Base layer represents the fundamental in
 +++
 
 ### Subsurface
+
+![](../assets/openpbrf/renders/sss/radius/SSSRadius10_vers2.png){width="250"}
+
+*A material making use of the subsurface channel. Notice the translucency present in the hands and other thin areas of the mesh.*
 
 +++Subsurface Parameters
 
@@ -472,6 +485,12 @@ The default value (1, 0.5, 0.25) means red light travels deepest, followed by gr
 +++
 
 ### Transmission
+
+Transmission controls the amount of light that can pass through a material. Unlike Subsurface, transmission controls how much light goes through the object entirely, where subsurface controls how much light is reflected from within the interior of the object back to the surface.
+
+![](../assets/openpbrf/renders/transmission/color/transmission_orange.png){width="250"}
+
+*An example of a highly transmissive material with an orange transmission color.*
 
 +++Transmission parameters
 
@@ -552,6 +571,12 @@ The default value (1, 0.5, 0.25) means red light travels deepest, followed by gr
 
 ### Emission
 
+Emission controls whether or not the material emits it's own light (independent of reflected light), and allows you to set the color and strength of the emitted light.
+
+![](../assets/openpbrf/renders/emission/color/emissionColorGreen.png){width="250"}
+
+*A bright green emissive material.*
+
 +++Emission parameters
 
 * **Luminance**: Defines the brightness of the light emitted from the material, measured in cd/m², also known as nits. This measurement presumes white light; changing the color of the light (see below) may impact overall brightness.
@@ -577,6 +602,10 @@ The default value (1, 0.5, 0.25) means red light travels deepest, followed by gr
 +++
 
 ### Thin-film
+
+![](../assets/openpbrf/renders/thin-film/thickness/thinFilmThickness05.png){width="250"}
+
+*A dark base material with a thin-film layer.*
 
 +++Thin film parameters
 
@@ -613,6 +642,10 @@ The default value (1, 0.5, 0.25) means red light travels deepest, followed by gr
 +++
 
 ### Coat
+
+![](../assets/openpbrf/renders/coat/color/coatColorPurple.png){width="250"}
+
+*A low roughness purple coat layer.*
 
 +++Coat parameters
 
@@ -697,6 +730,10 @@ The default value (1, 0.5, 0.25) means red light travels deepest, followed by gr
 +++
 
 ### Fuzz
+
+![](../assets/openpbrf/renders/fuzz/color/fuzzColorYellow.png){width="250"}
+
+*This example shows how the fuzz, colored yellow, is most visible at glancing angles.*
 
 +++Fuzz parameters
 
