@@ -397,23 +397,23 @@ At the bottom of the OpenPBR model, the Base layer represents the fundamental in
 
 * **Base Color**: This determines the 'main color' of a material, setting the albedo – that is, the amount of red, green, and blue light reflected – of both the metallic and diffuse (for non-metallic) bases. As noted above, while Base Color determines which colors are reflected, the Base Weight setting determines the intensity of this reflection.
 
-  <table>
-    <tr style="border: 0;">
-      <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorGreen.png" alt=""/></td>
-      <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorViolet.png" alt=""/></td>
-      <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorYellow.png" alt=""/></td>
-    </tr>
-  </table>
+<table>
+  <tr style="border: 0;">
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorGreen.png" alt=""/></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorViolet.png" alt=""/></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorYellow.png" alt=""/></td>
+  </tr>
+</table>
 
 * **Metalness**: Defines whether a material behaves as non-metallic (dielectric) or metallic, on a 0-1 scale (0 = dielectric, 1 = fully metallic and opaque).
 
-  <table>
-    <tr style="border: 0;">
-      <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness05.png" alt=""/><br><em>Metalness = 0.5</em></td>
-      <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1.png" alt=""/><br><em>Metalness= 1.0</em></td>
-      <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1Colored.png" alt=""/><br><em>Metalness = 1.0 with yellow base color</em></td>
-    </tr>
-  </table>
+<table>
+  <tr style="border: 0;">
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness05.png" alt=""/><br><em>Metalness = 0.5</em></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1.png" alt=""/><br><em>Metalness= 1.0</em></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1Colored.png" alt=""/><br><em>Metalness = 1.0 with yellow base color</em></td>
+  </tr>
+</table>
 
 * **Diffuse Roughness**: Defines the micro surface roughness of a material, ranging from 0 (possessing a very smooth, even reflection) to 1 (with a very rough, diffuse reflection), suitable for materials such as rock or tree bark.
 
