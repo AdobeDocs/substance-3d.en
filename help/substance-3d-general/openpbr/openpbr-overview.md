@@ -101,7 +101,7 @@ Although OpenPBR does not impose strict material types, most real-world material
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1Colored.png" alt=""/><br><em>An example of a metallic material.</em></td>
-    <td style="border: 0;" valign="top">Metallic materials such as steel, aluminum, copper, or gold behave fundamentally differently from non-metallic (dielectric) materials. For metals, appearance is driven almost entirely by specular reflection: unlike dielectrics, metals have no diffuse component, and light does not scatter beneath the surface but is reflected directly. Their defining characteristics are:<br><br><ul><li>No diffuse component — color comes entirely from reflection</li><li>Colored specular reflections</li><li>Surface detail, especially roughness, plays a major role in appearance</li></ul><br><br><strong>Key parameters for metallic materials:</strong><br><br><ul><li>Base Color controls the color of reflections</li><li>Specular Roughness controls how sharp or blurred those reflections appear</li><li>Specular Weight scales reflection intensity</li></ul></td>
+    <td style="border: 0;" valign="top">Metallic materials such as steel, aluminum, copper, or gold behave fundamentally differently from non-metallic (dielectric) materials. For metals, appearance is driven almost entirely by specular reflection: unlike dielectrics, metals have no diffuse component, and light does not scatter beneath the surface but is reflected directly. Their defining characteristics are:<br><ul><li>No diffuse component — color comes entirely from reflection</li><li>Colored specular reflections</li><li>Surface detail, especially roughness, plays a major role in appearance</li></ul><br><strong>Key parameters for metallic materials:</strong><br><ul><li>Base Color controls the color of reflections</li><li>Specular Roughness controls how sharp or blurred those reflections appear</li><li>Specular Weight scales reflection intensity</li></ul></td>
   </tr>
 </table>
 
@@ -111,14 +111,17 @@ Base Metalness defines whether a material behaves as a dielectric or a metal —
 
 * **0** → fully non-metallic (diffuse + specular)
 * **1** → fully metallic (specular only)
-* **0–1** → a blend of both behaviors Intermediate values are best used for material mixtures such as dirt, corrosion, or worn surfaces, rather than "partially metallic" materials.
+* **0–1** → a blend of both behaviors. Intermediate values are best used for material mixtures such as dirt, corrosion, or worn surfaces, rather than "partially metallic" materials.
 
-### Practical Guidelines
+#### Practical Guidelines for metalness
 
 * Use **0** or **1** for most materials
 * Use mid-values only for mixed surfaces
 * Rely on roughness and surface detail to shape metallic appearance.
-* Use layering (e.g. Coat) instead of lowering metalness for painted or coated metals, transparent, and transmissive Materials
+
+Use layering (e.g. Coat) instead of lowering metalness for painted or coated metals, transparent, and transmissive Materials.
+
+### Transparent and transmissive materials
 
 Transparent and transmissive materials allow light to pass through them. Common examples include glass, many liquids, and clear or tinted plastics. Their defining characteristics are:
 
@@ -136,7 +139,7 @@ A point of distinction between the terms 'transparent' and 'transmissive': 'tran
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/extra/subsurface-scattering/subsurfaceScattering.png" alt=""/><br><em>An example of a material using subsurface scattering.</em></td>
-    <td style="border: 0;" valign="top">Subsurface materials allow light to enter the surface, scatter beneath it, and exit again near the point of entry. Common examples include skin, wax, marble, and a lot of organic materials, such as many types of food. – fruit, or vegetables, or Saint-Nectaire cheese, for instance. The defining characteristics of subsurface materials are:<br><ul><li>Soft, diffused shading</li><li>Color bleeding in thin areas</li><li>Appearance is dependent on thickness</li><li>Light does not pass through the object</li></ul><br>Subsurface scattering is distinct from transmission. Whereas transmission describes light passing through a material and exiting the opposite side, subsurface scattering describes light entering a surface, scattering within that surface, and then exiting in the vicinity of the point by which it entered, mostly on the same side. Notably, metallic materials do not support transmission or subsurface scattering. Changing the transmission or subsurface value of a completely metallic material (that is, a material whose Base Metalness value is 1) will not affect its appearance.</td>
+    <td style="border: 0;" valign="top">Subsurface materials allow light to enter the surface, scatter beneath it, and exit again near the point of entry. Common examples include skin, wax, marble, and a lot of organic materials, such as many types of food. – fruit, or vegetables, or Saint-Nectaire cheese, for instance. The defining characteristics of subsurface materials are:<br><br><ul><li>Soft, diffused shading</li><li>Color bleeding in thin areas</li><li>Appearance is dependent on thickness</li><li>Light does not pass through the object</li></ul><br><br>Subsurface scattering is distinct from transmission. Whereas transmission describes light passing through a material and exiting the opposite side, subsurface scattering describes light entering a surface, scattering within that surface, and then exiting in the vicinity of the point by which it entered, mostly on the same side. Notably, metallic materials do not support transmission or subsurface scattering. Changing the transmission or subsurface value of a completely metallic material (that is, a material whose Base Metalness value is 1) will not affect its appearance.</td>
   </tr>
 </table>
 
