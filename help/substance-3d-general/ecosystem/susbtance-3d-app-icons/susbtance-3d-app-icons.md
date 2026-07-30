@@ -27,7 +27,7 @@ user-guide-title: ''
 
 Artists who wish to include Substance 3D applications' icons in their published artwork may download them below. The images use the SVG format, so they may be used at any scale.
 
-[Download a zip folder containing color, black, and white versions of Substance 3D application icons.](../../assets/substance3d_icons.zip)
+[Download a zip folder containing color, black, and white versions of Substance 3D application icons.](../../assets/substance3d-icons.zip)
 
 ## Creative Cloud Library
 
