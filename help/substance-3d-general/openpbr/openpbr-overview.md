@@ -524,7 +524,7 @@ Transmission controls the amount of light that can pass through a material. Unli
   </tr>
 </table>
 
-* **Depth**: Defines, in centimeters, how far a ray of light has to travel through a material before the transmission color reaches full saturation – essentially, how quickly light picks up color as it passes through a transparent (or partly transparent) material. For materials with low Transmission Depth, light will pick up color very quickly, meaning that even very thin parts of the material look strongly colored. Conversely, with a high depth, thicker sections will look very dark or almost opaque, and the material with have a 'dense' appearance, like colored resin or thick liquid.
+* **Depth**: Defines, in centimeters, how far a ray of light has to travel through a material before the transmission color reaches full saturation – essentially, how quickly light picks up color as it passes through a transparent (or partly transparent) material. For materials with low Transmission Depth, light will pick up color very quickly, meaning that even very thin parts of the material look strongly colored. Conversely, with a high depth, thicker sections will look very dark or almost opaque, and the material will have a 'dense' appearance, like colored resin or thick liquid.
 
 <table>
   <tr style="border: 0;">
