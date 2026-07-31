@@ -92,7 +92,7 @@ Although OpenPBR does not impose strict material types, most real-world material
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorViolet.png" alt=""/><br><em>An example of a dieletric material.</em></td>
-    <td style="border: 0;" valign="top">Dielectrics are non-metal materials such as plastic, wood, stone, fabric, rubber, and skin. Their defining characteristics are:<br><ul><li>A visible diffuse component</li><li>Mostly colorless (white) specular reflections</li><li>Reflectivity controlled primarily by the Index of Refraction (IOR)</li><li>No metallic reflection behavior</li></ul><br><strong>Key parameters for dielectric materials:</strong><br><ul><li>Base Color defines the overall color of the material</li><li>Specular Color influences the tint of specular highlights (most prominent at grazing angles)</li><li>Specular Roughness controls how sharp or blurred specular highlights appear</li><li>Specular Weight scales the overall intensity of specular highlights For dielectric materials, the diffuse reflection dominates the appearance of the surface and is controlled by the Base Color. Specular reflections are limited at normal incidence, and increase toward grazing angles, but remain untinted.</li></ul></td>
+    <td style="border: 0;" valign="top">Dielectrics are non-metal materials such as plastic, wood, stone, fabric, rubber, and skin. Their defining characteristics are:<br><br><ul><li>A visible diffuse component</li><li>Mostly colorless (white) specular reflections</li><li>Reflectivity controlled primarily by the Index of Refraction (IOR)</li><li>No metallic reflection behavior</li></ul><br><br><strong>Key parameters for dielectric materials:</strong><br><br><ul><li>Base Color defines the overall color of the material</li><li>Specular Color influences the tint of specular highlights (most prominent at grazing angles)</li><li>Specular Roughness controls how sharp or blurred specular highlights appear</li><li>Specular Weight scales the overall intensity of specular highlights </li><li>For dielectric materials, the diffuse reflection dominates the appearance of the surface and is controlled by the Base Color. Specular reflections are limited at normal incidence, and increase toward grazing angles, but remain untinted.</li></ul></td>
   </tr>
 </table>
 
@@ -101,7 +101,7 @@ Although OpenPBR does not impose strict material types, most real-world material
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1Colored.png" alt=""/><br><em>An example of a metallic material.</em></td>
-    <td style="border: 0;" valign="top">Metallic materials such as steel, aluminum, copper, or gold behave fundamentally differently from non-metallic (dielectric) materials. For metals, appearance is driven almost entirely by specular reflection: unlike dielectrics, metals have no diffuse component, and light does not scatter beneath the surface but is reflected directly. Their defining characteristics are:<br><ul><li>No diffuse component — color comes entirely from reflection</li><li>Colored specular reflections</li><li>Surface detail, especially roughness, plays a major role in appearance</li></ul><br><strong>Key parameters for metallic materials:</strong><br><ul><li>Base Color controls the color of reflections</li><li>Specular Roughness controls how sharp or blurred those reflections appear</li><li>Specular Weight scales reflection intensity</li></ul></td>
+    <td style="border: 0;" valign="top">Metallic materials such as steel, aluminum, copper, or gold behave fundamentally differently from non-metallic (dielectric) materials. For metals, appearance is driven almost entirely by specular reflection: unlike dielectrics, metals have no diffuse component, and light does not scatter beneath the surface but is reflected directly. Their defining characteristics are:<br><br><ul><li>No diffuse component — color comes entirely from reflection</li><li>Colored specular reflections</li><li>Surface detail, especially roughness, plays a major role in appearance</li></ul><br><br><strong>Key parameters for metallic materials:</strong><br><br><ul><li>Base Color controls the color of reflections</li><li>Specular Roughness controls how sharp or blurred those reflections appear</li><li>Specular Weight scales reflection intensity</li></ul></td>
   </tr>
 </table>
 
@@ -139,7 +139,7 @@ A point of distinction between the terms 'transparent' and 'transmissive': 'tran
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/extra/subsurface-scattering/subsurfaceScattering.png" alt=""/><br><em>An example of a material using subsurface scattering.</em></td>
-    <td style="border: 0;" valign="top">Subsurface materials allow light to enter the surface, scatter beneath it, and exit again near the point of entry. Common examples include skin, wax, marble, and a lot of organic materials, such as many types of food. – fruit, or vegetables, or Saint-Nectaire cheese, for instance. The defining characteristics of subsurface materials are:<br><br><ul><li>Soft, diffused shading</li><li>Color bleeding in thin areas</li><li>Appearance is dependent on thickness</li><li>Light does not pass through the object</li></ul><br><br>Subsurface scattering is distinct from transmission. Whereas transmission describes light passing through a material and exiting the opposite side, subsurface scattering describes light entering a surface, scattering within that surface, and then exiting in the vicinity of the point by which it entered, mostly on the same side. Notably, metallic materials do not support transmission or subsurface scattering. Changing the transmission or subsurface value of a completely metallic material (that is, a material whose Base Metalness value is 1) will not affect its appearance.</td>
+    <td style="border: 0;" valign="top">Subsurface materials allow light to enter the surface, scatter beneath it, and exit again near the point of entry. Common examples include skin, wax, marble, and a lot of organic materials, such as many types of food. – fruit, or vegetables, or Saint-Nectaire cheese, for instance. The defining characteristics of subsurface materials are:<br><br><br><ul><li>Soft, diffused shading</li><li>Color bleeding in thin areas</li><li>Appearance is dependent on thickness</li><li>Light does not pass through the object</li></ul><br><br><br>Subsurface scattering is distinct from transmission. Whereas transmission describes light passing through a material and exiting the opposite side, subsurface scattering describes light entering a surface, scattering within that surface, and then exiting in the vicinity of the point by which it entered, mostly on the same side. Notably, metallic materials do not support transmission or subsurface scattering. Changing the transmission or subsurface value of a completely metallic material (that is, a material whose Base Metalness value is 1) will not affect its appearance.</td>
   </tr>
 </table>
 
@@ -216,7 +216,7 @@ An entirely non-metallic material (that is, a material with a Base Metalness val
 
 **Diffuse materials** are typically opaque materials such as wood or stone.
 
-**Subsurface materials** scatter light internally; skin or wax would fall under this material type, for instance. Key material parameters here are the global specular parameters, the Base layer parameters, and the specific
+**Subsurface materials** scatter light internally; skin or wax would fall under this material type, for instance.
 
 **Translucent base materials** allow light to pass through them; these include materials such as glass, crystal, or certain liquids. Key parameters to keep in mind are the global specular parameters, the Base layer parameters, and the specific Transmission parameters, below. The difference between subsurface scattering (SSS) and transmission is essentially that SSS doesn't allow you to see through the material – a light beam is scattered within a material, and then comes back out the same side. Transmission, conversely, governs materials that are at least partly transparent – a light beam passes through the material.
 
@@ -458,7 +458,7 @@ At the bottom of the OpenPBR model, the Base layer represents the fundamental in
   </tr>
 </table>
 
-* **Subsurface Radius**: Defines how far light can travel inside a material before being scattered or absorbed. With a low value, light will only travel a short distance; materials will have a dense appearance as a result. With a high radius, light travels farther; materials with have a soft, waxy, translucent look.
+* **Subsurface Radius**: Defines how far light can travel inside a material before being scattered or absorbed. With a low value, light will only travel a short distance; materials will have a dense appearance as a result. With a high radius, light travels farther; materials will have a soft, waxy, translucent look.
 
 <table>
   <tr>
@@ -905,7 +905,7 @@ Just as importantly, PBR promotes low interdependency between different parts of
 
 In practice, PBR shifts the artist’s role away from compensating for lighting or renderer quirks, and toward describing materials in terms of real-world characteristics. The result is a workflow that favors consistency over scene-specific tweaking, with realism emerging naturally from well-defined material inputs rather than handcrafted lighting tricks.
 
-For more information on the technical specifics of PBR, see The PBR Guide, by Wes McDermott (link).
+For more information on the technical specifics of PBR, see [The PBR Guide, by Wes McDermott](https://www.adobe.com/learn/substance-3d-designer/web/the-pbr-guide-part-1).
 
 ## Appendix ii: What is OpenPBR?
 
