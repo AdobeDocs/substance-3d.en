@@ -1,24 +1,22 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/what-is-baking.html"
-breadcrumb-title: ""
+helpx_url: 'https://helpx.adobe.com/substance-3d-bake/getting-started/what-is-baking.html'
+breadcrumb-title: ''
 description: Discover what baking is and learn how to save 3D mesh information into texture files to enhance your Substance materials.
-helpx_creative_field: ""
-helpx_description: "bakers > Getting Started > What is Baking "
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: "What is Baking "
-user-guide-description: ""
-user-guide-title: ""
+helpx_creative_field: ''
+helpx_description: 'bakers > Getting Started > What is Baking '
+helpx_experience_level: ''
+helpx_learn_topic: ''
+helpx_tags: ''
+title: 'What is Baking '
+user-guide-description: ''
+user-guide-title: ''
 ---
 
 # What is Baking ?
 
 ![](https://upload.wikimedia.org/wikipedia/commons/3/36/Normal_map_example.png)
 
-> 
-
-&#40;Credits: &#91;Paolo Cignoni&#93;&#40;https://commons&#46;wikimedia&#46;org/wiki/File:Normal&#95;map&#95;example&#46;png&#41; &#45; &#91;CC BY&#45;SA 1&#46;0&#93;&#40;https://creativecommons&#46;org/licenses/by&#45;sa/1&#46;0&#41;&#41;
+(Credits: [Paolo Cignoni](https://commons.wikimedia.org/wiki/File:Normal_map_example.png) - [CC BY-SA 1.0](https://creativecommons.org/licenses/by-sa/1.0))
 
 Baking is the name of the process about **saving information** related to a **3D mesh** into a **texture** file ([bitmap](https://en.wikipedia.org/wiki/Raster_graphics)). Most of the time this process involve another mesh. In this case the information of the first mesh are transferred onto the second mesh UVs and then saved into a texture.
 
