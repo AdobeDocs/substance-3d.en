@@ -22,6 +22,7 @@ user-guide-title: ''
     <td style="border: 0;" valign="top"><img src="../../assets/appicons/sa_appicon_256.svg" alt=""/></td>
     <td style="border: 0;" valign="top"><img src="../../assets/appicons/sg_appicon_256.svg" alt=""/></td>
     <td style="border: 0;" valign="top"><img src="../../assets/appicons/md_appicon_256.svg" alt=""/></td>
+    <td style="border: 0;" valign="top"><img src="../../assets/appicons/s3d_assets_appicon_256.svg" alt=""/></td>
   </tr>
 </table>
 
