@@ -22,6 +22,7 @@ user-guide-title: ''
     <td style="border: 0;" valign="top"><img src="../../assets/appicons/sa_appicon_256.svg" alt=""/></td>
     <td style="border: 0;" valign="top"><img src="../../assets/appicons/sg_appicon_256.svg" alt=""/></td>
     <td style="border: 0;" valign="top"><img src="../../assets/appicons/md_appicon_256.svg" alt=""/></td>
+    <td style="border: 0;" valign="top"><img src="../../assets/appicons/s3d_assets_appicon_256.svg" alt=""/></td>
   </tr>
 </table>
 
@@ -33,7 +34,7 @@ Artists who wish to include Substance 3D applications' icons in their published 
 
 Creative Cloud users can access these icons in Creative Cloud applications through this shared library:
 
-[Substance 3D icons](https://shared-assets.adobe.com/link/4c83a12c-3948-4151-5be1-ad75f4a64be0)
+[Substance 3D icons](https://www.adobe.com/files/libraries/urn:aaid:sc:EU:0e944904-0efe-427f-8547-92744a19eeaf)
 
 ## Examples
 
