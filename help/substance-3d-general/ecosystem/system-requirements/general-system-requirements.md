@@ -33,11 +33,15 @@ user-guide-title: ''
 
 |  | Minimum | Recommended | Optimal |
 | --- | --- | --- | --- |
-| **OS** | macOS 15 Sequoia | macOS 15 Sequoia | macOS 15 Sequoia |
+| **OS** | macOS 15 Sequoia | macOS 27 Golden Gate | macOS 27 Golden Gate |
 | **CPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **GPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **RAM** | 16 GB | 32 GB | 64 GB |
 | **Storage** | SSD with 30 GB of available space | SSD with 50 GB of available space | SSD with 70 GB of available space |
+
+>[!WARNING]
+>
+> For pipelines built with the VFX Reference Platform in mind, it is still possible to install and use Substance 3D apps on macOS 14 Sonoma. However the applications are no longer tested on this platform, and stability is not guaranteed. We strongly recommend updating to a more recent OS version.
 
 +++
 
