@@ -41,7 +41,7 @@ user-guide-title: ''
 
 >[!WARNING]
 >
-> For pipelines built with the VFX Reference Platform in mind, it is still possible to install and use Substance 3D apps on macOS 14 Sonoma. However the applications are no longer tested on this platform, and stability is not guaranteed. We strongly recommend updating to a more recent OS version.
+> For pipelines built with the [VFX Reference Platform](https://vfxplatform.com/) in mind, Substance 3D applications can still be installed on macOS 14 Sonoma. However, Substance apps are no longer tested on OS versions below the minimum system requirements, so stability is not guaranteed. Updating to a newer OS version is recommended.
 
 +++
 
