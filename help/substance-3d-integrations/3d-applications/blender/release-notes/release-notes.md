@@ -16,6 +16,7 @@ user-guide-title: ""
 
 ## Versions
 
+* [Add-on 3.0.0+](add-on-3-0-0.md)
 * [Add-on 2.0.0](../../../3d-applications/blender/release-notes/blender-add-on-2-0-0/blender-add-on-2-0-0.md)
 * [Add-on 1.0.2](../../../3d-applications/blender/release-notes/add-on-1-0-2/add-on-1-0-2.md)
 * [Add-on 0.9.5](../../../3d-applications/blender/release-notes/add-on-0-9-5/add-on-0-9-5.md)

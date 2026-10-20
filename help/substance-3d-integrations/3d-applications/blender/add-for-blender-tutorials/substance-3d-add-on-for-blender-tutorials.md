@@ -14,4 +14,4 @@ user-guide-title: ""
 
 # Substance 3D Add-on for Blender Tutorials
 
-Here is a detailed video tutorial on how to use the Adobe Substance 3D Add-on for Blender
+[You can find a detailed tutorial for using the Substance 3D Add-on for Blender here.](https://www.youtube.com/watch?v=O14emMOvw7Q)

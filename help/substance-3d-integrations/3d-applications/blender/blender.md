@@ -29,3 +29,4 @@ user-guide-title: ""
 * [Troubleshooting](../../3d-applications/blender/troubleshooting/troubleshooting.md)
 * [Uninstalling the Add-on](../../3d-applications/blender/uninstalling-the-add-on/uninstalling-the-add-on.md)
 * [Substance 3D Add-on for Blender Tutorials](../../3d-applications/blender/add-for-blender-tutorials/substance-3d-add-on-for-blender-tutorials.md)
+* [Release Notes](release-notes/release-notes.md)
