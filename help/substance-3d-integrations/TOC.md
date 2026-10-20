@@ -212,6 +212,8 @@ breadcrumb-title: Substance 3D Ecosystem User Guide
   + Blender{#blender}
     + [Blender overview](/help/substance-3d-integrations/3d-applications/blender/blender.md)
     + Release Notes{#release-notes}
+      + [Release Notes](/help/substance-3d-integrations/3d-applications/blender/release-notes/release-notes.md)
+      + [Add-on 3.0.0+](/help/substance-3d-integrations/3d-applications/blender/release-notes/add-on-3-0-0.md)
       + [Add-on 2.0.0+](/help/substance-3d-integrations/3d-applications/blender/release-notes/add-on-0-9-3/add-on-2-0-0-plus/add-on-2-0-0-plus.md)
       + [Add-on 2.0.0](/help/substance-3d-integrations/3d-applications/blender/release-notes/blender-add-on-2-0-0/blender-add-on-2-0-0.md)
       + [Add-on 1.0.2](/help/substance-3d-integrations/3d-applications/blender/release-notes/add-on-1-0-2/add-on-1-0-2.md)
