@@ -5,7 +5,7 @@ description: A list of release notes for the Substance 3D Plugin for Blender.
 
 # Add-on 3.0.0+
 
-**Add-on 3.1.0**.*Released on: October 12, 2026*
+**Add-on 3.1.0**.*Released on: October 20, 2026*
 
 **Blender Add-On:**
 
