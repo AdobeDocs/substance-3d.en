@@ -16,11 +16,11 @@ user-guide-title: ""
 
 Substance materials and models created in Substance software can only be used in applications that support the same or newer version of the Substance Engine
 
-Refer to the tables below to learn if a Substance material or a Substance procedural model is usable with the current version of your software. The tables do not mention all the releases for each app, only the releases where an update was made. So, if a version is not mentioned, it still uses the previous version of the Substance Engine.
+Refer to the tables below to learn if a Substance material or a Substance procedural model is usable with the current version of your software. The tables do not list all releases for each app, only those with an update. So, if no version is specified, it still uses the previous version of the Substance Engine.
 
 >[!NOTE]
 >
-> To find the current version of an application or tool, use the **Help menu** to access the "About" window.
+> To find which Substance engine, bakers, or auto-unwrap version is used in your installed apps, use **Help &gt; About**, then use the **Additional information** dropdown for a full overview.
 
 <table>
   <tr style="border: 0;">
@@ -29,7 +29,7 @@ Refer to the tables below to learn if a Substance material or a Substance proced
   </tr>
 </table>
 
-| Application version | Substance engine version | Bakers version | Anorigami version |
+| Application version | Substance engine version | Bakers version | Auto-unwrap version (Anorigami) |
 | --- | --- | --- | --- |
 | **12.2.0** (2026/10/21) | 9.6.1 | 3.23.0 | 0.8.0 |
 | **12.1.3** | 9.4.6 | 3.22.2 |  |
