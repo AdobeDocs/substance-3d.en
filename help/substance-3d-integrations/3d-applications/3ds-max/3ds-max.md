@@ -19,6 +19,7 @@ user-guide-title: ""
 ## Table of Contents
 
 * [Substance in 3ds Max Overview](../../3d-applications/3ds-max/in-3ds-max-overview/substance-in-3ds-max-overview.md)
+* [Download and install](download-and-install.md)
 * [Substance Settings](../../3d-applications/3ds-max/settings-1/substance-settings.md)
 * [Using Presets](../../3d-applications/3ds-max/using-presets/using-presets.md)
 * [Batch Import](../../3d-applications/3ds-max/batch-import/batch-import.md)

@@ -7,29 +7,41 @@ helpx_description: Ecosystems and Plugins > 3D Applications > Maya > Installatio
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Installation
+title: Download and install
 user-guide-description: ""
 user-guide-title: ""
 ---
 
-# Installation
+# Download and install
 
-The Substance in Maya plugin is also installed officially in the Maya 2022/2020 installer. It is enabled to install by default.
+The Substance in Maya plugin is included by default in the Maya installer.
 
->[!NOTE]
->
-> **Maya 2022**
-> 
-> **Windows**: C:\Program Files\Allegorithmic\Adobe Substance 3D for Maya\2022  
-> **MacOS**: /Applications/Allegorithmic/Adobe Substance 3D for Maya/2022  
-> **Linux**: /opt/Allegorithmic/Adobe Substance 3D for Maya/2022
+You can download more recent versions of the installer from the [Adobe Substance 3D for Maya page](https://substance3d.adobe.com/plugins/substance-in-maya/).
 
->[!NOTE]
->
-> **Maya 2020**
-> 
-> **Windows**: C:\Program Files\Allegorithmic\Adobe Substance 3D for Maya\2020  
-> **MacOS**: /Applications/Allegorithmic/Adobe Substance 3D for Maya/2020  
-> **Linux**: /opt/Allegorithmic/Adobe Substance 3D for Maya/2020
+## Older plugin versions
 
-Additionally, the installer for the latest versions of the plugin can be downloaded from the [Adobe Substance 3D for Maya](https://substance3d.adobe.com/plugins/substance-in-maya/) page.
+The latest version of the plug-in is distributed natively by Autodesk with the latest compatible version of Maya. If you need a specific build for an older version, download links are available below
+
+**Download for Autodesk Maya 2027**
+
+* Windows: <https://www.adobe.com/go/substance3d-maya-win-latest>
+* Mac: <https://www.adobe.com/go/substance3d-maya-mac-latest>
+* Linux: <https://www.adobe.com/go/substance3d-maya-lin-latest>
+
+**Download for Autodesk Maya 2026**
+
+* Windows: <https://www.adobe.com/go/substance3d-maya-win-2026>
+* Mac: <https://www.adobe.com/go/substance3d-maya-mac-2026>
+* Linux: <https://www.adobe.com/go/substance3d-maya-lin-2026>
+
+**Download for Autodesk Maya 2025**
+
+* Windows: <https://www.adobe.com/go/substance3d-maya-win-2025>
+* Mac: <https://www.adobe.com/go/substance3d-maya-mac-2025>
+* Linux: <https://www.adobe.com/go/substance3d-maya-lin-2025>
+
+**Download for Autodesk Maya 2024 (plug-in version 3.1.0.)**
+
+* Windows: <https://www.adobe.com/go/substance3d-maya-win-2024>
+* Mac: <https://www.adobe.com/go/substance3d-maya-mac-2024>
+* Linux: <https://www.adobe.com/go/substance3d-maya-lin-2024>
