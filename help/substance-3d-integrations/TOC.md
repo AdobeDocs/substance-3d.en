@@ -123,6 +123,7 @@ breadcrumb-title: Substance 3D Ecosystem User Guide
   + [3D Applications overview](/help/substance-3d-integrations/3d-applications/3d-applications.md)
   + Maya{#maya}
     + Maya Plugin Release Notes{#maya-plugin-release-notes}
+      + [Maya 3.1.0+](/help/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-3-1-0-plus.md)
       + [Maya 3.0.0+](/help/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-3-0-0-plus/maya-3-0-0-plus.md)
       + [Maya 2.4.1](/help/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-4-1/maya-2-4-1.md)
       + [Maya 2.4.0](/help/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-4-0/maya-2-4-0.md)
@@ -157,6 +158,7 @@ breadcrumb-title: Substance 3D Ecosystem User Guide
   + 3ds Max{#3ds-max}
     + [3ds Max overview](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max.md)
     + 3ds Max Plugin Release Notes{#3ds-max-plugin-release-notes}
+      + [3Ds Max 3.1.0+](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release/3ds-max-3-1-0-plus.md)
       + [3ds Max 3.0.0+](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release/3ds-max-3-0-0-plus/3ds-max-3-0-0-plus.md)
       + [3ds Max 2.8.0](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release/3ds-max-2-8-0/3ds-max-2-8-0.md)
       + [3ds Max 2.7.0](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release/3ds-max-2-7-0/3ds-max-2-7-0.md)
@@ -169,6 +171,7 @@ breadcrumb-title: Substance 3D Ecosystem User Guide
       + [3ds Max 2.3.1](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release/3ds-max-2-3-1/3ds-max-2-3-1.md)
       + [3ds Max 2.2.0](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release/3ds-max-2-2-0/3ds-max-2-2-0.md)
     + [Substance in 3ds Max Overview](/help/substance-3d-integrations/3d-applications/3ds-max/in-3ds-max-overview/substance-in-3ds-max-overview.md)
+    + [Download and install](/help/substance-3d-integrations/3d-applications/3ds-max/download-and-install.md)
     + [Substance Settings](/help/substance-3d-integrations/3d-applications/3ds-max/settings-1/substance-settings.md)
     + [Using Presets](/help/substance-3d-integrations/3d-applications/3ds-max/using-presets/using-presets.md)
     + [Batch Import](/help/substance-3d-integrations/3d-applications/3ds-max/batch-import/batch-import.md)

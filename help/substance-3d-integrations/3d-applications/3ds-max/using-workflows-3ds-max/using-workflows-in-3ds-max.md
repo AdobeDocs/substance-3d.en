@@ -16,7 +16,7 @@ user-guide-title: ""
 
 The Substance in 3ds Max plugin contains workflows for automatically creating a shader network to support renderers. The render workflows can be found in the Substance menu.
 
-![](../../../assets/workflows-3.png)
+![](../../../assets/maya-max-v3-1/3dsmax-all-presets.png)
 
 To use a workflow, select the Substance node in the material editor and then choose the workflow from the Substance menu.
 

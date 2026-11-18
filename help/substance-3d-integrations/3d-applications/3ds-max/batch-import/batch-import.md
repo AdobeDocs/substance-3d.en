@@ -17,6 +17,7 @@ user-guide-title: ""
 You can batch import multiple .sbsar Substance files using the Batch Import.
 
 1. Go to the Substance Settings at the top of the 3ds Max UI and choose Substance Batch Import.
+
 1. Choose the .sbsar files you want to import.
 
-   ![](../../../assets/max11.png)
+   ![](../../../assets/maya-max-v3-1/3dsmax-batch-import.png)
