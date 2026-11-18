@@ -144,7 +144,7 @@ breadcrumb-title: Substance 3D Ecosystem User Guide
       + [Maya 2.0.3](/help/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-0-3/maya-2-0-3.md)
       + [Maya 0.9.11](/help/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-0-9-11/maya-0-9-11.md)
     + [Substance in Maya Overview](/help/substance-3d-integrations/3d-applications/maya/in-maya-overview/substance-in-maya-overview.md)
-    + [Installation](/help/substance-3d-integrations/3d-applications/maya/installation/installation.md)
+    + [Download and install](/help/substance-3d-integrations/3d-applications/maya/installation/installation.md)
     + [Substance Output Node](/help/substance-3d-integrations/3d-applications/maya/output-node/substance-output-node.md)
     + [Using Workflows](/help/substance-3d-integrations/3d-applications/maya/using-workflows/using-workflows.md)
     + [Working with Outputs](/help/substance-3d-integrations/3d-applications/maya/working-with-outputs/working-with-outputs.md)

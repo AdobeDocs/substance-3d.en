@@ -21,7 +21,7 @@ title: Maya 3.0.0
 * Emission weight: The emission_weight parameter is not part of the OpenPBR 1.1 specification and is not connected automatically. After applying the workflow, manually set the Emission Weight value in the OpenPBR node if your material uses emission.
 * OpenPBR - V-Ray — Subsurface Radius Scale: When using the OpenPBR - V-Ray workflow, subsurface_radius_scale may return a value of 0. If this occurs, remove the connection and set the value manually in the V-Ray node.
 * Visual differences between renderers: Some variation between the material preview in Substance 3D Designer and the rendered result in Arnold or V-Ray is due to differences in each renderer’s implementation of the OpenPBR specification and will improve as implementations converge.
-* SBSAR files exported from Substance 3D Painter 12.2.0. or earlier may not connect correctly when using an OpenPBR workflow Maya 3.1.0 Added/Updated: Substance Engine update (9.6.1.) including security fixes.
+* SBSAR files exported from Substance 3D Painter 12.2.0. or earlier may not connect correctly when using an OpenPBR workflow.
 
 ## Maya 3.1.0
 
