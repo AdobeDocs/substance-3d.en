@@ -146,10 +146,10 @@ Refer to the tables below to learn if a Substance material or a Substance proced
 
 ## Substance plugins
 
-| Plugin | Substance engine version | Structure version |
-| --- | --- | --- |
-| **Maya** 2.2.2 | 8.4.2 | N.A. |
-| **3ds Max** 2.4.6 | 8.0.3 | N.A. |
-| **Blender** | 8.4.2 | N.A. |
-| **Unity** | 8.2.0 | N.A. |
-| **Unreal** | 8.0.8 | N.A. |
+| Plugin | Substance engine version |
+| --- | --- |
+| **Maya** 3.1.1 | 9.6.1 |
+| **3ds Max** 3.1.1 | 9.6.1 |
+| **Blender** 3.1.0 | 9.6.1 |
+| **Unity** 3.8.0 to 3.12.0 | 9.0.0 |
+| **Unreal** 5.8.2 | 9.5.1 |
