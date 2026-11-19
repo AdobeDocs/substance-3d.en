@@ -176,7 +176,7 @@ breadcrumb-title: Substance 3D Ecosystem User Guide
     + [Using Presets](/help/substance-3d-integrations/3d-applications/3ds-max/using-presets/using-presets.md)
     + [Batch Import](/help/substance-3d-integrations/3d-applications/3ds-max/batch-import/batch-import.md)
     + [Using Workflows in 3ds Max](/help/substance-3d-integrations/3d-applications/3ds-max/using-workflows-3ds-max/using-workflows-in-3ds-max.md)
-    + [Substance Source](/help/substance-3d-integrations/3d-applications/3ds-max/source/substance-source.md)
+    + [Substance 3D Assets](/help/substance-3d-integrations/3d-applications/3ds-max/source/substance-source.md)
     + [Animating a Substance material](/help/substance-3d-integrations/3d-applications/3ds-max/animating-a-material/animating-a-substance-material.md)
     + [3ds MAX Scripting API](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max-scripting-api/3ds-max-scripting-api.md)
     + [Troubleshooting](/help/substance-3d-integrations/3d-applications/3ds-max/troubleshooting/troubleshooting.md)
