@@ -14,12 +14,6 @@ user-guide-title: ""
 
 # Download and install
 
-The Substance in Maya plugin is included by default in the Maya installer.
-
-You can download more recent versions of the installer from the [Adobe Substance 3D for Maya page](https://substance3d.adobe.com/plugins/substance-in-maya/).
-
-## Older plugin versions
-
 The latest version of the plug-in is distributed natively by Autodesk with the latest compatible version of Maya. If you need a specific build for an older version, download links are available below
 
 **Download for Autodesk Maya 2027**
